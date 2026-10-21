@@ -1,4 +1,4 @@
-# İSG Değerlendirme
+# İSG Mevzuat Uyum Karnesi
 
 Bireysel kullanıcıların İSG mevzuatı sorularını cevaplayarak kendi uyum durumlarını
 değerlendirdiği, admin panelinden kategori/soru yönetimi yapılan web uygulaması.

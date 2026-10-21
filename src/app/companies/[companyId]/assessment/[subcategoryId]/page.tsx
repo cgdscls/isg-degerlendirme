@@ -28,7 +28,7 @@ export default async function AssessmentPage({
   const { data: questionsRaw } = await supabase
     .from("questions")
     .select(
-      "id, text, guide_note, beklenen_kanit, sort_order, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
+      "id, text, guide_note, beklenen_kanit, sort_order, updated_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
     )
     .eq("subcategory_id", params.subcategoryId)
     .order("sort_order", { ascending: true });
@@ -40,6 +40,17 @@ export default async function AssessmentPage({
     return `${gun}.${ay}.${yil}`;
   }
 
+  const { data: responses } = await supabase
+    .from("responses")
+    .select(
+      "question_id, answer, note, oneri, sistem_faktoru, maliyet_faktoru, eylem_faktoru, updated_at"
+    )
+    .eq("company_id", params.companyId);
+
+  const responseByQuestion = new Map(
+    (responses ?? []).map((r) => [r.question_id, r])
+  );
+
   const questions = (questionsRaw ?? []).map((q: any) => {
     const madde = Array.isArray(q.maddeler) ? q.maddeler[0] : q.maddeler;
     const mevzuat = madde ? (Array.isArray(madde.mevzuatlar) ? madde.mevzuatlar[0] : madde.mevzuatlar) : null;
@@ -50,21 +61,19 @@ export default async function AssessmentPage({
       mevzuat && madde
         ? `${mevzuat.ad}${rgText ? ` (RG: ${rgText})` : ""} — ${madde.madde_no}`
         : null;
+    const existing = responseByQuestion.get(q.id);
+    const needsReview = Boolean(
+      existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at)
+    );
     return {
       id: q.id,
       text: q.text,
       guide_note: q.guide_note,
       beklenen_kanit: q.beklenen_kanit,
       citation,
+      needsReview,
     };
   });
-
-  const { data: responses } = await supabase
-    .from("responses")
-    .select(
-      "question_id, answer, note, oneri, sistem_faktoru, maliyet_faktoru, eylem_faktoru"
-    )
-    .eq("company_id", params.companyId);
 
   const categoryName = Array.isArray(subcategory.categories)
     ? subcategory.categories[0]?.name

@@ -74,6 +74,7 @@ export default async function AdminQuestionsPage({
         guide_note: guide_note || null,
         beklenen_kanit: beklenen_kanit || null,
         madde_id: madde_id || null,
+        updated_at: new Date().toISOString(),
       })
       .eq("id", id);
     revalidatePath(`/admin/questions/${params.subcategoryId}`);
@@ -136,7 +137,11 @@ export default async function AdminQuestionsPage({
 
         <div className="mt-6 space-y-4">
           {questions.map((q, idx) => (
-            <details key={q.id} className="rounded-lg border border-gray-200 bg-white p-4">
+            <details
+              key={q.id}
+              id={`soru-${q.id}`}
+              className="scroll-mt-20 rounded-lg border border-gray-200 bg-white p-4 target:border-brand-500 target:ring-2 target:ring-brand-200"
+            >
               <summary className="cursor-pointer text-sm font-medium text-gray-900">
                 {idx + 1}. {q.text.slice(0, 90)}
                 {q.text.length > 90 ? "…" : ""}

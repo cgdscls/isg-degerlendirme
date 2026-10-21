@@ -26,6 +26,26 @@ export default async function CompaniesPage() {
   const plan = profile?.plan ?? "free";
   const canCreateMore = plan === "premium" || (companies?.length ?? 0) === 0;
 
+  const companyIds = (companies ?? []).map((c) => c.id);
+  let reviewCountByCompany = new Map<string, number>();
+  if (companyIds.length > 0) {
+    const { data: questions } = await supabase.from("questions").select("id, updated_at");
+    const { data: responses } = await supabase
+      .from("responses")
+      .select("company_id, question_id, updated_at")
+      .in("company_id", companyIds);
+
+    const questionById = new Map((questions ?? []).map((q) => [q.id, q]));
+    reviewCountByCompany = (responses ?? []).reduce((map, r) => {
+      const q = questionById.get(r.question_id);
+      if (q?.updated_at && new Date(q.updated_at) > new Date(r.updated_at)) {
+        map.set(r.company_id, (map.get(r.company_id) ?? 0) + 1);
+      }
+      return map;
+    }, new Map<string, number>());
+  }
+  const totalNeedsReview = [...reviewCountByCompany.values()].reduce((a, n) => a + n, 0);
+
   async function createCompany(formData: FormData) {
     "use server";
     const supabase = createClient();
@@ -68,21 +88,38 @@ export default async function CompaniesPage() {
           {plan === "free" && " Ücretsiz planda en fazla 1 firma ekleyebilirsin."}
         </p>
 
+        {totalNeedsReview > 0 && (
+          <div className="mt-4 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800">
+            <strong>Mevzuat güncellendi.</strong> Aşağıda işaretli firma(lar)da,
+            cevapladıktan sonra admin tarafından güncellenen sorular var. Gözden geçirin.
+          </div>
+        )}
+
         <div className="mt-6 space-y-3">
-          {(companies ?? []).map((c) => (
-            <Link
-              key={c.id}
-              href={`/companies/${c.id}`}
-              className="block rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-brand-400 hover:shadow"
-            >
-              <p className="font-medium text-gray-900">{c.name}</p>
-              {(c.address || c.contact_name) && (
-                <p className="mt-1 text-sm text-gray-500">
-                  {[c.contact_name, c.address].filter(Boolean).join(" · ")}
+          {(companies ?? []).map((c) => {
+            const reviewCount = reviewCountByCompany.get(c.id) ?? 0;
+            return (
+              <Link
+                key={c.id}
+                href={`/companies/${c.id}`}
+                className="block rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-brand-400 hover:shadow"
+              >
+                <p className="font-medium text-gray-900">
+                  {c.name}
+                  {reviewCount > 0 && (
+                    <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                      {reviewCount} soru güncellendi
+                    </span>
+                  )}
                 </p>
-              )}
-            </Link>
-          ))}
+                {(c.address || c.contact_name) && (
+                  <p className="mt-1 text-sm text-gray-500">
+                    {[c.contact_name, c.address].filter(Boolean).join(" · ")}
+                  </p>
+                )}
+              </Link>
+            );
+          })}
           {(companies ?? []).length === 0 && (
             <p className="text-gray-500">Henüz firma eklemedin.</p>
           )}

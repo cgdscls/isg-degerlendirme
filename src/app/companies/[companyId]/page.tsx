@@ -30,14 +30,31 @@ export default async function CompanyDashboardPage({
 
   const { data: questions } = await supabase
     .from("questions")
-    .select("id, subcategory_id");
+    .select("id, subcategory_id, updated_at");
 
   const { data: responses } = await supabase
     .from("responses")
-    .select("question_id, answer")
+    .select("question_id, answer, updated_at")
     .eq("company_id", params.companyId);
 
   const answerByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r.answer]));
+  const responseByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r]));
+
+  const needsReviewSubIds = new Set(
+    (questions ?? [])
+      .filter((q: any) => {
+        const existing = responseByQuestion.get(q.id);
+        return (
+          existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at)
+        );
+      })
+      .map((q: any) => q.subcategory_id)
+  );
+  const needsReviewCount = (questions ?? []).filter((q: any) => {
+    const existing = responseByQuestion.get(q.id);
+    return existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at);
+  }).length;
+  const firstNeedsReviewSubId = [...needsReviewSubIds][0];
 
   const subStats = (subcategories ?? []).map((sub) => {
     const subQuestions = (questions ?? []).filter((q) => q.subcategory_id === sub.id);
@@ -47,7 +64,7 @@ export default async function CompanyDashboardPage({
     const hayir = subQuestions.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
     const degerlendirilebilir = evet + hayir;
     const uyum = degerlendirilebilir > 0 ? Math.round((evet / degerlendirilebilir) * 100) : null;
-    return { ...sub, total, answered, uyum };
+    return { ...sub, total, answered, uyum, needsReview: needsReviewSubIds.has(sub.id) };
   });
 
   const genelToplam = subStats.reduce((a, s) => a + s.total, 0);
@@ -72,6 +89,16 @@ export default async function CompanyDashboardPage({
             : `Toplam ${genelToplam} sorudan ${genelCevaplanan} tanesi cevaplandı.`}
         </p>
 
+        {needsReviewCount > 0 && firstNeedsReviewSubId && (
+          <Link
+            href={`/companies/${company.id}/assessment/${firstNeedsReviewSubId}`}
+            className="mt-4 block rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800 hover:border-amber-400"
+          >
+            <strong>Mevzuat güncellendi.</strong> {needsReviewCount} sorunuz, cevapladıktan
+            sonra admin tarafından güncellendi. Gözden geçirmek için tıklayın →
+          </Link>
+        )}
+
         <div className="mt-6 space-y-6">
           {(categories ?? []).map((cat) => {
             const subs = subStats.filter((s) => s.category_id === cat.id);
@@ -88,7 +115,14 @@ export default async function CompanyDashboardPage({
                       href={`/companies/${company.id}/assessment/${sub.id}`}
                       className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-brand-400 hover:shadow"
                     >
-                      <p className="font-medium text-gray-900">{sub.name}</p>
+                      <p className="font-medium text-gray-900">
+                        {sub.name}
+                        {sub.needsReview && (
+                          <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                            Güncellendi
+                          </span>
+                        )}
+                      </p>
                       <div className="mt-2 flex items-center justify-between text-sm">
                         <span className="text-gray-500">
                           {sub.answered}/{sub.total} soru

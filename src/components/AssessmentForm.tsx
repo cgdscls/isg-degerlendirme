@@ -9,6 +9,7 @@ type Question = {
   guide_note: string | null;
   beklenen_kanit: string | null;
   citation: string | null;
+  needsReview?: boolean;
 };
 
 type Answer = "evet" | "hayir" | "kapsam_disi";
@@ -138,8 +139,17 @@ export default function AssessmentForm({
     if (current?.answer) save(questionId, current);
   }
 
+  const reviewCount = questions.filter((q) => q.needsReview).length;
+
   return (
     <div className="space-y-5">
+      {reviewCount > 0 && (
+        <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800">
+          <strong>Mevzuat güncellendi.</strong> Aşağıda işaretli {reviewCount} soru,
+          daha önce cevapladığınızdan sonra admin tarafından güncellendi. Lütfen
+          cevaplarınızı gözden geçirin.
+        </div>
+      )}
       {questions.map((q, idx) => {
         const row = state.get(q.id) ?? emptyRow();
         const isHayir = row.answer === "hayir";
@@ -148,6 +158,11 @@ export default function AssessmentForm({
             <div className="flex items-start justify-between gap-3">
               <p className="whitespace-pre-line text-sm font-medium text-gray-900">
                 {idx + 1}. {q.text}
+                {q.needsReview && (
+                  <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                    Mevzuat güncellendi — gözden geçir
+                  </span>
+                )}
               </p>
               {savingId === q.id && (
                 <span className="shrink-0 text-xs text-gray-400">kaydediliyor...</span>

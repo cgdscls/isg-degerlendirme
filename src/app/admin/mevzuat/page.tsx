@@ -23,6 +23,32 @@ export default async function AdminMevzuatPage() {
     maddelerByMevzuat.set(m.mevzuat_id, list);
   });
 
+  const { data: questionsRaw } = await supabase
+    .from("questions")
+    .select(
+      "id, text, madde_id, subcategory_id, subcategories(name, category_id, categories(name))"
+    )
+    .not("madde_id", "is", null);
+
+  const questionsByMadde = new Map<
+    string,
+    { id: string; text: string; subcategory_id: string; subName: string; catName: string }[]
+  >();
+  (questionsRaw ?? []).forEach((q: any) => {
+    if (!q.madde_id) return;
+    const sub = Array.isArray(q.subcategories) ? q.subcategories[0] : q.subcategories;
+    const cat = sub ? (Array.isArray(sub.categories) ? sub.categories[0] : sub.categories) : null;
+    const list = questionsByMadde.get(q.madde_id) ?? [];
+    list.push({
+      id: q.id,
+      text: q.text,
+      subcategory_id: q.subcategory_id,
+      subName: sub?.name ?? "",
+      catName: cat?.name ?? "",
+    });
+    questionsByMadde.set(q.madde_id, list);
+  });
+
   async function createMevzuat(formData: FormData) {
     "use server";
     const { supabase } = await requireAdmin();
@@ -66,6 +92,26 @@ export default async function AdminMevzuatPage() {
     const { supabase } = await requireAdmin();
     const id = String(formData.get("id"));
     await supabase.from("maddeler").delete().eq("id", id);
+    revalidatePath("/admin/mevzuat");
+  }
+
+  async function updateMadde(formData: FormData) {
+    "use server";
+    const { supabase } = await requireAdmin();
+    const id = String(formData.get("id"));
+    const madde_no = String(formData.get("madde_no") ?? "").trim();
+    const madde_baslik = String(formData.get("madde_baslik") ?? "").trim();
+    if (!madde_no) return;
+    await supabase
+      .from("maddeler")
+      .update({ madde_no, madde_baslik: madde_baslik || null })
+      .eq("id", id);
+    // Bu maddeye bağlı tüm soruların "güncellendi" damgasını bas, böylece
+    // kullanıcı tarafında "mevzuat güncellendi, gözden geçir" uyarısı çıkar.
+    await supabase
+      .from("questions")
+      .update({ updated_at: new Date().toISOString() })
+      .eq("madde_id", id);
     revalidatePath("/admin/mevzuat");
   }
 
@@ -130,23 +176,86 @@ export default async function AdminMevzuatPage() {
               </summary>
 
               <div className="mt-3 space-y-2">
-                {(maddelerByMevzuat.get(mv.id) ?? []).map((m) => (
-                  <div
-                    key={m.id}
-                    className="flex items-center justify-between rounded-md bg-gray-50 px-3 py-2 text-sm"
-                  >
-                    <span>
-                      <strong>{m.madde_no}</strong>
-                      {m.madde_baslik ? ` — ${m.madde_baslik}` : ""}
-                    </span>
-                    <form action={deleteMadde}>
-                      <input type="hidden" name="id" value={m.id} />
-                      <button type="submit" className="text-xs font-medium text-red-600 hover:underline">
-                        Sil
-                      </button>
-                    </form>
-                  </div>
-                ))}
+                {(maddelerByMevzuat.get(mv.id) ?? []).map((m) => {
+                  const bagliSorular = questionsByMadde.get(m.id) ?? [];
+                  return (
+                    <details key={m.id} className="rounded-md bg-gray-50 px-3 py-2 text-sm">
+                      <summary className="cursor-pointer">
+                        <strong>{m.madde_no}</strong>
+                        {m.madde_baslik ? ` — ${m.madde_baslik}` : ""}
+                        <span className="ml-2 text-xs text-gray-500">
+                          ({bagliSorular.length} soruda kullanılıyor)
+                        </span>
+                      </summary>
+
+                      <form
+                        action={updateMadde}
+                        className="mt-2 flex flex-wrap items-end gap-2 border-t border-gray-200 pt-2"
+                      >
+                        <input type="hidden" name="id" value={m.id} />
+                        <div>
+                          <label className="mb-1 block text-xs text-gray-600">Madde no</label>
+                          <input
+                            name="madde_no"
+                            defaultValue={m.madde_no}
+                            required
+                            className="rounded-md border border-gray-300 px-2 py-1.5 text-xs"
+                          />
+                        </div>
+                        <div>
+                          <label className="mb-1 block text-xs text-gray-600">Başlık</label>
+                          <input
+                            name="madde_baslik"
+                            defaultValue={m.madde_baslik ?? ""}
+                            className="rounded-md border border-gray-300 px-2 py-1.5 text-xs"
+                          />
+                        </div>
+                        <button
+                          type="submit"
+                          className="rounded-md bg-gray-900 px-3 py-1.5 text-xs font-medium text-white hover:bg-gray-700"
+                        >
+                          Güncelle
+                        </button>
+                        {bagliSorular.length > 0 && (
+                          <span className="text-xs text-amber-600">
+                            Kaydedince bu maddeye bağlı {bagliSorular.length} soru için
+                            kullanıcılara "mevzuat güncellendi" uyarısı çıkacak.
+                          </span>
+                        )}
+                      </form>
+
+                      <form action={deleteMadde} className="mt-2">
+                        <input type="hidden" name="id" value={m.id} />
+                        <button
+                          type="submit"
+                          className="text-xs font-medium text-red-600 hover:underline"
+                        >
+                          Maddeyi sil
+                        </button>
+                      </form>
+
+                      {bagliSorular.length > 0 ? (
+                        <ul className="mt-2 space-y-1 border-t border-gray-200 pt-2">
+                          {bagliSorular.map((q) => (
+                            <li key={q.id}>
+                              <Link
+                                href={`/admin/questions/${q.subcategory_id}#soru-${q.id}`}
+                                className="text-xs text-brand-700 hover:underline"
+                              >
+                                [{q.catName} / {q.subName}] {q.text.slice(0, 80)}
+                                {q.text.length > 80 ? "…" : ""}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="mt-2 border-t border-gray-200 pt-2 text-xs text-gray-400">
+                          Bu maddeye bağlı soru yok.
+                        </p>
+                      )}
+                    </details>
+                  );
+                })}
 
                 <form action={createMadde} className="flex flex-wrap gap-2 pt-2">
                   <input type="hidden" name="mevzuat_id" value={mv.id} />

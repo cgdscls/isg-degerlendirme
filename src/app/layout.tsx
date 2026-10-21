@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "İSG Değerlendirme",
+  title: "İSG Mevzuat Uyum Karnesi",
   description: "İSG mevzuatına uyum öz-değerlendirme aracı",
 };
 

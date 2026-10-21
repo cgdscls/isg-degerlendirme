@@ -133,7 +133,8 @@ create table public.questions (
   madde_id uuid references public.maddeler (id) on delete set null,
   beklenen_kanit text,
   sort_order int not null default 0,
-  created_at timestamptz not null default now()
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
 );
 
 -- 6) Cevaplar (firma bazında; "Hayır" cevabında faktör/öneri alanları anlamlıdır)
