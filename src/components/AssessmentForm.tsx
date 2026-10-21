@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 
 type Question = {
@@ -75,6 +76,7 @@ export default function AssessmentForm({
   existingResponses: ExistingResponse[];
 }) {
   const supabase = createClient();
+  const router = useRouter();
 
   const initial = new Map<string, RowState>(
     existingResponses.map((r) => [
@@ -117,6 +119,7 @@ export default function AssessmentForm({
     if (!error) {
       setSavedId(questionId);
       setTimeout(() => setSavedId(null), 1500);
+      router.refresh();
     }
   }
 
