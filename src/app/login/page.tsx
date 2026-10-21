@@ -23,7 +23,7 @@ export default function LoginPage() {
       setError("E-posta veya şifre hatalı.");
       return;
     }
-    router.push("/dashboard");
+    router.push("/companies");
     router.refresh();
   }
 

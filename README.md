@@ -49,13 +49,20 @@ değerlendirdiği, admin panelinden kategori/soru yönetimi yapılan web uygulam
    ayarları) ekle.
 4. WordPress sitende menüye bu alt alan adına giden bir bağlantı ekle.
 
-## Geliştirme notları
+## Geliştirme notları (v2)
 
 - Kod tabanı: Next.js (App Router) + TypeScript + Tailwind + Supabase.
-- Veri modeli: `categories` (kategoriler), `questions` (sorular),
-  `responses` (kullanıcıların kendi cevapları), `profiles` (rol bilgisi).
-- Her kullanıcı sadece kendi cevaplarını görür/değiştirir (Postgres Row Level
-  Security ile zorlanır, uygulama koduna güvenmez).
-- v1 kapsamı dışında bırakılanlar (istenirse sonradan eklenir): risk/sistem/maliyet
-  ağırlıklı puanlama, kanıt dosyası yükleme, PDF rapor çıktısı, firma/şirket bazlı
-  çoklu kiracı yapısı, ödeme/abonelik.
+- Veri modeli: `categories` → `subcategories` → `questions` (üç seviyeli),
+  `mevzuatlar` → `maddeler` (hukuki referans, sorulara bağlanır),
+  `companies` (firmalar — her kullanıcı kendi firmalarını yönetir),
+  `responses` (firma bazlı cevaplar: evet/hayır/kapsam dışı + "hayır"
+  durumunda Sistem/Maliyet/Eylem Faktörü ve öneri), `profiles` (rol + plan).
+- **v2 şeması v1'in tüm tablolarını siler ve yeniden kurar** — `supabase/schema.sql`
+  dosyasını tekrar çalıştırırsan eski test verisi (kategori/soru/cevap) kaybolur.
+  Kendini admin yapman gerekebilir (README'deki adım) çünkü `profiles` tablosu
+  da yeniden oluşuyor.
+- Ücretsiz planda 1 firma sınırı veritabanı seviyesinde (trigger ile) zorlanıyor,
+  uygulama koduna güvenmiyor.
+- v2 kapsamı dışında bırakılanlar (istenirse sonradan eklenir): tam Risk Faktörü
+  hesaplaması (Exposure × Likelihood × Consequence), PDF rapor çıktısı, gerçek
+  ödeme/abonelik entegrasyonu (şu an sadece "free/premium" alanı var, faturalama yok).
