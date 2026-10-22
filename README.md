@@ -49,6 +49,18 @@ değerlendirdiği, admin panelinden kategori/soru yönetimi yapılan web uygulam
    ayarları) ekle.
 4. WordPress sitende menüye bu alt alan adına giden bir bağlantı ekle.
 
+## Canlıya alma öncesi güvenlik kontrol listesi
+
+Canlıya geçmeden hemen önce şunları yapmadan ilerlemeyelim:
+
+- [ ] GitHub, Supabase ve Vercel hesaplarında 2FA (iki aşamalı doğrulama) açık olmalı.
+- [ ] GitHub reposu private olmalı (veya içinde hassas bilgi olmadığından emin olunmalı).
+- [ ] Her hesap için ayrı, güçlü/rastgele şifre (parola yöneticisiyle üretilmiş) kullanılmalı.
+- [ ] `login`/`register` akışı güvenlik açısından gözden geçirilmeli (henüz yapılmadı).
+- [ ] Supabase'de "anon key" ile "service_role key" karıştırılmamalı — service_role key hiçbir zaman tarayıcıya/koda gömülmemeli.
+- [ ] RLS (satır güvenliği) kuralları `schema.sql`'deki haliyle canlı projede de birebir çalıştırılmış olmalı.
+- [ ] `.env.local` dosyası hiçbir zaman GitHub'a gitmemeli (şu an `.gitignore`'da, kontrol edilmeli).
+
 ## Geliştirme notları (v2)
 
 - Kod tabanı: Next.js (App Router) + TypeScript + Tailwind + Supabase.
