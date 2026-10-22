@@ -77,7 +77,15 @@ export default async function CompanyDashboardPage({
         <Link href="/companies" className="text-sm text-brand-700">
           ← Firmalarım
         </Link>
-        <h1 className="mt-2 text-2xl font-semibold text-gray-900">{company.name}</h1>
+        <div className="mt-2 flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-gray-900">{company.name}</h1>
+          <Link
+            href={`/companies/${company.id}/report`}
+            className="rounded-md bg-gray-900 px-3 py-1.5 text-sm font-medium text-white hover:bg-gray-700"
+          >
+            Özet Rapor
+          </Link>
+        </div>
         {(company.contact_name || company.address) && (
           <p className="mt-1 text-sm text-gray-500">
             {[company.contact_name, company.address].filter(Boolean).join(" · ")}
