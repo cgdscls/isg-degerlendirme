@@ -44,6 +44,11 @@ export default async function EditCompanyPage({
     const sector = String(formData.get("sector") ?? "").trim();
     const nace_code = String(formData.get("nace_code") ?? "").trim();
     if (!name) return;
+    if (!sector) {
+      redirect(
+        `/companies/${params.companyId}/edit?hata=${encodeURIComponent("İş kolu seçimi zorunludur.")}`
+      );
+    }
 
     const { error } = await supabase
       .from("companies")
@@ -110,10 +115,13 @@ export default async function EditCompanyPage({
             />
             <select
               name="sector"
+              required
               defaultValue={company.sector ?? ""}
               className="rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-700"
             >
-              <option value="">İş kolu seç (opsiyonel)</option>
+              <option value="" disabled>
+                İş kolu seç *
+              </option>
               {IS_KOLLARI.map((k) => (
                 <option key={k} value={k}>
                   {k}
