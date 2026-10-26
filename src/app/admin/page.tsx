@@ -11,11 +11,13 @@ export default async function AdminPage() {
     .select("id, name, description, sort_order")
     .order("sort_order", { ascending: true });
 
-  const { data: questions } = await supabase.from("questions").select("id, category_id");
+  const { data: subcategories } = await supabase
+    .from("subcategories")
+    .select("id, category_id");
 
   const countByCategory = new Map<string, number>();
-  (questions ?? []).forEach((q) => {
-    countByCategory.set(q.category_id, (countByCategory.get(q.category_id) ?? 0) + 1);
+  (subcategories ?? []).forEach((s) => {
+    countByCategory.set(s.category_id, (countByCategory.get(s.category_id) ?? 0) + 1);
   });
 
   async function createCategory(formData: FormData) {
@@ -40,9 +42,17 @@ export default async function AdminPage() {
     <>
       <NavBar />
       <main className="mx-auto max-w-3xl px-6 py-8">
-        <h1 className="text-2xl font-semibold text-gray-900">Yönetim</h1>
+        <div className="flex items-center justify-between">
+          <h1 className="text-2xl font-semibold text-gray-900">Yönetim</h1>
+          <Link
+            href="/admin/mevzuat"
+            className="text-sm font-medium text-brand-700 hover:underline"
+          >
+            Mevzuat / Madde Yönetimi →
+          </Link>
+        </div>
         <p className="mt-1 text-sm text-gray-600">
-          Kategorileri ve sorularını buradan yönetin.
+          Kategorileri, alt kategorileri ve sorularını buradan yönet.
         </p>
 
         <form
@@ -57,7 +67,7 @@ export default async function AdminPage() {
               name="name"
               required
               className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm"
-              placeholder="Örn: Yangın Güvenliği"
+              placeholder="Örn: Acil Durum, Yangın, Patlama"
             />
           </div>
           <div className="flex-1">
@@ -86,16 +96,16 @@ export default async function AdminPage() {
               <div>
                 <p className="font-medium text-gray-900">{cat.name}</p>
                 <p className="text-sm text-gray-500">
-                  {countByCategory.get(cat.id) ?? 0} soru
+                  {countByCategory.get(cat.id) ?? 0} alt kategori
                   {cat.description ? ` · ${cat.description}` : ""}
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Link
-                  href={`/admin/questions/${cat.id}`}
+                  href={`/admin/subcategories/${cat.id}`}
                   className="text-sm font-medium text-brand-700 hover:underline"
                 >
-                  Soruları yönet
+                  Alt kategorileri yönet
                 </Link>
                 <form action={deleteCategory}>
                   <input type="hidden" name="id" value={cat.id} />

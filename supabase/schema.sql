@@ -1,15 +1,25 @@
--- İSG Değerlendirme - Supabase şeması
+-- İSG Değerlendirme - Supabase şeması (v2)
 -- Bu dosyayı Supabase projende SQL Editor'e yapıştırıp çalıştır.
+-- NOT: Bu sürüm v1 tablolarını siler ve yeniden kurar (test verisi kaybolur).
 
--- 1) Profiller: her auth kullanıcısı için rol bilgisi tutar
-create table if not exists public.profiles (
+drop table if exists public.responses cascade;
+drop table if exists public.questions cascade;
+drop table if exists public.maddeler cascade;
+drop table if exists public.mevzuatlar cascade;
+drop table if exists public.subcategories cascade;
+drop table if exists public.categories cascade;
+drop table if exists public.companies cascade;
+drop table if exists public.profiles cascade;
+
+-- 1) Profiller: her auth kullanıcısı için rol ve plan bilgisi
+create table public.profiles (
   id uuid primary key references auth.users (id) on delete cascade,
   full_name text,
   role text not null default 'user' check (role in ('user', 'admin')),
+  plan text not null default 'free' check (plan in ('free', 'premium')),
   created_at timestamptz not null default now()
 );
 
--- Yeni kullanıcı kaydolunca otomatik profil oluştur
 create or replace function public.handle_new_user()
 returns trigger
 language plpgsql
@@ -27,7 +37,6 @@ create trigger on_auth_user_created
   after insert on auth.users
   for each row execute procedure public.handle_new_user();
 
--- Admin kontrolü için yardımcı fonksiyon (RLS içinde recursive sorunu önler)
 create or replace function public.is_admin()
 returns boolean
 language sql
@@ -40,8 +49,72 @@ as $$
   );
 $$;
 
--- 2) Kategoriler
-create table if not exists public.categories (
+-- 2) Firmalar (her kullanıcı kendi firmalarını yönetir)
+create table public.companies (
+  id uuid primary key default gen_random_uuid(),
+  owner_id uuid not null references auth.users (id) on delete cascade,
+  name text not null,
+  address text,
+  contact_name text,
+  contact_phone text,
+  contact_email text,
+  tax_no text,
+  sector text check (sector is null or sector in (
+    'Avcılık, balıkçılık, tarım ve ormancılık',
+    'Gıda sanayi',
+    'Madencilik ve taş ocakları',
+    'Petrol, kimya, lastik, plastik ve ilaç',
+    'Dokuma, hazır giyim ve deri',
+    'Ağaç ve kâğıt',
+    'İletişim',
+    'Basın, yayın ve gazetecilik',
+    'Banka, finans ve sigorta',
+    'Ticaret, büro, eğitim ve güzel sanatlar',
+    'Çimento, toprak ve cam',
+    'Metal',
+    'İnşaat',
+    'Enerji',
+    'Taşımacılık',
+    'Gemi yapımı ve deniz taşımacılığı, ardiye ve antrepoculuk',
+    'Sağlık ve sosyal hizmetler',
+    'Konaklama ve eğlence işleri',
+    'Savunma ve güvenlik',
+    'Genel işler'
+  )),
+  nace_code text,
+  created_at timestamptz not null default now()
+);
+
+-- Ücretsiz planda en fazla 1 firma
+create or replace function public.enforce_company_limit()
+returns trigger
+language plpgsql
+security definer set search_path = public
+as $$
+declare
+  user_plan text;
+  company_count int;
+begin
+  select plan into user_plan from public.profiles where id = new.owner_id;
+
+  if coalesce(user_plan, 'free') = 'free' then
+    select count(*) into company_count from public.companies where owner_id = new.owner_id;
+    if company_count >= 1 then
+      raise exception 'Ücretsiz planda en fazla 1 firma oluşturabilirsiniz. Daha fazla firma için premium plana geçin.';
+    end if;
+  end if;
+
+  return new;
+end;
+$$;
+
+drop trigger if exists before_company_insert on public.companies;
+create trigger before_company_insert
+  before insert on public.companies
+  for each row execute procedure public.enforce_company_limit();
+
+-- 3) Kategoriler ve alt kategoriler
+create table public.categories (
   id uuid primary key default gen_random_uuid(),
   name text not null,
   description text,
@@ -49,73 +122,148 @@ create table if not exists public.categories (
   created_at timestamptz not null default now()
 );
 
--- 3) Sorular
-create table if not exists public.questions (
+create table public.subcategories (
   id uuid primary key default gen_random_uuid(),
   category_id uuid not null references public.categories (id) on delete cascade,
-  text text not null,
-  guide_note text,
-  citation text,
+  name text not null,
   sort_order int not null default 0,
   created_at timestamptz not null default now()
 );
 
--- 4) Cevaplar (her kullanıcının kendi cevapları)
-create table if not exists public.responses (
+-- 4) Mevzuat ve maddeler (kademeli referans yapısı)
+create table public.mevzuatlar (
   id uuid primary key default gen_random_uuid(),
-  user_id uuid not null references auth.users (id) on delete cascade,
+  ad text not null,
+  resmi_gazete_no text,
+  resmi_gazete_tarihi date,
+  created_at timestamptz not null default now()
+);
+
+create table public.maddeler (
+  id uuid primary key default gen_random_uuid(),
+  mevzuat_id uuid not null references public.mevzuatlar (id) on delete cascade,
+  madde_no text not null,
+  madde_baslik text,
+  created_at timestamptz not null default now()
+);
+
+-- 5) Sorular
+create table public.questions (
+  id uuid primary key default gen_random_uuid(),
+  subcategory_id uuid not null references public.subcategories (id) on delete cascade,
+  text text not null,
+  guide_note text,
+  madde_id uuid references public.maddeler (id) on delete set null,
+  beklenen_kanit text,
+  sort_order int not null default 0,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+-- 6) Cevaplar (firma bazında; "Hayır" cevabında faktör/öneri alanları anlamlıdır)
+create table public.responses (
+  id uuid primary key default gen_random_uuid(),
+  company_id uuid not null references public.companies (id) on delete cascade,
   question_id uuid not null references public.questions (id) on delete cascade,
   answer text not null check (answer in ('evet', 'hayir', 'kapsam_disi')),
   note text,
+  oneri text,
+  sistem_faktoru text check (
+    sistem_faktoru in (
+      'Gereklilik tespit edilmemiş',
+      'Uygun kontrol bulunamamış',
+      'Kontrol uygulanmamış',
+      'Sistem eksikliği'
+    )
+  ),
+  maliyet_faktoru text check (
+    maliyet_faktoru in (
+      'Yüksek getirili yatırım (ROI > %10)',
+      'Düşük getirili yatırım (ROI < %10)',
+      'İşgücü artışı gerektiriyor',
+      'İşletme maliyetini artırıyor',
+      'Önemli maliyet etkisi yok'
+    )
+  ),
+  eylem_faktoru text check (
+    eylem_faktoru in (
+      'Acil eylem gerekli (24 saat içinde)',
+      'Eylem zorunlu (1 ay içinde)',
+      'Eylem gerekli (3 ay içinde)',
+      'Eylem önerilir (12 ay içinde)'
+    )
+  ),
+  updated_by uuid references auth.users (id),
   updated_at timestamptz not null default now(),
-  unique (user_id, question_id)
+  unique (company_id, question_id)
 );
 
--- RLS'i etkinleştir
+-- RLS
 alter table public.profiles enable row level security;
+alter table public.companies enable row level security;
 alter table public.categories enable row level security;
+alter table public.subcategories enable row level security;
+alter table public.mevzuatlar enable row level security;
+alter table public.maddeler enable row level security;
 alter table public.questions enable row level security;
 alter table public.responses enable row level security;
 
--- Profiller: kullanıcı kendi profilini görür/günceller, admin herkesi görür
-drop policy if exists "profiles_select_own_or_admin" on public.profiles;
+-- Profiller
 create policy "profiles_select_own_or_admin" on public.profiles
   for select using (id = auth.uid() or public.is_admin());
-
-drop policy if exists "profiles_update_own" on public.profiles;
 create policy "profiles_update_own" on public.profiles
   for update using (id = auth.uid());
 
--- Kategoriler: herkes (giriş yapmış) okuyabilir, sadece admin değiştirebilir
-drop policy if exists "categories_select_all" on public.categories;
+-- Firmalar: sadece sahibi (ve admin) görür/değiştirir
+create policy "companies_select_own_or_admin" on public.companies
+  for select using (owner_id = auth.uid() or public.is_admin());
+create policy "companies_insert_own" on public.companies
+  for insert with check (owner_id = auth.uid());
+create policy "companies_update_own" on public.companies
+  for update using (owner_id = auth.uid());
+create policy "companies_delete_own" on public.companies
+  for delete using (owner_id = auth.uid());
+
+-- Kategoriler / alt kategoriler / mevzuat / madde / sorular: herkes okur, admin yazar
 create policy "categories_select_all" on public.categories
   for select using (auth.role() = 'authenticated');
-
-drop policy if exists "categories_admin_write" on public.categories;
 create policy "categories_admin_write" on public.categories
   for all using (public.is_admin()) with check (public.is_admin());
 
--- Sorular: herkes okuyabilir, sadece admin değiştirebilir
-drop policy if exists "questions_select_all" on public.questions;
+create policy "subcategories_select_all" on public.subcategories
+  for select using (auth.role() = 'authenticated');
+create policy "subcategories_admin_write" on public.subcategories
+  for all using (public.is_admin()) with check (public.is_admin());
+
+create policy "mevzuatlar_select_all" on public.mevzuatlar
+  for select using (auth.role() = 'authenticated');
+create policy "mevzuatlar_admin_write" on public.mevzuatlar
+  for all using (public.is_admin()) with check (public.is_admin());
+
+create policy "maddeler_select_all" on public.maddeler
+  for select using (auth.role() = 'authenticated');
+create policy "maddeler_admin_write" on public.maddeler
+  for all using (public.is_admin()) with check (public.is_admin());
+
 create policy "questions_select_all" on public.questions
   for select using (auth.role() = 'authenticated');
-
-drop policy if exists "questions_admin_write" on public.questions;
 create policy "questions_admin_write" on public.questions
   for all using (public.is_admin()) with check (public.is_admin());
 
--- Cevaplar: kullanıcı sadece kendi cevaplarını okur/yazar
-drop policy if exists "responses_select_own" on public.responses;
-create policy "responses_select_own" on public.responses
-  for select using (user_id = auth.uid() or public.is_admin());
+-- Cevaplar: sadece ilgili firmanın sahibi (ve admin)
+create policy "responses_select_own_company" on public.responses
+  for select using (
+    public.is_admin() or
+    exists (select 1 from public.companies c where c.id = responses.company_id and c.owner_id = auth.uid())
+  );
+create policy "responses_insert_own_company" on public.responses
+  for insert with check (
+    exists (select 1 from public.companies c where c.id = responses.company_id and c.owner_id = auth.uid())
+  );
+create policy "responses_update_own_company" on public.responses
+  for update using (
+    exists (select 1 from public.companies c where c.id = responses.company_id and c.owner_id = auth.uid())
+  );
 
-drop policy if exists "responses_insert_own" on public.responses;
-create policy "responses_insert_own" on public.responses
-  for insert with check (user_id = auth.uid());
-
-drop policy if exists "responses_update_own" on public.responses;
-create policy "responses_update_own" on public.responses
-  for update using (user_id = auth.uid());
-
--- Kendini admin yapmak için (ilk kurulumda SQL Editor'den SENİN kullanıcın için çalıştır):
+-- Kendini admin yapmak için (SQL Editor'den kendi kullanıcın için çalıştır):
 -- update public.profiles set role = 'admin' where id = 'BURAYA-KENDI-USER-UUID-NI-YAZ';

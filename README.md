@@ -1,4 +1,4 @@
-# İSG Değerlendirme
+# İSG Mevzuat Uyum Karnesi
 
 Bireysel kullanıcıların İSG mevzuatı sorularını cevaplayarak kendi uyum durumlarını
 değerlendirdiği, admin panelinden kategori/soru yönetimi yapılan web uygulaması.
@@ -49,13 +49,32 @@ değerlendirdiği, admin panelinden kategori/soru yönetimi yapılan web uygulam
    ayarları) ekle.
 4. WordPress sitende menüye bu alt alan adına giden bir bağlantı ekle.
 
-## Geliştirme notları
+## Canlıya alma öncesi güvenlik kontrol listesi
+
+Canlıya geçmeden hemen önce şunları yapmadan ilerlemeyelim:
+
+- [ ] GitHub, Supabase ve Vercel hesaplarında 2FA (iki aşamalı doğrulama) açık olmalı.
+- [ ] GitHub reposu private olmalı (veya içinde hassas bilgi olmadığından emin olunmalı).
+- [ ] Her hesap için ayrı, güçlü/rastgele şifre (parola yöneticisiyle üretilmiş) kullanılmalı.
+- [ ] `login`/`register` akışı güvenlik açısından gözden geçirilmeli (henüz yapılmadı).
+- [ ] Supabase'de "anon key" ile "service_role key" karıştırılmamalı — service_role key hiçbir zaman tarayıcıya/koda gömülmemeli.
+- [ ] RLS (satır güvenliği) kuralları `schema.sql`'deki haliyle canlı projede de birebir çalıştırılmış olmalı.
+- [ ] `.env.local` dosyası hiçbir zaman GitHub'a gitmemeli (şu an `.gitignore`'da, kontrol edilmeli).
+
+## Geliştirme notları (v2)
 
 - Kod tabanı: Next.js (App Router) + TypeScript + Tailwind + Supabase.
-- Veri modeli: `categories` (kategoriler), `questions` (sorular),
-  `responses` (kullanıcıların kendi cevapları), `profiles` (rol bilgisi).
-- Her kullanıcı sadece kendi cevaplarını görür/değiştirir (Postgres Row Level
-  Security ile zorlanır, uygulama koduna güvenmez).
-- v1 kapsamı dışında bırakılanlar (istenirse sonradan eklenir): risk/sistem/maliyet
-  ağırlıklı puanlama, kanıt dosyası yükleme, PDF rapor çıktısı, firma/şirket bazlı
-  çoklu kiracı yapısı, ödeme/abonelik.
+- Veri modeli: `categories` → `subcategories` → `questions` (üç seviyeli),
+  `mevzuatlar` → `maddeler` (hukuki referans, sorulara bağlanır),
+  `companies` (firmalar — her kullanıcı kendi firmalarını yönetir),
+  `responses` (firma bazlı cevaplar: evet/hayır/kapsam dışı + "hayır"
+  durumunda Sistem/Maliyet/Eylem Faktörü ve öneri), `profiles` (rol + plan).
+- **v2 şeması v1'in tüm tablolarını siler ve yeniden kurar** — `supabase/schema.sql`
+  dosyasını tekrar çalıştırırsan eski test verisi (kategori/soru/cevap) kaybolur.
+  Kendini admin yapman gerekebilir (README'deki adım) çünkü `profiles` tablosu
+  da yeniden oluşuyor.
+- Ücretsiz planda 1 firma sınırı veritabanı seviyesinde (trigger ile) zorlanıyor,
+  uygulama koduna güvenmiyor.
+- v2 kapsamı dışında bırakılanlar (istenirse sonradan eklenir): tam Risk Faktörü
+  hesaplaması (Exposure × Likelihood × Consequence), PDF rapor çıktısı, gerçek
+  ödeme/abonelik entegrasyonu (şu an sadece "free/premium" alanı var, faturalama yok).
