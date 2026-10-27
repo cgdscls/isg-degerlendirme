@@ -4904,30 +4904,19 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yönetmeliklere salt atıf, yeni bilgi içermiyor) ve 21-22 bentleri
   ("Genel Yükümlülükler → İşyeri Bina ve Eklentileri" ile örtüşen
   yapı/tesis hükümleri, kullanıcı kararıyla ayrı soru yazılmadı, soru
-  501/503'e Not eklendi) atlandı. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
-  5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b, EK MADDE 1/1-c, EK MADDE
-  1/1-d, EK MADDE 1/1-e. Soru 475-476 (Madde 10, 12) "Genel
-  Yükümlülükler → Bilgilendirme ve Katılım"; soru 477 (Madde 11)
-  "Genel Yükümlülükler → Sağlık Gözetimi" alt kategorilerine eklendi.
-  Ek-1 (soru 478-505): 24 ana başlıktan 21 tanesi soru haline
-  getirildi (bazıları alt bentleriyle birlikte kümelenerek). Ek-1'in
-  7.1 (Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik Önlemleri
-  Yönetmeliği'ne salt atıf), 18 (Gürültü + Titreşim + toz
-  yönetmeliklerine salt atıf) ve 23 (Gebe veya Emziren Kadınlar
-  Yönetmeliği'ne salt atıf) bentleri, zaten soru havuzunda bulunan
-  başka bir yönetmeliğe yeni bilgi içermeyen salt atıf niteliğinde
-  olduğu için atlandı. Ek-1'in 21-22 bentleri (yerüstü yardımcı
-  tesislere ilişkin zemin/duvar/pencere/kapı/havalandırma/sıcaklık/
-  dinlenme yeri hükümleri), "Genel Yükümlülükler → İşyeri Bina ve
-  Eklentileri" alt kategorisinde zaten kapsanan genel yapı
-  gereklilikleriyle örtüştüğü için kullanıcı kararıyla ayrı soru
-  olarak yazılmadı; soru 501 ve 503'e bu örtüşmeyi işaret eden Not
-  eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde 6
-  (çalışanın kendi yükümlülüğü — işverenin değil), Madde 13 (eklere
-  atıf yapan şemsiye madde — Ek-2/3/4 ayrı turlarda işlenecek) ve
-  Geçici Madde 1-4 (geçiş hükümleri — ilgili Ek bentleri işlenirken
-  hatırlanacak) atlandı. Madde 15-16 (yürürlük/yürütme) ise henüz
-  atlanmadı, mevzuatın tamamı işlendiğinde kayda geçecek.
+  501/503'e Not eklendi) atlandı.
+- Yapı Denetimi Uygulama Yönetmeliği — tamamı atlandı. Bu yönetmelik
+  işverenin kendi çalışanlarına karşı İSG yükümlülüklerini değil,
+  yapı denetim kuruluşlarının (üçüncü taraf denetim şirketleri)
+  lisanslanması, denetçi mimar/mühendis nitelikleri, yapı sahibi-
+  müteahhit-denetim kuruluşu arasındaki sözleşme/hakediş/ücretlendirme
+  usullerini düzenliyor. Tek İSG-ilgili madde (Madde 5/1-ı) işçi
+  sağlığı ve iş güvenliği tedbirlerinin alınıp alınmadığını "kontrol
+  etme" görevini yapı denetim kuruluşuna (işverene değil) yüklüyor —
+  Yapı Denetimi Hakkında Kanun (4708) için verilen skip gerekçesiyle
+  aynı. Madde 14/11 (çalışan sigorta primlerinin yatırılması) ise
+  5510 sayılı Kanun değerlendirmesinde zaten atlanan SGK/bordro
+  kategorisine giriyor, İSG maruziyeti değil.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
