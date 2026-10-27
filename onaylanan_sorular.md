@@ -5074,6 +5074,10 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Basit Basınçlı Kaplar Yönetmeliği (2014/29/AB) — Asansör, ATEX, EMC ve
+  Düşük Gerilim yönetmelikleriyle aynı yapı, ürünün piyasaya arzı/CE
+  işaretleme/piyasa gözetimi düzenlemesi. "İşveren"/"çalışan" hiç
+  geçmiyor, İSG kapsamı dışında.
 - Özel İstihdam Büroları Yönetmeliği'nin aşağıdaki maddeleri (TAMAMLANDI —
   bkz. soru 653-654): Madde 1-6 (amaç/kapsam/tanım/büro kuruluş-lisans
   şartları); Madde 7-8 (geçici iş ilişkisi kurulamayacak haller, çalıştırma
