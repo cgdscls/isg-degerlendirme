@@ -4987,6 +4987,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Lejyoner Hastalığı Kontrol Usul ve Esasları Hakkında Yönetmelik — tesis
+  (konaklama birimi: hastane, otel, SPA vb.) sahibi/işletmecisinin halk
+  sağlığına yönelik legionella önleme/sürveyans/bildirim yükümlülüklerini
+  düzenliyor; muhatap Sağlık Bakanlığı/Halk Sağlığı Müdürlüğü, korunan taraf
+  misafir/hasta/halk. Madde 7/1'deki İSG risk değerlendirmesi atfı yeni bir
+  çalışan-koruma yükümlülüğü yaratmıyor, mevcut 6331 sürecine koordinasyon
+  atfı.
 - İş Yeri Dışında Kurulan Sözleşmeler Yönetmeliği — İSG ile ilgisi yok;
   6502 sayılı Tüketicinin Korunması Hakkında Kanun'a dayanan bir tüketici
   koruma yönetmeliği (kapıdan kapıya satış, mesafeli iletişimle kurulan
