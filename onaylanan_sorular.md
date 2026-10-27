@@ -4357,6 +4357,279 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
      Madde 13
 
+568. **Soru:** İşveren, seviye farkı bulunan düşme riskli her çalışmayı
+     yüksekte çalışma kabul eder; mümkünse montaj işlerini yerde
+     yaptırır, çalışmaları önceden planlayıp acil durum planına
+     yüksekten düşme hususlarını dahil eder ve çalışma yerlerine
+     güvenli ulaşım sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/1-2-a,b,c
+
+569. **Soru:** İşveren, yüksekte çalışmada öncelikle korkuluk/
+     platform/bariyer/güvenlik ağı gibi toplu koruma tedbirlerini,
+     bunların yetersiz kaldığı hallerde ankraj noktası/yaşam hattı ve
+     tam vücut kemer sistemlerini kullandırır, bu donanımların
+     bakımını yaptırır, uygunsuz donanımı yasaklar, çalışanlara
+     eğitim verir ve çalışmayı ehil bir kişinin gözetiminde yürütür
+     mü?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/2-d,e,f,g,ğ
+
+570. **Soru:** İşveren, çalışma platformları ve geçitlerin kişileri
+     düşmekten ve düşen cisimlerden koruyacak şekilde yapılmasını,
+     boyutlandırılmasını ve muhafaza edilmesini sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/7
+
+571. **Soru:** İşveren, yüksekte kullanılan el aletleri ve
+     malzemelerin düşmesini engelleyecek tedbirler alır, çalışanları
+     düşen cisimlere karşı öncelikle toplu olarak korur ve cisim
+     düşme riski olan bölgelere girişi önler veya kapalı geçit
+     yaptırır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/8-10
+
+572. **Soru:** İşveren, çalışanlara uygun baş koruyucu donanım
+     kullandırır ve malzemelerin herhangi bir yükseklikten doğrudan
+     yere atılmasını değil, dengeli/güvenli indirilip istiflenmesini
+     (moloz kaydırağı gibi güvenli yöntemlerle) sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/11-12
+
+573. **Soru:** İşveren, enerji dağıtım tesislerini yangın/patlama
+     riski oluşturmayacak şekilde kurdurur, elektrik çarpması riskine
+     karşı koruma sağlar ve elektrik tesisat işlerini (kurulum/söküm/
+     tamirat/tadilat) sadece yetkili elektrikçilere yaptırır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/13-14
+
+574. **Soru:** İşveren, elektrik tesisatının yeterli kapasite/
+     kalitede ve çalışma koşullarına dayanıklı olmasını, ana/tali
+     panolarda kaçak akım rölesi kullanılmasını, panoların kilitli
+     dolap/hücre içinde tutulmasını ve açık uçlu kablolarla bağlantı
+     yapılmamasını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/15-19
+
+575. **Soru:** İşveren, elektrik ekipman/koruyucu cihaz seçiminde
+     çalışma alanı şartlarını ve kullanıcı eğitim/deneyimini dikkate
+     alır, ekipman üzerinde voltaj bilgisi bulundurur ve elektrikli
+     iş ekipmanlarının gövde topraklamasını yaptırır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/20-22
+
+576. **Soru:** İşveren, yapı alanının düzenli/temiz tutulmasını,
+     sivri/keskin malzeme ve atıkların düzenli uzaklaştırılmasını
+     (uzaklaştırılamıyorsa korunmasını), kaygan hale gelen yerlerin
+     temizlenip kaymayı önleyici tedbir alınmasını ve malzemelerin
+     yıkılma/devrilmeyi önleyecek şekilde istiflenmesini sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/24-26
+
+577. **Soru:** İşveren, beklenmeyen hareket riski taşıyan malzeme/
+     ekipmanı güvenli şekilde sabitler, yeterli dayanıklılıkta olmayan
+     yüzeylerde çalışmaya/girişe izin vermez ve kurulum/söküm/bakım/
+     yıkım halindeki yapılarda dayanıksızlık/kırılganlık risklerine
+     karşı tedbir alır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/28-30
+
+578. **Soru:** İşveren, acil çıkış yollarının/kapılarının doğrudan
+     dışarıya veya güvenli alana açılmasını, engelsiz ve kilitsiz
+     olmasını, sayı/boyutlarının yapı alanına uygun olmasını, Sağlık
+     ve Güvenlik İşaretleri Yönetmeliğine uygun işaretlenmesini ve
+     elektrik kesilmesi halinde yedek aydınlatma bulundurulmasını
+     sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/31
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel acil çıkış sorularıyla örtüşür; bu soru yapı
+     alanına özgü uygulamayı kapsar.
+
+579. **Soru:** İşveren, yapı alanının özelliğine uygun yeterli
+     yangın söndürme araç/gereci, yangın dedektörü/alarm sistemi
+     bulundurur, bunların düzenli bakım/periyodik kontrolünü yaptırır
+     ve otomatik olmayan söndürme ekipmanını erişilebilir, işaretli
+     yerlerde tutar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/32-34
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel yangın sorularıyla örtüşür; bu soru yapı
+     alanına özgü uygulamayı kapsar.
+
+580. **Soru:** İşveren, çalışanların harcadığı fiziksel güce uygun
+     yeterli temiz hava sağlar, cebri havalandırma sistemini her
+     zaman çalışır tutar ve gerekli hallerde arıza bildiren sistem
+     bulundurur mu?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/35
+     **Not:** Genel havalandırma yükümlülüğü "Genel Yükümlülükler →
+     İşyeri Bina ve Eklentileri" kapsamında zaten mevcuttur; bu soru
+     yapı alanına özgü uygulamayı kapsar.
+
+581. **Soru:** İşveren, çalışanların zararlı titreşim/gürültü/gaz/
+     buhar/toz etkenlerine maruz kalmasını önler, zehirli/zararlı
+     madde veya düşük oksijen riski olan kapalı ortamlarda hava
+     kontrolü yapar ve sınırlı hava hacmine sahip yüksek riskli
+     ortamlarda çalıştırmaktan kaçınır (zorunlu hallerde sürekli
+     izleme ve yardım tedbirleriyle) mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/36-38
+
+582. **Soru:** İşveren, ortam sıcaklığının yapılan işe ve harcanan
+     güce uygun olmasını sağlar, değiştirilemeyen hallerde çalışanları
+     aşırı sıcak/soğuktan koruyacak tedbir alır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/39
+     **Not:** Genel sıcaklık yükümlülüğü "Genel Yükümlülükler →
+     İşyeri Bina ve Eklentileri" kapsamında zaten mevcuttur; bu soru
+     yapı alanına özgü uygulamayı kapsar.
+
+583. **Soru:** İşveren, çalışma yerleri/barakalar/yolları mümkün
+     olduğunca doğal ışıkla, yetersiz kaldığında uygun suni ışıkla
+     (gerekirse darbeye dayanıklı taşınabilir araçlarla) aydınlatır,
+     arıza halinde yedek aydınlatma bulundurur mu?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/40
+     **Not:** Genel aydınlatma yükümlülüğü "Genel Yükümlülükler →
+     İşyeri Bina ve Eklentileri" kapsamında zaten mevcuttur; bu soru
+     yapı alanına özgü uygulamayı kapsar.
+
+584. **Soru:** İşveren, raylı/yukarı açılan kapılarda güvenlik
+     tertibatı bulundurur, kaçış yollarındaki kapıları işaretleyip
+     içeriden açılabilir yapar, araç geçitlerinde yayalar için ayrı
+     işaretli geçiş bulundurur ve mekanik kapılarda acil durdurma/
+     manuel açma özelliği sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/41
+
+585. **Soru:** İşveren, merdiven/rampa dahil trafik yollarını kolay
+     ve güvenli geçişi sağlayacak şekilde tasarlar, araç/yaya yollarını
+     kullanıcı sayısı ve işe uygun boyutlandırır, güvenlik mesafesi/
+     koruyucu tedbir alır ve yolları işaretleyip düzenli bakımını
+     yapar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/42-44
+
+586. **Soru:** İşveren, yasak bölgelere yetkisiz girişi engeller,
+     tehlikeli bölgeleri işaretleyip uyarı levhası koyar ve trafik
+     yolu güzergahındaki havai hat gibi engeller için gerekli
+     işaretleme/tedbirleri alır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/45-46
+
+587. **Soru:** İşveren, yükleme yerleri ve rampalarının taşınacak
+     yükün boyutuna uygun tasarlanmasını, düşmeyi önleyecek şekilde
+     güvenli olmasını ve en az bir çıkış yerine sahip olmasını sağlar
+     mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/47
+
+588. **Soru:** İşveren, çalışılan yerlerin gerekli ekipman/araçlar
+     dikkate alınarak çalışanların rahatça hareket edebileceği
+     genişlikte olmasını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/48
+
+589. **Soru:** İşveren, İşyerlerinde Acil Durumlar Hakkında
+     Yönetmeliğe uygun sayıda ilkyardım eğitimli çalışanı her an
+     hazır bulundurur ve kaza geçiren/rahatsızlanan çalışanların
+     tıbbi müdahale yerine en kısa sürede ulaşmasını sağlayacak
+     tedbirler alır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/49
+
+590. **Soru:** İşveren, İş Sağlığı ve Güvenliği Hizmetleri
+     Yönetmeliğine göre gerektiğinde bir veya daha fazla ilkyardım/
+     acil müdahale odası sağlar, bu odaları malzeme/sedye ile
+     donatıp işaretler ve çalışma koşullarının gerektirdiği her
+     yerde işaretli ilkyardım ekipmanı ile acil servis iletişim
+     bilgilerini görünür yerlerde bulundurur mu?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/50-52
+     **Not:** Genel ilkyardım yükümlülüğü "Genel Yükümlülükler →
+     İşyeri Bina ve Eklentileri" kapsamında kısmen mevcuttur; bu soru
+     yapı alanına özgü uygulamayı kapsar.
+
+591. **Soru:** İşveren, iş elbisesi giyen çalışanlar için kadın-erkek
+     ayrı, kolay ulaşılabilir, yeterli kapasiteli, oturma yeri ve
+     kilitli (nemli/tozlu/tehlikeli işlerde iki bölmeli) dolaplı
+     soyunma yerleri sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/53-54
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel soyunma yeri sorularıyla örtüşür; bu soru
+     yapı alanına özgü uygulamayı kapsar.
+
+592. **Soru:** İşveren, gerektiğinde kadın-erkek ayrı, sıcak/soğuk
+     suyu olan, yeterli genişlikte, havalandırılmış/aydınlatılmış duş
+     ve lavabo tesisleri kurar, bunları her zaman kullanıma hazır ve
+     temizlik malzemeli tutar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/55-57
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel duş/lavabo sorularıyla örtüşür; bu soru yapı
+     alanına özgü uygulamayı kapsar.
+
+593. **Soru:** İşveren, çalışma/dinlenme/yıkanma/soyunma yerlerine
+     yakın, kadın-erkek ayrı, yeterli sayıda, havalandırılmış/
+     aydınlatılmış ve temizlik malzemeli tuvalet ve lavabo tesis eder
+     mi?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/58
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel tuvalet sorularıyla örtüşür; bu soru yapı
+     alanına özgü uygulamayı kapsar.
+
+594. **Soru:** İşveren, gerektiğinde çalışanlara kolay ulaşılabilir
+     dinlenme/barınma yerleri sağlar, bu yerleri sağlık şartlarına
+     uygun mahfuz bir zeminde kurar ve drenaj tedbirlerini alır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/59-60
+
+595. **Soru:** İşveren, dinlenme/barınma/sosyal tesisleri yanmaz
+     veya kolay tutuşmayan malzemeden inşa eder, barınma amacıyla
+     çadır/branda kullanmaz (meskûn mahal dışı açık hava
+     çalışmalarında sadece yanmaz çadır kullanılabilir) ve ısıtma/
+     soğutma/havalandırma/elektrik tesisatını yangın riski
+     oluşturmayacak şekilde kurar (mangal/maltız gibi açık ateş
+     yasağı dahil) mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/61-62
+
+596. **Soru:** İşveren, barınma yerlerinde yeterli sayıda temiz
+     karyola/ranza/yatak/battaniye sağlar, dinlenme/barınma yerlerini
+     yeterli genişlikte kurar, masa/sandalye bulundurur, sigara
+     dumanından koruma tedbiri alır ve sabit barınma tesislerinde
+     dinlenme odası, boş vakit odası, yeterli duş/tuvalet/lavabo
+     bulundurur mu?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/63-65
+
+597. **Soru:** İşveren, gebe ve emziren kadın çalışanların yatıp
+     uzanarak dinlenebilecekleri uygun koşulları sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/66
+     **Not:** "Genel Yükümlülükler → Gebe, yeni doğum yapmış ve
+     emziren kadın çalışanlar" kapsamında zaten mevcuttur; bu soru
+     yapı alanına özgü uygulamayı kapsar.
+
+598. **Soru:** İşveren, engelli çalışanların durumunu dikkate alarak
+     çalışma yerleri, kapılar, geçiş yerleri, merdivenler, duşlar,
+     lavabolar ve tuvaletlerde gerekli düzenlemeleri yapar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/67
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel engelli erişilebilirlik sorularıyla örtüşür;
+     bu soru yapı alanına özgü uygulamayı kapsar.
+
+599. **Soru:** İşveren, yapı alanının çevresini yetkisiz girişi
+     önleyecek şekilde çevirip işaretler, çalışanlara yeterli içme
+     suyu/alkolsüz içecek bulundurur ve yemek yiyip gerektiğinde
+     hazırlayabilecekleri imkanlar sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3, Ek-4(A)/68-70
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -5019,10 +5292,12 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   aynı. Madde 14/11 (çalışan sigorta primlerinin yatırılması) ise
   5510 sayılı Kanun değerlendirmesinde zaten atlanan SGK/bordro
   kategorisine giriyor, İSG maruziyeti değil.
-- Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği (1. PARÇA —
-  Madde 5-14; Ek-4 ayrı turlarda işlenecek, bu mevzuat henüz
-  tamamlanmadı) — soru 555-563, 566-567 eklendi, yeni "Genel
-  Yükümlülükler → Yapı İşleri" alt kategorisi açıldı. Soru 564-565
+- Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği (2. PARÇA —
+  Madde 5-14 + Ek-4 Bölüm A tamamlandı; Ek-4 Bölüm B ve devamı ayrı
+  turlarda işlenecek, bu mevzuat henüz tamamlanmadı) — soru 555-563,
+  566-567 (Madde 5-14) ve soru 568-599 (Ek-4 Bölüm A, "Yapı
+  alanındaki çalışma yerleri için genel asgari şartlar") eklendi,
+  "Genel Yükümlülükler → Yapı İşleri" alt kategorisine. Soru 564-565
   (Madde 12, 13) "Genel Yükümlülükler → Bilgilendirme ve Katılım" alt
   kategorisine eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
   Madde 6 (proje sorumlusu atama — takdir hakkı/sorumluluk
@@ -5032,7 +5307,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   (geçiş hükmü, tarihi geçmiş) atlandı. Ek-1 (yapı işleri listesi),
   Ek-2 (riskli işler listesi) ve Ek-3 (bildirim içeriği) ayrı soru
   gerektirmedi — tanım/liste niteliğinde, Madde 2 ve 8'e referans.
-  Ek-4 (asgari sağlık-güvenlik şartları) ayrı turda işlenecek.
+  Ek-4 Bölüm A'daki Madde 27 (patlayıcı ortam yönetmeliğine salt
+  atıf, zaten soru havuzunda) atlandı. Ek-4 Bölüm A'daki birçok
+  madde (acil çıkış, yangın, havalandırma, sıcaklık, aydınlatma,
+  ilkyardım, soyunma/duş/tuvalet, gebe/engelli çalışanlar), "Genel
+  Yükümlülükler → İşyeri Bina ve Eklentileri" ve ilgili diğer alt
+  kategorilerle örtüşüyor; kullanıcı kararıyla (tam soru seti yaz)
+  ayrı soru olarak yazıldı ve ilgili sorulara örtüşmeyi işaret eden
+  Not eklendi. Ek-4 Bölüm B ve devamı ayrı turda işlenecek.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
