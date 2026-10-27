@@ -1757,6 +1757,66 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      belgeleyebiliyor mu?
      **Mevzuat:** Hijyen Eğitimi Yönetmeliği, Madde 5
 
+252. **Soru:** Ek-1 çizelgede yer alan tehlikeli ve çok tehlikeli sınıftaki
+     işlerde çalışacaklar, işe alınmadan önce mesleki eğitime tabi
+     tutulmaktadır.
+     **Mevzuat:** Tehlikeli ve Çok Tehlikeli Sınıfta Yer Alan İşlerde
+     Çalıştırılacakların Mesleki Eğitimlerine Dair Yönetmelik, Madde 5
+
+253. **Soru:** Ek-1 çizelgede yer alan işlerde fiilen çalıştırılanlar,
+     yaptığı işe uygun bir mesleki eğitim belgesine (diploma, sertifika,
+     yetki/yeterlilik belgesi vb.) sahiptir.
+     **Mevzuat:** Tehlikeli ve Çok Tehlikeli Sınıfta Yer Alan İşlerde
+     Çalıştırılacakların Mesleki Eğitimlerine Dair Yönetmelik, Madde 6/1
+
+254. **Soru:** Bu Yönetmelik kapsamındaki işlerde çalıştırılanların mesleki
+     eğitim belgelerinin bir örneği özlük dosyasında saklanmakta ve
+     istenildiğinde yetkili memurlara gösterilmektedir.
+     **Mevzuat:** Tehlikeli ve Çok Tehlikeli Sınıfta Yer Alan İşlerde
+     Çalıştırılacakların Mesleki Eğitimlerine Dair Yönetmelik, Madde 7/2
+
+## Genel Yükümlülükler → Genel İş Yeri Gereklilikleri
+
+255. **Soru:** Ek'te sayılan sağlığa zararlı işlerde (kurşun, cam, cıva,
+     çimento, kok/termik santral, çinko, bakır, alüminyum, demir-çelik,
+     döküm, kaplamacılık, karpit, asit, akümülatör, kaynak, su verme,
+     kauçuk, yeraltı işleri, radyoaktif maddeler, 85 dB üzeri gürültülü
+     işler, sığ su altı basınçlı hava işleri, pnömokonyoz yapan tozlu
+     işler, tarım ilaçları) çalışanlar günde azami 7,5 saat
+     çalıştırılmaktadır.
+     **Mevzuat:** Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat
+     veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik, Madde 4
+     **Not:** İş Kanunu Madde 63 (soru 7) zaten "yer altı maden işlerinde
+     günde 7,5/haftada 37,5 saat" diyor; bu maddenin "yeraltı işleri" alt
+     bendiyle kısmen örtüşüyor, ancak bu madde çok daha geniş bir iş
+     listesini (kurşun, cam, cıva, çimento vb.) kapsıyor.
+
+256. **Soru:** Madde 4'tekinden daha riskli alt gruptaki işlerde (derin su
+     altı dalış, cıva/kurşun izabe, karbon sülfür, insektisit) çalışanlar,
+     işin türüne göre belirlenen daha kısa azami süreleri (4-7 saat,
+     dalışta 0,5-7 saat) aşacak şekilde çalıştırılmamaktadır.
+     **Mevzuat:** Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat
+     veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik, Madde 5
+
+257. **Soru:** Madde 4 ve 5'te sayılan işlerde çalışanlar, bu maddelerde
+     belirtilen günlük azami çalışma sürelerinden sonra başka herhangi bir
+     işte çalıştırılmamaktadır.
+     **Mevzuat:** Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat
+     veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik, Madde 6
+
+258. **Soru:** Madde 4 ve 5'te sayılan işlerde fazla çalışma
+     yaptırılmamaktadır.
+     **Mevzuat:** Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat
+     veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik, Madde 7
+
+259. **Soru:** Madde 4 ve 5'te sayılan işlerden herhangi biri işyerinde
+     sürekli olarak yapılıyorsa, işveren bu işlerin çeşidi/niteliği,
+     yapılma zamanı ve bu işlerde çalışanların (kadın/erkek ayrı ayrı)
+     sayısını, işe başlamadan önce işin yürütüldüğü yerin bağlı olduğu
+     Çalışma ve İş Kurumu İl Müdürlüğüne yazılı olarak bildirmektedir.
+     **Mevzuat:** Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat
+     veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik, Madde 8
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2194,6 +2254,32 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   (çalışanın kendi bilgi verme yükümlülüğü), Madde 9/1 ve 10 (hasta
   çalışanın kendi durumu, işverenin yükümlülüğü değil) ve Madde 11
   (Bakanlık/mahalli idare denetim ve idari ceza) atlandı.
+- Tehlikeli ve Çok Tehlikeli Sınıfta Yer Alan İşlerde Çalıştırılacakların
+  Mesleki Eğitimlerine Dair Yönetmelik — soru 252-254 eklendi, mevcut
+  "Genel Yükümlülükler → Eğitim" alt kategorisine eklendi (Madde 5, 6/1,
+  7/2). Soru 254 (belgelerin özlük dosyasında saklanması), soru 207
+  (Çalışanların İSG Eğitimleri Yönetmeliği, Madde 24 — İSG eğitim
+  belgelerinin özlük dosyasında saklanması) ile yapısal olarak benzer,
+  ancak farklı belge türü (mesleki eğitim/yeterlilik belgesi, İSG eğitim
+  belgesi değil) ve farklı mevzuat kaynağı olduğu için örtüşme değil,
+  ayrı soru olarak eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 6/2-3 (1/5/2017 öncesi çalışanlara özel geçiş süreci + kamu kurum
+  idari süreci), Madde 7/1 (Bakanlık iş müfettişi denetimi — idari),
+  Geçici Madde 1 (eski belgelerin geçerliliği — geçiş hükmü) ve Madde 8-9
+  (yürürlük/yürütme) atlandı.
+- Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat veya Daha Az
+  Çalışılması Gereken İşler Hakkında Yönetmelik — soru 255-259 eklendi,
+  mevcut "Genel Yükümlülükler → Genel İş Yeri Gereklilikleri" alt
+  kategorisine eklendi (Madde 4-8). Soru 255 (Madde 4), soru 7 (İş
+  Kanunu Madde 63 — yer altı maden işlerinde günde 7,5/haftada 37,5 saat)
+  ile "yeraltı işleri" alt bendi üzerinden kısmen örtüşüyor; kullanıcı
+  talebiyle yine de ayrı soru olarak eklendi (Madde 4'ün kapsadığı diğer
+  21 iş türü soru 7'de yok). Madde 6 ve 7'nin soru metinlerine, kullanıcı
+  talebiyle hangi işleri kapsadığı (Madde 4 ve 5'te sayılan işler) açıkça
+  yazıldı. Madde 1-3 (amaç/kapsam/dayanak), Madde 9 (itiraz süreci —
+  Bakanlık kararı, idari), Madde 10 (yürürlükten kaldırma), Geçici Madde 1
+  (2004 yönetmeliği kapsamında zaten bildirim yapmış eski işyerleri için
+  dar/tarihsel muafiyet) ve Madde 11-12 (yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
