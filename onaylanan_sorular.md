@@ -5386,8 +5386,85 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      Poliçesi yaptırıyor mu?
      **Mevzuat:** Maden Yönetmeliği, Madde 32/18
 
+## Genel Yükümlülükler → İş Hijyeni Ölçüm, Test ve Analizleri (YENİ alt kategori)
+
+692. **Soru:** İşveren, güvenli bir çalışma ortamı sağlamak amacıyla
+     risk değerlendirmesinde yer alan fiziksel, kimyasal ve biyolojik
+     tehlike kaynaklarının varlığını, niteliğini ve niceliğini ortam
+     ve kişisel maruziyet ölçüm, test ve analiziyle tespit ediyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 5/1
+     **Not:** 6331 sayılı Kanun'daki genel risk değerlendirmesi
+     yükümlülüğüyle örtüşüyor — burada ölçüm/test/analiz yöntemiyle
+     somut tespit zorunluluğu.
+
+693. **Soru:** İşveren, iş hijyeni ölçüm, test ve analizlerini;
+     alınan kontrol tedbirlerinin etkinliğini değerlendirmek için,
+     çalışanın maruziyetinde değişiklik meydana geldiğinde, iş
+     müfettişlerinin istemesi halinde veya işyeri hekimi/iş güvenliği
+     uzmanının gerekli görmesi halinde tekrarlıyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 5/2-a,b,c,ç
+
+694. **Soru:** İşveren, iş hijyeni ölçüm, test ve analizlerini
+     yeterlik veya ön yeterlik belgesine sahip laboratuvarlara
+     yaptırıyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 5/3
+
+695. **Soru:** İşveren, laboratuvar personeline ön inceleme ve
+     ölçümler süresince eşlik etmesi için iş güvenliği uzmanı ve/veya
+     işyeri hekimini ya da bunların yokluğunda işin yürütülmesi
+     hakkında bilgi sahibi olan çalışanları görevlendiriyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 5/4
+
+696. **Soru:** İşveren, doğru sonuçlar alınması için laboratuvar
+     personeline işyerinde kullanılan teknolojiler hakkında bilgi
+     veriyor, çalışan temsilcisi ve çalışanlarla görüşmesini
+     sağlıyor, laboratuvarın hazırladığı plana göre ölçüm
+     yapılmasını sağlıyor, normal çalışma şartları ve üretim
+     kapasitesinde değişiklik yapmadan çalışmanın sürdürülmesini
+     sağlıyor ve ölçülecek etmenler hakkında güvenlik bilgi formları
+     dahil her türlü bilgi/belgeyi laboratuvar personeline veriyor
+     mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 5/5-a,b,c,ç
+
+697. **Soru:** İşveren, işyerinde iş hijyeni ölçüm, test ve analiz
+     kayıtlarını ilgili mevzuatla belirlenen sürelere (belirlenmemişse
+     en az 10 yıl) uygun olarak saklıyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 5/6
+
+698. **Soru:** İşveren, iş hijyeni ölçüm, test ve analiz
+     raporlarındaki sonuçların mevzuata veya ilgili sınır değerlere
+     uygunluğunu değerlendirip, çalışanların fizyolojik durumlarını
+     da dikkate alarak maruziyetin azaltılması için ek tedbir gerekip
+     gerekmediğine, varsa İSG kurulunun yoksa işyeri hekimi ve iş
+     güvenliği uzmanının yazılı görüşünü alarak karar veriyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 6/1
+
+699. **Soru:** İşveren, ölçüm yapılan işyerinde, ölçüm sonuçlarını
+     etkileyecek şekilde yapılan işi durdurma, yavaşlatma veya
+     hızlandırma gibi yöntemlerle manipülasyon yapmıyor mu?
+     **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
+     Yönetmelik, Madde 16/9
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- İş Hijyeni Ölçüm, Test ve Analizleri Hakkında Yönetmeliğin
+  aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 692-699): Madde 1-4
+  (amaç/kapsam/dayanak/tanımlar), Madde 7-13 (laboratuvarın kendi
+  yeterlik/akreditasyon/personel eğitim-sertifikasyon
+  yükümlülükleri), Madde 14-15, 17 (laboratuvarın ön inceleme/metot
+  seçimi/numune kabul süreçleri — laboratuvarın kendi teknik işlemi),
+  Madde 16/1-8 (numune alma/ölçüm teknik usulleri — laboratuvarın
+  görevi), Madde 18-39 (yeterlik belgesi başvurusu, denetim, askıya
+  alma/iptal, kalite yönetim sistemi gibi laboratuvar-Bakanlık idari
+  süreci), Ek Madde 1, Geçici Madde 1-2, Madde 40-41 (yürürlük/
+  yürütme).
 - Maden Yönetmeliğinin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
   687-691): Yönetmeliğin kalan tamamı (Madde 1-31, 33-123, 125,
   127-136, Geçici Maddeler) — 3213 sayılı Maden Kanunu'na dayanan,
