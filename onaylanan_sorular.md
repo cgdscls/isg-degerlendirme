@@ -5265,6 +5265,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Aerosol Kaplar Yönetmeliği (75/324/AT) — tamamı atlandı. Amaç
+  maddesi (Madde 1) "aerosol kapların temel sağlık ve güvenlik
+  gereklilikleri, piyasaya arz koşulları ve piyasa gözetimi/denetimi
+  esasları"nı düzenlediğini belirtiyor; imalatçı/ithalatçı muhatap bir
+  ürün yönetmeliği. Metin boyunca hiç "işveren" veya "çalışan"
+  kelimesi geçmiyor — aynı EU ürün/piyasaya arz skip kategorisi
+  ("CE" İşareti Yönetmeliği, Kişisel Koruyucu Donanım Yönetmeliği vb.
+  ile aynı familya).
 - "CE" İşareti Yönetmeliği — tamamı atlandı. Ürün güvenliği genel
   çatı yönetmeliği: imalatçı/yetkili temsilci/ithalatçı/dağıtıcının
   CE işareti koyma ve kullanma usullerini düzenliyor. Metin boyunca
