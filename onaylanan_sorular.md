@@ -4985,8 +4985,75 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      sağlar mı?
      **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 15
 
+## Genel Yükümlülükler → İSG Profesyonelleri / Hizmetleri
+
+646. **Soru:** İşveren veya eğitimi tamamlayan işveren vekili, elliden az
+     çalışanı olan ve az tehlikeli sınıfta yer alan işyerinde iş sağlığı ve
+     güvenliği hizmetlerini (işe giriş/periyodik muayene ve tetkikler
+     hariç) üstlenirken çalışan başına ayda en az 10 dakika süre ayırıyor
+     mu?
+     **Mevzuat:** İşyerlerinde İşveren veya İşveren Vekili Tarafından
+     Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
+     Madde 5/1
+     **Not:** İş Güvenliği Uzmanlarının Görev, Yetki, Sorumluluk ve
+     Eğitimleri Hakkında Yönetmelik Madde 12'deki aynı süre kuralıyla
+     örtüşüyor (soru 117) — orada hizmet dışarıdan uzmana aldırılıyor,
+     burada işveren/vekil kendisi yürütüyor; farklı yönetmelik/madde.
+
+647. **Soru:** İşveren veya işveren vekili, işyerinde iş sağlığı ve
+     güvenliği hizmetlerini yürütmeye başlamadan önce İSG-KATİP üzerinden
+     sisteme kaydoluyor mu (hizmetler kayıt onaylandığı tarihten itibaren
+     geçerli sayılıyor)?
+     **Mevzuat:** İşyerlerinde İşveren veya İşveren Vekili Tarafından
+     Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
+     Madde 5/3
+
+648. **Soru:** İşveren, Kanun kapsamında alınması gereken sağlık
+     raporlarını işyeri hekiminden; 50'den az çalışanı olan az tehlikeli
+     işyerlerinde ise ayrıca çalışan sağlığı merkezinden (ÇASMER), aile
+     hekimlerinden veya diğer kamu sağlık hizmeti sunucularından alıyor
+     mu?
+     **Mevzuat:** İşyerlerinde İşveren veya İşveren Vekili Tarafından
+     Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
+     Madde 7/2
+
+649. **Soru:** İşveren, Kanun ve alt düzenlemeleri uyarınca işyerinde
+     yapılması gereken ölçümleri Bakanlıkça yetkilendirilen laboratuvarlara
+     yaptırıyor mu?
+     **Mevzuat:** İşyerlerinde İşveren veya İşveren Vekili Tarafından
+     Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
+     Madde 8
+
+650. **Soru:** İşyerinin tehlike sınıfı değiştiğinde veya çalışan sayısı
+     elli ve üzerine çıktığında (ya da işveren/vekil hizmeti üstlenmek
+     istemezse), işveren otuz gün içinde İş Sağlığı ve Güvenliği
+     Hizmetleri Yönetmeliği hükümlerine göre işyeri hekimi/iş güvenliği
+     uzmanı görevlendirmesi yapıyor mu?
+     **Mevzuat:** İşyerlerinde İşveren veya İşveren Vekili Tarafından
+     Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
+     Madde 16
+
+651. **Soru:** Asıl işveren-alt işveren ilişkisi kurulan işyerlerinde, iş
+     sağlığı ve güvenliği hizmetlerini kendileri yürütmek isteyen her bir
+     işveren veya işveren vekili bu Yönetmelik kapsamında ayrı ayrı eğitim
+     alıyor mu?
+     **Mevzuat:** İşyerlerinde İşveren veya İşveren Vekili Tarafından
+     Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
+     Madde 19
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- İşyerlerinde İşveren veya İşveren Vekili Tarafından Yürütülecek İş Sağlığı
+  ve Güvenliği Hizmetlerine İlişkin Yönetmelik'in aşağıdaki maddeleri
+  (TAMAMLANDI — bkz. soru 646-651): Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar); Madde 6 (eğitim verme yetkisinin kime ait olduğu — izin/
+  yetkilendirme maddesi, yeni işveren yükümlülüğü değil); Madde 9-15
+  (eğitim programı içeriği, eğitici nitelikleri, başvuru, süre,
+  belgelendirme, ücret, denetim — eğitim kurumu/Bakanlık süreçleri,
+  işverenin kendi yükümlülüğü değil); Madde 17 (mülga); Madde 18 (zaten
+  belgeli işveren/vekillerin hangi hizmetleri üstlenebileceği — Madde
+  5/7/8'in istisna/uzantısı, ayrı soru gerektirmiyor); Geçici Madde 1-3
+  (geçiş hükümleri/mülga); Madde 20-21 (yürürlük/yürütme).
 - Kanser Bildirimi ve Kanser Kayıt Merkezleri Yönetmeliği — halk sağlığı
   sürveyans/istatistik yönetmeliği (kanser vakalarının bildirimi, kanser
   kayıt merkezlerinin örgütlenmesi, il kanser danışma komisyonu); muhatap
