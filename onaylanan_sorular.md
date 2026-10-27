@@ -3041,6 +3041,269 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
      Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 23
 
+## Genel Yükümlülükler → Balıkçı Gemileri (YENİ alt kategori)
+
+409. **Soru:** Kaptanın sorumluluğu saklı kalmak kaydıyla, gemi
+     sahibi geminin, özellikle öngörülebilir meteorolojik koşullarda,
+     çalışanların sağlık ve güvenliğini tehlikeye atmadan
+     kullanılmasını sağlıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 5/1-a
+
+410. **Soru:** Ciddi, yakın ve önlenemeyen tehlike durumunda çalışma
+     yerini, tehlikeli bölgeyi veya gemiyi terk eden çalışanların bu
+     hareketleri nedeniyle dezavantajlı duruma düşmemeleri ve
+     herhangi bir zarar görmemeleri için gerekli tedbirler alınıyor
+     mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 5/1-b
+
+411. **Soru:** Denizde çalışanların sağlık ve güvenliğini etkileyen
+     veya etkileyebilecek bir olay meydana geldiğinde, bu olay
+     ayrıntılı bir rapor halinde Sosyal Güvenlik Kurumuna ve olayın
+     meydana geldiği mahallin bağlı bulunduğu liman başkanlığına
+     bildiriliyor ve gemi jurnaline yazılıyor (jurnal tutma
+     mecburiyeti olmayan gemilerde raporun bir örneği saklanıyor) mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 5/1-c
+
+412. **Soru:** Gemi denize elverişli koşullarda tutuluyor, kullanımına
+     ve amacına uygun şekilde donatılıyor, geminin dengesiyle ilgili
+     bilgi ve dokümanlar gemide bulundurulup seyirden sorumlu
+     personelce erişilebiliyor ve geminin tüm hizmet koşullarında
+     dengede olması sağlanıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/1
+     **Not:** Madde 7 kapsamındaki büyük onarım/dönüşüm/değişikliklerde
+     de aynı Ek-1 gerekleri uygulanır, ayrı soru açılmadı. Mevcut
+     (18 metre ve üzeri) balıkçı gemileri için Ek-2'deki karşılığı,
+     Geçici Madde 1 uyarınca Yönetmeliğin yürürlüğe girdiği tarihten
+     itibaren 5 yıl içinde sağlanır; Ek-2 içeriği Ek-1 ile büyük
+     ölçüde örtüştüğünden kullanıcı kararıyla ayrı soru yazılmadı (bu
+     not soru 412-428 için geçerlidir).
+
+413. **Soru:** Elektrik ekipmanı, mürettebatı ve gemiyi elektrikten
+     kaynaklanabilecek tehlikelerden koruyacak şekilde tasarlanıp
+     herhangi bir tehlike oluşturmayacak biçimde yapılıyor mu; gemide
+     acil durumlarda kullanılmak üzere (dahili haberleşme, seyir
+     fenerleri/acil aydınlatma, telsiz haberleşme ekipmanı gibi
+     sistemleri en az üç saat kesintisiz çalıştırabilecek) bir acil
+     durum elektrik güç kaynağı bulunduruluyor mu; panolar görünür
+     şekilde işaretlenip düzenli kontrol ediliyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/2.1-2.4
+
+414. **Soru:** Kaldırma işlerinde kullanılan iş ekipmanlarının,
+     kaldırma/çekme araçlarının, soğutma tesislerinin ve basınçlı
+     hava sistemlerinin düzenli kontrol/test ve bakımları yapılıyor
+     mu; seyir için kullanılan elektronik aygıtlar düzenli test
+     ediliyor mu; yanıcı/tehlikeli gaz tüpleri belirgin şekilde
+     işaretlenip hasara karşı korunuyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/2.5-2.9
+
+415. **Soru:** Telsiz haberleşme ekipmanı, normal şartlarda kıyıda
+     veya karada bulunan en az bir istasyon ile sürekli iletişim
+     kurulabilecek özellikte mi?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/3
+
+416. **Soru:** Acil kaçış yolları ve çıkışlarında engel bulunmuyor,
+     bu yollar kolayca erişilebilir ve güvenli alana/cankurtaran
+     sandallarına ulaşımı sağlıyor mu; kapılar su/yangına dayanıklı
+     özellikte olup Güvenlik ve Sağlık İşaretleri Yönetmeliğine uygun
+     işaretleniyor ve arıza durumunda yeterli acil durum aydınlatması
+     sağlanıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/4
+
+417. **Soru:** Gemi, boyutları ve kullanım şekline uygun yangın
+     söndürme ekipmanı ve gerektiğinde yangın dedektörü/alarm
+     sistemleriyle donatılıyor mu; bu ekipmanlar her zaman çalışır ve
+     erişilebilir durumda tutuluyor, çalışanlar kullanımları
+     konusunda eğitiliyor, gemi yola çıkmadan önce kontrol ediliyor
+     ve düzenli aralıklarla yangın söndürme tatbikatları yapılıyor
+     mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/5
+
+418. **Soru:** Kapalı çalışma yerlerinde çalışanların ihtiyaç duyacağı
+     yeterli temiz hava bulunması sağlanıyor mu (mekanik havalandırma
+     sistemi her zaman çalışır durumda tutuluyor mu); çalışma
+     yerlerindeki ortam sıcaklığı insan yapısına uygun tutuluyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/6-7
+
+419. **Soru:** Çalışma yerleri mümkün olduğu ölçüde yeterli gün ışığı
+     alıyor ve uygun suni aydınlatma sistemiyle donatılıyor mu;
+     aydınlatma sisteminde arıza olması halinde risk oluşabilecek
+     yerlerde yeterli aydınlatmayı sağlayacak acil durum aydınlatma
+     sistemi bulunup düzenli test ediliyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/8
+
+420. **Soru:** Çalışanların bulunabileceği alanlar kaymaz malzemeden
+     yapılıyor veya kaymayı/düşmeyi önleyen araçlarla donatılıyor
+     mu; bölmeler halindeki çalışma yerleri yeterince ses geçirmez ve
+     yalıtılmış mı; güverte/bölme/başaltı yüzeyleri hijyen
+     kurallarına uygun temizlenebilir malzemeden mi?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/9
+
+421. **Soru:** Kapılar özel bir ekipman gerekmeden her zaman içeriden
+     açılabilecek durumda mı (çalışma yerlerindeki kapılar her iki
+     taraftan da açılabiliyor mu); kapılar özellikle kötü hava ve
+     deniz koşullarında mümkün olan en güvenli biçimde açılıp
+     kapanabiliyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/10
+
+422. **Soru:** Geçitler ve ulaşım yolları çalışanların güvenliğini
+     sağlayacak korkuluk, tutma demiri veya benzeri araçlarla
+     donatılıyor mu; güvertedeki boşluklara veya bir güverteden
+     diğerine düşme riski bulunan yerlerde yeterli koruma (demir
+     korkuluklarla sağlanıyorsa en az 1 metre yükseklikte) sağlanıyor
+     mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/11
+
+423. **Soru:** Çalışma alanları temiz tutuluyor ve düşme riskine
+     karşı yeterli koruma sağlıyor mu; makineler makine dairesinden
+     kontrol ediliyorsa izole/ses geçirmez bir bölümden kontrol
+     edilebiliyor mu; çekme ekipmanının kumanda sistemleri uygun
+     genişlikte bir alanda, acil durdurma tertibatı dahil koruyucu
+     donanımla ve operatöre yeterli görüş açısıyla tesis ediliyor mu;
+     kötü hava/deniz koşullarını uyaracak nitelikli personel
+     bulunduruluyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/12
+
+424. **Soru:** Çalışanların yaşam bölümlerinin yeri, yapısı, ses
+     geçirmezliği ve yalıtımı; kokulardan, gürültü ve titreşimden,
+     hava ve deniz koşullarından koruyacak biçimde tesis ediliyor,
+     sürekli temiz hava girişi ve uygun aydınlatma (genel, azaltılmış
+     ve ranza başı aydınlatma) sağlanıyor mu; mutfak/yemekhane yeterli
+     büyüklükte, iyi aydınlatılmış, kolay temizlenebilir ve uygun
+     havalandırılmış mı?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/13
+
+425. **Soru:** Gemilerin yaşam bölümlerinde, soğuk ve sıcak akar
+     suyu olan banyo, tuvalet ve el yüz yıkama yerleri uygun şekilde
+     havalandırılarak bulunduruluyor mu; her çalışanın elbiselerini
+     koyabileceği uygun bir yeri var mı?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/14
+
+426. **Soru:** Gemide, Seyir Halindeki Gemilerde Daha İyi Tıbbi
+     Hizmet Verilmesi için Gerekli Asgari Sağlık ve Güvenlik Koşulları
+     Hakkında Yönetmeliğin Ek-2'sinde yer alan ilk yardım malzemesi
+     bulunduruluyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/15
+
+427. **Soru:** Gemiye güvenli biçimde geçişi sağlayan bir borda
+     iskelesi, giriş iskelesi veya benzer bir ekipman bulunduruluyor
+     mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/16
+
+428. **Soru:** Geminin büyüklüğü dikkate alınarak, çalışma
+     yerlerindeki ve yaşam bölümlerindeki gürültü düzeyini en aza
+     indirmek için gerekli teknik önlemler alınıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6, Ek-1/17
+
+429. **Soru:** Gemilerin ve bunların Ek-1 ve Ek-2'de belirtilen bütün
+     aksam ve ekipmanının teknik bakımı düzenli olarak yapılıyor ve
+     çalışanların sağlık ve güvenliğini etkileyecek herhangi bir arıza
+     oluştuğunda en kısa sürede gideriliyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/1-a
+
+430. **Soru:** Gemiler ve bunların bütün aksam ve ekipmanı düzenli
+     olarak temizlenip uygun hijyen koşullarında olması sağlanıyor
+     mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/1-b
+
+431. **Soru:** Gemide yeterli sayıda uygun acil durum ve can kurtarma
+     ekipmanı kullanıma hazır halde bulunduruluyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/1-c
+
+432. **Soru:** Gemideki kişi sayısı ve çalışma alanı dikkate
+     alınarak, çalışanları sudan kurtarmak için gerekli araçların ve
+     acil konum gösteren hidrostatik tertibatlı telsiz vericisinin
+     bulunduğu yeterli can kurtarma ve hayatta kalma ekipmanı
+     bulunduruluyor; bu ekipman daima asıl yerinde, çalışır ve hemen
+     kullanılabilir durumda tutuluyor ve gemi limandan ayrılmadan
+     önce ve sefer sırasında düzenli olarak kontrol ediliyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/1-ç, Ek-3/1-3
+
+433. **Soru:** Bütün çalışanlara acil durumlarda yapılması gereken
+     işlerle ilgili uygulamalı eğitim ve talimat veriliyor mu; 45
+     metreden fazla veya beş ve daha çok çalışanı bulunan gemilerde
+     acil durum görevlilerinin listesi ve görev talimatları
+     hazırlanıyor mu; limanda veya denizde ayda bir kez hayat kurtarma
+     tatbikatı yapılıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/1-ç, Ek-3/4-6
+
+434. **Soru:** Toplu veya teknik koruma yöntemleriyle risk önlenemediği
+     veya yeterince azaltılamadığı durumlarda çalışanlara kişisel
+     koruyucu donanım sağlanıyor mu; giysi şeklinde veya giysi
+     üzerine giyilen KKD, deniz ortamıyla kontrast oluşturacak ve
+     açıkça görülebilecek parlak renklerde mi?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/1-d, Ek-4
+
+435. **Soru:** Gemi sahibi, çalışanların sağlık ve güvenliğinin
+     korunması ile ilgili olarak kaptana, bu Yönetmelikte belirtilen
+     yükümlülüklerini yerine getirebilmesi için gerekli her türlü
+     imkânı sağlıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8/2
+
+## Genel Yükümlülükler → Eğitim
+
+436. **Soru:** Çalışanlara, gemilerde sağlık ve güvenlik, özellikle
+     kazaların önlenmesi konusunda net, kolay ve anlaşılır uygun
+     eğitim veriliyor mu; bu eğitim yangınla mücadele, can kurtarma
+     ekipmanının kullanılması, balık avlama ve çekme ekipmanının
+     kullanılması ve el işaretleri dahil işaretlerin kullanılması
+     hususlarını kapsıyor ve gemideki çalışmalarda değişiklik olması
+     halinde güncelleniyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 10
+
+437. **Soru:** Bir gemiyi sevk ve idare edecek kişiye; iş kazaları ve
+     meslek hastalıklarının önlenmesi ve kaza halinde yapılması
+     gereken işler, öngörülebilir yükleme/avlanma koşullarında
+     geminin dengeli ve güvenli bulundurulması ile radyo navigasyonu
+     ve iletişimi ile ilgili yöntem ve kurallar konularında ayrıntılı
+     eğitim veriliyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 11
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+438. **Soru:** Gemi sahipleri/donatanlar veya kaptan; gemilerdeki
+     çalışanları veya çalışan temsilcilerini, geminin tümü ile
+     çalışanın çalışmakta olduğu bölümde veya yaptığı her işte
+     yürütülen faaliyetler, sağlık ve güvenlik riskleri ve alınacak
+     tüm önlemler hakkında yazılı ve sözlü, kolay ve anlaşılır şekilde
+     bilgilendiriyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 9
+
+439. **Soru:** İş sağlığı ve güvenliği konularında ve özellikle bu
+     Yönetmelikte ve eklerinde belirtilen konularda çalışan ve/veya
+     temsilcilerinin görüşleri alınıyor ve katılımları sağlanıyor mu?
+     **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
+     Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -3626,6 +3889,22 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   somut yükümlülük değil), Madde 24 (yürürlükten kaldırma), Geçici
   Madde 1-2 (geçiş hükümleri) ve Madde 25-26 (yürürlük/yürütme)
   atlandı.
+- Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve Güvenlik
+  Önlemleri Hakkında Yönetmelik — soru 409-439 eklendi, yeni "Genel
+  Yükümlülükler → Balıkçı Gemileri" alt kategorisi açıldı (Madde
+  5/1-a,b,c, 6+Ek-1'in 17 başlığı soru 412-428, 8/1-a,b,c,
+  8/1-ç+Ek-3, 8/1-d+Ek-4, 8/2). Soru 436-437 (Madde 10, 11) "Genel
+  Yükümlülükler → Eğitim"; soru 438-439 (Madde 9, 12) "Genel
+  Yükümlülükler → Bilgilendirme ve Katılım" alt kategorisine eklendi.
+  Ek-1 (yeni gemiler, 17 başlık) ile neredeyse birebir örtüşen Ek-2
+  (mevcut 18m+ gemiler, Geçici Madde 1 ile 5 yıl geçiş süreli),
+  kullanıcı onayıyla ayrı soru seti olarak yazılmadı; soru 412'ye tek
+  bir not eklenerek (soru 412-428 için geçerli) işlendi — ~17 sorunun
+  mükerrer yazılması önlendi. Madde 7 (büyük onarım/dönüşüm/
+  değişikliklerde aynı Ek-1 gerekleri) de aynı şekilde ayrı soru
+  açılmadan not olarak işlendi. Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar), Madde 13 (yürürlükten kaldırma) ve Madde 14-15
+  (yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
