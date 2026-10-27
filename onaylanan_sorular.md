@@ -2342,6 +2342,305 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
      Korunmalarına Dair Yönetmelik, Madde 13/2-b
 
+## İş Hijyeni → Kanserojen veya Mutajen Maddeler (YENİ alt kategori)
+
+328. **Soru:** İşyerinde kanserojen veya mutajen maddelere maruziyet
+     riski bulunan işlerde, çalışanların bu maddelere maruziyet türü,
+     düzeyi ve süresi risk değerlendirmesi kapsamında belirleniyor ve
+     gerekli sağlık ve güvenlik önlemleri buna göre alınıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 5
+
+329. **Soru:** İşveren, teknik olarak mümkün olduğu hâllerde tehlikesiz
+     veya daha az tehlikeli madde, müstahzar veya işlem kullanarak
+     işyerindeki kanserojen veya mutajen madde kullanımını azaltıyor
+     mu ve bu konudaki araştırma sonuçlarını istenmesi hâlinde
+     Bakanlığa veriyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 6
+
+330. **Soru:** Risk değerlendirmesi sonucunda çalışanların sağlığı ve
+     güvenliği yönünden risk bulunduğu ortaya çıkması hâlinde,
+     çalışanların tehlikeli maddelere maruziyeti önleniyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-a
+
+331. **Soru:** Kanserojen veya mutajen maddelerin tehlikesiz veya daha
+     az tehlikeli olanlarıyla değiştirilmesinin teknik olarak mümkün
+     olmadığı hâllerde, bu maddelerin üretiminde ve kullanılmasında
+     teknik imkânlara göre kapalı sistemler kullanılıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-b
+
+332. **Soru:** Kapalı sistemle çalışmanın teknik olarak mümkün olmadığı
+     hâllerde, çalışanların maruziyeti mümkün olan en az düzeye
+     indiriliyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-c
+
+333. **Soru:** Çalışanların kanserojen veya mutajen maddelere
+     maruziyeti, Ek-2'de verilen sınır değerleri aşmıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-ç
+
+334. **Soru:** İşveren, işyerinde kullanılacak kanserojen veya mutajen
+     madde miktarını belirleyip yapılan iş için gereken miktardan
+     fazla madde bulunmasını önlüyor ve bu maddelere maruz kalan veya
+     kalabilecek çalışan sayısının mümkün olan en az sayıda olmasını
+     sağlıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+
+335. **Soru:** Kanserojen veya mutajen maddelerin çalışma ortamına
+     yayılmasını önlemek veya en aza indirmek için uygun işlem
+     tasarımı ve mühendislik kontrol önlemleri (lokal veya genel
+     havalandırma dâhil) alınıyor mu ve kaza sonucunda veya
+     beklenmeyen bir şekilde maddelerin ortama yayılması hâlinde bu
+     durumun erken tespiti için uygun ölçüm sistemleri bulunduruluyor
+     mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+
+336. **Soru:** Uygun çalışma yöntemleri ve işlemlerin kullanılması
+     sağlanıyor mu; alınan diğer önlemlerle toplu korumanın
+     sağlanamadığı veya maruziyetin önlenemediği durumlarda uygun
+     kişisel korunma yöntemleri ve kişisel koruyucu donanımların
+     kullanılması sağlanıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+
+337. **Soru:** Çalışma ortamı zemini, duvarlar ve diğer yüzeylerin
+     düzenli olarak temizlenmesi ve hijyen şartlarının sağlanması
+     gerçekleştiriliyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+
+338. **Soru:** İşveren, kanserojen veya mutajen maddelerle çalışan
+     işçileri bu maddelerin riskleri hakkında bilgilendiriyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+     **Not:** Madde 13 (eğitim) ve Madde 14 (bilgi alma hakkı) ile
+     konu olarak örtüşüyor, ancak bu bent işverenin ayrı ve genel bir
+     bilgilendirme yükümlülüğünü düzenliyor — mükerrer değil, ayrı
+     soru olarak eklendi.
+
+339. **Soru:** Kanserojen veya mutajen maddelere maruz kalınan veya
+     maruz kalma riski bulunan yerler uygun ikaz levhaları ve güvenlik
+     işaretleri ile belirleniyor, bu yerlerde sigara kullanılmasının
+     ve yeme-içmenin yasak olduğunu belirten ikaz levhaları
+     bulunduruluyor mu; ilgili mevzuat gereği hazırlanacak acil durum
+     planında yüksek düzeyde maruziyete neden olabilecek durumlara
+     yönelik eylemler de planlanıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+
+340. **Soru:** Kanserojen veya mutajen maddelerin güvenli şekilde
+     depolanması, taşınması veya işlem görmesi için bu maddelerin
+     açıkça ve görünür şekilde etiketlenmiş, sızdırmaz kapalı kaplarda
+     bulundurulması sağlanıyor, bu alanlara görevli olmayanların
+     giriş-çıkışı kontrol altında tutuluyor mu; atıkların güvenli bir
+     şekilde toplanması, depolanması ve uzaklaştırılmasında da benzer
+     etiketlenmiş, sızdırmaz kapalı kaplar kullanılıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/1-d
+
+341. **Soru:** Kanserojen veya mutajen maddeler, Tehlikeli Maddelerin
+     Karayoluyla Taşınması Hakkında Yönetmelik ve ADR (Tehlikeli
+     Malların Karayolu ile Uluslararası Taşımacılığına İlişkin Avrupa
+     Anlaşması) hükümlerine uygun olarak taşınıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 7/2
+
+342. **Soru:** İşyerinde gerçekleştirilen risk değerlendirmesi
+     sonucunda çalışanların sağlığı ve güvenliği yönünden risk
+     bulunduğu saptanan işlerde, Bakanlıkça istendiğinde işveren;
+     kullanılan madde ve işlemler, kullanılma nedeni, üretilen ve
+     kullanılan miktar, maruz kalan çalışan sayısı, alınan koruyucu
+     önlemler, kullanılan koruyucu araç ve gerecin türü, maruziyetin
+     türü ve düzeyi ile ikame yapılıp yapılamadığı konularında yeterli
+     bilgileri veriyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 8
+
+343. **Soru:** Çalışanların yüksek düzeyde maruziyetine neden
+     olabilecek beklenmedik bir olay veya kaza hâlinde, işveren
+     çalışanlara durum hakkında derhal bilgi veriyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 9/1-a
+
+344. **Soru:** Yüksek düzeydeki maruziyet nedeni ortadan kaldırılıp
+     durum normale dönünceye kadar, etkilenmiş alana sadece onarım ve
+     diğer zorunlu işleri yapacak çalışanların girmesine izin
+     veriliyor, bu çalışanların koruyucu giysi ve solunum koruyucu
+     ekipman kullanarak mümkün olduğunca kısa süreli çalıştırılması
+     sağlanıyor ve koruma sağlanmayanların etkilenmiş alanda
+     çalışmasına izin verilmiyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 9/1-b
+
+345. **Soru:** Çalışanların maruziyetinin önemli ölçüde artma ihtimali
+     olan ve maruziyeti azaltıcı tüm teknik koruyucu önlemlerin
+     hâlihazırda alınmış olduğu bakım, onarım gibi işlerde; çalışanlar
+     ve/veya temsilcilerine danışıldıktan sonra, bu işlerde çalışanların
+     korunmasını sağlamak ve maruziyetlerini asgari süreye indirmek
+     için gerekli önlemler belirleniyor ve alınıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 10/1-a
+
+346. **Soru:** Yüksek düzeyde maruziyete neden olabilecek koşulların
+     devamı süresince, çalışanların koruyucu giysi ve solunum koruyucu
+     ekipman kullanmaları sağlanıyor ve bu koşullardaki çalışmaların
+     mümkün olduğunca kısa süreli olması sağlanarak koşulların
+     süreklilik arz etmesi engelleniyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 10/1-b
+
+347. **Soru:** Yüksek maruziyet riski olan işlerin yapıldığı alanlar
+     belirlenip açık bir şekilde işaretleniyor ve yetkili olmayan
+     kişilerin bu alanlara girmesi önleniyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 10/1-c
+
+348. **Soru:** İşyerinde gerçekleştirilen risk değerlendirmesine göre
+     sağlık ve güvenlik yönünden risk bulunan alanlara, sadece işi
+     veya görevi gereği bu alana girmesi gereken çalışanlara izin
+     veriliyor, bunların dışındakilerin girmemesi için gerekli
+     önlemler alınıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 11
+
+349. **Soru:** Kanserojen veya mutajen maddelerle kirlenme ihtimali
+     olan işlerin yapıldığı yerlerde çalışanların yemeleri, içmeleri
+     ve sigara kullanmaları önleniyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12/1-a
+
+350. **Soru:** Çalışanlara koruyucu giysi veya uygun özel giysi
+     veriliyor ve bunların günlük kıyafetlerinden ayrı yerlerde
+     saklanabilmesi için birbirinden ayrı elbise dolapları
+     bulunduruluyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12/1-b
+
+351. **Soru:** Çalışanlara uygun ve yeterli yıkanma yeri, tuvalet ve
+     temizlik malzemesi sağlanıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12/1-c
+
+352. **Soru:** Kişisel koruyucu donanımların özel yerlerde ve uygun
+     şartlarda saklanması sağlanıyor ve her kullanımdan sonra, mümkünse
+     kullanmadan önce kontrol edilerek temizleniyor, tamir ediliyor
+     veya değiştiriliyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12/1-ç
+
+353. **Soru:** Madde 12 kapsamındaki koruyucu önlemlerin maliyeti
+     çalışanlara yansıtılmıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12/2
+
+## Genel Yükümlülükler → Eğitim
+
+354. **Soru:** İşveren; çalışanların işyerinde kullanılan kanserojen
+     veya mutajen maddelerin riskleri ve etkileri, tütün kullanımının
+     getirebileceği ek riskler dâhil sağlığı etkileyebilecek riskler,
+     maruziyeti önlemek için alınan ve alınacak önlemler, hijyen
+     kuralları, kişisel koruyucu donanımların kullanılması, kaza
+     halinde yapılması gereken işler ve madde/kapların üzerindeki
+     etiket ve uyarı işaretleri konularında yeterli ve uygun eğitim
+     almalarını sağlıyor ve yeni bir risk ortaya çıktığında veya
+     mevcut risklerde değişiklik olduğunda bu eğitimi yeniliyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 13
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+355. **Soru:** Çalışanlar ve/veya temsilcileri; kişisel koruyucu
+     donanımın seçimi ve kullanılmasının çalışanların sağlık ve
+     güvenliğine etkilerinin belirlenmesinde ve maruziyetin önemli
+     ölçüde artma ihtimali olan bakım/onarım gibi işlerde alınacak
+     önlemlerin belirlenmesinde uygulamalara katılma hakkına sahip mi?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 14/1
+
+356. **Soru:** Maruziyetin yüksek olabileceği durumlar hakkında
+     çalışanlar ve/veya temsilcileri en kısa sürede bilgilendiriliyor
+     (olayın nedenleri, alınması gerekli koruyucu/önleyici tedbirler ve
+     durumun düzeltilmesi için yapılması gereken işler dâhil) ve
+     işyerinde kullanılan kanserojen veya mutajen maddelerin malzeme
+     güvenlik bilgi formlarının ilgili çalışan ve/veya temsilcilerince
+     kolayca ulaşılabilir olması sağlanıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 14/2-3
+
+357. **Soru:** İşveren, risk değerlendirmesine göre sağlık ve
+     güvenlik yönünden riskli olan işlerde çalışanların güncellenmiş
+     listesini ve maruziyet durumlarını belirten kayıtları tutuyor mu;
+     bu liste ve kayıtlar işyeri hekimi, işyerinde sağlık ve
+     güvenlikten sorumlu kişiler ve/veya yetkili mercilerin inceleme
+     hakkına açık mı; her çalışan kendisiyle ilgili kişisel bilgileri,
+     çalışanlar ve/veya temsilcileri ise bilgilerin tümünü isimsiz
+     olarak alma hakkına sahip mi?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 14/4-7
+
+358. **Soru:** İşveren, bu Yönetmelikte belirtilen konularda
+     çalışanların ve/veya temsilcilerinin görüşlerini alıyor, teklif
+     getirme hakkını tanıyor ve görüşmelere katılımlarını sağlıyor mu;
+     işyerinde alınan önlemlerin yetersiz olduğu durumlarda veya
+     teftiş sırasında yetkili makama başvurmalarından dolayı
+     çalışanların hakları kısıtlanmıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 15
+
+## Genel Yükümlülükler → Sağlık Gözetimi
+
+359. **Soru:** Çalışanlar; 6331 sayılı Kanunun 15 inci maddesi
+     kapsamında veya işyerinde gerçekleştirilen risk değerlendirmesi
+     sonuçlarına göre gerektiğinde, maruziyet öncesinde ve sonrasında
+     düzenli aralıklarla sağlık gözetimine tabi tutuluyor ve işyerinde
+     kişisel ve mesleki hijyen önlemlerinin derhal alınabilmesi için
+     gerekli düzenlemeler yapılıyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 16/1
+
+360. **Soru:** Sağlık gözetimi sonucunda saptanan sağlık sorununun
+     kanserojen veya mutajen maddelere maruziyet nedeniyle oluştuğunun
+     tespiti halinde; çalışanların kişisel sağlık kayıtları tutuluyor,
+     işyeri hekimi tarafından koruyucu/önleyici tedbirler öneriliyor,
+     çalışana maruziyet sonrası takip bilgisi veriliyor, işyerinde
+     yapılan risk değerlendirmesi ve alınan önlemler gözden
+     geçiriliyor, gerekli görülürse çalışan maruz kalmayacağı başka bir
+     işte görevlendiriliyor ve benzer biçimde maruz kalan diğer
+     çalışanlar da düzenli sağlık gözetimine tabi tutuluyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 16/2
+
+361. **Soru:** Çalışanın kendisi veya işveren, sağlık gözetimi
+     sonuçlarının yeniden değerlendirilmesini isteyebiliyor mu ve
+     çalışanlar kendilerine ait sağlık gözetimi sonuçlarına ait
+     bilgileri alma hakkına sahip mi?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 16/3
+
+362. **Soru:** İşyerinde, sağlık hizmeti sunucuları veya işyeri hekimi
+     tarafından kanserojen veya mutajen maddelere maruziyet nedeniyle
+     oluştuğu ön tanısı konulan tüm kanser vakaları, 6331 sayılı
+     Kanunun 14 üncü maddesi uyarınca ilgili kurum ve kuruluşlara
+     bildiriliyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 16/5
+
+## İş Hijyeni → Kanserojen veya Mutajen Maddeler
+
+363. **Soru:** Madde 14 ve 16'da belirtilen maruziyet ve sağlık
+     gözetimi kayıtları, maruziyetin sona ermesinden sonra en az 40 yıl
+     süre ile saklanıyor mu ve işyerinde faaliyetin sona ermesi
+     halinde işveren bu kayıtları Sosyal Güvenlik Kurumu İl
+     Müdürlüğüne teslim ediyor mu?
+     **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
+     Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 17
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2875,6 +3174,24 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   Madde 5 (eylem değeri/sınır değerlerin sayısal tanımı — başlı başına
   bir yükümlülük değil, diğer maddelerde referans olarak kullanılıyor)
   ve Madde 14-16 (yürürlükten kaldırma/yürürlük/yürütme) atlandı.
+- Kanserojen veya Mutajen Maddelerle Çalışmalarda Sağlık ve Güvenlik
+  Önlemleri Hakkında Yönetmelik — soru 328-363 eklendi, yeni "İş
+  Hijyeni → Kanserojen veya Mutajen Maddeler" alt kategorisi açıldı
+  (Madde 5, 6, 7/1-a,b,c,ç,d (çoklu bent-içi kümeleme), 7/2, 8, 9/1-a,
+  9/1-b, 10/1-a, 10/1-b, 10/1-c, 11, 12/1-a,b,c,ç, 12/2, 17). Soru 354
+  (Madde 13) "Genel Yükümlülükler → Eğitim"; soru 355-358 (Madde
+  14/1, 14/2-3, 14/4-7, 15) "Genel Yükümlülükler → Bilgilendirme ve
+  Katılım"; soru 359-362 (Madde 16/1, 16/2, 16/3, 16/5) "Genel
+  Yükümlülükler → Sağlık Gözetimi" alt kategorilerine eklendi. Madde
+  7/1-d'nin 13 alt bendi (1-13), aşırı parçalanmayı önlemek için konu
+  bazlı kümelenerek 7 soruya (334-340) dönüştürüldü — her biri yine
+  tek madde/bent olan 7/1-d'ye atıfla. Soru 338 (Madde 7/1-d,
+  bilgilendirme), Madde 13/14 ile konu örtüşmesi flaglenerek ayrı
+  soru olarak eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde
+  18 (sınır değer referans/sınıflandırma tanımı — başlı başına
+  yükümlülük değil) ve Madde 19-21 (yürürlükten kaldırma/yürürlük/
+  yürütme) atlandı. Ek-1/Ek-2/Ek-3 ilgili maddelere (4, 7, 16, 18)
+  atıfla zaten kapsandığından ayrı soru açılmadı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
