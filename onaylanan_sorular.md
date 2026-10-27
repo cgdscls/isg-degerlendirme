@@ -5454,6 +5454,15 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Sığınak Yönetmeliği — tamamı atlandı. 3194 sayılı İmar Kanunu'na
+  dayanan, nükleer/konvansiyonel silah, biyolojik-kimyevi harp
+  maddeleri ve tabii afetlere karşı bina sığınaklarının inşası/
+  kullanımı/muhafazasına ilişkin bir imar/sivil savunma yönetmeliği.
+  Metin boyunca "işveren" hiç geçmiyor; tek "çalışan" eşleşmesi bir
+  havalandırma mekanizmasının tanımında ("insan gücü ile çalışan
+  çevirmeli kol"), çalışan anlamında değil. İçerik bina inşa standardı
+  (bodrum kat düzenlemesi, havalandırma tertibatı vb.), işveren-
+  çalışan İSG ilişkisi değil.
 - Demiryolu Emniyet Yönetmeliği — tamamı atlandı. Demiryolu altyapı/
   tren/şehir içi raylı toplu taşıma işletmecilerine yönelik
   taşımacılık/işletme emniyeti yönetmeliği: emniyet sertifikası/
