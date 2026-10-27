@@ -5454,6 +5454,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Sivil Havacılık Güvenliği Yönetmeliği (SHY-GÜVENLİK) — tamamı
+  atlandı. Amaç/Kapsam (Madde 1-2) "sivil havacılık alanında kamu
+  düzeni ve güvenliğini bozan, yerde veya havada meydana gelebilecek
+  her türlü yasadışı eylemlere karşı" koruma olarak tanımlanıyor —
+  terörizm/sabotaj/kaçırma gibi kasıtlı suç tehditlerine karşı
+  güvenlik (security), İSG'nin konusu olan iş kazası/meslek hastalığı
+  risklerinden (safety) tamamen farklı bir kategori. Muhatap Sivil
+  Havacılık Genel Müdürlüğü, havaalanı/havayolu işletmecisi, İçişleri
+  Bakanlığı — yolcu/kargo taraması, giriş kontrolü, güvenlik tahditli
+  alanlar, Milli Sivil Havacılık Güvenlik Programı gibi konuları
+  düzenliyor. Metin boyunca hiç "işveren", "çalışan", "iş sağlığı"
+  veya "6331" geçmiyor. Demiryolu Emniyet Yönetmeliği için verilen
+  skip gerekçesiyle aynı aile (işletme/kamu güvenliği ≠ işçi İSG'si),
+  ama burada "emniyet" bile değil, doğrudan kasıtlı yasadışı eylemlere
+  karşı "güvenlik" (security) olduğundan ayrım daha da net.
 - Sağlık Raporları Yönetmeliği — tamamı atlandı. Sağlık Bakanlığının
   sağlık hizmeti sunucularına (resmi/özel hastane, klinik, hekim)
   yönelik, her türlü sağlık raporunun (genel sağlık durumu, maluliyet/
