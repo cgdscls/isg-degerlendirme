@@ -5099,6 +5099,12 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Yapı Müteahhitlerinin Sınıflandırılması ve Kayıtlarının Tutulması
+  Hakkında Yönetmelik — 3194 sayılı İmar Kanunu'na dayanan müteahhitlik
+  yetki belgesi/sınıflandırma yönetmeliği (ekonomik-mali-mesleki-teknik
+  yeterlik, belge grubu, kayıt/iptal/itiraz). Madde 6/3'teki "6331'de
+  öngörülen tedbirleri almaktan sorumludur" ifadesi zaten havuzda işlenmiş
+  6331'e saf atıf, yeni içerik eklemiyor — soru yazılmadı.
 - Asansör Periyodik Kontrol Yönetmeliği'nin aşağıdaki maddeleri
   (TAMAMLANDI — bkz. soru 656): Madde 1-7 (amaç/kapsam/dayanak/tanımlar,
   idari tedbir); Madde 9-23, 27-29, 31-33, 35-38 (A tipi muayene
