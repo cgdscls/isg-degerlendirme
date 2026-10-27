@@ -5246,6 +5246,16 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Kişisel Koruyucu Donanım Yönetmeliği (2016/425/AB) — tamamı
+  atlandı. "İşyerlerinde Kişisel Koruyucu Donanımların Kullanılması
+  Hakkında Yönetmelik"ten (zaten soru havuzunda) farklı bir yönetmelik:
+  piyasada bulundurulan KKD'lerin tasarımı/üretimi, CE işaretleme,
+  onaylanmış kuruluş ve uygunluk değerlendirme süreçlerini düzenliyor
+  (imalatçı/ithalatçı/dağıtıcı muhatap). Metin boyunca tek bir
+  "işveren" veya "çalışan" kelimesi geçmiyor — EU ürün/CE-işaretleme
+  direktifi transpozisyonu skip kategorisiyle aynı (Asansör, ATEX,
+  EMC, Düşük Gerilim, Basit Basınçlı Kaplar, Basınçlı Ekipmanlar ile
+  aynı familya).
 - Asansör İşletme ve Bakım Yönetmeliğinin aşağıdaki maddeleri
   (TAMAMLANDI — bkz. soru 670-675): Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar), Madde 5 (asansör kimlik numarası — oluşturulması muayene
