@@ -3518,6 +3518,134 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      katılımlarını sağlıyor mu?
      **Mevzuat:** Sağlık ve Güvenlik İşaretleri Yönetmeliği, Madde 7
 
+## Genel Yükümlülükler → Maden İşyerleri (YENİ alt kategori)
+
+463. **Soru:** İşyerleri çalışanların sağlık ve güvenliğini tehlikeye
+     atmayacak şekilde tasarlanıyor, inşa ediliyor, teçhiz ediliyor,
+     hizmete alınıyor, işletiliyor ve bakımı yapılıyor mu; her türlü
+     çalışma yetkili kişinin nezaretinde ve sorumluluğu altında
+     yapılıyor mu; özel riski bulunan işler yalnızca bu işlerle ilgili
+     özel eğitim alan ehil kişilerce talimatlara uygun olarak
+     yapılıyor mu; tüm güvenlik talimatları çalışanların anlayacağı
+     şekilde hazırlanıyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 5/1-1,2,3,4
+
+464. **Soru:** İşyerlerinde Acil Durumlar Hakkında Yönetmeliğe uygun
+     olarak yeterli ilk yardım donanımı sağlanıyor ve en geç 6 ayda
+     bir olmak üzere düzenli olarak gerekli tatbikatlar yapılıyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 5/1-5
+
+465. **Soru:** İşveren; 6331 sayılı Kanunun 4, 10, 14 ve 16 ncı
+     maddeleri doğrultusunda, çalışanların maruz kalabileceği
+     psikososyal riskler dahil risklerin belirlenmesi ve
+     değerlendirilmesini, bu Yönetmelik hükümlerini yerine getirmek
+     için alınacak tedbirler ile hazırlanması gereken yönerge ve
+     planları, çalışma yerleri ve ekipmanın güvenli düzenlenmesi/
+     kullanılması/bakımını içeren bir sağlık ve güvenlik dokümanı
+     hazırlatıp güncelliyor mu; bu doküman işyerinde çalışmaya
+     başlanmadan önce hazırlanıp önemli değişiklik, ilave veya kaza/
+     ramak kala olaylardan sonra gözden geçirilip gerekirse revize
+     ediliyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 5/2
+
+466. **Soru:** İşveren, 6331 sayılı Kanunun 14 üncü maddesi uyarınca
+     gerekli kayıt ve bildirimleri yapıyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 5/3
+
+467. **Soru:** Bir işyerinde birden çok işverene ait çalışanların
+     bulunması durumunda, işyerinin tamamından sorumlu olan işveren,
+     çalışanların sağlık ve güvenliğinin korunması ile ilgili
+     tedbirlerin uygulanmasını koordine edip, koordinasyonun amacını
+     ve alınacak tedbirler/yöntemleri kendi sağlık ve güvenlik
+     dokümanında belirtiyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 5/4
+
+468. **Soru:** İşveren, patlama ve yangın çıkmasını ve bunların
+     olumsuz etkilerini önlemek üzere; patlayıcı ve sağlığa zararlı
+     ortam havasının oluşmasını önlemek, bu mümkün değilse patlayıcı
+     ortamın tutuşmasını önlemek, patlama ve yangın başlangıçlarını
+     tespit etmek, yayılmasını önlemek ve mücadele etmek için yapılan
+     işe uygun tedbirler alıyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 7
+
+469. **Soru:** İşveren, bir tehlike anında çalışanların çalışma
+     yerlerini en kısa zamanda ve güvenli bir şekilde terk
+     edebilmeleri için uygun kaçış ve kurtarma araçlarını sağlıyor ve
+     kullanıma hazır bulunduruyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 8
+
+470. **Soru:** İşveren, işyerinin bütününde gerekli haberleşme ve
+     iletişim sistemini kuruyor mu; ihtiyaç halinde yardım, kaçış ve
+     kurtarma işlemlerinin derhal uygulamaya konulabilmesi için
+     gerekli uyarı ve diğer iletişim sistemlerini hazır bulunduruyor
+     mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 9
+
+471. **Soru:** Yeraltı kömür madenlerinde, faaliyet alanları ile
+     yeryüzüne çıkış ağzı arasında, Tablo-1 ve Tablo-2'deki kaçış
+     hızları ile kaçış yolundaki engeller, galeri yüksekliği/eğimi,
+     madenin jeolojik yapısı ve kaçış yolunu aynı anda kullanacak
+     kişi sayısı gibi hususlar dikkate alınarak oksijenli ferdi
+     kurtarıcı değişim istasyonları kuruluyor ve bu istasyonlar
+     yeraltında yaşanabilecek göçük, su baskını, patlama, yangın gibi
+     acil durumlardan etkilenmeyecek şekilde teçhiz ediliyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, EK MADDE 1/1-a,b
+
+472. **Soru:** Kirli hava akımının bulunduğu nefeslik ve benzeri
+     yollarda çalışanların, seçilen oksijenli ferdi kurtarıcı ile
+     sağlıklı ve güvenli şekilde yeryüzüne ulaşamayacağı mesafede
+     bulunmaları durumunda, uygun yerlerde ayrıca değişim istasyonu
+     kuruluyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, EK MADDE 1/1-c
+
+473. **Soru:** İstasyonlarda bulunacak donanım sayısı ve ekipmanı, o
+     istasyondan yararlanması beklenen çalışan sayısının en az %10
+     fazlası olacak şekilde belirleniyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, EK MADDE 1/1-d
+
+474. **Soru:** Bu madde kapsamında alınacak önlemlerin, işletme
+     ruhsatı başvurusunda düzenlenen maden işletme projesinde
+     (veya projenin revizyonunda) bulunması ve Enerji ve Tabii
+     Kaynaklar Bakanlığı Maden İşleri Genel Müdürlüğünce onaylanması
+     sağlanıyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, EK MADDE 1/1-e
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+475. **Soru:** Çalışanlar veya temsilcileri, işyerinde sağlık ve
+     güvenlikle ilgili alınması gereken tüm tedbirler ve özellikle bu
+     Yönetmeliğin 5, 6, 7 ve 8 inci maddelerinin uygulanması hakkında,
+     erişilebilir ve anlaşılır şekilde bilgilendiriliyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 10
+
+476. **Soru:** İşveren, bu Yönetmelikte belirtilen konularda
+     çalışanların veya temsilcilerinin görüşlerini alıyor ve
+     katılımlarını sağlıyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 12
+
+## Genel Yükümlülükler → Sağlık Gözetimi
+
+477. **Soru:** Çalışanlar, yapmakta oldukları işlerde maruz
+     kaldıkları sağlık ve güvenlik risklerine uygun olarak işe
+     girişte ve işin devamı süresince periyodik olarak sağlık
+     gözetimine tabi tutuluyor mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 11
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4154,6 +4282,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yaptığından ayrı soru açılmadı. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar) ve Madde 8-10 (yürürlükten kaldırma/yürürlük/yürütme)
   atlandı.
+- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (1. PARÇA —
+  Madde 1-13 + EK MADDE 1; Ek-1/2/3/4 ayrı turlarda işlenecek, bu
+  mevzuat henüz tamamlanmadı) — soru 463-477 eklendi, yeni "Genel
+  Yükümlülükler → Maden İşyerleri" alt kategorisi açıldı (Madde
+  5/1-1,2,3,4, 5/1-5, 5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b,
+  EK MADDE 1/1-c, EK MADDE 1/1-d, EK MADDE 1/1-e). Soru 475-476
+  (Madde 10, 12) "Genel Yükümlülükler → Bilgilendirme ve Katılım";
+  soru 477 (Madde 11) "Genel Yükümlülükler → Sağlık Gözetimi" alt
+  kategorilerine eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 6 (çalışanın kendi yükümlülüğü — işverenin değil), Madde 13
+  (eklere atıf yapan şemsiye madde — Ek-1/2/3/4 ayrı turlarda
+  işlenecek) ve Geçici Madde 1-4 (geçiş hükümleri — ilgili Ek
+  bentleri işlenirken hatırlanacak) atlandı. Madde 15-16 (yürürlük/
+  yürütme) ise henüz atlanmadı, mevzuatın tamamı işlendiğinde
+  kayda geçecek.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
