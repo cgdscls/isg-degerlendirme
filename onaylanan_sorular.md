@@ -5056,6 +5056,10 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Belirli Gerilim Sınırları İçin Tasarlanan Elektrikli Ekipman İle İlgili
+  Yönetmelik (2014/35/AB) — Düşük Gerilim Direktifi transpozisyonu; SEA/CLP,
+  Asansör, ATEX ekipman ve EMC yönetmelikleriyle aynı yapı, piyasaya arz
+  düzenlemesi. "İşveren"/"çalışan" hiç geçmiyor, İSG kapsamı dışında.
 - Elektromanyetik Uyumluluk Yönetmeliği (2014/30/AB) — EMC Direktifi
   transpozisyonu; SEA/CLP, Asansör ve ATEX ekipman yönetmelikleriyle aynı
   yapı, donanımın piyasaya arzı/CE işaretleme/piyasa gözetimi düzenlemesi.
