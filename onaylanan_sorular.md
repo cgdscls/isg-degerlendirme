@@ -5491,8 +5491,76 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Taşınabilir Otomatik Şok Cihazı Hakkında Yönetmelik,
      Madde 7/2, 8/5
 
+## Genel Yükümlülükler → Nükleer ve Radyasyon Tesisleri (YENİ alt kategori)
+
+705. **Soru:** İşveren (yetkilendirilen tüzel/gerçek kişi), faaliyet
+     sırasında radyasyondan korunma, güvenlik ve emniyeti sağlıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-a
+
+706. **Soru:** İşveren, faaliyetin güvenlik ve emniyet kültürüne sahip
+     yeterli sayıda ve yetkin personel marifetiyle yürütülmesini
+     sağlıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-b
+
+707. **Soru:** İşveren, faaliyetin güvenli ve emniyetli şekilde
+     yürütülebilmesi için gerekli organizasyon yapısını, teçhizatı ve
+     mali kaynağı sağlıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-c
+
+708. **Soru:** İşveren, personele gerekli eğitimlerin verilmesini
+     sağlıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-ç
+
+709. **Soru:** İşveren, Kurum (Nükleer Düzenleme Kurumu) tarafından
+     belirlenen sıklıkta güvenlik ve emniyet değerlendirmeleri yapıyor
+     veya yaptırıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-d
+
+710. **Soru:** İşveren, mevzuatta ve yönetim sisteminde tanımlı
+     kayıtları tutup, gerekli bildirim ve raporlamaları yapıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-f
+
+711. **Soru:** İşveren, radyasyon acil durumlarının saha içi yönetimini
+     yürütüyor, saha dışı acil durumların yönetiminde AFAD ve ilgili
+     kurumlarla iş birliği yapıyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/1-i
+
+712. **Soru:** İşveren, yükümlülükleri sona ermeden, faaliyetin
+     yürütüldüğü yeri veya tesisi, nükleer maddeyi, radyoaktif kaynağı
+     veya radyoaktif atığı sahipsiz kalacak şekilde terk etmiyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 5/4
+
+713. **Soru:** İşveren, radyoaktif atık üretiyorsa radyoaktif atık
+     yönetimi özel hesabına, nükleer/radyasyon/radyoaktif atık tesisi
+     işletiyorsa işletmeden çıkarma özel hesabına belirlenen tutarda
+     katkı payı ödüyor mu?
+     **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 10/1
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Düzenleme Kanunu'nun (7381) aşağıdaki maddeleri (TAMAMLANDI —
+  bkz. soru 705-713): Madde 1-2 (amaç/kapsam/tanımlar); Madde 3-4
+  (uluslararası anlaşmalara uyma, Kurumdan yetki alma — idari başvuru
+  süreci); Madde 5/1-g,ğ (Kurum'a bilgi/belge sunma, Kurum istekli
+  araştırma — düzenleyiciye karşı yükümlülük, çalışan koruması değil),
+  5/1-h (nükleer güvence/silah yayılmasının önlenmesi — ulusal
+  güvenlik/nonproliferation, İSG değil), 5/1-ı (Kurum denetimi sonrası
+  düzeltici faaliyet — bağımsız denetlenebilir yükümlülük değil),
+  5/1-j (Kurum'un ilave yükümlülükleri — belirsiz/içeriksiz çerçeve
+  hüküm), 5/1-k (düzenleyici kontrolden çıkarılma şartları — dekomisyon
+  süreci); Madde 5/2 (gerçek kişi yetkilendirilenler için aynı genel
+  ilke — 5/1-a ile örtüşüyor), 5/3, 5/5-6 (sorumluluk tahsisi/mali
+  yükümlülük/sorumluluğun sona ermesi — hukuki çerçeve, denetlenebilir
+  duty değil); Madde 6-9 (Kurumun saha onayı/denetim yetkisi/sınır
+  dışından atık yasağı — düzenleyici makamın kendi süreci); Madde
+  11 (Hesaplar Yönetim Kurulu yapısı — idari kurul); Madde 12-20
+  (nükleer kaza sivil sorumluluk/tazminat/sigorta rejimi — Paris
+  Sözleşmesi temelli üçüncü taraf zarar sorumluluğu, işçi İSG'si değil,
+  trafik sigortasına benzer mali teminat rejimi); Madde 21-23
+  (Kurumun kendi yapısı/personeli/NÜTED şirketi — kurumsal); Madde
+  24-25 (ceza/idari para cezası hükümleri — Türk Ceza Kanunu skip
+  gerekçesiyle aynı, bağımsız yükümlülük tanımlamıyor); Madde 26-29
+  (çeşitli/yürürlük/yürütme).
 - Taşınabilir Otomatik Şok Cihazı (OED) Hakkında Yönetmeliğin aşağıdaki
   maddeleri (TAMAMLANDI — bkz. soru 700-704): Madde 1-4 (amaç/kapsam/
   dayanak/tanımlar); Madde 5/2 (Millî Savunma/Jandarma/Sahil Güvenlik/
