@@ -5056,6 +5056,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Muhtemel Patlayıcı Ortamda Kullanılan Teçhizat ve Koruyucu Sistemler İle
+  İlgili Yönetmelik (2014/34/AB) — ATEX ekipman direktifinin transpozisyonu;
+  SEA/CLP ve Asansör Yönetmeliği ile aynı yapı, imalatçı/ithalatçının
+  piyasaya arz/CE işaretleme/piyasa gözetimi yükümlülükleri. "İşveren"
+  hiç geçmiyor. (Karıştırılmamalı: işveren-çalışan ATEX çalışma ortamı
+  yükümlülükleri "Çalışanların Patlayıcı Ortamların Tehlikelerinden
+  Korunması Hakkında Yönetmelik"te zaten havuzda — bkz. soru 1281-1335
+  civarı.)
 - Asansör Yönetmeliği (2014/33/AB) — AB Asansör Direktifi'nin transpozisyonu;
   asansör/asansör güvenlik aksamlarının piyasaya arzı için imalatçı/
   montajcı/ithalatçı/dağıtıcının CE işaretlemesi, uygunluk değerlendirmesi,
