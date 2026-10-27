@@ -5056,6 +5056,10 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Elektromanyetik Uyumluluk Yönetmeliği (2014/30/AB) — EMC Direktifi
+  transpozisyonu; SEA/CLP, Asansör ve ATEX ekipman yönetmelikleriyle aynı
+  yapı, donanımın piyasaya arzı/CE işaretleme/piyasa gözetimi düzenlemesi.
+  "İşveren" hiç geçmiyor, İSG kapsamı dışında.
 - Muhtemel Patlayıcı Ortamda Kullanılan Teçhizat ve Koruyucu Sistemler İle
   İlgili Yönetmelik (2014/34/AB) — ATEX ekipman direktifinin transpozisyonu;
   SEA/CLP ve Asansör Yönetmeliği ile aynı yapı, imalatçı/ithalatçının
