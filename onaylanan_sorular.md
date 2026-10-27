@@ -2173,6 +2173,59 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      katılımlarını sağlamaktadır.
      **Mevzuat:** Elle Taşıma İşleri Yönetmeliği, Madde 9
 
+## Genel Yükümlülükler → Gece Vardiyasında Çalışanlar
+
+308. **Soru:** Kadın çalışanlar gece postalarında 7,5 saatten fazla
+     çalıştırılmamaktadır (turizm, özel güvenlik, sağlık hizmeti işleri
+     ve bunların alt işverenlerinde kadının yazılı onayıyla istisna
+     mümkündür).
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 5
+
+309. **Soru:** Belediye sınırları dışındaki işyerleri ile toplu taşımayla
+     ulaşım zorluğu olan işyerlerinde işveren, gece postasında çalışan
+     kadın çalışanları uygun araçla ikametgahlarına en yakın merkezden
+     işyerine götürüp getirmektedir.
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 6
+
+310. **Soru:** Kadın çalışanlar gece postasında çalıştırılmaya
+     başlamadan önce, bunda sakınca olmadığına dair işyeri hekiminden
+     sağlık raporu alınmaktadır.
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 7/1
+
+311. **Soru:** Gece postasında çalıştırılan kadın çalışanların, işin
+     devamı süresince işyeri hekimince belirlenen düzenli aralıklarla
+     sağlık muayeneleri yapılmaktadır.
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 7/2
+
+312. **Soru:** Kadın çalışanın eşi de postalı çalışıyorsa, kadının
+     isteği üzerine gece çalışması eşinin gece postasına rastlamayacak
+     şekilde düzenlenmekte; aynı işyerinde çalışan eşlerin aynı gece
+     postasında çalışma istekleri imkan dahilinde karşılanmaktadır.
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 8
+
+313. **Soru:** İşveren, gece postasında çalıştırdığı kadın çalışanların
+     isim listesini, iş müfettişi denetimlerinde göstermek üzere
+     işyerinde saklamaktadır.
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 10
+
+## Genel Yükümlülükler → Gebe, yeni doğum yapmış ve emziren kadın çalışanlar
+
+314. **Soru:** Gebe çalışanlar doğuma kadar, emziren çalışanlar doğumdan
+     itibaren 1 yıl (gerekli hallerde 6 ay uzatılarak) gece postasında
+     çalıştırılmamakta; bu dönemdeki çalışmaları gündüz postasına denk
+     getirilmektedir.
+     **Mevzuat:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik, Madde 9
+     **Not:** Soru 13 (İş Kanunu Madde 74) analık izni süresini
+     düzenliyor; bu madde gece postası yasağını düzenliyor — farklı
+     açı, mükerrer değil.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2684,6 +2737,18 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   olduğu için ayrı soru yapılmadı. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar) ve Madde 10-12 (yürürlükten kaldırma/yürürlük/yürütme)
   atlandı.
+- Kadın Çalışanların Gece Postalarında Çalıştırılma Koşulları Hakkında
+  Yönetmelik — soru 308-314 eklendi (Madde 5, 6, 7/1, 7/2, 8, 9, 10).
+  Soru 308-309, 310-311, 313 "Genel Yükümlülükler → Gece Vardiyasında
+  Çalışanlar" alt kategorisine; soru 314 (Madde 9, gebe/emziren gece
+  postası yasağı) "Genel Yükümlülükler → Gebe, yeni doğum yapmış ve
+  emziren kadın çalışanlar" alt kategorisine eklendi — soru 13 (İş
+  Kanunu Madde 74, analık izni) ile aynı genel konuyu paylaşıyor ama
+  farklı açı, mükerrer değil. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 11 (uygulamada öncelik — hukuki çatışma kuralı, somut
+  yükümlülük değil), Madde 12 (yürürlükten kaldırma), Geçici Madde 1
+  (eski sağlık raporlarının geçerliliği — geçiş hükmü) ve Madde 13-14
+  (yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
