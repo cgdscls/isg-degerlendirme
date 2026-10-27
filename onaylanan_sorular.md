@@ -4987,6 +4987,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Maddelerin ve Karışımların Sınıflandırılması, Etiketlenmesi ve Ambalajlanması
+  Hakkında Yönetmelik (SEA/CLP, AB 1272/2008'e paralel, 53 madde) — tamamen
+  imalatçı/ithalatçı/tedarikçi/alt kullanıcının maddeleri piyasaya arz etmeden
+  önce sınıflandırma/etiketleme/ambalajlama/bildirim yükümlülüklerini
+  düzenliyor; metinde "çalışan" ve "işveren" hiç geçmiyor. İşverenin
+  kimyasallarla çalışırken çalışanlara yönelik yükümlülükleri zaten "İş
+  Hijyeni → Kimyasal Maddeler" alt kategorisinde (Kimyasal Maddelerle
+  Çalışmalarda Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik) mevcut.
 - Tozla Mücadele Yönetmeliği'nin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
   633-645): Madde 1-4 (amaç/kapsam/dayanak/tanımlar); Madde 7 (Tozla Mücadele
   Komisyonu — Bakanlık düzeyinde idari komisyon, işverene yönelik yükümlülük
