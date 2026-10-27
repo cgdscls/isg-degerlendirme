@@ -5056,6 +5056,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Alışveriş Merkezleri Hakkında Yönetmelik — 6585 sayılı Perakende
+  Ticaretin Düzenlenmesi Hakkında Kanun'a dayanan Ticaret Bakanlığı
+  yönetmeliği; AVM'nin yapısal/işletme nitelikleri (ortak alan, acil
+  tıbbi müdahale ünitesi, bebek bakım odası, ibadet yeri) ve esnaf
+  kiracılara işyeri tahsisini düzenliyor — müşteri/ziyaretçiye ve AVM
+  maliki-esnaf ilişkisine yönelik; "işveren" hiç geçmiyor, İSG kapsamı
+  dışında.
 - Geçici Koruma Sağlanan Yabancıların Çalışma İzinlerine Dair Yönetmelik —
   göç/istihdam yönetmeliği (çalışma izni başvuru usulü, istihdam kotası,
   asgari ücret altında ödeme yasağı); "iş sağlığı ve güvenliği" hiç
