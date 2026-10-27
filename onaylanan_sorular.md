@@ -2116,6 +2116,63 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
      Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 42/2-3
 
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+301. **Soru:** İşveren, çalışanları ve çalışan temsilcilerini, işyeri bina
+     ve eklentilerinde bulunan sağlık ve güvenlikle ilgili riskler ve
+     alınan tedbirler hakkında bilgilendirmektedir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 6
+     **Not (geriye dönük düzeltme):** Bu madde, İşyeri Bina ve Eklentileri
+     Yönetmeliği ilk incelendiğinde (soru 260-291) gözden kaçmış, ne aday
+     listesine ne skip gerekçesine yazılmış. Şimdi düzeltiliyor.
+
+302. **Soru:** İşveren, işyeri bina ve eklentileriyle ilgili konularda
+     çalışanların veya çalışan temsilcilerinin görüşlerini almakta ve
+     katılımlarını sağlamaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 7
+     **Not (geriye dönük düzeltme):** Soru 301 ile aynı gözden kaçma
+     hatasının parçası, şimdi düzeltiliyor.
+
+## İş Hijyeni → Ergonomik Riskler
+
+303. **Soru:** İşveren, işyerinde yüklerin elle taşınmasına gerek
+     duyulmayacak şekilde iş organizasyonu yapmakta ve yükün mekanik
+     sistemler gibi uygun yöntemlerle taşınmasını sağlamaktadır.
+     **Mevzuat:** Elle Taşıma İşleri Yönetmeliği, Madde 5/1-a
+
+304. **Soru:** Elle taşımanın kaçınılmaz olduğu durumlarda işveren, işi
+     sağlık ve güvenlik şartlarına uygun düzenlemekte; Ek-1'deki
+     hususları ve yük özelliklerini değerlendirmekte; çalışanların sırt/
+     bel incinme riskini önlemek veya azaltmak için gerekli önlemleri
+     almaktadır.
+     **Mevzuat:** Elle Taşıma İşleri Yönetmeliği, Madde 6
+     **Not:** Madde 5/1-b bu maddenin özeti niteliğinde olduğu için ayrı
+     soru yapılmadı.
+
+305. **Soru:** Özel politika gerektiren grupların (gebe, 18 yaşından
+     küçükler, kronik hastalığı olanlar vb.) elle taşıma işlerinde
+     karşılaşabileceği tehlikelere karşı Ek-2'deki hususlar dikkate
+     alınarak korunması sağlanmaktadır.
+     **Mevzuat:** Elle Taşıma İşleri Yönetmeliği, Madde 7
+
+## Genel Yükümlülükler → Eğitim
+
+306. **Soru:** İşveren, elle taşıma işlerinde çalışanlara ve/veya
+     temsilcilerine; alınan tedbirler, taşınan yükün özellikleri/ağırlığı
+     ve yüklerin doğru taşınma yöntemi ile yanlış taşınması halinde
+     ortaya çıkabilecek riskler konusunda bilgilendirme ve eğitim
+     vermektedir.
+     **Mevzuat:** Elle Taşıma İşleri Yönetmeliği, Madde 8
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+307. **Soru:** İşveren, elle taşıma işleriyle ilgili konularda
+     çalışanların veya temsilcilerinin görüşlerini almakta ve
+     katılımlarını sağlamaktadır.
+     **Mevzuat:** Elle Taşıma İşleri Yönetmeliği, Madde 9
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2610,6 +2667,23 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   (İSG-KATİP tebligat adresi — kurum muhatap), Madde 43-45 (yürürlükten
   kaldırma/yürürlük/yürütme) ve Ek Madde 1 (afet/OHAL istisnası —
   eğitim kurumlarına özel) atlandı.
+- DÜZELTME: İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve Güvenlik
+  Önlemlerine İlişkin Yönetmelik'in Madde 6 (bilgilendirme) ve Madde 7
+  (görüş alma/katılım) maddeleri ilk incelemede (soru 260-291) hem aday
+  listesine hem skip gerekçesine yazılmadan gözden kaçmış. Soru 301-302
+  olarak geriye dönük eklendi, "Genel Yükümlülükler → Bilgilendirme ve
+  Katılım" alt kategorisine.
+- Elle Taşıma İşleri Yönetmeliği — soru 303-307 eklendi (Madde 5/1-a, 6,
+  7, 8, 9). Soru 303-305 (iş organizasyonu, risk azaltma önlemleri, özel
+  politika grupları), konu olarak ergonomik risk niteliği taşıdığı için
+  "Genel Yükümlülükler → Genel İş Yeri Gereklilikleri" yerine mevcut
+  "İş Hijyeni → Ergonomik Riskler" alt kategorisine yerleştirildi (daha
+  önce Ekranlı Araçlarla Çalışma Yönetmeliği için açılmış alt kategori).
+  Soru 306 "Eğitim", soru 307 "Bilgilendirme ve Katılım" alt
+  kategorisine eklendi. Madde 5/1-b, Madde 6'nın özeti niteliğinde
+  olduğu için ayrı soru yapılmadı. Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar) ve Madde 10-12 (yürürlükten kaldırma/yürürlük/yürütme)
+  atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
