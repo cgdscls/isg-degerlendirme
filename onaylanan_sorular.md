@@ -5454,6 +5454,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Elektrik ile İlgili Fen Adamlarının Yetki, Görev ve Sorumlulukları
+  Hakkında Yönetmelik — tamamı atlandı. 3194 sayılı İmar Kanunu'na
+  dayanan bir mesleki yetkilendirme/lisanslandırma yönetmeliği:
+  elektrik tesisatçılarının ("fen adamı") öğrenim seviyesine göre
+  gruplandırılması, her grubun proje hazırlama/yapım/işletme
+  yetkisinin güç (kW) ve gerilim (Volt) sınırları, meslek odası
+  kaydı, ilgili idareye karşı sorumluluk ve ceza hükümleri. Muhatap
+  fen adamının kendisi, ilgili idareye (belediye/il özel idaresi)
+  karşı mesleki sorumluluğu; işveren-çalışan İSG ilişkisi hiç
+  geçmiyor — Yapı Müteahhitlerinin Sınıflandırılması Yönetmeliği ve
+  benzeri mesleki lisanslandırma skip kategorisiyle aynı.
 - Yataklı Tedavi Kurumları Enfeksiyon Kontrol Yönetmeliği — tamamı
   atlandı. Hastanelerde "enfeksiyon kontrol komitesi"nin teşkili,
   görev/yetkileri ve çalışma usulünü düzenleyen bir sağlık kurumu
