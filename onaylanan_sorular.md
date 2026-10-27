@@ -5349,6 +5349,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Lüks Çadır Tesisleri Nitelikler Yönetmeliği — tamamı atlandı.
+  Turizm belgelendirme/yatırım yönetmeliği (2634 sayılı Turizmi
+  Teşvik Kanunu): yerleşim-tasarım planı, turizm yatırımı/işletme
+  belgesi, kiralama ve ruhsatlandırma süreçleri. Metin boyunca hiç
+  "işveren" veya "çalışan" kelimesi geçmiyor — Basit Konaklama
+  Tesisleri/Plaj İşletmeleri Yönetmeliği için verilen skip
+  gerekçesiyle aynı turizm belgelendirme kategorisi.
 - Korumalı İşyerleri Hakkında Yönetmeliğin aşağıdaki maddeleri
   (TAMAMLANDI — bkz. soru 684-686): Madde 1-3 (amaç/kapsam/dayanak/
   tanımlar), Madde 4-7 (korumalı işyeri statüsü başvurusu/belgeler/
