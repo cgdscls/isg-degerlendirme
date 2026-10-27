@@ -3904,6 +3904,279 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
      Yönetmeliği, Madde 13, Ek-2/1.12
 
+511. **Soru:** İşveren, yeraltı çalışmalarını gösteren üç boyutlu bir
+     çalışma planı (imalat haritası) hazırlar, bunu elektronik ortamda
+     da üç boyutlu olarak tutar, en geç ayda bir güncelleyerek
+     işyerinde bulundurur ve su bulunması muhtemel tabaka/fay/su
+     kaynaklarını haritalara işler mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/1.1-1.3
+
+512. **Soru:** İşveren, yeraltı çalışmalarında birbirinden bağımsız ve
+     güvenli yapıda en az iki ayrı yoldan yerüstü bağlantısı sağlar
+     (yollar arası topuk 30 metreden az olmaz, yol ağızları aynı çatı
+     altında bulunmaz) mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/2
+
+513. **Soru:** İşveren, yeraltı çalışma yerlerini ve yollarını en az
+     riskle çalışılabilecek şekilde yapar/işletir, yolları kolayca
+     bulunabilecek şekilde işaretler, yaya yollarını galeri tabanından
+     en az 180 cm yükseklik ve araçtan en az 60 cm mesafe bırakacak
+     şekilde düzenler, bu mümkün değilse yeterli boyutta güvenlik
+     cepleri yapar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/3.1-3.4
+
+514. **Soru:** İşveren, araba kancalama/boşaltma merkezlerinde gerekli
+     aydınlatmayı sağlar, taşıma araçlarının yoldan kaçmasına karşı
+     tedbir alır, uygun bir işaretleşme sistemi kurar ve başyukarılarda
+     insan/malzeme yollarını cevher/pasa yollarından ayırır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/3.5-3.8
+
+515. **Soru:** İşveren, taşıma araçlarının güvenli kurulum/bakımını
+     sağlar, insan naklinin yapıldığı eğimli galerilerde eğimi 18
+     dereceyle sınırlar (aşımında uygun fren sistemli mekanik vasıta
+     kullanır), insan taşıma araçlarını yazılı talimatla kullandırır
+     ve tek çıkarma sistemli kuyularda insan taşınırken malzeme
+     taşınmasını yasaklar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/4.1-4.3
+
+516. **Soru:** İşveren, patlayıcı/yüksek metan oranlı kömür ve kükürt
+     ocaklarında elektrikli ve benzinli lokomotif kullanımını
+     yasaklar, dizel lokomotiflerde egzoz gazı önleme sistemi
+     kullandırır ve freno/vinçle taşıma yapılırken çalışanların bu
+     yollardan yürüyerek iniş-çıkışını yasaklar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/4.4-4.6
+
+517. **Soru:** İşveren, ocakta kullanılacak mekanik taşıt sistemine
+     ilişkin (işaretleşme, hız, kancacı kuralları, uyarı levhaları
+     dahil) yazılı bir nakliyat yönergesi hazırlar ve bunu tüm ocak
+     personeline öğretir mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/4.7
+
+518. **Soru:** İşveren, kuyularda taşımada halat/bağlama düzeni
+     kopma-kayma riskine karşı tedbir alır, koşum düzeninin güvenlik
+     katsayısının kafesin taşıyacağı en çok statik yüke göre en az 12
+     olmasını sağlar ve koşum düzenini altı ayda en az bir kez muayene
+     ettirip sonuçları rapor defterine kaydeder mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/5.1-5.3
+
+519. **Soru:** İşveren, doldurma istasyonu ve lokomotif garajlarını
+     yanmaz malzemeden yapar, yeterli aydınlatma/havalandırma sağlar
+     (açık alevli ışık yasak) ve akümülatörlü lokomotiflerin
+     akümülatör doldurma işlemlerini yönetmelikte belirtilen özel
+     koşullara uygun istasyonlarda yaptırır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/6.1-6.3
+
+520. **Soru:** İşveren, taş/toprak/kömür/cevher kayma ve düşmelerini
+     önlemek için uygun ve yeterli tahkimat yapar, tavan/duvar/
+     tahkimatı düzenli muayene ettirir, planlara ve yazılı talimatlara
+     uygun tahkimat yapılmasını sağlar ve galerileri zemin sağlamlığı
+     açısından düzenli kontrol ettirir mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/7.1-7.6
+
+521. **Soru:** İşveren, tavanın kendini taşıyamadığı tüm açık tutulan
+     yeraltı alanlarında tahkimat zorunlu kılar ve tahkimattan
+     sorumlu çalışan, çevre güvenliği, malzeme bulunurluğu ve
+     kendiliğinden yanmaya meyilli/grizulu ocaklara özel tedbirleri
+     kapsayan yazılı bir tahkimat yönergesi hazırlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/7.7
+
+522. **Soru:** İşveren, çalışılan bütün yeraltı işletmelerinde
+     üretime başlamadan önce uygun bir havalandırma sistemi kurar
+     (solunabilir hava, patlama riski/toz kontrolü, sürekli
+     havalandırma), doğal havalandırmanın yetersiz olduğu yerlerde
+     mekanik sistem kullanır, periyodik ölçüm yaptırıp havalandırma
+     planı/defteri tutar ve hava hızının 0,5 m/s'nin altına
+     düşmemesini sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/8.1-8.3
+
+523. **Soru:** İşveren, insan/malzeme taşınan yollarda hava hızının 8
+     m/s'yi geçmemesini, oksijen/metan/karbondioksit/karbonmonoksit/
+     hidrojensülfür için belirlenen tehlike eşiklerinin aşıldığı
+     yerlerde kurtarma dışında çalışmayı yasaklamayı ve terk
+     edilmiş/yetersiz havalandırılan yerlerin kapatılıp
+     işaretlenmesini sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/8.4-8.6
+
+524. **Soru:** İşveren, havalandırma sistemini kapı/perdelerle
+     yönlendirir, barajları patlama/yangına dayanıklı yapar, ana
+     havalandırma fanını yedek güç kaynağına bağlar, ocak sıcaklık/
+     nem oranını düzenli ölçtürür ve hava giriş kuyusuna kömür tozu
+     girişini önleyici tedbirler alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/8.7-8.10
+
+525. **Soru:** İşveren, havalandırma sistemi, planı, etkileyen
+     durumlar, ölçüm sorumluları/sıklığı ve gaz ölçümlerini kapsayan
+     yazılı bir havalandırma yönergesi hazırlayıp çalışanların
+     görebileceği yerlere asar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/8.11
+
+526. **Soru:** İşveren, belirlenen metan/grizu konsantrasyonunun
+     bulunduğu veya grizu kontrolü yapılamayan tıkanmış silo/kömür/
+     bür açma ve yangın barajı açma işlerinde patlayıcı madde
+     kullanımını yasaklar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/9.1
+
+527. **Soru:** İşveren, grizulu kabul edilen ocaklarda baca
+     ilerlemelerinde kontrol sondajı yaptırır, havalandırma
+     değerlerini her vardiyada ölçtürür, merkezi izleme sistemine
+     bağlı sensörlerle oksijen/metan/CO/H2S/sıcaklık/hava hızını
+     sürekli izletir ve ölçümleri havalandırma defterine kaydettirir
+     mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/10.1-10.4
+
+528. **Soru:** İşveren, grizulu ocaklarda havalandırmayı mekanik
+     sistemle sağlar, metan riskine göre çalışmaları yönetir ve tali
+     havalandırmayı (kısa devre önleme, antistatik vantüp, fan
+     arızasında derhal tahliye, yedek fan hazırlığı) yönetmelikte
+     belirtilen kurallara uygun yürütür mü?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/10.5-10.8
+
+529. **Soru:** İşveren, grizu birikimini önleyecek hava akımı
+     sağlamayan bölme/boru ile havalandırmayı (hazırlık/grizu dağıtma
+     işleri dışında) yasaklar, grizu birikintilerini güvenli şekilde
+     temizletir ve aynı hava akımındaki çalışma yerlerinde metan oranı
+     sınırlarını (ayak/yol %1,5, hava dönüş yolu %1) aşmamasını sağlar
+     mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/10.9-10.11
+
+530. **Soru:** İşveren, grizulu veya yangına elverişli kömür damarı
+     bulunan ocaklarda tüm çalışanlara standartlara uygun oksijenli
+     ferdi kurtarıcı bulundurur, ana havalandırma fanına eşdeğer yedek
+     fan sağlar ve yedek fanın devreye girme testini en geç ayda bir
+     yaptırıp kayıt altına alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/10.12-10.13
+
+531. **Soru:** İşveren, %2'den çok metan tespit edilen ocak
+     kısımlarında kurtarma/temizlik dışında çalışmayı yasaklar, %1,5'i
+     geçen yerlerde elektrik gerilimini derhal kestirir, grizulu
+     ocaklarda yalnız bu tip ocaklara uygun patlayıcı/ateşleyici
+     kullandırır, ateşleyiciye lağım doldurma öncesi/sonrası metan
+     ölçümü yaptırır, sigara/açık alev/kaynak işlerini yasaklar ve
+     yerüstünde grizu tahliyesine karşı tedbir alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/10.14-10.22
+
+532. **Soru:** İşveren, kömür madenlerini (sağlık ve güvenlik
+     dokümanında aksi belirtilmedikçe) yanıcı toz bulunan ocak sayar,
+     toz patlamasına karşı tedbir alır, bu ocaklara özel patlayıcı/
+     ateşleyici kullandırır ve zincirleme toz patlamalarını önleyecek
+     patlama barajları kurup yerlerini imalat haritası ve
+     havalandırma planında gösterir mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/11.1-11.4
+
+533. **Soru:** İşveren, kömür ocaklarındaki arabaların kömür tozu
+     dökmeyecek şekilde olmasını, üretim/taşıma/aktarma yerlerinde
+     pülverize su gibi toz önleme tedbirlerini ve taş tozu serpme
+     işleminin yönetmelikte belirtilen özellik ve aralıklarla
+     yapılmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/11.5-11.7
+
+534. **Soru:** İşveren, ani gaz geliri/göçük/su baskını ihtimali olan
+     bölgelerde çalışanların korunması için sağlık ve güvenlik
+     dokümanında planlanan faaliyetleri uygular, tehlikeli su/akıcı
+     malzeme bulunan kuyularda derhal çıkış tedbiri alır ve ocak
+     ağızlarını doğal afetlerden zarar görmeyecek yerlerde seçer mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/12.1-12.4
+
+535. **Soru:** İşveren, yeraltı kömür ocaklarında gaz degaj riskini
+     (damar gaz içeriği, desorbsiyon kapasitesi, bilimsel değerlendirme
+     ile) sağlık ve güvenlik dokümanında değerlendirir ve degaj riski
+     belirlenen yerlerde gaz drenajı, uygun topuk bırakma veya
+     kontrollü sondajla ilerleme tedbirlerinden en az birini uygular
+     mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/12.5-12.5.2
+
+536. **Soru:** İşveren, gaz degaj riskinin belirlenemediği veya eski
+     çalışma yerlerinde su birikimi olan durumlarda, lağım/galeri/
+     bacalarda yönetmelikte belirtilen aralık ve yönlerde (en az 25
+     metre, 15 metre topuk bırakarak) kontrol sondajları yaptırır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/12.5.3-12.5.5
+
+537. **Soru:** İşveren, kendiliğinden tutuşmayı önlemek/erken fark
+     etmek için tedbir alır, ana yol ve havalandırma yollarının
+     mümkünse kömür içinden geçirilmemesini sağlar, zorunlu
+     ihtiyaçtan fazla yanıcı madde yeraltına indirmez ve hidrolik
+     sıvıların yangına dayanıklılık/hijyen kriterlerine uygun olmasını
+     sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/13.1-13.3
+
+538. **Soru:** İşveren, çalışanlara her zaman kolay erişilebilir
+     yerlerde kişisel solunum koruma cihazı verir, bu cihazların
+     kullanımı konusunda eğitim verir ve düzenli kontrol ile çalışır
+     durumda tutar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/14.1
+
+539. **Soru:** İşveren, çalışanlara uygun kişisel lambalar verir ve
+     işyerlerini risk oluşturmayacak, uygun yerleştirilmiş suni
+     aydınlatma tesisatıyla donatır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/15.1-15.2
+
+540. **Soru:** İşveren, her ocakta arama-kurtarma-tahliye destek
+     elemanlarının kullanımı için kapıları, barajları, hava
+     köprülerini, hava akım düzenini ve telefon istasyonlarını
+     gösteren bir kurtarma planı bulundurur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/16.1
+
+541. **Soru:** İşveren, su dolu olduğu bilinen/kuşkulanılan tabakalar
+     altındaki ocaklarda emniyet topuğu bırakır ve çözünebilir taş/
+     jips yatakları altındaki damarları terk etmeden önce su girişini
+     engelleyecek şekilde tıkar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/17.1-17.2
+
+542. **Soru:** İşveren, yeraltı maden işletmesinin tüm bölümlerini
+     kapsayan, yanmaya/kopmaya/aşınmaya dayanıklı bir hayat hattı
+     kurar, hayat hattının acil durumlarda kullanımı konusunda
+     çalışanları eğitir ve hattın zarar görmemesini, görürse en kısa
+     sürede onarılmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/18-18.3
+
+543. **Soru:** İşveren, hayat hattını yönetmelikte belirtilen teknik
+     özelliklere (sehimsiz montaj, yanmaz polipropilen malzeme, sarı
+     renk/7mm çap, 10 metre aralıklı konik gösterge, yönlü reflektör
+     levha, galeri/üretim alanı kesişim göstergeleri, ferdi kurtarıcı
+     istasyonu ve sığınma odası bağlantı işaretleri) uygun şekilde
+     tesis eder mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/18.4-18.10
+
+544. **Soru:** İşveren, kömür ve türevleri hariç yeraltı maden
+     işyerlerinde acil durumlarda kullanılmak üzere sığınma odaları
+     kurar mı (henüz üretim aşamasına geçmemiş işyerleri bu odaları
+     üretime geçtiklerinde kurar)?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-3/19
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4540,11 +4813,12 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yaptığından ayrı soru açılmadı. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar) ve Madde 8-10 (yürürlükten kaldırma/yürürlük/yürütme)
   atlandı.
-- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (3. PARÇA —
-  Madde 1-13 + EK MADDE 1 + Ek-1 + Ek-2 tamamlandı; Ek-3/4 ayrı
-  turlarda işlenecek, bu mevzuat henüz tamamlanmadı) — soru 463-477
-  (1. parça), soru 478-505 (Ek-1) ve soru 506-510 (Ek-2) eklendi,
-  "Genel Yükümlülükler → Maden İşyerleri" alt kategorisine. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
+- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (4. PARÇA —
+  Madde 1-13 + EK MADDE 1 + Ek-1 + Ek-2 + Ek-3 tamamlandı; Ek-4 ayrı
+  bir turda işlenecek, bu mevzuat henüz tamamlanmadı) — soru 463-477
+  (1. parça), soru 478-505 (Ek-1), soru 506-510 (Ek-2) ve soru
+  511-544 (Ek-3) eklendi, "Genel Yükümlülükler → Maden İşyerleri" alt
+  kategorisine. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
   5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b, EK MADDE 1/1-c, EK MADDE
   1/1-d, EK MADDE 1/1-e. Soru 475-476 (Madde 10, 12) "Genel
   Yükümlülükler → Bilgilendirme ve Katılım"; soru 477 (Madde 11)
