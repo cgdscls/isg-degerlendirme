@@ -5074,6 +5074,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Analık İzni veya Ücretsiz İzin Sonrası Yapılacak Kısmi Süreli Çalışmalar
+  Hakkında Yönetmelik — 4857 sayılı İş Kanunu Madde 13'e dayanan çalışma
+  süresi/izin düzenlemesi (analık izni süreleri, ücretsiz izin, kısmi
+  süreli çalışma talebi usulü); "iş sağlığı" hiç geçmiyor. Gebe/emziren
+  çalışanların sağlık/güvenlik korumasını düzenleyen "Genel Yükümlülükler
+  → Gebe, yeni doğum yapmış ve emziren kadın çalışanlar" kategorisiyle
+  karıştırılmamalı — bu yönetmelik izin süresi/idari usul, İSG değil.
 - Basit Basınçlı Kaplar Yönetmeliği (2014/29/AB) — Asansör, ATEX, EMC ve
   Düşük Gerilim yönetmelikleriyle aynı yapı, ürünün piyasaya arzı/CE
   işaretleme/piyasa gözetimi düzenlemesi. "İşveren"/"çalışan" hiç
