@@ -4987,6 +4987,11 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- İş Yeri Dışında Kurulan Sözleşmeler Yönetmeliği — İSG ile ilgisi yok;
+  6502 sayılı Tüketicinin Korunması Hakkında Kanun'a dayanan bir tüketici
+  koruma yönetmeliği (kapıdan kapıya satış, mesafeli iletişimle kurulan
+  sözleşmeler, cayma hakkı). "İş yeri" burada satıcının satış noktası
+  anlamında; metinde "çalışan"/"işveren" hiç geçmiyor.
 - Maddelerin ve Karışımların Sınıflandırılması, Etiketlenmesi ve Ambalajlanması
   Hakkında Yönetmelik (SEA/CLP, AB 1272/2008'e paralel, 53 madde) — tamamen
   imalatçı/ithalatçı/tedarikçi/alt kullanıcının maddeleri piyasaya arz etmeden
