@@ -5088,6 +5088,9 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Basınçlı Ekipmanlar Yönetmeliği (2014/68/AB) — Asansör, ATEX, EMC, Düşük
+  Gerilim ve Basit Basınçlı Kaplar yönetmelikleriyle aynı yapı, piyasaya
+  arz düzenlemesi. "İşveren"/"çalışan" hiç geçmiyor, İSG kapsamı dışında.
 - Yağmursuyu Toplama, Depolama ve Deşarj Sistemleri Hakkında Yönetmelik —
   drenaj sistemlerinin mühendislik tasarım standardı (belediyeler/tasarımcı
   mühendislere yönelik). "İş sağlığı ve güvenliği"/"çalışanların sağlığı ve
