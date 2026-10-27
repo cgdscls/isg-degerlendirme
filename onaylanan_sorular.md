@@ -5454,6 +5454,29 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Sağlık Raporları Yönetmeliği — tamamı atlandı. Sağlık Bakanlığının
+  sağlık hizmeti sunucularına (resmi/özel hastane, klinik, hekim)
+  yönelik, her türlü sağlık raporunun (genel sağlık durumu, maluliyet/
+  çalışma gücü kaybı, silah ruhsatı, güvenlik görevlisi, nakdi tazminat,
+  patlayıcı madde kullanım izni, evlilik öncesi, refakat izni, atamaya
+  esas, özel eğitim, toplu yaşam merkezi, spor, sürücü, askeri personel,
+  pilot/dalgıç, gemiadamı, adli tıp) hangi usulle, hangi sağlık
+  kurulunda, hangi formatta düzenleneceği ve itiraz süreçlerini
+  belirleyen 72 maddelik idari yönetmelik. Metin boyunca hiç "işveren"
+  kelimesi geçmiyor; muhatap sağlık hizmeti sunucuları ve rapor talep
+  eden kişiler (çoğunlukla istihdam dışı bağlamlarda). Çalışanların
+  Sağlık Gözetimine Yönelik Tıbbi Tetkikler Yönetmeliği ve Yataklı
+  Tedavi Kurumları Enfeksiyon Kontrol Yönetmeliği için verilen skip
+  gerekçesiyle aynı familya: sağlık hizmeti sunucusunun kendi idari
+  süreci, işverenin İSG yükümlülüğü değil.
+- Ulusal İş Sağlığı ve Güvenliği Konseyi Çalışma Usul ve Esasları
+  Hakkında Yönetmelik — tamamı atlandı. 6331 sayılı Kanun'un Madde
+  21'ine dayanan, Bakanlık bünyesindeki danışma kurulunun (Konsey)
+  kendi iç işleyişini düzenleyen yönetmelik: üye yapısı, çalışma
+  grupları, toplantı/karar alma usulü, sekretarya görevleri. Muhatap
+  Konseyin kendisi ve Bakanlık; işverene veya çalışana yönelik hiçbir
+  denetlenebilir yükümlülük içermiyor — devlet kurumunun kendi idari/
+  kurumsal süreci.
 - Elektrik ile İlgili Fen Adamlarının Yetki, Görev ve Sorumlulukları
   Hakkında Yönetmelik — tamamı atlandı. 3194 sayılı İmar Kanunu'na
   dayanan bir mesleki yetkilendirme/lisanslandırma yönetmeliği:
