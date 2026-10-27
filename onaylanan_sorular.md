@@ -5086,8 +5086,28 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      yükümlülük KKDİK'in kendi madde numarasıyla, tedarik zincirinden
      gelen bilginin iletilmesi odaklı; ayrı hüküm.
 
+## Genel Yükümlülükler → İşyeri Bina ve Eklentileri
+
+656. **Soru:** Bina sorumlusu (işveren), işyerinde sürekli kullanılan
+     asansörün güvenli şekilde kullanılmasını sağlamak üzere yılda en az
+     bir defa periyodik kontrolünü Bakanlık tarafından yetkilendirilmiş
+     A tipi muayene kuruluşuna yaptırıyor mu; güvensiz (kırmızı etiketli)
+     bulunan asansörü, altmış gün içinde güvenli hale getirilene kadar
+     kullandırmıyor mu?
+     **Mevzuat:** Asansör Periyodik Kontrol Yönetmeliği, Madde 8/1,4,
+     Madde 26, Madde 34
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Asansör Periyodik Kontrol Yönetmeliği'nin aşağıdaki maddeleri
+  (TAMAMLANDI — bkz. soru 656): Madde 1-7 (amaç/kapsam/dayanak/tanımlar,
+  idari tedbir); Madde 9-23, 27-29, 31-33, 35-38 (A tipi muayene
+  kuruluşu ile ilgili idare arasındaki protokol/akreditasyon/eğitim/
+  veri tabanı/ücret/denetim süreçleri — işveren-çalışan İSG değil);
+  Madde 24-25 (muayene kuruluşunun takip kontrolü/standart uygulama
+  usulü); Madde 30 (muayene kuruluşunun kendi personeli için OSGB/uzman
+  sözleşmesi — denetlenen işyerin işvereniyle ilgili değil); Ek Madde
+  1-2, Geçici Madde 1-7, Madde 39-40 (yürürlük/yürütme).
 - Basınçlı Ekipmanlar Yönetmeliği (2014/68/AB) — Asansör, ATEX, EMC, Düşük
   Gerilim ve Basit Basınçlı Kaplar yönetmelikleriyle aynı yapı, piyasaya
   arz düzenlemesi. "İşveren"/"çalışan" hiç geçmiyor, İSG kapsamı dışında.
