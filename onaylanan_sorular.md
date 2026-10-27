@@ -5265,6 +5265,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Maluliyet ve Çalışma Gücü Kaybı Tespiti İşlemleri Yönetmeliği —
+  tamamı atlandı. 5510 sayılı Kanun kapsamında sigortalıların
+  maluliyet/çalışma gücü kaybı tespitine ve bu tespitte esas alınacak
+  sağlık kurulu raporlarına ilişkin SGK/sağlık kurulu süreç
+  yönetmeliği. Muhatap SGK, sağlık kurulları ve sigortalının kendisi;
+  metinde "işveren" kelimesi bile geçmiyor — 5510 sayılı Kanun
+  değerlendirmesinde zaten kurulan SGK/bordro-tahsilat idari
+  süreçleri skip kategorisine giriyor.
 - Basit Konaklama Tesisleri ile Plaj İşletmelerinin
   Belgelendirilmesine İlişkin Yönetmelik — tamamı atlandı. Turizm
   belgelendirme yönetmeliği (2634 sayılı Turizmi Teşvik Kanunu):
