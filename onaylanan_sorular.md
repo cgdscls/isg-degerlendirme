@@ -5088,6 +5088,12 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Yağmursuyu Toplama, Depolama ve Deşarj Sistemleri Hakkında Yönetmelik —
+  drenaj sistemlerinin mühendislik tasarım standardı (belediyeler/tasarımcı
+  mühendislere yönelik). "İş sağlığı ve güvenliği"/"çalışanların sağlığı ve
+  güvenliği" ifadeleri geçiyor (Madde 8, 14) ama tasarım aşamasında dikkate
+  alınacak bir faktör olarak; somut/denetlenebilir bir işveren-çalışan İSG
+  yükümlülüğü yok.
 - Kimyasalların Kaydı, Değerlendirilmesi, İzni ve Kısıtlanması Hakkında
   Yönetmelik (KKDİK)'in aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 655):
   Madde 1-30, 32-65/A, Geçici Madde 1-2, 66-67 — tamamı imalatçı/ithalatçı/
