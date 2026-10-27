@@ -5263,8 +5263,78 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      sağlıyor mu?
      **Mevzuat:** Uzaktan Çalışma Yönetmeliği, Madde 13/1
 
+## Genel Yükümlülükler → Yıkım İşleri (YENİ alt kategori)
+
+678. **Soru:** Müteahhit, yıkım faaliyetlerine başlamadan önce; yıkım
+     şantiyesini güvenlik ve çevre koruma tedbirleri alarak kurup en
+     az 2,5 metre yükseklikte paravanla çevreliyor, Sağlık ve Güvenlik
+     İşaretleri Yönetmeliği'ne uygun işaretlemeler yapıyor, risk
+     değerlendirmesi sonuçlarına göre yangın güvenlik tedbirleri,
+     yangınla mücadele donanımı, acil tıbbi yardım donanımı ve
+     çalışanlar için güvenilir bir haberleşme sistemi bulunduruyor
+     mu?
+     **Mevzuat:** Binaların Yıkılması Hakkında Yönetmelik, Madde
+     8/1,2,3
+     **Not:** Genel "Sağlık ve Güvenlik İşaretleri Yönetmeliği" ve
+     "İş Sağlığı ve Güvenliği Risk Değerlendirmesi Yönetmeliği"
+     kapsamındaki yükümlülüklerle örtüşüyor — burada yıkım şantiyesine
+     özgü somut uygulama detayları söz konusu.
+
+679. **Soru:** Müteahhit, yıkım faaliyetine başlamadan önce, yıkım
+     esnasında ve yıkım sonrasında, yıkımda çalışanlar ve üçüncü
+     şahıslar için ilgili mevzuatında öngörülen güvenlik tedbirleri
+     ile çevre koruma tedbirlerini alıyor mu?
+     **Mevzuat:** Binaların Yıkılması Hakkında Yönetmelik, Madde 9/1
+
+680. **Soru:** Müteahhit, yıkım makina ve ekipmanlarının yalnızca
+     mesleki yeterlilik belgesine haiz operatörler tarafından
+     kullanılmasını sağlıyor mu?
+     **Mevzuat:** Binaların Yıkılması Hakkında Yönetmelik, Madde 12/1
+
+681. **Soru:** Müteahhit, yıkım faaliyetinin her safhasında 6331
+     sayılı İş Sağlığı ve Güvenliği Kanunu ve Yapı İşlerinde İş
+     Sağlığı ve Güvenliği Yönetmeliği hükümlerine uyulmasını ve yıkım
+     faaliyetinde görev alanların kişisel koruyucu donanım
+     kullanmasını sağlıyor mu?
+     **Mevzuat:** Binaların Yıkılması Hakkında Yönetmelik, Madde 13
+     **Not:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği
+     (soru 555 vd.) ve işyerlerinde KKD kullanılması yönetmeliği ile
+     örtüşüyor — burada yıkım faaliyetine özgü ayrı ve açık bir atıf
+     hükmü.
+
+682. **Soru:** Müteahhit, yıkıma başlanmadan önce asbestli imalatın
+     var olup olmadığını, varsa asbestin türü, miktarı ve yerini
+     belirlemeye yönelik envanter çalışması yaptırıyor mu?
+     **Mevzuat:** Binaların Yıkılması Hakkında Yönetmelik, Madde 16/1
+     **Not:** "Asbestle Çalışmalarda Sağlık ve Güvenlik Önlemleri
+     Hakkında Yönetmelik" ile (zaten soru havuzunda) örtüşüyor —
+     burada yıkıma özgü, yıkıma başlamadan önceki envanter/tespit
+     zorunluluğu; ayrı ve ek bir hüküm.
+
+683. **Soru:** Müteahhit, yıkım faaliyetleri sırasında oluşacak toz
+     emisyonunun kontrolü amacıyla TS 13883 standardına uygun toz
+     bastırma sistemleri kullanılmasını sağlıyor mu?
+     **Mevzuat:** Binaların Yıkılması Hakkında Yönetmelik, Madde 18/3
+     **Not:** Tozla Mücadele Yönetmeliği (soru 633 vd.) ile kavramsal
+     olarak örtüşüyor — burada yıkım faaliyetine özgü toz emisyonu
+     kontrolü; ayrı hüküm.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Binaların Yıkılması Hakkında Yönetmeliğin aşağıdaki maddeleri
+  (TAMAMLANDI — bkz. soru 678-683): Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar), Madde 5 (genel ilkeler — ruhsat/fenni mesuliyet/
+  yetkilendirme süreci, idari), Madde 6 (yıkım planı hazırlama —
+  müellifin/mühendisin teknik görevi), Madde 7 (yıkım ruhsatı —
+  ilgili idare süreci), Madde 10 (yanan ve yıkılan yapılar formu —
+  ilgili idarenin görevi), Madde 11 (yıkım yöntemleri — teknik
+  standart, somut İSG yükümlülüğü değil), Madde 14-15 (atık yönetimi
+  — çevre mevzuatı), Madde 17/1,2 (gürültü/titreşim çevresel rapor —
+  environmental), Madde 17/3 (titreşim/gürültü yönetmeliklerine salt
+  atıf, zaten soru havuzunda — yeni bilgi içermiyor), Madde 16/3
+  (asbest çalışmaları yönetmeliğine salt atıf, zaten soru havuzunda),
+  Madde 19 (atık kodları), Geçici Madde 1, Madde 20-21 (yürürlük/
+  yürütme).
 - Maluliyet ve Çalışma Gücü Kaybı Tespiti İşlemleri Yönetmeliği —
   tamamı atlandı. 5510 sayılı Kanun kapsamında sigortalıların
   maluliyet/çalışma gücü kaybı tespitine ve bu tespitte esas alınacak
