@@ -3304,6 +3304,117 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Balıkçı Gemilerinde Yapılan Çalışmalarda Sağlık ve
      Güvenlik Önlemleri Hakkında Yönetmelik, Madde 12
 
+## İş Hijyeni → Titreşim (YENİ alt kategori)
+
+440. **Soru:** İşveren, çalışanların maruz kaldığı mekanik titreşim
+     düzeyini işyerinde gerçekleştirilen risk değerlendirmesinde ele
+     alıyor, gerekiyorsa yetkili laboratuvara ölçüm yaptırıyor ve
+     değerlendirme/ölçüm sonuçlarını denetimlerde gösterilmek üzere
+     uygun şekilde saklıyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 6
+
+441. **Soru:** Risk değerlendirmesinde; maruziyetin türü, düzeyi ve
+     süresi, maruziyet sınır değerleri ve maruziyet eylem değerleri,
+     özel politika gerektiren gruplar ile kadın çalışanlara etkisi,
+     titreşim ile çalışma ortamı/diğer iş ekipmanları arasındaki
+     etkileşimlerin dolaylı etkisi, imalatçılardan sağlanan bilgiler,
+     alternatif iş ekipmanının bulunup bulunmadığı, bütün vücut
+     titreşimine maruziyetin normal çalışma saatleri dışında da devam
+     edip etmediği, düşük sıcaklık gibi özel çalışma koşulları ve
+     sağlık gözetiminden elde edilen güncel bilgiler dikkate alınıyor
+     mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 7
+
+442. **Soru:** Mekanik titreşimden kaynaklanabilecek riskler
+     kaynağında yok ediliyor veya en aza indiriliyor ve bu süreçte
+     6331 sayılı Kanunun 5 inci maddesinde yer alan korunma
+     ilkelerine uyuluyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/1-2
+
+443. **Soru:** Maruziyet eylem değerlerinin aşıldığının tespit
+     edilmesi halinde; işveren, mekanik titreşime maruziyeti azaltan
+     çalışma yöntemlerinin seçilmesi, ergonomik tasarlanmış uygun iş
+     ekipmanının seçilmesi, titreşimi azaltan oturma/el tutma yerleri
+     gibi yardımcı ekipmanın sağlanması, uygun bakım programlarının
+     uygulanması, işyeri ve çalışma ortamının uygun tasarlanması,
+     çalışanlara gerekli bilgi ve eğitimin verilmesi, maruziyet
+     süresi/düzeyinin sınırlandırılması, yeterli dinlenme aralarıyla
+     çalışma sürelerinin düzenlenmesi ve soğuktan/nemden koruyacak
+     giysi sağlanmasını içeren teknik ve organizasyona yönelik bir
+     eylem planı oluşturup uyguluyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/3
+
+444. **Soru:** Bu Yönetmeliğe göre alınacak önlemlerin, 6331 sayılı
+     Kanunun 10 uncu maddesi uyarınca özel politika gerektiren
+     gruplar ile kadın çalışanların durumlarına uygun olması
+     sağlanıyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/4
+
+445. **Soru:** Çalışanın maruziyeti hiçbir koşulda maruziyet sınır
+     değerini aşmıyor mu; alınan tüm kontrol tedbirlerine rağmen
+     sınır değerin aşıldığı tespit edildiğinde işveren, maruziyeti
+     sınır değerin altına indirmek için gerekli tedbirleri derhal
+     alıyor ve aşılma nedenlerini belirleyip tekrarını önlemeye
+     yönelik gerekli tedbirleri alıyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 9
+
+## Genel Yükümlülükler → Eğitim
+
+446. **Soru:** İşveren; işyerinde mekanik titreşime maruz kalan
+     çalışanların veya temsilcilerinin, risk değerlendirmesi
+     sonuçları, mekanik titreşimden kaynaklanabilecek riskleri önlemek
+     veya en aza indirmek için alınan önlemler, maruziyet sınır ve
+     eylem değerleri, risklerin değerlendirilmesi/ölçüm sonuçları ve
+     kullanılan ekipmandan kaynaklanabilecek yaralanmalar, yaralanma
+     belirtilerinin niçin ve nasıl tespit edilip bildirileceği,
+     çalışanların hangi şartlarda sağlık gözetimine tabi tutulacağı
+     ve maruziyeti en aza indirecek güvenli çalışma uygulamaları
+     konularında bilgilendirilmelerini ve eğitilmelerini sağlıyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 10
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+447. **Soru:** İşveren, bu Yönetmeliğin kapsadığı konularda
+     çalışanların veya temsilcilerinin görüşlerini alıyor ve
+     katılımlarını sağlıyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 11
+
+## Genel Yükümlülükler → Sağlık Gözetimi
+
+448. **Soru:** Çalışanlar; 6331 sayılı Kanunun 15 inci maddesi ve
+     ilgili mevzuat hükümlerine göre gereken durumlarda, işyerinde
+     gerçekleştirilen risk değerlendirmesi sonuçlarına göre
+     gerektiğinde veya maruziyet eylem değerlerini aşan mekanik
+     titreşime maruziyetin olduğu her durumda (sağlığa zararlı etki
+     ile maruziyet arasında ilişki tespit edilebilen, özel çalışma
+     koşullarından kaynaklanma ihtimali bulunan ve geçerli tespit
+     yöntemlerinin bulunduğu hallerde) sağlık gözetimine tabi
+     tutuluyor ve gözetim sonuçlarına göre gerekli koruyucu önlemler
+     alınıyor mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 12/1-2
+
+449. **Soru:** Sağlık gözetimi sonucunda çalışanda mekanik titreşime
+     maruz kalmanın sonucu olarak tanımlanabilir bir hastalık veya
+     olumsuz sağlık etkisi saptanması halinde; çalışan işyeri
+     hekimince kendisiyle ilgili sonuçlar hakkında bilgilendirilir
+     mi, işveren tıbbi gizlilik dikkate alınarak dikkate değer
+     bulgulardan haberdar edilir mi, risk değerlendirmesi ve alınan
+     önlemler gözden geçirilir mi, gerekirse çalışan titreşime maruz
+     kalmayacağı başka bir işte görevlendirilir mi ve benzer biçimde
+     maruz kalan diğer çalışanlar da düzenli sağlık gözetimine tabi
+     tutulur mu?
+     **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 12/3
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -3905,6 +4016,19 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   açılmadan not olarak işlendi. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar), Madde 13 (yürürlükten kaldırma) ve Madde 14-15
   (yürürlük/yürütme) atlandı.
+- Çalışanların Titreşimle İlgili Risklerden Korunmalarına Dair
+  Yönetmelik — soru 440-449 eklendi, yeni "İş Hijyeni → Titreşim" alt
+  kategorisi açıldı (Madde 6, 7, 8/1-2, 8/3, 8/4, 9). Soru 446 (Madde
+  10) "Genel Yükümlülükler → Eğitim"; soru 447 (Madde 11) "Genel
+  Yükümlülükler → Bilgilendirme ve Katılım"; soru 448-449 (Madde
+  12/1-2, 12/3) "Genel Yükümlülükler → Sağlık Gözetimi" alt
+  kategorilerine eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 5 (maruziyet sınır/eylem değerlerinin sayısal tanımı — başlı
+  başına yükümlülük değil, diğer maddelerde referans olarak
+  kullanılıyor), Madde 13 (deniz/hava taşımacılığı için Bakanlık iş
+  müfettişince onaylanan dört yıllık muafiyet — somut işveren
+  yükümlülüğü değil, dar kapsamlı idari istisna) ve Madde 14-16
+  (yürürlükten kaldırma/yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
