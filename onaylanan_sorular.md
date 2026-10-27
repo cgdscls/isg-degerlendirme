@@ -5454,6 +5454,18 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Demiryolu Emniyet Yönetmeliği — tamamı atlandı. Demiryolu altyapı/
+  tren/şehir içi raylı toplu taşıma işletmecilerine yönelik
+  taşımacılık/işletme emniyeti yönetmeliği: emniyet sertifikası/
+  yetkilendirmesi, kaza/olay bildirimi, emniyet yönetim sistemi.
+  Amaç maddesi "demiryolu taşımacılığında emniyet" diyor — tren
+  işletme güvenliği (çarpışma, raydan çıkma, yolcu güvenliği)
+  anlamında bir emniyet, çalışanın işyerindeki İSG'si değil.
+  Makinistlere ilişkin eğitim/yeterlilik maddeleri de mesleki
+  yeterlilik/ehliyet niteliğinde. Metin boyunca hiç "işveren",
+  "6331" veya "iş sağlığı ve güvenliği" kelimesi geçmiyor — BEKRA'dan
+  farklı olarak (orada "işletmeci" açıkça 6331'in işveren tanımına
+  bağlanmıştı), burada böyle bir bağ yok.
 - İş Hijyeni Ölçüm, Test ve Analizleri Hakkında Yönetmeliğin
   aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 692-699): Madde 1-4
   (amaç/kapsam/dayanak/tanımlar), Madde 7-13 (laboratuvarın kendi
