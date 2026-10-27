@@ -5265,6 +5265,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Boru Hatları ile Petrol Taşıma A.Ş. Genel Müdürlüğü (BOTAŞ) Ham
+  Petrol ve Doğal Gaz Boru Hattı Tesislerinin Yapımı ve İşletilmesine
+  Dair Teknik Emniyet ve Çevre Yönetmeliği — tamamı atlandı. Maden/
+  Yapı İşleri gibi sektör geneline uygulanan İSG yönetmeliklerinden
+  farklı olarak Madde 2 (Kapsam) açıkça "BOTAŞ'a ait" tesisleri
+  kapsadığını belirtiyor — tek bir kamu kuruluşuna (BOTAŞ Genel
+  Müdürlüğü) hitap ediyor, genel bir sektöre değil. İçerikte gerçek
+  İSG unsurları var (6331 sayılı Kanun'a atıf, işverenler arası
+  koordinasyon, personel eğitimi, acil durum müdahalesi) ancak metin
+  muhatabı açıkça "BOTAŞ personeli ve kendi kuruluş mevzuatı uyarınca
+  bu faaliyetlerin güvenliğinden sorumlu olan diğer kamu personeli"
+  olarak tanımlanıyor — uygulamanın genel işveren kitlesi için
+  genellenebilir bir yükümlülük değil. **Yeni skip kategorisi: tek
+  isimli kuruluşa özgü yönetmelik** (sektör geneline değil, tek bir
+  kamu kuruluşuna hitap eden).
 - Aerosol Kaplar Yönetmeliği (75/324/AT) — tamamı atlandı. Amaç
   maddesi (Madde 1) "aerosol kapların temel sağlık ve güvenlik
   gereklilikleri, piyasaya arz koşulları ve piyasa gözetimi/denetimi
