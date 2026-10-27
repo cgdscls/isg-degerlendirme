@@ -5265,6 +5265,12 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Sosyal Güvenlik Kurumunca Elektronik Ortamda Yapılacak Tebligata
+  İlişkin Yönetmelik — tamamı atlandı. SGK'nın 5510 ve 6183 sayılı
+  Kanunlar kapsamındaki tebliğ evrakını elektronik ortamda tebliğ
+  etme usullerini düzenleyen tamamen idari-usul yönetmeliği; İSG ile
+  ilgisi yok — 5510 sayılı Kanun değerlendirmesinde zaten kurulan
+  SGK/bordro-tahsilat idari süreçleri skip kategorisine giriyor.
 - Boru Hatları ile Petrol Taşıma A.Ş. Genel Müdürlüğü (BOTAŞ) Ham
   Petrol ve Doğal Gaz Boru Hattı Tesislerinin Yapımı ve İşletilmesine
   Dair Teknik Emniyet ve Çevre Yönetmeliği — tamamı atlandı. Maden/
