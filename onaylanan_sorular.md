@@ -3646,6 +3646,222 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
      Yönetmeliği, Madde 11
 
+## Genel Yükümlülükler → Maden İşyerleri
+
+478. **Soru:** İşveren, yeraltı maden işyerlerinde çalışanların ocağa
+     giriş ve çıkışlarını an be an takip eden bir personel takip
+     sistemi kurar, kayıtları en az bir yıl saklar, işyerinde sağlık
+     ve güvenlikten sorumlu yetkili kişi(ler) atar ve bunların yeterli
+     ve nitelikli personel eşliğinde gözetim ve denetim yapmasını
+     sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/1.1-1.4
+
+479. **Soru:** İşveren, çalışanlara yapacakları işle ilgili bilgi,
+     talimat ve eğitim verir, yazılı talimatlar hazırlar, tek başına
+     çalışmayı yasaklı işlerde izin sistemiyle sınırlar, sağlık ve
+     güvenlik dokümanını ve çalışma izin sistemini oluşturur ve
+     bunları düzenli olarak gözden geçirir mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/1.5-1.10
+
+480. **Soru:** İşveren, grizu/yanıcı toz tehlikesi bulunan yerlerde
+     kullanılan mekanik ve elektrikli ekipman ve tesisatların patlama
+     riskine uygun nitelikte olmasını, 42 volt üstü tesisatın
+     topraklanmasını, bant konveyörlerin yangın önleme donanımıyla
+     donatılmasını, ekipmanın aşırı güçlere karşı korunmasını ve
+     periyodik kontrol/bakımının yapılmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/2.1-2.7
+
+481. **Soru:** İşveren, ekipman ve tesisatların bakım planını ve
+     kayıtlarını tutar, güvenlik ekipmanları ve koruyucu düzenlerin
+     çalışır durumda kalmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/3.1-3.2
+
+482. **Soru:** İşveren, sondaj kuyusu açılması sırasında kuyu kontrol
+     donanımı ve gerekli kontrol ekipmanını bulundurur, petrol/doğal
+     gaz/jeotermal ve kaya gazı sondajlarında bu donanımın çalışır
+     durumda olmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/4.1-4.3
+
+483. **Soru:** İşveren, ortam havasında sağlığa zararlı ve/veya
+     patlayıcı madde bulunup bulunmadığını ölçer, gerekli görülen
+     yerlerde otomatik ölçüm/alarm sistemleri kurar, yangın/patlama
+     tehlikesi olan ortamlarda sigara içilmesini ve açık alev/kıvılcım
+     kaynaklı çalışmayı yasaklar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/5.1-5.2
+
+484. **Soru:** İşveren, zararlı maddelerin ortam havasına
+     karışabileceği yerlerde kaynağında engelleme/emme/azaltma
+     tedbirleri alır, çalışanlara uygun solunum ve canlandırma
+     ekipmanı sağlar, bu ekipmanı kullanabilecek eğitimli çalışan
+     bulundurur ve zehirli gaz riski olan yerler için bir koruma planı
+     hazırlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/5.3
+
+485. **Soru:** İşveren, yangının başlama ve yayılma kaynaklarına karşı
+     tedbir alır, uygun yangın söndürme/algılama/alarm donanımı sağlar,
+     bir yangından korunma planı hazırlar ve kendiliğinden yanmaya
+     elverişli madenlerde bekleme barajları kurarak bunların ardındaki
+     gaz/sıcaklık ölçümlerini en az 10 günde bir yapar ve kayıt altına
+     alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/5.4
+
+486. **Soru:** İşveren, patlayıcı madde ve ateşleyici malzemelerin
+     depolanması, taşınması, kullanılması, lağım delme/doldurma/
+     sıkılama/ateşleme işlemlerinin sadece yetkili ateşleyiciler
+     tarafından ve yönetmelikte belirtilen teknik/güvenlik usullerine
+     (bekleme mesafesi/süresi, patlamamış madde kontrolü dahil) uygun
+     şekilde yapılmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/6.1-6.11
+
+487. **Soru:** İşveren, patlayıcı maddelerin taşınması, depolanması,
+     tecridi, havalandırılması ve yangına karşı alınacak tedbirleri
+     kapsayan yazılı bir yönerge hazırlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/6.12
+
+488. **Soru:** İşveren, radyoaktif maden ve minerallerin arama,
+     üretim ve çıkarılmasıyla ilgili çalışmalarda bunların zararlı
+     etkilerini giderici önleyici veya koruyucu tedbirler alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/7.2
+
+489. **Soru:** İşveren, ulaşım yollarını yaya ve araç trafiğinin
+     güvenli ve kolay olmasını sağlayacak şekilde boyutlandırır,
+     işaretler ve aydınlatır, araç trafiğine açık yollarla yaya
+     geçişleri arasında yeterli mesafe bırakır ve yolları engel/
+     döküntüden temiz tutar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/8.1-8.7
+
+490. **Soru:** İşveren, kurtarma işleri hariç çalışanları sadece
+     insan taşımak için imal edilmiş araçlarla taşır, bu araçlarda
+     hız limitleri belirler ve uygun durdurma tertibatı bulundurur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/9.1
+
+491. **Soru:** İşveren, ocakta kullanılan mobil ekipmanları işaret
+     lambalarıyla donatır, konveyörlerin tehlikeli kısımlarını
+     koruyucu altına alır, acil durdurma düzeni kurar ve taşıyıcı
+     halatların periyodik kontrol/bakımını yaptırır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/9.2-9.5
+
+492. **Soru:** İşveren, açık alanda yapılan çalışmalarda yaya/araç
+     trafiğini güvenli şekilde düzenler, yetersiz gün ışığında uygun
+     aydınlatma sağlar ve çalışanları olumsuz hava koşullarına, cisim
+     düşmesine, kayma/düşmeye karşı korur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/10.1-10.3
+
+493. **Soru:** İşveren, tehlikeli alanları açıkça işaretler, gerekiyorsa
+     etrafını engellerle çevirir, görevli olmayan kişilerin girişini
+     engeller ve merdiven/yükseklik gerektiren yerlerde güvenlik
+     tedbirleri alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/11.1-11.4
+
+494. **Soru:** İşveren, silo/kuyu gibi yerlere güvenlik tedbirleriyle
+     girilmesini sağlar, lağım atılması sonrası kuyuya sağlık ve
+     güvenlik yönünden kontrol yapılmadan kimsenin inmesine izin
+     vermez ve ocaklara kesici/yaralayıcı alet, silah veya alkollü
+     içki girişini yasaklar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/11.5-11.6
+
+495. **Soru:** İşveren, işletmelerin yeraltı ve yerüstü çalışmalarında
+     suların meydana getirebileceği tehlikelere karşı gerekli sağlık
+     ve güvenlik tedbirlerini alır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/12.1
+
+496. **Soru:** İşveren, acil çıkış yollarının ve kapılarının sayısını,
+     boyutunu ve yerini işin niteliğine uygun belirler, bu kapıların
+     kilitli olmamasını ve engelsiz olmasını sağlar, elektrik kesilmesi
+     halinde yedek aydınlatma bulundurur ve kaçış yollarını Sağlık ve
+     Güvenlik İşaretleri Yönetmeliğine uygun işaretler mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/13.1-13.7
+
+497. **Soru:** İşveren, çalışanları acil durumlarda nasıl
+     davranacakları konusunda eğitir, yeterli sayıda arama/kurtarma/
+     tahliye destek elemanı görevlendirir (eğitimleri her 6 ayda bir
+     yeniler) ve bu amaçla kullanılacak ekipmanı kolay erişilebilir,
+     işaretli ve kullanıma hazır bulundurur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/14.1-14.2
+
+498. **Soru:** İşveren, yeraltı maden işyerlerinde arama-kurtarma-
+     tahliye için uygun bir kurtarma istasyonu kurar (yarıçapı 50
+     km'yi geçmeyen işyerleri ortak istasyon kurabilir), yerüstü
+     işyerlerinde ise bu ihtiyacı işyeri özelliklerine göre değerlendirir
+     mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/14.3-14.4
+
+499. **Soru:** İşveren, en geç altı ayda bir güvenlik tatbikatı yapar,
+     tatbikatı görüntülü kaydeder, gerekli tutanakları düzenler ve
+     kullanılan acil durum ekipmanını test edip yeniler mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/15
+
+500. **Soru:** İşveren, çalışma şartlarının gerektirdiği her yerde
+     işaretli ve kolay erişilebilir ilk yardım ekipmanı, işyerinin
+     büyüklüğüne göre bir veya daha fazla ilk yardım odası bulundurur
+     ve İlkyardım Yönetmeliği esaslarına göre destek elemanı
+     görevlendirir mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/16.1-16.4
+
+501. **Soru:** İşveren, çalışma ve geçiş yerlerinin yeterince aydınlık
+     olmasını, mümkün olduğunca doğal ışık almasını sağlar ve
+     aydınlatma arızasının risk oluşturacağı yerlerde yedek aydınlatma
+     sistemi veya kişisel aydınlatma aracı bulundurur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/17.1-17.5
+     **Not:** Genel işyeri aydınlatma yükümlülüğü "Genel Yükümlülükler →
+     İşyeri Bina ve Eklentileri" kapsamında zaten mevcuttur; bu soru
+     madene özgü yedek aydınlatma/kişisel aydınlatma vurgusunu kapsar.
+
+502. **Soru:** İşveren, hafriyat dökme yerlerini, atık yığınları ve
+     sahalarını, çöktürme havuzlarını çalışanların sağlığını ve
+     güvenliğini tehlikeye düşürmeyecek şekilde tasarlar, inşa eder,
+     işletir ve bakımını yapar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/19
+
+503. **Soru:** İşveren, özel iş elbisesi giyen çalışanlar için
+     kadın-erkek ayrı, yeterli büyüklükte, kilitli dolaplı soyunma
+     yerleri sağlar ve ıslak iş elbiselerinin kurutulabilmesi için
+     imkan tanır mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/20.1
+     **Not:** "Genel Yükümlülükler → İşyeri Bina ve Eklentileri"
+     kapsamındaki genel sıhhi tesis sorularıyla örtüşür; madene özgü
+     (yeraltı ocaklarında bu tesislerin yerüstünde bulunabilmesi)
+     unsur bu soruda vurgulanmıştır.
+
+504. **Soru:** İşveren, çalışanlar için kadın-erkek ayrı duş ve
+     lavabo tesisleri (sıcak/soğuk akan su ile) ve yeterli sayıda ayrı
+     tuvalet bulundurur mu; yeraltı ocaklarında bu tesislerin yerüstünde
+     bulunabileceğini kabul eder mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/20.2-20.3
+
+505. **Soru:** İşveren, engelli çalışanların durumunu dikkate alarak,
+     özellikle bu çalışanların kullandığı kapı, geçiş yeri, merdiven,
+     duş, lavabo ve tuvaletlerde gerekli düzenlemeleri yapar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-1/24
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4282,21 +4498,34 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yaptığından ayrı soru açılmadı. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar) ve Madde 8-10 (yürürlükten kaldırma/yürürlük/yürütme)
   atlandı.
-- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (1. PARÇA —
-  Madde 1-13 + EK MADDE 1; Ek-1/2/3/4 ayrı turlarda işlenecek, bu
-  mevzuat henüz tamamlanmadı) — soru 463-477 eklendi, yeni "Genel
-  Yükümlülükler → Maden İşyerleri" alt kategorisi açıldı (Madde
-  5/1-1,2,3,4, 5/1-5, 5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b,
-  EK MADDE 1/1-c, EK MADDE 1/1-d, EK MADDE 1/1-e). Soru 475-476
-  (Madde 10, 12) "Genel Yükümlülükler → Bilgilendirme ve Katılım";
-  soru 477 (Madde 11) "Genel Yükümlülükler → Sağlık Gözetimi" alt
-  kategorilerine eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
-  Madde 6 (çalışanın kendi yükümlülüğü — işverenin değil), Madde 13
-  (eklere atıf yapan şemsiye madde — Ek-1/2/3/4 ayrı turlarda
-  işlenecek) ve Geçici Madde 1-4 (geçiş hükümleri — ilgili Ek
-  bentleri işlenirken hatırlanacak) atlandı. Madde 15-16 (yürürlük/
-  yürütme) ise henüz atlanmadı, mevzuatın tamamı işlendiğinde
-  kayda geçecek.
+- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (2. PARÇA —
+  Madde 1-13 + EK MADDE 1 + Ek-1 tamamlandı; Ek-2/3/4 ayrı turlarda
+  işlenecek, bu mevzuat henüz tamamlanmadı) — soru 463-477 (1. parça)
+  ve soru 478-505 (Ek-1) eklendi, "Genel Yükümlülükler → Maden
+  İşyerleri" alt kategorisine. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
+  5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b, EK MADDE 1/1-c, EK MADDE
+  1/1-d, EK MADDE 1/1-e. Soru 475-476 (Madde 10, 12) "Genel
+  Yükümlülükler → Bilgilendirme ve Katılım"; soru 477 (Madde 11)
+  "Genel Yükümlülükler → Sağlık Gözetimi" alt kategorilerine eklendi.
+  Ek-1 (soru 478-505): 24 ana başlıktan 21 tanesi soru haline
+  getirildi (bazıları alt bentleriyle birlikte kümelenerek). Ek-1'in
+  7.1 (Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik Önlemleri
+  Yönetmeliği'ne salt atıf), 18 (Gürültü + Titreşim + toz
+  yönetmeliklerine salt atıf) ve 23 (Gebe veya Emziren Kadınlar
+  Yönetmeliği'ne salt atıf) bentleri, zaten soru havuzunda bulunan
+  başka bir yönetmeliğe yeni bilgi içermeyen salt atıf niteliğinde
+  olduğu için atlandı. Ek-1'in 21-22 bentleri (yerüstü yardımcı
+  tesislere ilişkin zemin/duvar/pencere/kapı/havalandırma/sıcaklık/
+  dinlenme yeri hükümleri), "Genel Yükümlülükler → İşyeri Bina ve
+  Eklentileri" alt kategorisinde zaten kapsanan genel yapı
+  gereklilikleriyle örtüştüğü için kullanıcı kararıyla ayrı soru
+  olarak yazılmadı; soru 501 ve 503'e bu örtüşmeyi işaret eden Not
+  eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde 6
+  (çalışanın kendi yükümlülüğü — işverenin değil), Madde 13 (eklere
+  atıf yapan şemsiye madde — Ek-2/3/4 ayrı turlarda işlenecek) ve
+  Geçici Madde 1-4 (geçiş hükümleri — ilgili Ek bentleri işlenirken
+  hatırlanacak) atlandı. Madde 15-16 (yürürlük/yürütme) ise henüz
+  atlanmadı, mevzuatın tamamı işlendiğinde kayda geçecek.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
