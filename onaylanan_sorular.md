@@ -5454,6 +5454,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Yataklı Tedavi Kurumları Enfeksiyon Kontrol Yönetmeliği — tamamı
+  atlandı. Hastanelerde "enfeksiyon kontrol komitesi"nin teşkili,
+  görev/yetkileri ve çalışma usulünü düzenleyen bir sağlık kurumu
+  idari yönetmeliği (3359 sayılı Sağlık Hizmetleri Temel Kanunu).
+  Muhatap "yönetim" (hastane idaresi), amaç "sağlık hizmeti ile
+  ilişkili enfeksiyonları önlemek" — hasta güvenliği/halk sağlığı
+  maksatlı, 6331 sayılı Kanun kapsamında işverenin çalışana yönelik
+  İSG yükümlülüğü değil. Metin boyunca hiç "işveren" kelimesi
+  geçmiyor — Lejyoner Hastalığı ve Kanser Bildirimi/Kayıt Merkezleri
+  yönetmelikleriyle aynı kamu sağlığı/sağlık tesisi idari yönetmeliği
+  kategorisi.
 - Sığınak Yönetmeliği — tamamı atlandı. 3194 sayılı İmar Kanunu'na
   dayanan, nükleer/konvansiyonel silah, biyolojik-kimyevi harp
   maddeleri ve tabii afetlere karşı bina sığınaklarının inşası/
