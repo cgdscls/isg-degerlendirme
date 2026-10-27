@@ -5319,8 +5319,46 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      olarak örtüşüyor — burada yıkım faaliyetine özgü toz emisyonu
      kontrolü; ayrı hüküm.
 
+## Genel Yükümlülükler → Korumalı İşyerleri (YENİ alt kategori)
+
+684. **Soru:** Korumalı işyeri veya korumalı iş merkezi işvereni,
+     binanın bulunduğu yerin engelli bireylerin geliş ve gidişlerinde
+     trafik yönünden uygun ve emniyetli olmasını sağlıyor mu?
+     **Mevzuat:** Korumalı İşyerleri Hakkında Yönetmelik, Madde 10
+
+685. **Soru:** İşveren, korumalı işyerinde veya korumalı iş
+     merkezinde yeterli sayıda yangın söndürme cihazı ve malzemesi,
+     sesli ve ışıklı alarm sistemi, engelli bireylerin kullanımına
+     uygun yangın tahliye sistemi bulunduruyor; elektrikli aletler,
+     kesici-delici aletler ve yanıcı/yakıcı maddelerin engelli
+     bireyler için tehlike oluşturmasını önleyecek tedbirleri alıyor
+     mu?
+     **Mevzuat:** Korumalı İşyerleri Hakkında Yönetmelik, Madde 11/1,2
+     **Not:** Genel yangından korunma/elektrik tesisatı
+     yükümlülükleriyle ("İşyeri Bina ve Eklentileri" kategorisi)
+     örtüşüyor — burada engelli çalışanlara özgü ek tedbirler ve
+     erişilebilir tahliye sistemi söz konusu.
+
+686. **Soru:** İşveren, korumalı işyerinin veya korumalı iş
+     merkezinin fiziksel koşullarını (asansör/yangın merdiveni,
+     aydınlatma, kaymayan taban malzemesi, erişilebilir merdiven/
+     kapı, ses yalıtımlı atölye bölmeleri, erişilebilir tuvalet/duş
+     ve diğer zorunlu bölümler) bu Yönetmelikte belirtilen
+     erişilebilirlik standartlarına uygun şekilde düzenliyor mu?
+     **Mevzuat:** Korumalı İşyerleri Hakkında Yönetmelik, Madde 12/1
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Korumalı İşyerleri Hakkında Yönetmeliğin aşağıdaki maddeleri
+  (TAMAMLANDI — bkz. soru 684-686): Madde 1-3 (amaç/kapsam/dayanak/
+  tanımlar), Madde 4-7 (korumalı işyeri statüsü başvurusu/belgeler/
+  komisyon değerlendirmesi — idari lisanslandırma süreci), Madde 8-9
+  (personel istihdamı zorunluluğu/personel desteği — kadrolama/eğitim
+  gerekliliği, somut İSG tedbiri değil), Madde 13-15 (engelli bireyin
+  kabulü/ayrılışı, bildirim yükümlülükleri — İŞKUR/Aile Bakanlığı'na
+  idari bildirim), Madde 16-20 (denetim, defter/belge ibrazı, yıllık
+  faaliyet raporu, statü sona erdirme, itiraz — idari süreç), Madde
+  21-23 (yürürlükten kaldırma/yürürlük/yürütme).
 - Çalışanların Sağlık Gözetimine Yönelik Tıbbi Tetkiklerin Usul ve
   Esasları Hakkında Yönetmelik — tamamı atlandı. İşverene değil,
   OSGB/İSGB/ÇASMER'in kendisine (tıbbi tetkik hizmeti sunan birimlere)
