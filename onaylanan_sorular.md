@@ -3415,6 +3415,75 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Çalışanların Titreşimle İlgili Risklerden
      Korunmalarına Dair Yönetmelik, Madde 12/3
 
+## Genel Yükümlülükler → Geçici veya Belirli Süreli Çalışanlar (YENİ alt kategori)
+
+450. **Soru:** İşveren, belirli süreli işlerde veya geçici süreli iş
+     ilişkilerinde, kişisel koruyucu donanımlara erişim dahil olmak
+     üzere çalışanların sağlık ve güvenliğinin korunmasını içeren
+     çalışma koşulları bakımından (diğer çalışanlara göre) farklı
+     uygulamada bulunmuyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 5
+
+451. **Soru:** İşveren, belirli veya geçici süreli çalışanlara işe
+     başlamadan önce yapacakları işin ne olduğu ve karşılaşacakları
+     riskler hakkında gerekli bilgilerin verilmesini sağlıyor mu;
+     işin gerektirdiği mesleki bilgi, yetenek, tecrübe ve gerekli
+     sağlık gözetimi ile iş nedeniyle ortaya çıkabilecek ilave özel
+     riskler açıkça belirtiliyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 6
+
+452. **Soru:** İşyerinde iş sağlığı ve güvenliği hizmetlerinin yerine
+     getirilmesi için görevlendirilen kişiler, belirli veya geçici
+     süreli iş sözleşmesiyle istihdam edilecek çalışanlarla ilgili
+     olarak işveren tarafından bilgilendiriliyor ve bu çalışanların da
+     diğer çalışanlarla birlikte sağlık ve güvenliklerinin sağlanması
+     için gerekli çalışmalar yapılıyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 9
+
+453. **Soru:** Geçici iş ilişkisi kurulacak işveren, çalışanlarını
+     devredecek diğer işverene 6331 sayılı Kanunun 16 ncı maddesinin
+     birinci fıkrasında belirtilen hususlar ile yapılacak işin
+     gerektirdiği mesleki bilgi, yetenek ve işin özellikleri hakkında
+     gerekli bilgiyi veriyor ve bu bilgilerin sözleşmede yer almasını
+     sağlıyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 10/a
+
+454. **Soru:** Çalışanlarını geçici olarak devredecek işveren, aldığı
+     bu bilgileri geçici iş ilişkisi ile çalıştırılacak çalışanlara
+     veriyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 10/b
+
+455. **Soru:** Çalışanlarını geçici olarak devreden işveren ile
+     birlikte geçici iş ilişkisi kurulan işveren, yapılan iş süresince
+     işin yapılmasıyla ilgili iş sağlığı ve güvenliği ile iş hijyeni
+     konularından birlikte sorumlu mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 11
+
+## Genel Yükümlülükler → Eğitim
+
+456. **Soru:** İşveren, belirli veya geçici süreli iş sözleşmesiyle
+     istihdam edeceği çalışanların bilgi ve tecrübelerini dikkate
+     alarak, yapacakları işin niteliğine uygun yeterli eğitim
+     almalarını sağlıyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 7
+
+## Genel Yükümlülükler → Sağlık Gözetimi
+
+457. **Soru:** Sağlık ve güvenlik yönünden özel sağlık gözetimi
+     gerektiren işlerde, belirli veya geçici süreli çalışanlar işin
+     gerektirdiği özel sağlık gözetimine tabi tutuluyor mu; işten
+     kaynaklanan gereklilik sürdüğü takdirde bu gözetim çalışanın
+     sözleşme süresinin sona ermesinden sonra da sürdürülüyor mu?
+     **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
+     Güvenliği Hakkında Yönetmelik, Madde 8
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4029,6 +4098,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   müfettişince onaylanan dört yıllık muafiyet — somut işveren
   yükümlülüğü değil, dar kapsamlı idari istisna) ve Madde 14-16
   (yürürlükten kaldırma/yürürlük/yürütme) atlandı.
+- Geçici veya Belirli Süreli İşlerde İş Sağlığı ve Güvenliği Hakkında
+  Yönetmelik — soru 450-457 eklendi, yeni "Genel Yükümlülükler →
+  Geçici veya Belirli Süreli Çalışanlar" alt kategorisi açıldı (Madde
+  5, 6, 9, 10/a, 10/b, 11). Soru 456 (Madde 7) "Genel Yükümlülükler →
+  Eğitim"; soru 457 (Madde 8) "Genel Yükümlülükler → Sağlık
+  Gözetimi" alt kategorilerine eklendi. Madde 1-4 (amaç/kapsam/
+  dayanak/tanımlar), Madde 12 (hüküm bulunmayan hallerde 6331 sayılı
+  Kanunun uygulanması — somut yükümlülük değil, hukuki tamamlama
+  kuralı), Madde 13 (daha uygun önlem almaya engel olmama — izin/
+  serbestlik hükmü) ve Madde 14-16 (yürürlükten kaldırma/yürürlük/
+  yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
