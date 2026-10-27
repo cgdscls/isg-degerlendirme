@@ -5041,8 +5041,30 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      Yürütülecek İş Sağlığı ve Güvenliği Hizmetlerine İlişkin Yönetmelik,
      Madde 19
 
+## Genel Yükümlülükler → İlkyardım (YENİ alt kategori)
+
+652. **Soru:** İşveren, işyerinde iş sağlığı ve güvenliği kapsamında
+     işyerinin tehlike sınıfına göre belirlenen sayıda ilkyardımcı
+     bulunduruyor mu (az tehlikeli işyerlerinde her 20 çalışan için 1,
+     tehlikeli işyerlerinde her 15 çalışana kadar 1, çok tehlikeli
+     işyerlerinde her 10 çalışana kadar 1 ilkyardımcı)?
+     **Mevzuat:** İlkyardım Yönetmeliği, Madde 19/1
+     **Not:** "İşyerlerinde Acil Durumlar Hakkında Yönetmelik"e dayanan
+     genel "ilkyardım eğitimli çalışan hazır bulundurma" yükümlülüğüyle
+     ilişkili (soru 589), ama buradaki sayısal oranlar doğrudan bu
+     Yönetmelikte düzenleniyor — daha spesifik ve ayrı bir hüküm.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- İlkyardım Yönetmeliği'nin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
+  652): Madde 1-4 (amaç/kapsam/dayanak/tanımlar); Madde 5-18 (ilkyardım/
+  eğitici eğitim merkezi açma-kapama şartları, eğitim salonu özellikleri,
+  başvuru belgeleri — eğitim kurumu idari süreçleri, işverenin yükümlülüğü
+  değil); Madde 19/2-3 (özel güvenlik/sürücü kursu ve MEB öğretmen eğitimi
+  zorunlulukları — işveren-çalışan İSG ilişkisi değil); Madde 20-31
+  (eğitim standartları/süreleri, sınav, belgelendirme, ücretler, denetim —
+  eğitim kurumu/Bakanlık süreçleri); Geçici Madde 1-3 (OED eğitimi geçiş
+  hükümleri, Covid-19 güncelleme eğitimi); Madde 32-33 (yürürlük/yürütme).
 - İşyerlerinde İşveren veya İşveren Vekili Tarafından Yürütülecek İş Sağlığı
   ve Güvenliği Hizmetlerine İlişkin Yönetmelik'in aşağıdaki maddeleri
   (TAMAMLANDI — bkz. soru 646-651): Madde 1-4 (amaç/kapsam/dayanak/
