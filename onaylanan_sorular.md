@@ -5321,6 +5321,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Çalışanların Sağlık Gözetimine Yönelik Tıbbi Tetkiklerin Usul ve
+  Esasları Hakkında Yönetmelik — tamamı atlandı. İşverene değil,
+  OSGB/İSGB/ÇASMER'in kendisine (tıbbi tetkik hizmeti sunan birimlere)
+  hitap ediyor: gezici iş sağlığı aracı ve sabit tıbbi tetkik
+  mekânının teknik donanım şartları, bu birimlerin il sağlık
+  müdürlüğüne yetkilendirme başvurusu, personel nitelikleri,
+  radyolojik görüntüleme/teletıp standartları. Metin boyunca
+  "işveren" kelimesi tek bir yerde geçiyor (Madde 16'da, İSGB'nin
+  kendi yetkilendirme başvurusuna eklediği belgeler arasında "işveren
+  imzalı olur yazısı" — işverene yüklenen bir yükümlülük değil,
+  OSGB/İSGB'nin başvuru evrakının bir parçası). "İşyerlerinde İşveren
+  veya İşveren Vekili Tarafından Yürütülecek İSG Hizmetlerine İlişkin
+  Yönetmelik"te OSGB'nin kendi kurumsal sürecine ait maddeleri
+  atlarken kullanılan gerekçeyle aynı kategori: muhatap işveren değil,
+  hizmet sağlayıcı kurum.
 - Binaların Yıkılması Hakkında Yönetmeliğin aşağıdaki maddeleri
   (TAMAMLANDI — bkz. soru 678-683): Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar), Madde 5 (genel ilkeler — ruhsat/fenni mesuliyet/
