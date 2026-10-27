@@ -5452,8 +5452,63 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** İş Hijyeni Ölçüm, Test ve Analizleri Hakkında
      Yönetmelik, Madde 16/9
 
+## Genel Yükümlülükler → Taşınabilir Otomatik Şok Cihazı (OED) (YENİ alt kategori)
+
+700. **Soru:** Aynı kampüste ve aynı anda mevzuatta belirtilen sayıda
+     veya üzeri çalışan bulunan işyerinde (kamu kurum ve kuruluşları
+     dahil), işveren taşınabilir otomatik şok cihazı (OED) bulunduruyor
+     mu?
+     **Mevzuat:** Taşınabilir Otomatik Şok Cihazı Hakkında Yönetmelik,
+     Madde 5/3, Ek-1
+     **Not:** Ek-1'deki çalışan eşiği kademeli olarak düşürülüyor: 2026
+     yıl sonuna kadar 500+, 2027 yıl sonuna kadar 200+, 2028 yıl sonuna
+     kadar 100+ çalışan.
+
+701. **Soru:** İşveren (OED edinici sıfatıyla), yönetmelikte ve Ek-1'de
+     belirtilen asgari teknik standartlara uygun OED cihazını, tıbbi
+     cihaz satış merkezi yetki belgesine sahip bir firmadan temin
+     ediyor mu?
+     **Mevzuat:** Taşınabilir Otomatik Şok Cihazı Hakkında Yönetmelik,
+     Madde 5/1, 8/6
+
+702. **Soru:** İşveren, OED'yi; acil durumda en kısa sürede
+     ulaşılabilir, herkesin görebileceği ve ulaşabileceği yükseklikte,
+     uyarıcı işaretlerle belirtilmiş, ısı/nem/toz/yağmurdan koruyan
+     alarmlı koruyucu dolap içinde konumlandırıyor mu?
+     **Mevzuat:** Taşınabilir Otomatik Şok Cihazı Hakkında Yönetmelik,
+     Madde 6/2
+
+703. **Soru:** İşveren, satın aldığı OED'yi otuz gün içinde OED-Net
+     sistemine kaydettirip, cihazın seri numarası, yerleşimi, konumu ve
+     kat bilgisini sisteme giriyor mu?
+     **Mevzuat:** Taşınabilir Otomatik Şok Cihazı Hakkında Yönetmelik,
+     Madde 8/2, 8/3
+
+704. **Soru:** İşveren, OED'yi kullanım sonrası veya OED-Net'ten uyarı
+     gelmesi halinde en kısa sürede tekrar kullanılır hale getirip
+     (sarf malzeme temini dahil), kullanıma hazır halde bulunduruyor
+     mu?
+     **Mevzuat:** Taşınabilir Otomatik Şok Cihazı Hakkında Yönetmelik,
+     Madde 7/2, 8/5
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Taşınabilir Otomatik Şok Cihazı (OED) Hakkında Yönetmeliğin aşağıdaki
+  maddeleri (TAMAMLANDI — bkz. soru 700-704): Madde 1-4 (amaç/kapsam/
+  dayanak/tanımlar); Madde 5/2 (Millî Savunma/Jandarma/Sahil Güvenlik/
+  Emniyet/Gümrük OED-Net bildirim muafiyeti — bu kurumlara özgü
+  istisna, genel işveren yükümlülüğü değil); Madde 6/1, 6/3 (OED
+  yerleştirmenin genel hükmü ve asgari sayı/konumlandırma esaslarının
+  Bakanlıkça belirlenmesi — Madde 6/2 ile zaten kapsandı); Madde 7/1
+  (OED'yi kimlerin kullanabileceği — yetkilendirme, denetlenebilir
+  yükümlülük değil); Madde 8/1, 8/4 (Bakanlığın ulusal kayıt sistemi
+  kurma/veri saklama yükümlülüğü — idari); Madde 9-11 (tereddüt
+  giderme/yürürlük/yürütme). Ek-1'in işyeri dışındaki satırları
+  (havalimanı, spor tesisi/salonu/stadyum, fitness salonu, kent
+  meydanı, AVM, yolcu terminali, konaklama tesisi/yurt, raylı sistem/
+  tren, yolcu gemisi, etkinlik alanı, ibadethane, TOHM/SEM, benzin
+  istasyonu) sektöre özgü tesis kategorileri — genel işveren kitlesi
+  için genellenebilir değil, atlandı.
 - Sivil Havacılık Güvenliği Yönetmeliği (SHY-GÜVENLİK) — tamamı
   atlandı. Amaç/Kapsam (Madde 1-2) "sivil havacılık alanında kamu
   düzeni ve güvenliğini bozan, yerde veya havada meydana gelebilecek
