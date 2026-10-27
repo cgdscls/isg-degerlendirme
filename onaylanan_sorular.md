@@ -5097,8 +5097,111 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Asansör Periyodik Kontrol Yönetmeliği, Madde 8/1,4,
      Madde 26, Madde 34
 
+## Genel Yükümlülükler → Büyük Endüstriyel Kazalar (YENİ alt kategori)
+
+657. **Soru:** İşletmeci, kuruluşunda büyük endüstriyel kazaların
+     önlenmesi ve etkilerinin azaltılması için bir güvenlik yönetim
+     sistemi kurarak işletiyor ve bu Yönetmeliğin Ek-3'ünde belirtilen
+     asgari unsurları uyguluyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 6/1
+
+658. **Soru:** İşletmeci, kuruluşuna ilişkin bu Yönetmeliğin Ek-7'sinde
+     belirtilen formatta bir bilgi kartı hazırlayarak ilgili valiliğe/
+     büyükşehir belediyesine gönderiyor ve kuruluşta değişiklik
+     olduğunda bu bilgi kartını güncelliyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 6/2,3
+
+659. **Soru:** İşletmeci, kuruluşunun alt veya üst seviyeli kuruluş
+     olarak hangi seviyede bulunduğuna ilişkin bildirimi ilgili
+     mercilere yapıyor ve bildirim kapsamındaki bilgileri değiştiren
+     bir husus ortaya çıktığında bunu 30 gün içinde güncelliyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 7
+
+660. **Soru:** İşletmeci, kuruluşunda meydana gelebilecek büyük kaza
+     senaryolarını ortaya koyan büyük kaza senaryo dokümanını
+     hazırlayarak muhafaza ediyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 8
+     **Not:** Genel risk değerlendirmesi yükümlülüğüyle (6331 sayılı
+     Kanun, Madde 10) kavramsal olarak örtüşüyor — burada kantitatif
+     ve büyük kazaya özgü senaryo analizi söz konusu, genel risk
+     değerlendirmesinden ayrı ve ek bir belge.
+
+661. **Soru:** İşletmeci, büyük kaza senaryo dokümanında domino etkisi
+     gösteren kuruluşlar dahil olmak üzere büyük kaza frekansını
+     1x10⁻⁴/yıl değerinin altına indirecek tedbirleri alıyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 9
+
+662. **Soru:** Alt seviyeli kuruluşun işletmecisi, büyük kaza önleme
+     politika belgesini hazırlayıp muhafaza ediyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 10
+
+663. **Soru:** Üst seviyeli kuruluşun işletmecisi, güvenlik raporunu
+     hazırlayarak Bakanlığa sunuyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 11
+
+664. **Soru:** İşletmeci, büyük kaza önleme politika belgesini veya
+     güvenlik raporunu kuruluşta önemli bir değişiklik olması,
+     kuruluşun kapatılması veya Yönetmelikte belirtilen diğer hâllerde
+     gözden geçirip güncelliyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 12
+
+665. **Soru:** Üst seviyeli kuruluşun işletmecisi, büyük kaza durumunda
+     uygulanacak dâhili acil durum planını hazırlıyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 13
+     **Not:** Genel acil durum planı yükümlülüğüyle (6331 sayılı Kanun,
+     Madde 11) örtüşüyor — burada büyük kaza senaryolarına özgü, ayrı
+     bir plan söz konusu.
+
+666. **Soru:** İşletmeci, dâhili acil durum planını en az 3 yılda bir
+     gözden geçirip güncelliyor ve planın etkinliğini test etmek üzere
+     tatbikat yapıyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 14
+     **Not:** Genel tatbikat yükümlülüğüyle örtüşüyor — burada 3 yıllık
+     periyot ve büyük kaza senaryosuna özgü test, ayrı bir hüküm.
+
+667. **Soru:** İşletmeci, büyük kaza meydana gelmesi veya meydana
+     gelme ihtimalinin ortaya çıkması halinde dâhili acil durum
+     planını uyguluyor ve ilgili mercilere gerekli bilgiyi derhal
+     veriyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 15
+
+668. **Soru:** Üst seviyeli kuruluşun işletmecisi, kuruluşun
+     faaliyetleri ve olası büyük kaza tehlikeleri hakkında kamuyu
+     internet sitesi üzerinden bilgilendiriyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 16
+
+669. **Soru:** İşletmeci, kuruluşunda büyük kaza meydana gelmesi
+     halinde ilgili mercilere derhal bildirim yapıyor ve kazadan
+     sonraki 60 gün içinde kazaya ilişkin raporu ilgili mercilere
+     sunuyor mu?
+     **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
+     Azaltılması Hakkında Yönetmelik, Madde 17
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin Azaltılması
+  Hakkında Yönetmeliğin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
+  657-669): Madde 1-5 (amaç/kapsam/dayanak/tanımlar — Madde 5/h'de
+  "işletmeci" tanımı 6331 sayılı Kanun'un işveren tanımına açıkça
+  bağlanıyor, bu nedenle yönetmelik bütünüyle kapsam dahilinde
+  değerlendirildi), Madde 18-19 (Bakanlığın/ilgili Bakanlıkların kendi
+  denetim ve idari yaptırım süreci — işletmecinin yükümlülüğü değil),
+  Madde 20 (yürürlükten kaldırılan önceki yönetmelik), Madde 21
+  (Bakanlıklar arası tereddüt giderme yetkisi), Geçici Madde 1-4
+  (geçiş hükümleri, tarihleri geçmiş: 1/7/2019 ve öncesi), Madde 22-23
+  (yürürlük/yürütme).
 - Yapı Müteahhitlerinin Sınıflandırılması ve Kayıtlarının Tutulması
   Hakkında Yönetmelik — 3194 sayılı İmar Kanunu'na dayanan müteahhitlik
   yetki belgesi/sınıflandırma yönetmeliği (ekonomik-mali-mesleki-teknik
