@@ -4255,6 +4255,108 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
      Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/7.1-7.3
 
+## Genel Yükümlülükler → Yapı İşleri (YENİ alt kategori)
+
+555. **Soru:** İşveren, yapı alanının düzenli ve temiz tutulmasını,
+     çalışma yerlerine ulaşım/geçiş alanlarının belirlenmesini ve
+     malzemenin kullanım/taşıma şartlarının düzenlenmesini sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 5/1-a,b,c
+
+556. **Soru:** İşveren, tesis ve ekipmanın periyodik bakım/kontrolünü,
+     tehlikeli malzemeler için uygun ve sınırları belirlenmiş
+     depolama alanlarını, bu malzemelerin kullanım/uzaklaştırma
+     koşullarını ve atıkların uygun yöntem/ekipmanla depolanıp
+     uzaklaştırılmasını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 5/1-ç,d,e,f
+
+557. **Soru:** İşveren, iş süresini yapı alanındaki duruma göre
+     yeniden belirler, alt işverenler ve kendi nam ve hesabına
+     çalışanlar arasında işbirliğini sağlar, çevresel/endüstriyel
+     etkileşimi dikkate alır ve çalışanlara uygun kişisel koruyucu
+     donanımı bulundurup kullandırır mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 5/1-g,ğ,h,ı
+
+558. **Soru:** İşveren ve alt işverenler, sağlık ve güvenlik
+     şartlarının sürdürülmesinde Ek-4'teki asgari şartları dikkate
+     alır, sağlık ve güvenlik koordinatörünün uyarı/tespit/
+     talimatlarını ve (inşaata bizzat katılmaları halinde) görüş ve
+     önerilerini dikkate alarak hareket eder mi?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 5/2-3
+
+559. **Soru:** Aynı yapı alanında birden fazla işveren/alt işveren
+     varsa, işveren veya proje sorumlusu bir veya daha fazla sağlık
+     ve güvenlik koordinatörü görevlendirir ve yapı işine başlamadan
+     önce proje hazırlık aşamasında bir sağlık ve güvenlik planı
+     hazırlar veya hazırlanmasını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 8/1-2
+
+560. **Soru:** Yapı işi 30 işgününden fazla sürüp devamlı 20'den
+     fazla çalışan istihdam edilecekse veya iş 500 yevmiyeden fazla
+     çalışma gerektirecekse, işveren veya proje sorumlusu işe
+     başlamadan önce ilgili çalışma ve iş kurumu il müdürlüğüne
+     bildirim yapar ve bildirim bilgilerini içeren levhayı yapı
+     alanında görünür bir yere asıp gerektiğinde güncellenmesini
+     sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 8/4-5
+
+561. **Soru:** İşveren veya proje sorumlusu, projenin tasarım/hazırlık
+     aşamasında mimari, teknik ve organizasyonel kararlar alırken ve
+     iş/iş aşamaları için gereken süreyi hesaplarken Kanunun 5.
+     maddesindeki risklerden korunma ilkelerini gözetir mi?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 9
+
+562. **Soru:** İşveren, sağlık ve güvenlik koordinatörünün proje
+     hazırlık aşamasında sağlık ve güvenlik planını (Ek-2'deki riskli
+     işler varsa özel tedbirleriyle) ve projenin sonraki her türlü
+     yapı işinde (bakım/tadilat/yıkım dahil) kullanılacak bir sağlık
+     ve güvenlik dosyası hazırlamasını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 10
+
+563. **Soru:** İşveren, sağlık ve güvenlik koordinatörünün uygulama
+     aşamasında işverenler/alt işverenler arası organizasyonu, sağlık
+     ve güvenlik planının güncellenmesini, işverenler arası bilgi
+     alışverişini ve yapı alanına yetkisiz kişilerin girişini
+     önleyecek düzenlemeleri koordine etmesini sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 11
+
+566. **Soru:** İşveren, yapı işlerinde kullanılan makine/araç/
+     ekipman/malzeme ve çalışma yöntemlerinin ilgili teknik mevzuata
+     ve standartlara uygun olmasını, mekanik/elektrikli ekipmanın
+     seçimi/kurulması/yerleştirilmesi/işletilmesi/bakımında ilgili
+     yönetmelik hükümlerini dikkate almasını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/1-2
+
+567. **Soru:** İşveren, iş ekipmanlarının asgari sağlık ve güvenlik
+     şartlarına ilişkin Ek-5'te yer alan hükümlere uyar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 14/3
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+564. **Soru:** İşveren, çalışanları veya temsilcilerini yapı
+     alanında alınan sağlık ve güvenlik tedbirleri hakkında kolay ve
+     anlaşılır şekilde bilgilendirir ve iş ekipmanlarının kullanım
+     talimatını çalışanların rahatlıkla okuyabileceği bir yere asar
+     mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 12
+
+565. **Soru:** İşveren, yapı alanının büyüklüğü ve risk derecesini
+     göz önünde bulundurarak çalışanların veya temsilcilerinin
+     görüşlerini alır ve katılımlarını sağlar mı?
+     **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
+     Madde 13
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4917,6 +5019,20 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   aynı. Madde 14/11 (çalışan sigorta primlerinin yatırılması) ise
   5510 sayılı Kanun değerlendirmesinde zaten atlanan SGK/bordro
   kategorisine giriyor, İSG maruziyeti değil.
+- Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği (1. PARÇA —
+  Madde 5-14; Ek-4 ayrı turlarda işlenecek, bu mevzuat henüz
+  tamamlanmadı) — soru 555-563, 566-567 eklendi, yeni "Genel
+  Yükümlülükler → Yapı İşleri" alt kategorisi açıldı. Soru 564-565
+  (Madde 12, 13) "Genel Yükümlülükler → Bilgilendirme ve Katılım" alt
+  kategorisine eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 6 (proje sorumlusu atama — takdir hakkı/sorumluluk
+  netleştirme, somut yükümlülük değil), Madde 7 (kendi nam ve
+  hesabına çalışanların kendi yükümlülüğü — işverenin değil), Madde
+  15-17 (yürürlükten kaldırma/yürürlük/yürütme) ve Geçici Madde 1
+  (geçiş hükmü, tarihi geçmiş) atlandı. Ek-1 (yapı işleri listesi),
+  Ek-2 (riskli işler listesi) ve Ek-3 (bildirim içeriği) ayrı soru
+  gerektirmedi — tanım/liste niteliğinde, Madde 2 ve 8'e referans.
+  Ek-4 (asgari sağlık-güvenlik şartları) ayrı turda işlenecek.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
