@@ -2847,6 +2847,200 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
      Önlemleri Hakkında Yönetmelik, Madde 12/1-ğ
 
+## Genel Yükümlülükler → Gebe, yeni doğum yapmış ve emziren kadın çalışanlar
+
+386. **Soru:** İşveren, gebe veya emziren çalışanın sağlık ve güvenliği
+     için tehlikeli sayılan kimyasal, fiziksel, biyolojik etkenlerin ve
+     çalışma süreçlerinin çalışan üzerindeki etkilerini değerlendiriyor,
+     bu değerlendirmeye göre Ek-I'de belirtilen genel ve özel önlemleri
+     alıyor ve çalışanı değerlendirme sonuçları ile alınması gereken
+     önlemler hakkında bilgilendiriyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     6/2-4
+
+387. **Soru:** Değerlendirme sonuçları gebe veya emziren çalışan için
+     sağlık ve güvenlik riski ortaya çıkardığında, işveren ilgili
+     çalışanın çalışma koşullarını ve/veya çalışma saatlerini geçici
+     olarak değiştiriyor mu; bu mümkün olmadığında çalışanı başka bir
+     işe aktarmak için gerekli önlemleri alıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     7/1-2
+
+388. **Soru:** Sağlık raporuyla gerekli görülmesi halinde gebe çalışan,
+     ücretinde kesinti yapılmadan daha hafif işlerde çalıştırılıyor mu;
+     başka bir işe aktarılması mümkün değilse isteği halinde ücretsiz
+     izinli sayılması sağlanıyor (bu sürenin yıllık ücretli izin
+     hesabına dahil edilmemesi) mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     7/3
+
+389. **Soru:** Gebe olduğu sağlık raporuyla tespit edilen kadın
+     çalışan doğuma kadar, yeni doğum yapmış çalışan ise doğumu
+     izleyen bir yıl boyunca (sağlık ve güvenlik açısından sakıncalı
+     olunduğu sürece daha uzun) gece çalışmaya zorlanmıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 8
+     **Not:** Kadın Çalışanların Gece Postalarında Çalıştırılma
+     Koşulları Hakkında Yönetmelik Madde 9 (soru 314) ile aynı konuyu
+     düzenliyor; mükerrer değil, bu yönetmeliğin kendi hükmü olarak
+     ayrı soru olarak eklendi.
+
+390. **Soru:** Gebe veya emziren çalışan günde yedi buçuk saatten
+     fazla çalıştırılıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 9
+
+391. **Soru:** Çalışanın analık ve süt izni, 4857 sayılı İş Kanununun
+     74 üncü maddesi hükümlerine uygun şekilde uygulanıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 10
+     **Not:** Soru 13'te İş Kanunu Madde 74 zaten soruldu; bu
+     yönetmelik aynı hükme ayrı bir atıf mevzuatı olarak referans
+     veriyor — mükerrer değil, ayrı soru olarak eklendi.
+
+392. **Soru:** Gebe çalışanlara gebelikleri süresince periyodik
+     kontrolleri için ücretli izin veriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 11
+
+393. **Soru:** Emziren çalışanlar, doğum izninin bitiminde ve işe
+     başlamadan önce çalışmaya engel durumları olmadığının raporla
+     belirlenmesi şartına uyularak çalıştırılıyor mu; çalışmasının
+     sakıncalı olduğu hekim raporuyla belirlenen çalışan, raporda
+     belirtilen süre ve işlerde çalıştırılmıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 12
+
+## Genel Yükümlülükler → Emzirme Odaları ve Çocuk Bakım Yurtları (YENİ alt kategori)
+
+394. **Soru:** 100-150 kadın çalışanı olan işyerlerinde Ek-IV
+     şartlarını taşıyan bir emzirme odası, 150'den çok kadın çalışanı
+     olan işyerlerinde ise 0-6 yaşındaki çocuklar için bir yurt
+     kuruluyor mu (işverenler ortaklaşa oda/yurt kurabilir veya
+     yetkili yurtlarla anlaşma yapabilir)?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 13
+     **Not:** Madde 5/3-5'teki hesaplama kuralları (statü ayrımı
+     yapılmaksızın tüm çalışanların sayılması, belediye/mücavir alan
+     sınırındaki işyerlerinin toplam çalışan sayısının esas alınması,
+     annesi ölmüş/velayeti babaya verilmiş erkek çalışanların sayıma
+     dahil edilmesi) bu yükümlülüğün uygulanma usulü olarak aynı
+     soruya dahil edildi, ayrı soru açılmadı.
+
+395. **Soru:** Oda ve yurtlardan sadece kadın çalışanların çocukları
+     ile annesi ölmüş veya velayeti babaya verilmiş erkek çalışanların
+     çocukları faydalanıyor, çocuklar yaş gruplarına göre (0-24 ay,
+     25-48 ay, 49 ay ve üzeri) birbirinden ayrı bulunduruluyor ve
+     amaç dışı kullanım/yabancı kişi girişi önleniyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 14
+
+396. **Soru:** Oda ve yurtlara kabul edilen çocuklar için kayıt-kabul
+     defteri tutuluyor ve tamamen ayrılan çocukların ayrılış nedeni,
+     tarihi ve kiminle çıktığı gözlem kağıdına ve kayıt defterine
+     işleniyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 15
+
+397. **Soru:** Oda ve yurtlarda çocukların vücut ısısının ölçülmesi
+     için termometreler ve gerekli ilaç/tıbbi gereçler bulunduruluyor,
+     bunlar özel bir dolapta saklanıp işyeri hekimince düzenli gözden
+     geçirilerek bozulmuş/eksik olanlar yenileniyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 16
+
+398. **Soru:** Oda/yurt yöneticisi olarak, ilgili alanlarda (eğitim
+     yönetimi, sosyal hizmetler, çocuk gelişimi, psikoloji vb.)
+     yükseköğrenim görmüş veya okul öncesi öğretmenliği unvanına
+     sahip bir kişi görevlendiriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     17/a
+
+399. **Soru:** Oda ve yurtlar işyeri hekiminin tıbbi gözetimi altında
+     mı; çocukların sağlık durumu düzenli aralıklarla kontrol edilip
+     sağlıkla ilgili kayıtlar tutuluyor ve salgın/bulaşıcı
+     hastalıklara karşı gerekli önlemler alınıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     17/b
+
+400. **Soru:** Oda ve yurtların emzirme odalarında her 10 çocuk için
+     bir kadın çocuk bakıcısı (yurtlarda her 20 çocuk için bir
+     bakıcı), en az biri ilgili meslek eğitimini almış olmak üzere
+     bulunduruluyor mu; beslenme, temizlik ve diğer hizmetler için
+     yeterli sayıda personel istihdam ediliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     17/c
+
+401. **Soru:** Oda ve yurtlarda çalıştırılacak tüm personelin işe
+     girişte ve periyodik olarak akıl/vücut sağlığı ve bulaşıcı
+     hastalıklar yönünden sağlık kontrolü yapılıyor, bulaşıcı
+     hastalığı bulunanlar veya çocukların sağlık ve gelişimini
+     olumsuz etkileyebilecek personel çalıştırılmıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     17/d
+
+402. **Soru:** Oda/yurda kabul edilecek çocuklar işyeri hekiminin
+     muayenesinden geçiriliyor mu; bulaşıcı veya tehlikeli bir
+     hastalığı olan, hastalık kuşkusu bulunan veya portör olan
+     çocuklar sağlıklı oldukları belirlenene kadar oda/yurda
+     alınmıyor, bulaşıcı hastalığa tutulan çocuklar derhal gözlem
+     odasına alınıp gerekirse sağlık kuruluşuna gönderiliyor ve
+     velisi bilgilendiriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     18/1-3
+
+403. **Soru:** Oda veya yurda kabul edilen her çocuk için gözlem
+     kağıdı doldurulup özel dosyasına konuyor, çocukların sağlık ve
+     gelişme durumları düzenli aralıklarla işyeri hekimince sağlık
+     muayenesi kağıtlarına işleniyor ve çocukların aşı takibi işyeri
+     hekimince yapılarak eksik aşılı olanların velileri
+     bilgilendiriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde
+     18/4-5
+
+404. **Soru:** Oda ve yurtlarda çocukların ihtiyaçlarına göre gerekli
+     besinler, kahvaltı ve yemekler (yemek listeleri işyeri hekiminin
+     görüşü alınarak düzenlenerek) veriliyor ve ayrıca günde 250 gram
+     dayanıklı veya pastörize süt/yoğurt veriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 19
+
+405. **Soru:** Oda ve yurtlarda çocuklara psikososyal gelişimlerini
+     sağlayacak okul öncesi eğitimler veriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 20
+
+406. **Soru:** Oda ve yurtların bina, kuruluş, döşeme, araç, gereç,
+     taşıt ve beslenme gibi giderlerinin tamamı işveren tarafından
+     karşılanıyor mu; buralar ayda en az bir defa işveren veya vekili
+     tarafından denetlenip görülen eksiklikler derhal gideriliyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 21
+
+407. **Soru:** Oda ve yurtlar birden çok işveren tarafından
+     kurulduğunda, bu işverenler veya vekilleri ayda en az bir defa
+     toplanarak yerlerin yönetimine dair kararları alıp uygulanmasını
+     sağlıyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 22
+
+408. **Soru:** İşverenler, 6331 sayılı Kanun kapsamındaki işyerlerinde
+     açtıkları oda ve yurtlarla ilgili bilgi ve belgeleri, açılma
+     tarihinden itibaren en geç 30 gün içinde bir rapor halinde Millî
+     Eğitim Bakanlığı ile bağlı oldukları Çalışma ve İş Kurumu İl
+     Müdürlüğüne gönderiyor mu?
+     **Mevzuat:** Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla
+     Emzirme Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik, Madde 23
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -3414,6 +3608,24 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   Madde 12/A (rehber/metot hazırlanması — Bakanlık/kurum süreci,
   idari), Madde 12/B (AB mevzuatına uyum beyanı — dayanak niteliğinde)
   ve Madde 13-15 (yürürlükten kaldırma/yürürlük/yürütme) atlandı.
+- Gebe veya Emziren Kadınların Çalıştırılma Şartlarıyla Emzirme
+  Odaları ve Çocuk Bakım Yurtlarına Dair Yönetmelik — soru 386-408
+  eklendi. Soru 386-393 (Madde 6/2-4, 7/1-2, 7/3, 8, 9, 10, 11, 12)
+  mevcut "Genel Yükümlülükler → Gebe, yeni doğum yapmış ve emziren
+  kadın çalışanlar" alt kategorisine (soru 314'te açılmıştı); soru
+  394-408 (Madde 13-23) yeni "Genel Yükümlülükler → Emzirme Odaları
+  ve Çocuk Bakım Yurtları" alt kategorisine eklendi. Soru 389 (Madde
+  8, gece çalışması yasağı) Kadın Çalışanların Gece Postalarında
+  Çalıştırılma Koşulları Hakkında Yönetmelik Madde 9 (soru 314) ile,
+  soru 391 (Madde 10, analık/süt izni) ise soru 13 (İş Kanunu Madde
+  74) ile konu örtüşmesi flaglenerek ayrı soru olarak eklendi —
+  mükerrer değil, her biri kendi yönetmeliğinin hükmü. Madde 5/3-5
+  (oda/yurt hesaplama kuralları) ayrı soru açılmadan soru 394'e (Madde
+  13) "Not" olarak dahil edildi. Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar), Madde 5/1-2 (uygulamada öncelik — hukuki çatışma kuralı,
+  somut yükümlülük değil), Madde 24 (yürürlükten kaldırma), Geçici
+  Madde 1-2 (geçiş hükümleri) ve Madde 25-26 (yürürlük/yürütme)
+  atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
