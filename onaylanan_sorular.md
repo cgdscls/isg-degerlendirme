@@ -2226,6 +2226,122 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      düzenliyor; bu madde gece postası yasağını düzenliyor — farklı
      açı, mükerrer değil.
 
+## İş Hijyeni → Gürültü (YENİ alt kategori)
+
+315. **Soru:** İşveren, çalışanların maruz kaldığı gürültü düzeyini
+     işyerinde gerçekleştirilen risk değerlendirmesinde ele almakta,
+     risk değerlendirmesi sonuçlarına göre gereken durumlarda gürültü
+     ölçümleri yaptırarak maruziyeti belirlemekte; değerlendirme ve ölçüm
+     sonuçlarını saklayıp iş müfettişi denetimlerinde göstermektedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 6
+
+316. **Soru:** İşveren, risk değerlendirmesinde gürültüden kaynaklanan
+     riskleri değerlendirirken; anlık darbeli gürültü dahil maruziyetin
+     türü/düzeyi/süresine, maruziyet sınır ve eylem değerlerine, özel
+     politika gerektiren gruplar ile kadın çalışanların durumuna,
+     ototoksik madde-titreşim etkileşimine, uyarı sinyallerinin
+     algılanabilirliğine, iş ekipmanının gürültü emisyon bilgisine,
+     alternatif düşük gürültülü ekipman varlığına, mesai saatleri
+     dışında maruziyetin devam edip etmediğine, sağlık gözetimi
+     verilerine ve kulak koruyucu bulunabilirliğine özel önem
+     vermektedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 7
+
+317. **Soru:** İşveren, gürültüye maruziyetten kaynaklanan riskleri
+     kaynağında yok etmek veya en aza indirmek için; gürültüsü daha az
+     çalışma yöntemi/iş ekipmanı seçimi, işyerinin uygun tasarımı,
+     çalışanlara eğitim verilmesi, gürültünün teknik yollarla (izolasyon,
+     yalıtım vb.) azaltılması, uygun bakım programları ve iş
+     organizasyonuyla (maruziyet süresi sınırlama, yeterli dinlenme
+     araları) azaltma gibi tedbirleri uygulamaktadır.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/1-2
+
+318. **Soru:** İşyerinde en yüksek maruziyet eylem değerinin aşıldığının
+     tespiti halinde işveren; gürültüye maruziyeti azaltmak için teknik
+     veya iş organizasyonuna yönelik önlemleri içeren bir eylem planı
+     oluşturup uygulamakta, gürültüye maruz kalınan çalışma yerlerini
+     uygun şekilde işaretleyip teknik olarak mümkünse bu alanlara
+     girişleri kontrollü yapmaktadır.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/3
+
+319. **Soru:** Çalışanların dinlenmesi için ayrılan yerlerdeki gürültü
+     düzeyi, bu yerlerin kullanım şartları ve amacına uygun
+     tutulmaktadır.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/4
+
+320. **Soru:** Bu Yönetmeliğe göre alınacak tedbirler, özel politika
+     gerektiren gruplar ile kadın çalışanların durumlarına uygun
+     şekilde düzenlenmektedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 8/5
+
+321. **Soru:** Çalışanın gürültüye maruziyeti en düşük maruziyet eylem
+     değerini (80 dB(A)) aştığında kulak koruyucu donanımlar
+     çalışanların kullanımına hazır bulundurulmakta; en yüksek maruziyet
+     eylem değerine (85 dB(A)) ulaşıldığında veya aşıldığında kulak
+     koruyucuların kullanılması sağlanıp denetlenmektedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 9/1
+
+322. **Soru:** Sağlanan kulak koruyucu donanımlar ilgili kişisel koruyucu
+     donanım mevzuatına uygun, işitme ile ilgili riski ortadan
+     kaldıracak veya en aza indirecek şekilde seçilmiş, çalışana tam
+     uyan ve hijyenik şartların gerektirdiği durumlarda çalışana özel
+     olarak sağlanan niteliktedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 9/2
+
+323. **Soru:** Çalışanın gürültü maruziyeti hiçbir durumda maruziyet
+     sınır değerini (87 dB(A)) aşmamaktadır; aşıldığının tespiti halinde
+     işveren maruziyeti derhal sınır değerin altına indirecek tedbirleri
+     almakta, aşılma nedenlerini belirleyerek tekrarını önlemek amacıyla
+     koruma ve önleme tedbirlerini gözden geçirip yeniden
+     düzenlemektedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 10
+
+## Genel Yükümlülükler → Eğitim
+
+324. **Soru:** İşveren, en düşük maruziyet eylem değerine eşit veya
+     üzerinde gürültüye maruz kalan çalışanlara/temsilcilerine; riskler,
+     alınan tedbirler, maruziyet sınır/eylem değerleri, ölçüm sonuçları,
+     kulak koruyucuların doğru kullanımı, işitmeyle ilgili belirtilerin
+     bildirimi, sağlık gözetimi şartları ve güvenli çalışma
+     uygulamaları konusunda bilgilendirme ve eğitim vermektedir.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 11
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+325. **Soru:** İşveren, gürültüyle ilgili risk değerlendirmesi, alınacak
+     önlemler ve kulak koruyucu seçimi konularında çalışanların veya
+     temsilcilerinin görüşlerini almakta ve katılımlarını sağlamaktadır.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 12
+
+## Genel Yükümlülükler → Sağlık Gözetimi
+
+326. **Soru:** Gürültüye maruz kalan çalışanlar işe girişte ve düzenli
+     aralıklarla sağlık gözetimine tabi tutulmakta; en yüksek maruziyet
+     eylem değerini aşan çalışanlar için işitme testleri işverence
+     yaptırılmaktadır.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 13/1
+
+327. **Soru:** Bir çalışanda gürültüye bağlı işitme kaybı tespit
+     edildiğinde işveren; işyerinde yapılan risk değerlendirmesini ve
+     alınan önlemleri gözden geçirmekte, gerekli görülürse çalışanı
+     gürültüye maruz kalmayacağı başka bir işte görevlendirmekte ve
+     benzer biçimde gürültüye maruz kalan diğer çalışanların sağlık
+     durumunu gözden geçirip düzenli sağlık gözetimine tabi tutmaktadır.
+     **Mevzuat:** Çalışanların Gürültü ile İlgili Risklerden
+     Korunmalarına Dair Yönetmelik, Madde 13/2-b
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2749,6 +2865,16 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yükümlülük değil), Madde 12 (yürürlükten kaldırma), Geçici Madde 1
   (eski sağlık raporlarının geçerliliği — geçiş hükmü) ve Madde 13-14
   (yürürlük/yürütme) atlandı.
+- Çalışanların Gürültü ile İlgili Risklerden Korunmalarına Dair
+  Yönetmelik — soru 315-327 eklendi, yeni "İş Hijyeni → Gürültü" alt
+  kategorisi açıldı (Madde 6, 7, 8/1-2, 8/3, 8/4, 8/5, 9/1, 9/2, 10).
+  Soru 324 (Madde 11) "Genel Yükümlülükler → Eğitim", soru 325 (Madde
+  12) "Genel Yükümlülükler → Bilgilendirme ve Katılım", soru 326-327
+  (Madde 13/1, 13/2-b) "Genel Yükümlülükler → Sağlık Gözetimi" alt
+  kategorilerine eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 5 (eylem değeri/sınır değerlerin sayısal tanımı — başlı başına
+  bir yükümlülük değil, diğer maddelerde referans olarak kullanılıyor)
+  ve Madde 14-16 (yürürlükten kaldırma/yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
