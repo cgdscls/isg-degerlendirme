@@ -5056,6 +5056,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Asansör Yönetmeliği (2014/33/AB) — AB Asansör Direktifi'nin transpozisyonu;
+  asansör/asansör güvenlik aksamlarının piyasaya arzı için imalatçı/
+  montajcı/ithalatçı/dağıtıcının CE işaretlemesi, uygunluk değerlendirmesi,
+  piyasa gözetimi yükümlülükleri (SEA/CLP ile aynı yapı — ürün/piyasa
+  düzenlemesi). "İşveren" hiç geçmiyor; işveren-çalışan İSG ilişkisiyle
+  ilgisi yok. (Asansörün bina sahibi/işveren tarafından işletme/bakım/
+  periyodik kontrolü ayrı bir yönetmelikte düzenleniyor.)
 - Alışveriş Merkezleri Hakkında Yönetmelik — 6585 sayılı Perakende
   Ticaretin Düzenlenmesi Hakkında Kanun'a dayanan Ticaret Bakanlığı
   yönetmeliği; AVM'nin yapısal/işletme nitelikleri (ortak alan, acil
