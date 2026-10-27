@@ -5244,8 +5244,35 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin
      Azaltılması Hakkında Yönetmelik, Madde 17
 
+## Genel Yükümlülükler → Uzaktan Çalışma (YENİ alt kategori)
+
+676. **Soru:** İşveren, uzaktan çalışanın yaptığı işin niteliğini
+     dikkate alarak iş sağlığı ve güvenliği önlemleri hususunda
+     çalışanı bilgilendiriyor, gerekli eğitimi veriyor, sağlık
+     gözetimini sağlıyor ve sağladığı ekipmanla ilgili gerekli iş
+     güvenliği tedbirlerini alıyor mu?
+     **Mevzuat:** Uzaktan Çalışma Yönetmeliği, Madde 12
+     **Not:** Genel bilgilendirme/eğitim/sağlık gözetimi
+     yükümlülükleriyle (6331 sayılı Kanun kapsamı) örtüşüyor — burada
+     uzaktan çalışma bağlamına özgü, ayrı hüküm.
+
+677. **Soru:** İşveren, tehlikeli kimyasal madde ve radyoaktif
+     maddelerle çalışma, bu maddelerin işlenmesi veya atıkları ile
+     çalışma ya da biyolojik etkenlere maruz kalma riski bulunan
+     işlerde çalışanın uzaktan çalışma usulüyle çalıştırılmamasını
+     sağlıyor mu?
+     **Mevzuat:** Uzaktan Çalışma Yönetmeliği, Madde 13/1
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Uzaktan Çalışma Yönetmeliğinin aşağıdaki maddeleri (TAMAMLANDI —
+  bkz. soru 676-677): Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde
+  5-11 (sözleşme şekli, çalışma mekânı/malzeme/ekipman temini, üretim
+  maliyeti, çalışma süresi, iletişim, veri koruma — iş hukuku/
+  sözleşme hükümleri, İSG kapsamı değil), Madde 13/2 (kamu
+  kurumlarının stratejik iş belirleme yetkisi — idari), Madde 14
+  (uzaktan çalışmaya geçiş usulü — sözleşme süreci), Madde 15-16
+  (yürürlük/yürütme).
 - Kişisel Koruyucu Donanım Yönetmeliği (2016/425/AB) — tamamı
   atlandı. "İşyerlerinde Kişisel Koruyucu Donanımların Kullanılması
   Hakkında Yönetmelik"ten (zaten soru havuzunda) farklı bir yönetmelik:
