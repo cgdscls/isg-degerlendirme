@@ -5265,6 +5265,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Basit Konaklama Tesisleri ile Plaj İşletmelerinin
+  Belgelendirilmesine İlişkin Yönetmelik — tamamı atlandı. Turizm
+  belgelendirme yönetmeliği (2634 sayılı Turizmi Teşvik Kanunu):
+  belge verme usulleri, plaj işletmelerinin fiziki şartları, fiyat
+  tarifesi onayı, denetim. Metin boyunca hiç "işveren" veya "çalışan"
+  kelimesi geçmiyor — ticari/işletmecilik lisanslandırma skip
+  kategorisine giriyor (AVM Yönetmeliği, Yapı Müteahhitleri
+  Yönetmeliği ile aynı familya).
 - Sosyal Güvenlik Kurumunca Elektronik Ortamda Yapılacak Tebligata
   İlişkin Yönetmelik — tamamı atlandı. SGK'nın 5510 ve 6183 sayılı
   Kanunlar kapsamındaki tebliğ evrakını elektronik ortamda tebliğ
