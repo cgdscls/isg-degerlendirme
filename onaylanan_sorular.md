@@ -3862,6 +3862,48 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
      Yönetmeliği, Madde 13, Ek-1/24
 
+506. **Soru:** İşveren, açık ocak çalışmalarını sağlık ve güvenlik
+     dokümanında belirtilen toprak kayması/çökmesi riskini dikkate
+     alarak planlar, kazı yüzeyi ve şev eğim/yüksekliğini zeminin
+     yapısına uygun belirler ve her çalışma öncesi üst seviyelerdeki
+     şev/kazı yüzeylerinde toprak-kaya düşmesi kontrolü yapar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-2/1.1-1.3
+
+507. **Soru:** İşveren, her kademeye en az bir çalışma yolu sağlar,
+     kademe ve nakliyat yollarının araçlara uygun sağlamlıkta
+     olmasını ve bakımını sağlar, döküm sahası gibi düşme tehlikesi
+     olan yerlerde güvenlik bariyeri yapar ve kademe cephelerini
+     kayma/düşme olasılığına karşı sürekli denetler mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-2/1.4-1.7
+
+508. **Soru:** İşveren, yıldırım düşmesi tehlikesi varsa elektrikli
+     kapsülle ateşleme yapılan açık ocaklarda gerekli tedbirler
+     alınmadan lağım deliği doldurmaz; ateşleme veya doğal olaylar
+     (donma, kar, yağmur) sonrası işe başlamadan önce kademe
+     yüzlerinde deneyimli çalışanlarla çatlak sökümü yaptırır ve ters
+     ıskarpa (kademe alınlarının askıya alınması) şeklinde çalışmayı
+     yasaklar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-2/1.8-1.10
+
+509. **Soru:** İşveren, elle kazı ve yükleme yapılan açık ocaklarda
+     kademe yüksekliğinin 3 metreyi, şev açısının ise arazi yapısına
+     göre belirlenen sınırları (sağlam arazide 60°, çöküntülü/killi/
+     tüflü arazide 45°, kaygan/sulu yerlerde 30°) geçmemesini sağlar
+     mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-2/1.11
+
+510. **Soru:** İşveren, kazıcı/doldurucu makine kullanılan veya derin
+     lağım deliği uygulanan açık işletmelerde; kademe yüksekliği, şev
+     derecesi, lağım derinliği/aralığı, ateşleme güvenlik tedbirleri
+     ve makine çalışma koşullarını kapsayan yazılı bir yönerge
+     hazırlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-2/1.12
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4498,11 +4540,11 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yaptığından ayrı soru açılmadı. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar) ve Madde 8-10 (yürürlükten kaldırma/yürürlük/yürütme)
   atlandı.
-- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (2. PARÇA —
-  Madde 1-13 + EK MADDE 1 + Ek-1 tamamlandı; Ek-2/3/4 ayrı turlarda
-  işlenecek, bu mevzuat henüz tamamlanmadı) — soru 463-477 (1. parça)
-  ve soru 478-505 (Ek-1) eklendi, "Genel Yükümlülükler → Maden
-  İşyerleri" alt kategorisine. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
+- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (3. PARÇA —
+  Madde 1-13 + EK MADDE 1 + Ek-1 + Ek-2 tamamlandı; Ek-3/4 ayrı
+  turlarda işlenecek, bu mevzuat henüz tamamlanmadı) — soru 463-477
+  (1. parça), soru 478-505 (Ek-1) ve soru 506-510 (Ek-2) eklendi,
+  "Genel Yükümlülükler → Maden İşyerleri" alt kategorisine. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
   5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b, EK MADDE 1/1-c, EK MADDE
   1/1-d, EK MADDE 1/1-e. Soru 475-476 (Madde 10, 12) "Genel
   Yükümlülükler → Bilgilendirme ve Katılım"; soru 477 (Madde 11)
