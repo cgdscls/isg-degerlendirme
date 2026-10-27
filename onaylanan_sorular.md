@@ -5347,8 +5347,58 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      erişilebilirlik standartlarına uygun şekilde düzenliyor mu?
      **Mevzuat:** Korumalı İşyerleri Hakkında Yönetmelik, Madde 12/1
 
+## Genel Yükümlülükler → Maden İşyerleri
+
+687. **Soru:** Ruhsat sahibi (işveren), kaynak tuzlaları hariç, maden
+     ruhsat sahalarındaki işletme faaliyetlerini maden mühendisi
+     nezaretinde yürütüyor mu; daimî nezaretçisi olmayan sahalarda
+     maden işletme faaliyeti yapmıyor mu?
+     **Mevzuat:** Maden Yönetmeliği, Madde 124/1
+     **Not:** Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği
+     (soru 463 vd.) ile kavramsal olarak örtüşüyor — burada 3213
+     sayılı Maden Kanunu çerçevesinde zorunlu mühendis nezareti/
+     denetim mekanizması; ayrı ve ek bir hüküm.
+
+688. **Soru:** Ruhsat sahibi, daimî nezaretçi tarafından işletme
+     güvenliğini tehlikeye atan hususlar bildirildiğinde, bu
+     tehlikeli durumları gidermeye yönelik faaliyetler dışındaki
+     maden işletme faaliyetlerini derhal durduruyor mu?
+     **Mevzuat:** Maden Yönetmeliği, Madde 126/1-ç
+
+689. **Soru:** Ruhsat sahibi, vardiyalı çalışılan işletmelerde,
+     vardiyadaki çalışan sayısı seksenin altında ise her vardiyada en
+     az bir maden mühendisi, seksen ve üzeri ise her seksen çalışana
+     biri maden mühendisi olmak üzere en az iki teknik eleman
+     istihdam ediyor mu?
+     **Mevzuat:** Maden Yönetmeliği, Madde 131/1-a
+
+690. **Soru:** Ruhsat sahibi, rödövansçı, faaliyeti gerçekleştiren
+     veya daimî nezaretçi, ruhsat sahalarında meydana gelen her türlü
+     maden kazasını Genel Müdürlüğe derhal bildiriyor mu?
+     **Mevzuat:** Maden Yönetmeliği, Madde 32/16
+     **Not:** 5510 sayılı Kanun kapsamındaki iş kazası bildirimi
+     (SGK'ya) ile örtüşüyor — burada madencilik otoritesine (Genel
+     Müdürlük) özgü ayrı bir bildirim yükümlülüğü.
+
+691. **Soru:** İşveren, Zorunlu Ferdi Kaza Sigortası kapsamındaki
+     ruhsat sahalarındaki ocaklarda yürütülen madencilik
+     faaliyetlerinde çalışanlar için Zorunlu Ferdi Kaza Sigorta
+     Poliçesi yaptırıyor mu?
+     **Mevzuat:** Maden Yönetmeliği, Madde 32/18
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Maden Yönetmeliğinin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
+  687-691): Yönetmeliğin kalan tamamı (Madde 1-31, 33-123, 125,
+  127-136, Geçici Maddeler) — 3213 sayılı Maden Kanunu'na dayanan,
+  maden arama/işletme ruhsatı verilmesi, ihale, rödövans, ruhsat
+  bedeli/Devlet hakkı, süre uzatımı, ruhsat devri/intikali, geçici
+  tatil, tebligat usulleri, daimî nezaretçi/teknik elemanın atanma-
+  başvuru-sertifikasyon süreçleri gibi tamamen madencilik hukuku/
+  idari lisanslandırma konuları; işverenin çalışana yönelik somut
+  İSG tedbiri niteliğinde değil (Maden İşyerlerinde İş Sağlığı ve
+  Güvenliği Yönetmeliği'nden [soru 463 vd.] tamamen farklı bir
+  yönetmelik).
 - Lüks Çadır Tesisleri Nitelikler Yönetmeliği — tamamı atlandı.
   Turizm belgelendirme/yatırım yönetmeliği (2634 sayılı Turizmi
   Teşvik Kanunu): yerleşim-tasarım planı, turizm yatırımı/işletme
