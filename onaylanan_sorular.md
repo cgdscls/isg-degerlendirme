@@ -5054,8 +5054,34 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      ilişkili (soru 589), ama buradaki sayısal oranlar doğrudan bu
      Yönetmelikte düzenleniyor — daha spesifik ve ayrı bir hüküm.
 
+## Genel Yükümlülükler → Geçici veya Belirli Süreli Çalışanlar
+
+653. **Soru:** Geçici işçi çalıştıran işveren (kullanıcı işveren), 6331
+     sayılı İş Sağlığı ve Güvenliği Kanunu'nun 17. maddesinin altıncı
+     fıkrasında öngörülen eğitimleri geçici işçiye veriyor ve iş sağlığı
+     ve güvenliği açısından gereken tedbirleri alıyor mu?
+     **Mevzuat:** Özel İstihdam Büroları Yönetmeliği, Madde 9/1-e
+     **Not:** "Geçici veya Belirli Süreli İşlerde İş Sağlığı ve Güvenliği
+     Hakkında Yönetmelik" Madde 9-11 ile örtüşüyor (soru 452-455) —
+     burada aynı yükümlülük, özel istihdam bürosu aracılığıyla kurulan
+     üçlü ilişki bağlamında ayrıca düzenleniyor.
+
+654. **Soru:** Geçici işçi çalıştıran işveren, geçici işçinin iş kazası
+     ve meslek hastalığı hâllerini özel istihdam bürosuna derhal, 5510
+     sayılı Kanunun 13 ve 14. maddelerine göre de ilgili mercilere
+     bildiriyor mu?
+     **Mevzuat:** Özel İstihdam Büroları Yönetmeliği, Madde 9/1-c
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Özel İstihdam Büroları Yönetmeliği'nin aşağıdaki maddeleri (TAMAMLANDI —
+  bkz. soru 653-654): Madde 1-6 (amaç/kapsam/tanım/büro kuruluş-lisans
+  şartları); Madde 7-8 (geçici iş ilişkisi kurulamayacak haller, çalıştırma
+  koşulları/oran sınırları — İSG değil); Madde 9/1-a,b,d (talimat yetkisi,
+  açık iş bildirimi, sendika temsilcisine bildirim — İSG değil); Madde 9/2-5
+  (çalışma koşulları eşitliği, ücret kontrolü/ödeme — İSG değil); Madde 10
+  (geçici işçinin kendi yükümlülüğü, işveren değil); Madde 11-33 (büro
+  lisans yenileme/iptal, denetim, idari para cezaları, yürürlük/yürütme).
 - Belirli Gerilim Sınırları İçin Tasarlanan Elektrikli Ekipman İle İlgili
   Yönetmelik (2014/35/AB) — Düşük Gerilim Direktifi transpozisyonu; SEA/CLP,
   Asansör, ATEX ekipman ve EMC yönetmelikleriyle aynı yapı, piyasaya arz
