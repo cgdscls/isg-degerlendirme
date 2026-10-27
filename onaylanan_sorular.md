@@ -2641,6 +2641,212 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Kanserojen veya Mutajen Maddelerle Çalışmalarda
      Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 17
 
+## İş Hijyeni → Kimyasal Maddeler (YENİ alt kategori)
+
+364. **Soru:** İşveren, kimyasal maddelerle çalışmalarda çalışanların
+     bu maddelere maruziyetini önlemek, bunun mümkün olmadığı hallerde
+     en aza indirmek ve çalışanların bu maddelerin tehlikelerinden
+     korunması için gerekli tüm önlemleri alıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 5
+
+365. **Soru:** İşveren, işyerinde tehlikeli kimyasal madde bulunup
+     bulunmadığını tespit etmek üzere risk değerlendirmesi yapıyor mu;
+     bu değerlendirmede kimyasal maddenin sağlık ve güvenlik yönünden
+     tehlike ve zararları, güvenlik bilgi formu, yetkilendirilmiş
+     laboratuvar tarafından tespit edilen maruziyetin türü/düzeyi/
+     süresi, maddenin miktarı/kullanma şartları/kullanım sıklığı,
+     mesleki maruziyet sınır değerleri ve biyolojik sınır değerleri,
+     alınan önlemlerin etkisi, önceki sağlık gözetimi sonuçları,
+     birden fazla kimyasal maddenin birbirleriyle etkileşimi ve bakım,
+     onarım, kurulum gibi işlerdeki maruziyet riskleri dikkate alınıyor
+     mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 6/1-2
+
+366. **Soru:** Tehlikeli kimyasal maddeler içeren yeni bir faaliyete,
+     ancak risk değerlendirmesi yapılarak belirlenen her türlü önlem
+     alındıktan sonra başlanıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 6/4
+
+367. **Soru:** İşyerinde uygun düzenleme ve iş organizasyonu yapılıyor,
+     tehlikeli kimyasal maddelerle çalışmalar en az sayıda çalışan ile
+     yürütülüyor, çalışanların maruz kalacağı madde miktarı ve
+     maruziyet süreleri ile işyerinde kullanılması gereken kimyasal
+     madde miktarı mümkün olan en az düzeyde tutuluyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 7/1-a,b,c,ç
+
+368. **Soru:** İşyeri bina ve eklentileri her zaman düzenli ve temiz
+     tutuluyor, çalışanların kişisel temizlikleri için uygun ve
+     yeterli şartlar sağlanıyor ve tehlikeli kimyasal maddelerin, atık
+     ve artıkların işlenmesi, kullanılması, taşınması ve depolanması
+     için gerekli düzenlemeler yapılıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 7/1-d,e,f
+
+369. **Soru:** İkame yöntemi uygulanarak tehlikeli kimyasal madde
+     yerine çalışanların sağlık ve güvenliği yönünden tehlikesiz veya
+     daha az tehlikeli olan kimyasal madde kullanılıyor mu; ikame
+     yöntemi kullanılamadığında risk değerlendirmesi sonucuna göre
+     öncelik sırasıyla uygun proses/mühendislik kontrol sistemleri ve
+     yeterli havalandırma gibi toplu koruma önlemleri, bunların
+     yetersiz kaldığı hallerde de kişisel korunma yöntemleri
+     uygulanıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 7/1-g
+
+370. **Soru:** Alınan önlemlerin etkinliğini ve sürekliliğini sağlamak
+     üzere yeterli kontrol, denetim ve gözetim sağlanıyor mu; çalışanların
+     sağlığı için risk oluşturabilecek kimyasal maddelerin düzenli
+     ölçüm ve analizi yapılıyor (maruziyeti etkileyebilecek koşul
+     değişikliklerinde tekrarlanıyor) mu; mesleki maruziyet sınır
+     değerlerinin aşıldığı durumlarda en kısa sürede koruyucu ve
+     önleyici tedbirler alınıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 7/1-ğ,h,ı
+
+371. **Soru:** İşveren, parlayıcı ve patlayıcı maddelerin tehlikeli
+     konsantrasyonlara ulaşmasının ve kimyasal olarak kararsız
+     maddelerin tehlikeli miktarlarda bulunmasının önlenmesi, bu
+     mümkün değilse yangın veya patlamaya sebep olabilecek tutuşturucu
+     kaynakların bulunmasının önlenmesi, bu da mümkün değilse yangın
+     veya patlama halinde çalışanların zarar görmesinin önlenmesi
+     veya en aza indirilmesi şeklinde öncelik sıralı teknik önlemleri
+     alıyor ve idari düzenlemeleri yapıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 7/1-i
+
+372. **Soru:** İş ekipmanı ve çalışanların korunması için sağlanan
+     koruyucu sistemlerin tasarımı, imali ve temini mevzuata (patlayıcı
+     ortamlarda kullanılacak donanım ve koruyucu sistemler için ilgili
+     yönetmelik dâhil) uygun şekilde yapılıyor mu; patlama basıncının
+     etkisini azaltacak düzenlemeler yapılıyor, tesis/makine/ekipmanın
+     sürekli kontrol altında tutulması sağlanıyor ve tehlikeli
+     kimyasal maddelerin depolandığı tanklar ilgili standartlara (TS
+     EN 14197, TS EN ISO 21009) uygun mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 7/1-j,k,l,m
+
+373. **Soru:** İşyerindeki tehlikeli kimyasal maddelerden kaynaklanacak
+     acil durumlarda, olumsuz etkileri azaltacak önleyici tedbirler
+     derhal alınıyor ve çalışanlar durumdan haberdar ediliyor mu;
+     etkilenmiş alana sadece bakım, onarım ve zorunlu işlerin
+     yapılması için görevlendirilen çalışanlar ile işyeri dışından
+     gelen ekiplerin girmesine izin veriliyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 8/1-a
+
+374. **Soru:** Etkilenmiş alana girmesine izin verilen kişilere uygun
+     kişisel koruyucu donanım ve özel güvenlik ekipmanı veriliyor ve
+     acil durum devam ettiği sürece kullanmaları sağlanıyor mu; uygun
+     donanımı bulunmayan kişilerin etkilenmiş alana girmesine izin
+     verilmiyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 8/1-b
+
+375. **Soru:** Tehlikeli kimyasallarla ilgili bilgiler ve acil durum
+     müdahale ve tahliye prosedürleri kullanıma hazır bulunduruluyor
+     ve işyerindeki görevli çalışanlar ile işyeri dışındaki ilk
+     yardım, acil tıbbi müdahale, kurtarma ve yangınla mücadele
+     konularında faaliyet gösteren kuruluşların bu bilgilere kolayca
+     ulaşabilmesi sağlanıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 8/1-c
+
+376. **Soru:** Ek-3'te liste halinde belirtilen kimyasal maddelerin
+     belirtilen oranlardan fazla bulunması halinde, bu maddelerin
+     üretilmesi, kullanılması ve bu maddelerle işlem yapılması
+     yasaklanıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 11/a
+
+377. **Soru:** Ek-3'te belirtilen maddelerle yalnızca bilimsel
+     araştırma ve deneylerde, yan ürün/atık maddelerden ayırma
+     işlerinde veya teknoloji gereği zorunlu ara madde kullanımında;
+     tam kapalı sistemlerde, mümkün olan en az miktarlarda ve
+     çalışanların maruziyetinin önlenmesi şartıyla Bakanlıktan izin
+     alınarak ve izin başvurusunda istenen bilgiler (izin isteme
+     nedeni, yıllık kullanım miktarı, çalışacak kişi sayısı,
+     kullanılacağı işler/reaksiyonlar/prosesler, alınan önlemler)
+     Bakanlığa verilerek çalışma yapılıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 11/b,c
+
+378. **Soru:** Yapılan risk değerlendirmesi sonucunda sağlık yönünden
+     risk altında olduğu saptanan çalışanlar; belirli bir hastalık
+     veya olumsuz etkilenmeye neden olduğu bilinen maddeye maruziyet,
+     özel çalışma şartlarında hastalık/etkilenme olasılığı ve
+     çalışanlar üzerindeki tetkiklerin oluşturduğu riskin kabul
+     edilebilir düzeyde olduğu, ayrıca hastalık/etkilenmeyi tespit
+     edecek geçerli tekniklerin bulunduğu durumlarda uygun sağlık
+     gözetimine tabi tutuluyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 12/1-a,b,c
+
+379. **Soru:** Ek-2'de belirtilen biyolojik sınır değeri bulunan
+     tehlikeli kimyasal maddelerle çalışmalarda, aynı ekteki prosedüre
+     uygun sağlık gözetimi yapılıyor ve çalışanlar bu işe başlamadan
+     önce bu durumdan haberdar ediliyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 12/1-ç
+
+380. **Soru:** Sağlık gözetimine tabi tutulan her çalışan için kişisel
+     sağlık ve maruziyet kayıtları tutuluyor ve güncelleniyor, bu
+     kayıtlar gizliliği dikkate alınarak uygun bir şekilde muhafaza
+     ediliyor ve istenmesi halinde bir örneği Bakanlığa veriliyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 12/1-d,e,f,g
+
+381. **Soru:** İşyerinde faaliyetin sona ermesi halinde, işveren
+     sağlık ve maruziyet kayıtlarını Sosyal Güvenlik Kurumu il
+     müdürlüğüne teslim ediyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 12/1-h
+
+382. **Soru:** Sağlık gözetimi sonucunda, tehlikeli kimyasal maddeye
+     maruz kalan çalışanda bu maddeden kaynaklanan tanımlanabilir bir
+     hastalık/olumsuz sağlık etkisi görülmesi veya biyolojik sınır
+     değerin aşıldığının tespit edilmesi halinde; çalışan durumdan
+     haberdar edilip gerekli bilgi/tavsiyeler veriliyor, risk
+     değerlendirmesi gözden geçirilip gerekirse yenileniyor, Madde
+     7 kapsamındaki önlemler gözden geçiriliyor, gerekirse çalışan
+     maruziyet riski olmayan başka bir işte görevlendiriliyor ve
+     benzer biçimde maruz kalan diğer çalışanlar da sürekli sağlık
+     gözetimi altında tutuluyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 12/1-ı
+
+## Genel Yükümlülükler → Eğitim
+
+383. **Soru:** İşveren; çalışanlara ve temsilcilerine, risk
+     değerlendirmesi sonucunda elde edilen bilgiler, işyerinde bulunan
+     veya ortaya çıkabilecek tehlikeli kimyasal maddelerin tanınması/
+     sağlık ve güvenlik riskleri/meslek hastalıkları/mesleki maruziyet
+     sınır değerleri, kendilerini ve diğer çalışanları tehlikeye
+     atmamaları için gerekli önlemler, güvenlik bilgi formları ve
+     etiketleme/kilitleme ile ilgili konularda eğitim ve bilgilendirme
+     sağlıyor mu; bu eğitim ve bilgiler, risk değerlendirmesi sonucu
+     ortaya çıkan riskin derecesine göre sözlü talimat ve yazılı
+     bilgilerle destekleniyor ve değişen şartlara göre güncelleniyor
+     mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 9
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+384. **Soru:** İşveren, bu Yönetmelik ve eklerinde belirtilen
+     konularda çalışanların ve/veya temsilcilerinin görüşlerini alıyor
+     ve katılımlarını sağlıyor mu?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 10
+
+385. **Soru:** Çalışanlar, kendilerine ait sağlık muayene sonuçları ve
+     etkilenme düzeylerine ait bilgileri görme hakkına sahip mi?
+     **Mevzuat:** Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik, Madde 12/1-ğ
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -3192,6 +3398,22 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yükümlülük değil) ve Madde 19-21 (yürürlükten kaldırma/yürürlük/
   yürütme) atlandı. Ek-1/Ek-2/Ek-3 ilgili maddelere (4, 7, 16, 18)
   atıfla zaten kapsandığından ayrı soru açılmadı.
+- Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik Önlemleri
+  Hakkında Yönetmelik — soru 364-385 eklendi, yeni "İş Hijyeni →
+  Kimyasal Maddeler" alt kategorisi açıldı (Madde 5, 6/1-2, 6/4,
+  7/1-a,b,c,ç, 7/1-d,e,f, 7/1-g, 7/1-ğ,h,ı, 7/1-i, 7/1-j,k,l,m, 8/1-a,
+  8/1-b, 8/1-c, 11/a, 11/b,c, 12/1-a,b,c, 12/1-ç, 12/1-d,e,f,g,
+  12/1-h, 12/1-ı). Madde 7'nin a-m bentleri (13 bent), aşırı
+  parçalanmayı önlemek için konu bazlı kümelenerek 6 soruya (367-372)
+  dönüştürüldü. Soru 383 (Madde 9) "Genel Yükümlülükler → Eğitim";
+  soru 384 (Madde 10) ve soru 385 (Madde 12/1-ğ, çalışanın kendi
+  sağlık sonuçlarına erişim hakkı) "Genel Yükümlülükler →
+  Bilgilendirme ve Katılım" alt kategorisine eklendi. Madde 1-4
+  (amaç/kapsam/dayanak/tanımlar), Madde 9/3 (kimyasal madde üreticisi/
+  tedarikçisinin kendi bilgi verme yükümlülüğü — işverenin değil),
+  Madde 12/A (rehber/metot hazırlanması — Bakanlık/kurum süreci,
+  idari), Madde 12/B (AB mevzuatına uyum beyanı — dayanak niteliğinde)
+  ve Madde 13-15 (yürürlükten kaldırma/yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
