@@ -2040,6 +2040,82 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
      Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-f
 
+## Genel Yükümlülükler → İSG Profesyonelleri / Hizmetleri
+
+292. **Soru:** İşverence işyeri hekimi olarak görevlendirilenler, geçerli
+     işyeri hekimliği belgesine sahiptir.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 7/1
+     **Not:** Soru 121 (İş Sağlığı ve Güvenliği Hizmetleri Yönetmeliği,
+     Madde 5/7) tüm İSG personeli/OSGB için genel belge doğrulama
+     yükümlülüğü getiriyor; bu soru hekime özel, kendi yönetmeliğinden —
+     farklı kaynak, mükerrer değil.
+
+293. **Soru:** İşyeri hekimi görevlendirmesinde, hesaplanan çalışma
+     süresi bölünerek birden fazla hekime verilmemekte; vardiyalı
+     çalışma yapılan işyerlerinde vardiyalara uygun şekilde görevlendirme
+     yapılmaktadır.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 7/2-3
+     **Not:** Soru 116 aynı ilkeyi iş güvenliği uzmanı için düzenliyor —
+     farklı personel/mevzuat, mükerrer değil.
+
+294. **Soru:** İşveren, işyeri hekiminden işyerinin tehlike sınıfına göre
+     belirlenen asgari süre kadar hizmet almaktadır (az tehlikeli: ayda
+     çalışan başına en az 5 dakika, tehlikeli: 10 dakika, çok tehlikeli:
+     15 dakika); az tehlikeli sınıfta 2000, tehlikeli sınıfta 1000, çok
+     tehlikeli sınıfta 750 ve üzeri çalışanı olan işyerlerinde bu sayılara
+     karşılık tam süreli çalışacak işyeri hekimi görevlendirilmektedir.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 12
+     **Not:** Soru 117 aynı ilkeyi iş güvenliği uzmanı için (farklı
+     sayılar/mevzuat) düzenliyor — mükerrer değil.
+
+295. **Soru:** İşverence diğer sağlık personeli olarak görevlendirilenler
+     geçerli diğer sağlık personeli belgesine sahiptir (tam süreli
+     işyeri hekimi görevlendirilen işyerlerinde bu şart aranmaz).
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 14/1-2
+
+296. **Soru:** Diğer sağlık personeli görevlendirmesinde, hesaplanan
+     çalışma süresi bölünerek birden fazla kişiye verilmemekte; vardiyalı
+     çalışma yapılan işyerlerinde vardiyalara uygun şekilde görevlendirme
+     yapılmaktadır.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 14/3-4
+
+297. **Soru:** İşveren, çok tehlikeli sınıfta yer alan işyerlerinde
+     çalışan sayısına göre diğer sağlık personelinden asgari süre kadar
+     hizmet almaktadır (10-49 çalışan: ayda çalışan başına en az 10
+     dakika, 50-249 çalışan: 15 dakika, 250 ve üzeri çalışan: 20 dakika);
+     tam süreli işyeri hekimi görevlendirilen işyerlerinde bu şart
+     aranmaz.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 19
+
+298. **Soru:** Tam süreli görevlendirilen işyeri hekiminin mesleki
+     gelişim amaçlı eğitim/seminer/panel katılımları için yılda toplam 5
+     iş gününe kadar süre çalışma süresinden sayılmakta, bu süreler
+     nedeniyle hekimin ücretinden kesinti yapılmamaktadır.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 10/2
+     **Not:** Soru 118 aynı ilkeyi iş güvenliği uzmanı için düzenliyor —
+     mükerrer değil.
+
+299. **Soru:** Tam süreli görevlendirilen diğer sağlık personelinin
+     mesleki gelişim amaçlı eğitim/seminer/panel katılımları için yılda
+     toplam 5 iş gününe kadar süre çalışma süresinden sayılmakta, bu
+     süreler nedeniyle ücretinden kesinti yapılmamaktadır.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 17/2
+
+300. **Soru:** İşveren, işyeri hekimi veya diğer sağlık personeli ile
+     yapılan sözleşmelere, bu kişilerin mesleki bağımsız çalışmasını
+     kısıtlayabilecek şartlar koymamakta; bu kişilerin hak ve yetkileri
+     görevlerini yerine getirmeleri nedeniyle kısıtlanmamaktadır.
+     **Mevzuat:** İşyeri Hekimi ve Diğer Sağlık Personelinin Görev,
+     Yetki, Sorumluluk ve Eğitimleri Hakkında Yönetmelik, Madde 42/2-3
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2519,6 +2595,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   Madde 8 (ilgili diğer mevzuat/standartların uygulanması — somut
   yükümlülük değil, atıf hükmü) ve Madde 9-11 (yürürlükten kaldırma/
   yürürlük/yürütme) atlandı.
+- İşyeri Hekimi ve Diğer Sağlık Personelinin Görev, Yetki, Sorumluluk ve
+  Eğitimleri Hakkında Yönetmelik — soru 292-300 eklendi, mevcut "Genel
+  Yükümlülükler → İSG Profesyonelleri / Hizmetleri" alt kategorisine
+  eklendi (Madde 7/1, 7/2-3, 10/2, 12, 14/1-2, 14/3-4, 17/2, 19, 42/2-3).
+  Soru 292/294/298 soru 121/117/118 (İGU/İSG Hizmetleri Yönetmeliği) ile
+  aynı ilkeyi farklı personel türü ve farklı mevzuat kaynağından
+  düzenliyor — mükerrer değil, ayrı soru olarak eklendi. Madde 1-4
+  (amaç/kapsam/dayanak/tanımlar), Madde 5-6/13/20/34 (mülga), Madde 8
+  (belge verilme usulü — Bakanlık işi), Madde 9-11/1,2,4,5 ve 15-18/1,2,3
+  (hekim/diğer sağlık personelinin kendi görev/yetki/yükümlülük tanımı —
+  işverenin değil), Madde 21-41 (eğitim kurumu yetkilendirme/vize/eğitim
+  programı/denetim/ihtar — tamamen idari, kurum muhatap), Madde 42/A
+  (İSG-KATİP tebligat adresi — kurum muhatap), Madde 43-45 (yürürlükten
+  kaldırma/yürürlük/yürütme) ve Ek Madde 1 (afet/OHAL istisnası —
+  eğitim kurumlarına özel) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
