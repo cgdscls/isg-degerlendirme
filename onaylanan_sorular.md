@@ -5056,6 +5056,10 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Geçici Koruma Sağlanan Yabancıların Çalışma İzinlerine Dair Yönetmelik —
+  göç/istihdam yönetmeliği (çalışma izni başvuru usulü, istihdam kotası,
+  asgari ücret altında ödeme yasağı); "iş sağlığı ve güvenliği" hiç
+  geçmiyor, İSG kapsamı dışında.
 - İlkyardım Yönetmeliği'nin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
   652): Madde 1-4 (amaç/kapsam/dayanak/tanımlar); Madde 5-18 (ilkyardım/
   eğitici eğitim merkezi açma-kapama şartları, eğitim salonu özellikleri,
