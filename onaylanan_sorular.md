@@ -3484,6 +3484,40 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Geçici veya Belirli Süreli İşlerde İş Sağlığı ve
      Güvenliği Hakkında Yönetmelik, Madde 8
 
+## Genel Yükümlülükler → Sağlık ve Güvenlik İşaretleri (YENİ alt kategori)
+
+458. **Soru:** İşveren, risk değerlendirmesi sonuçlarına göre
+     işyerindeki riskler ortadan kaldırılamadığında veya toplu koruma
+     ya da organizasyon önlemleriyle yeterince azaltılamadığında, bu
+     Yönetmelikte yer alan sağlık ve güvenlik işaretlerini
+     bulunduruyor ve uygun yerlerde kullanılmasını sağlıyor mu?
+     **Mevzuat:** Sağlık ve Güvenlik İşaretleri Yönetmeliği, Madde 5/1
+
+459. **Soru:** İşyerinde kara, demir, deniz, hava veya iç suyolu
+     taşımacılığı yapılması halinde, bu taşımacılık alanlarında
+     kullanılan işaretler Ek-5'te belirtilen hususlara aykırı olmamak
+     şartıyla aynen kullanılıyor mu?
+     **Mevzuat:** Sağlık ve Güvenlik İşaretleri Yönetmeliği, Madde 5/2
+
+## Genel Yükümlülükler → Eğitim
+
+460. **Soru:** İşveren, işaretlerin anlamları ve bu işaretlerin
+     gerektirdiği davranış biçimleri hakkında çalışanların eğitim
+     almasını sağlıyor mu?
+     **Mevzuat:** Sağlık ve Güvenlik İşaretleri Yönetmeliği, Madde 6/2
+
+## Genel Yükümlülükler → Bilgilendirme ve Katılım
+
+461. **Soru:** İşveren, işyerinde kullanılan sağlık ve güvenlik
+     işaretleri hakkında çalışanları veya temsilcilerini
+     bilgilendiriyor mu?
+     **Mevzuat:** Sağlık ve Güvenlik İşaretleri Yönetmeliği, Madde 6/1
+
+462. **Soru:** İşveren, bu Yönetmeliğin kapsadığı konularla ilgili
+     çalışanların veya temsilcilerinin görüşlerini alıyor ve
+     katılımlarını sağlıyor mu?
+     **Mevzuat:** Sağlık ve Güvenlik İşaretleri Yönetmeliği, Madde 7
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4109,6 +4143,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   kuralı), Madde 13 (daha uygun önlem almaya engel olmama — izin/
   serbestlik hükmü) ve Madde 14-16 (yürürlükten kaldırma/yürürlük/
   yürütme) atlandı.
+- Sağlık ve Güvenlik İşaretleri Yönetmeliği — soru 458-462 eklendi,
+  yeni "Genel Yükümlülükler → Sağlık ve Güvenlik İşaretleri" alt
+  kategorisi açıldı (Madde 5/1, 5/2). Soru 460 (Madde 6/2) "Genel
+  Yükümlülükler → Eğitim"; soru 461-462 (Madde 6/1, 7) "Genel
+  Yükümlülükler → Bilgilendirme ve Katılım" alt kategorilerine
+  eklendi. Ekler (işaretlerin renk/şekil/piktogram gibi teknik görsel
+  standartları) metne dahil değildi ("Ekleri için tıklayınız") ve
+  Madde 5/1'deki genel yükümlülük zaten bu standartlara atıf
+  yaptığından ayrı soru açılmadı. Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar) ve Madde 8-10 (yürürlükten kaldırma/yürürlük/yürütme)
+  atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
