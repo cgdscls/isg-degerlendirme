@@ -5097,6 +5097,61 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Asansör Periyodik Kontrol Yönetmeliği, Madde 8/1,4,
      Madde 26, Madde 34
 
+670. **Soru:** Bina sorumlusu (işveren), işyerindeki asansörün bakımı
+     için asansör monte eden veya yetkili servis ile bakım sözleşmesi
+     imzalıyor, bakımını düzenli olarak yaptırıyor ve bakım ücretini
+     ödüyor mu?
+     **Mevzuat:** Asansör İşletme ve Bakım Yönetmeliği, Madde 8/1,
+     Madde 14/1
+     **Not:** Asansör Periyodik Kontrol Yönetmeliği Madde 8/1,4 ile
+     (soru 656) örtüşüyor — orada yıllık periyodik kontrol, burada
+     düzenli (en az ayda bir) bakım sözleşmesi zorunluluğu; ayrı ve
+     tamamlayıcı yükümlülük.
+
+671. **Soru:** Bina sorumlusu, bakım sözleşmesi yapılan asansör monte
+     eden veya yetkili servis aracılığıyla, binadaki asansör sayısına
+     göre belirleyeceği sayıda kişiye acil durumlarda kurtarma
+     çalışması konusunda yılda en az bir defa eğitim verilmesini
+     sağlıyor ve eğitim alan kişilerin değişmesi halinde yeni
+     kişilere eğitim verilmesini sağlıyor mu?
+     **Mevzuat:** Asansör İşletme ve Bakım Yönetmeliği, Madde 10/6
+
+672. **Soru:** Bina sorumlusu, bakım sözleşmesi imzaladığı asansör
+     monte eden veya yetkili servis ile birlikte, asansörde yürütülen
+     bakım, onarım, arıza giderme ve periyodik kontrol faaliyetleri
+     sırasında 6331 sayılı İş Sağlığı ve Güvenliği Kanunu ve ilgili
+     mevzuat doğrultusunda gerekli iş sağlığı ve güvenliği
+     tedbirlerinin alınmasını sağlıyor mu?
+     **Mevzuat:** Asansör İşletme ve Bakım Yönetmeliği, Madde 10/9
+     **Not:** Genel risk değerlendirmesi/tedbir alma yükümlülüğüyle
+     (6331 kapsamı) örtüşüyor — burada asansör bakım/onarım
+     faaliyetine özgü, üçüncü taraf (asansör monte eden/yetkili
+     servis) ile birlikte sorumluluk; ayrı hüküm.
+
+673. **Soru:** Bina sorumlusu, bakım sözleşmesi yaptığı asansör monte
+     eden veya yetkili servis dışındaki üçüncü tarafların asansöre
+     müdahale etmesine izin vermiyor mu?
+     **Mevzuat:** Asansör İşletme ve Bakım Yönetmeliği, Madde 10/13
+
+674. **Soru:** Bina sorumlusu, asansörle ilgili herhangi bir tehlikeli
+     durumu bakım sözleşmesi imzaladığı asansör monte eden veya
+     yetkili servise bildiriyor ve söz konusu asansöre müdahale
+     edilene kadar gerekli güvenlik tedbirini alıyor mu?
+     **Mevzuat:** Asansör İşletme ve Bakım Yönetmeliği, Madde 14/3
+
+675. **Soru:** Bina sorumlusu, mevcut (15/8/2004 tarihinden önce
+     monte edilmiş) asansörün güvenlik seviyesini, güncel TS EN 81-80
+     standardında belirtilen tehlikeli durumlara karşı, Asansör
+     Yönetmeliği (2014/33/AB) kapsamında monte edilen asansörlerin
+     güvenlik seviyesine yakın bir seviyeye getirilecek şekilde
+     arttırıyor mu?
+     **Mevzuat:** Asansör İşletme ve Bakım Yönetmeliği, Madde 16/1,
+     Madde 16/4
+     **Not:** Asansör Periyodik Kontrol Yönetmeliği'nde (soru 656) yer
+     alan periyodik kontrol/etiketleme yükümlülüğünden ayrı — burada
+     mevcut asansörlerin güvenlik seviyesinin standarda uygun olarak
+     fiilen yükseltilmesi (iyileştirme) zorunluluğu söz konusu.
+
 ## Genel Yükümlülükler → Büyük Endüstriyel Kazalar (YENİ alt kategori)
 
 657. **Soru:** İşletmeci, kuruluşunda büyük endüstriyel kazaların
@@ -5191,6 +5246,24 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Asansör İşletme ve Bakım Yönetmeliğinin aşağıdaki maddeleri
+  (TAMAMLANDI — bkz. soru 670-675): Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar), Madde 5 (asansör kimlik numarası — oluşturulması muayene
+  kuruluşunun görevi; etiket muhafazası bina sorumlusuna ait minor bir
+  yükümlülük olup soru 656 ile örtüşen içerikle yeterince kapsandı),
+  Madde 6-7 (binaya fenni uygunluk kontrolü ve tescil — ruhsat makamı
+  ve asansör monte edenin süreci, bina sorumlusunun değil), Madde 9
+  (bakımın kapsamı tanımı — asansör monte edenin teknik yükümlülüğü),
+  Madde 10/1-5,7,8,10-12,14 (asansör monte eden/yetkili servisin kendi
+  teknik-idari yükümlülükleri: durum tespit raporu, bakım föyü, yedek
+  parça temini, mesleki sorumluluk vb.), Madde 11-13 (garanti belgesi,
+  satış sonrası hizmetler, yetkili servis şartları — üçüncü taraf
+  yükümlülükleri), Madde 14/2 (engellilerin erişilebilirliği için
+  sürekli çalıştırma — kamusal erişilebilirlik, çalışan İSG'si değil),
+  Madde 15 (Bakanlığın hizmet denetimi), Madde 17 (idari yaptırımlar),
+  Madde 18-19 (atıflar/yürürlükten kaldırma), Geçici Madde 1 (tescil
+  geçiş hükmü, tarihi geçmiş: 15/8/2004-24/6/2015), Madde 20-21
+  (yürürlük/yürütme).
 - Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin Azaltılması
   Hakkında Yönetmeliğin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
   657-669): Madde 1-5 (amaç/kapsam/dayanak/tanımlar — Madde 5/h'de
