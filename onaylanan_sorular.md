@@ -4177,6 +4177,84 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
      Yönetmeliği, Madde 13, Ek-3/19
 
+545. **Soru:** İşveren, sağlık ve güvenlik dokümanında gerekli
+     görülmesi halinde acil durumlar için havalandırma, tutuşma
+     kaynağı kapatma, parlayıcı sıvı/gaz önleme, yangından korunma ve
+     sondaj kuyusu kontrol sistemlerine kumanda edebilecek bir
+     uzaktan kumanda sistemi kurar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Ortak Hükümler)/1.1-1.2
+
+546. **Soru:** İşveren, işyerinin tüm bölümlerine ulaşan sesli/ışıklı
+     alarm sistemi, çalışan bulunan kısımlardan işitilebilir sesli
+     sistem ve (deniz tesislerinde) kıyı/kurtarma servisleriyle
+     sürekli haberleşme sistemi kurar, bu sistemleri güvenilir
+     olmayan enerjiden bağımsız besler mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Ortak Hükümler)/2.1-2.4
+
+547. **Soru:** İşveren, özel görevli çalışanların listesini işyerinin
+     uygun yerlerine asar, güvenli toplanma yerlerini belirler, güncel
+     isim listesi bulundurur ve tahliye/toplanma yollarını ısı/duman/
+     patlama etkilerinden koruyarak kullanılabilir durumda tutar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Ortak Hükümler)/3.1-3.4
+
+548. **Soru:** Denizdeki sondajla maden çıkarma işyerinden sorumlu
+     işveren, özel tehlike kaynaklarını belirleyip risklerini
+     değerlendiren, kaza önleme/tahliye tedbirlerini belirten bir
+     sağlık ve güvenlik dokümanı hazırlar, bu dokümanda belirtilen
+     prosedürlere uyar ve birden fazla işveren varsa aralarında
+     işbirliği yapar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/1.1-1.3
+
+549. **Soru:** İşveren, denizdeki sondaj tesisinde riskli alanları
+     yangın duvarlarıyla ayırır, bu alanları yangın algılama/alarm/
+     söndürme sistemleriyle (ana su borusu, sprink, köpük, taşınabilir
+     söndürücü vb.) donatır, bir yangın planı bulundurur ve yangınla
+     mücadele ekipmanını Sağlık ve Güvenlik İşaretleri Yönetmeliğine
+     uygun işaretler mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/2.1-2.6
+
+550. **Soru:** İşveren, denizdeki sondaj tesisi çalışanlarına genel
+     acil durum eğitimine ek olarak işyerine özgü tahliye eğitimi ve
+     hayatta kalma teknikleri eğitimi verir mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/3.1-3.2
+
+551. **Soru:** İşveren, denizdeki sondaj tesisinde yeterli tahliye
+     araçları ve denize kaçış imkanı sağlar, tüm çalışanlara yetecek
+     sayıda uygun cankurtaran sandalı/botu/can simidi/yeleği
+     bulundurur ve tatbikatlarla cankurtaran teknelerinin operasyona
+     hazır olduğunu teyit eder mi?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/3.3-3.6, 4.1
+
+552. **Soru:** İşveren, denizdeki sondaj tesisinde işin gerektirdiği
+     hallerde çalışanlara patlama/duman/yangına karşı korunaklı,
+     havalandırma/ısıtma/aydınlatmalı, her katta en az iki bağımsız
+     çıkışlı barınma imkanı sağlar, kadın-erkek yatakhanelerini
+     ayırır ve hijyenik şartları korur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/5.1-5.3
+
+553. **Soru:** İşveren, denizdeki sondaj tesisinde helikopter
+     operasyonlarına uygun büyüklükte bir pist tasarlar, kaza
+     malzemelerini pist yakınında depolar ve helikopter hareketleri
+     sırasında eğitimli destek elemanı bulundurur mu?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/6.1-6.3
+
+554. **Soru:** İşveren, sondajla maden çıkartma işyerinin açık
+     denizde konuşlandırılması sırasında çalışanların sağlık ve
+     güvenliğini koruyacak tüm tedbirleri alır ve kullanılan ekipman/
+     çalışma yöntemlerinin normal ve kritik koşullardaki riskleri
+     azaltacak şekilde olmasını sağlar mı?
+     **Mevzuat:** Maden İşyerlerinde İş Sağlığı ve Güvenliği
+     Yönetmeliği, Madde 13, Ek-4 (Denizlerdeki Tesisler)/7.1-7.3
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -4813,12 +4891,20 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   yaptığından ayrı soru açılmadı. Madde 1-4 (amaç/kapsam/dayanak/
   tanımlar) ve Madde 8-10 (yürürlükten kaldırma/yürürlük/yürütme)
   atlandı.
-- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (4. PARÇA —
-  Madde 1-13 + EK MADDE 1 + Ek-1 + Ek-2 + Ek-3 tamamlandı; Ek-4 ayrı
-  bir turda işlenecek, bu mevzuat henüz tamamlanmadı) — soru 463-477
-  (1. parça), soru 478-505 (Ek-1), soru 506-510 (Ek-2) ve soru
-  511-544 (Ek-3) eklendi, "Genel Yükümlülükler → Maden İşyerleri" alt
-  kategorisine. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
+- Maden İşyerlerinde İş Sağlığı ve Güvenliği Yönetmeliği (TAMAMLANDI)
+  — soru 463-477 (Madde 5-12 + EK MADDE 1), soru 478-505 (Ek-1), soru
+  506-510 (Ek-2), soru 511-544 (Ek-3) ve soru 545-554 (Ek-4) eklendi,
+  "Genel Yükümlülükler → Maden İşyerleri" alt kategorisine (soru
+  475-476 "Bilgilendirme ve Katılım", soru 477 "Sağlık Gözetimi" alt
+  kategorilerine eklendi). Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 6 (çalışanın kendi yükümlülüğü — işverenin değil), Madde 13
+  (eklere atıf yapan şemsiye madde — içeriği Ek-1/2/3/4 üzerinden
+  işlendi), Geçici Madde 1-4 (geçiş hükümleri) ve Madde 15-16
+  (yürürlük/yürütme) atlandı. Ek-1'in 7.1/18/23 bentleri (başka
+  yönetmeliklere salt atıf, yeni bilgi içermiyor) ve 21-22 bentleri
+  ("Genel Yükümlülükler → İşyeri Bina ve Eklentileri" ile örtüşen
+  yapı/tesis hükümleri, kullanıcı kararıyla ayrı soru yazılmadı, soru
+  501/503'e Not eklendi) atlandı. 1. parça: Madde 5/1-1,2,3,4, 5/1-5,
   5/2, 5/3, 5/4, 7, 8, 9, EK MADDE 1/1-a,b, EK MADDE 1/1-c, EK MADDE
   1/1-d, EK MADDE 1/1-e. Soru 475-476 (Madde 10, 12) "Genel
   Yükümlülükler → Bilgilendirme ve Katılım"; soru 477 (Madde 11)
