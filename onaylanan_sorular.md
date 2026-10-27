@@ -5265,6 +5265,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- "CE" İşareti Yönetmeliği — tamamı atlandı. Ürün güvenliği genel
+  çatı yönetmeliği: imalatçı/yetkili temsilci/ithalatçı/dağıtıcının
+  CE işareti koyma ve kullanma usullerini düzenliyor. Metin boyunca
+  hiç "işveren" veya "çalışan" kelimesi geçmiyor — Kişisel Koruyucu
+  Donanım Yönetmeliği (2016/425/AB) için verilen skip gerekçesiyle
+  aynı EU ürün/CE-işaretleme kategorisi, hatta ondan daha genel/çatı
+  niteliğinde (tüm CE'li ürünler için geçerli).
 - Uzaktan Çalışma Yönetmeliğinin aşağıdaki maddeleri (TAMAMLANDI —
   bkz. soru 676-677): Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde
   5-11 (sözleşme şekli, çalışma mekânı/malzeme/ekipman temini, üretim
