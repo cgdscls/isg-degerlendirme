@@ -5072,8 +5072,29 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      bildiriyor mu?
      **Mevzuat:** Özel İstihdam Büroları Yönetmeliği, Madde 9/1-c
 
+## Genel Yükümlülükler → Eğitim
+
+655. **Soru:** İşveren, çalışanlara, kullandıkları veya çalışmaları
+     sırasında maruz kalabilecekleri maddeler ya da karışımlarla ilgili
+     olarak güvenlik bilgi formu (SDS) kapsamında tedarikçiden temin
+     edilen bilgileri sağlıyor mu?
+     **Mevzuat:** Kimyasalların Kaydı, Değerlendirilmesi, İzni ve
+     Kısıtlanması Hakkında Yönetmelik, Madde 31
+     **Not:** "Kimyasal Maddelerle Çalışmalarda Sağlık ve Güvenlik
+     Önlemleri Hakkında Yönetmelik" Madde 9 ile örtüşüyor (soru 383 —
+     eğitim/bilgilendirme, güvenlik bilgi formları dahil). Buradaki
+     yükümlülük KKDİK'in kendi madde numarasıyla, tedarik zincirinden
+     gelen bilginin iletilmesi odaklı; ayrı hüküm.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Kimyasalların Kaydı, Değerlendirilmesi, İzni ve Kısıtlanması Hakkında
+  Yönetmelik (KKDİK)'in aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 655):
+  Madde 1-30, 32-65/A, Geçici Madde 1-2, 66-67 — tamamı imalatçı/ithalatçı/
+  alt kullanıcı/tedarikçinin Bakanlığa yönelik kayıt, test, değerlendirme,
+  izin, kısıtlama, bildirim ve ücret yükümlülükleri (Türk REACH'i, SEA/CLP
+  ile aynı ürün/piyasa düzenlemesi yapısı); işveren-çalışan İSG ilişkisi
+  değil.
 - Analık İzni veya Ücretsiz İzin Sonrası Yapılacak Kısmi Süreli Çalışmalar
   Hakkında Yönetmelik — 4857 sayılı İş Kanunu Madde 13'e dayanan çalışma
   süresi/izin düzenlemesi (analık izni süreleri, ücretsiz izin, kısmi
