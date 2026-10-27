@@ -4987,6 +4987,11 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Kanser Bildirimi ve Kanser Kayıt Merkezleri Yönetmeliği — halk sağlığı
+  sürveyans/istatistik yönetmeliği (kanser vakalarının bildirimi, kanser
+  kayıt merkezlerinin örgütlenmesi, il kanser danışma komisyonu); muhatap
+  hastane yöneticisi/kayıt elemanları/Halk Sağlığı Müdürlüğü. "İşveren"
+  hiç geçmiyor; işveren-çalışan İSG ilişkisiyle ilgisi yok.
 - Lejyoner Hastalığı Kontrol Usul ve Esasları Hakkında Yönetmelik — tesis
   (konaklama birimi: hastane, otel, SPA vb.) sahibi/işletmecisinin halk
   sağlığına yönelik legionella önleme/sürveyans/bildirim yükümlülüklerini
