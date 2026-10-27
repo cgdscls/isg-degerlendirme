@@ -4894,8 +4894,109 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Yapı İşlerinde İş Sağlığı ve Güvenliği Yönetmeliği,
      Madde 14/3, Ek-4(B-II)/87-91
 
+## Genel Yükümlülükler → Tozla Mücadele (YENİ alt kategori)
+
+633. **Soru:** İşveren, toz oluşan işyerlerinde çalışanların maruziyetini
+     önlemek için tehlikeli madde yerine daha az tehlikeli madde
+     kullanımını (ikame), uygun iş organizasyonu ve toplu koruma
+     yöntemlerini, toz çıkışını önleyecek mühendislik yöntemlerini
+     uygular mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 5/1-2-a,b,c
+
+634. **Soru:** İşveren, yeterli temiz hava bulundurur, alınan tedbirler
+     yetersizse çalışanlara tozun niteliğine uygun kişisel koruyucu
+     donanım verip kullandırır, tedbirlerin etkinliğini kontrol/
+     denetim/gözetimle sürdürür ve işyerinde oluşan atıkları ilgili
+     mevzuata uygun bertaraf eder mi?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 5/2-ç,d,e,f
+
+635. **Soru:** İşveren, tozlu işlerde risk değerlendirmesi yaparken
+     ortamdaki tozun çeşidini, tehlike/zararlarını, maruziyetin düzey/
+     süre/sıklığını, Ek-1'deki mesleki maruziyet sınır değerlerini, toz
+     ölçüm sonuçlarını, alınması gereken tedbirleri ve önceki sağlık
+     gözetimi sonuçlarını dikkate alır mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 6
+
+636. **Soru:** İşveren, risk değerlendirmesine göre belirlenen periyodik
+     aralıklarla toz ölçümü yaptırır, maruziyet koşulları değiştiğinde
+     ölçümü tekrarlatır, sonuçları Ek-1'deki sınır değerlere göre
+     değerlendirir ve ölçümleri yetkili (ön yeterlik/yeterlik belgeli)
+     laboratuvarlara yaptırır mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 8
+
+637. **Soru:** İşveren, toz yoğunluğunun Ek-1'deki sınır değerleri
+     aşmamasını sağlar; aştığında kaynağında önleme/bastırma çalışmaları
+     yaptırır, ölçümü yeniler ve değerin sınırın altına düştüğü tespit
+     edilmeden çalışma izni vermez mi?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 9
+
+638. **Soru:** İşveren, çalışanların sağlık gözetimini İşe Giriş/
+     Periyodik Muayene Formu'na göre yaptırır, risk değerlendirmesi/toz
+     ölçüm sonuçları/toz cinsine göre işyeri hekimince belirlenen
+     sıklıkta tekrarlatır ve her çalışan için sağlık kaydı tutar mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 10/a-b
+
+639. **Soru:** İşveren, pnömokonyoz yönünden periyodik muayenelerde
+     Ek-2'deki tanı şemasının dikkate alınmasını, işyeri hekiminin
+     muayene sonucuna göre koruyucu/önleyici tedbir ve tavsiyelerde
+     bulunmasını (toza maruz işten men dahil), maruziyet bitiminde
+     gereken sağlık takibi süresinin belirlenmesini sağlar ve çalışan/
+     işverenin yeniden muayene talep hakkını tanır mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 10/c,ç,d,e
+
+640. **Soru:** İşveren, Kanunun 15. maddesindeki durumlarda ve işyeri
+     hekimince belirlenen sıklıkta ILO standardına uygun akciğer
+     radyografisi çektirir; asbest/kuvars içeren tozlu işyerlerinde bu
+     sıklığın işyeri hekimince risk değerlendirmesi ve sağlık durumuna
+     göre belirlenmesini sağlar mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 11/1-2
+
+641. **Soru:** İşveren, asbest/kuvars işyerlerinde radyografilerin ILO
+     sınıflandırmasına uygun eğitimli okuyucu tarafından değerlendirilip
+     nihai sonucun yazılı bildirilmesini; diğer tozlu işyerlerinde ise
+     değerlendirmenin işyeri hekimi tarafından (gerekirse okuyucuya
+     yönlendirerek) yapılmasını sağlar mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 11/3,5
+
+642. **Soru:** İşveren, okuyucudan Kategori 0 olarak değerlendirilen
+     çalışanları aralıklı muayenelerle takip eder, Kategori 1 ve üzeri
+     değerlendirilenleri SGK yetkili sağlık hizmet sunucusuna sevk eder
+     mi?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 12/1
+
+643. **Soru:** İşveren, meslek hastalıkları tanısında yetkili sağlık
+     kuruluşunun pnömokonyoz tanılı çalışan için raporunda belirttiği
+     çalışma koşullarını sağlar mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 13
+
+644. **Soru:** İşveren, çalışanların yaptığı iş/çalışma süresi/toz ölçüm
+     sonuçları/kişisel sağlık dosyası kayıtlarını işten ayrılma
+     tarihinden itibaren 15 yıl saklar, çalışan başka işyerine
+     geçtiğinde dosyayı onaylı örnekle yeni işverene gönderir ve
+     çalışanın kendi kayıtlarına erişim hakkını tanır mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 14
+
+## Genel Yükümlülükler → Eğitim
+
+645. **Soru:** İşveren, çalışanlara ve temsilcilerine risk değerlendirmesi
+     sonuçları, işyerinde bulunan toz çeşidi/sağlık riskleri/meslek
+     hastalıkları/maruziyet sınır değerleri, korunma yöntemleri ve
+     KKD'nin doğru kullanım/bakımı konularında eğitim ve bilgilendirme
+     sağlar mı?
+     **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 15
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Tozla Mücadele Yönetmeliği'nin aşağıdaki maddeleri (TAMAMLANDI — bkz. soru
+  633-645): Madde 1-4 (amaç/kapsam/dayanak/tanımlar); Madde 7 (Tozla Mücadele
+  Komisyonu — Bakanlık düzeyinde idari komisyon, işverene yönelik yükümlülük
+  değil); Madde 16 (pnömokonyoz okuyucu eğitimi — İSGÜM'ün hekimlere verdiği
+  sertifikasyon süreci, işverenin yükümlülüğü değil); Madde 17 (eski Tozla
+  Mücadele Birimlerinin iç kontrol ölçümüne devam hakkı — kazanılmış hak/geçiş
+  hükmü, yeni yükümlülük getirmiyor); Madde 18-20 (yürürlükten kaldırma/
+  yürürlük/yürütme). Ek-1 (sınır değer tablosu), Ek-2 (tanı şeması), Ek-3 (ILO
+  değerlendirme çizelgesi) ve Ek-4 (sertifika örneği) zaten Madde 6/9/10/12'de
+  atıfla kullanıma alınan referans dokümanlar — ayrı soru gerektirmiyor.
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
   sadece devlete yönelik çerçeve hükümler.
 - Karayolları Trafik Kanunu (2918) — "işveren" hiç geçmiyor, tamamen trafik
