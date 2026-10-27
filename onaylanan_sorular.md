@@ -1817,6 +1817,229 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      **Mevzuat:** Sağlık Kuralları Bakımından Günde Azami Yedi Buçuk Saat
      veya Daha Az Çalışılması Gereken İşler Hakkında Yönetmelik, Madde 8
 
+## Genel Yükümlülükler → İşyeri Bina ve Eklentileri (YENİ alt kategori)
+
+260. **Soru:** İşyeri binaları ile bunlara yapılan her çeşit ek ve
+     değişiklikler, yapılan işin özelliğine uygun nitelik ve yeterli
+     sağlamlıkta inşa edilmiştir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/3)
+
+261. **Soru:** Elektrik tesisatı, yangın veya patlama tehlikesi
+     oluşturmayacak şekilde projelendirilip tesis edilmiş, bakımı/
+     onarımı/kontrolü düzenli yapılıp gerekli kayıtlar tutulmaktadır;
+     patlayıcı ortam oluşması muhtemel yerlerde elektrik tesisleri ilgili
+     mevzuata (muhtemel patlayıcı ortamda kullanılan teçhizat
+     yönetmeliği) uygun kurulmuştur.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/4-7)
+
+262. **Soru:** İşyerinin ana pano ve tali elektrik panolarında seçicilik
+     ilkesine uygun kaçak akım rölesi (artık akım anahtarı) tesis
+     edilmiştir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/8)
+
+263. **Soru:** Parlayıcı/patlayıcı/tehlikeli madde üretilen, işlenen veya
+     depolanan yerlerde ve yüksek bina/baca/direk gibi yüksek yapılarda
+     yıldırıma karşı gerekli tedbirler alınmış ve tesisler kurulmuştur.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/9)
+
+264. **Soru:** İşyerindeki tüm acil çıkış yolları ve kapıları doğrudan
+     dışarıya veya güvenli bir alana açılmakta, önlerinde engel
+     bulunmamakta, kilitli/bağlı değildir; uygun şekilde işaretlenmiş
+     olup elektrik kesilmesi halinde acil aydınlatma sistemi
+     bulunmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/10)
+
+265. **Soru:** İşyerinde yeterli ve etkili yangın söndürme ekipmanı,
+     gerektiğinde yangın detektörü/alarm sistemi bulunmakta; bu
+     ekipmanlar her zaman kullanıma hazır, periyodik bakımlı, görünür/
+     erişilir yerlerde ve usulüne uygun işaretlenmiş durumdadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/11-14)
+
+266. **Soru:** Kapalı işyerlerinde çalışanların ihtiyaç duyacağı yeterli
+     temiz hava sağlanmakta; gerektiğinde mekanik (cebri) havalandırma
+     sistemi kurulmuş olup bu sistemin yıllık bakımı/filtre değişimi
+     yetkili kişilere yaptırılmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/15-18)
+
+267. **Soru:** İşyerinde termal konfor şartları (ortam sıcaklığı)
+     çalışma şekline ve çalışanların harcadığı güce uygun olup; sürekli
+     çok sıcak/soğuk ortamda çalışmanın zorunlu olduğu hallerde koruyucu
+     tedbirler alınmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/19-21)
+
+268. **Soru:** İşyerleri yeterli gün ışığı veya (gerektiğinde) uygun
+     suni aydınlatmayla aydınlatılmakta; çalışma mahalleri ve geçiş
+     yollarındaki aydınlatma kaza riski oluşturmayacak şekilde
+     yerleştirilmiş, aydınlatmanın devre dışı kalmasının risk
+     oluşturacağı yerlerde acil aydınlatma sistemi bulunmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/22-24)
+
+269. **Soru:** İşyeri taban döşemeleri sağlam/kuru/düz/kaymaz olup
+     tehlikeli eğim, çukur ve engel bulunmamakta; taban ve asma kat
+     döşemeleri üzerlerine konulacak yük ve çalışan ağırlığına dayanıklı,
+     hijyenik temizliğe elverişli malzemeden yapılmış; camlı bölmeler
+     işaretlenmiş ve kırılmaya karşı korunmuş; tavan yüksekliği ve çatı
+     yapısı uygun ve dayanıklıdır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/25-32)
+
+270. **Soru:** İşyerindeki pencereler ve tavan pencereleri güvenli
+     şekilde açılıp kapanabilmekte, ayarlanabilmekte ve güvenli bir
+     şekilde temizlenebilmektedir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/33-34)
+
+271. **Soru:** Kapı ve girişler, bulundukları alanın kullanım amacına
+     uygun yer/sayı/boyut/malzemede olup; saydam kapılar işaretlenmiş/
+     korunmuş, raylı/yukarı açılan kapılarda güvenlik sistemi
+     bulunmakta, kaçış yollarındaki kapılar yardım almaksızın her zaman
+     içeriden açılabilmektedir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/35)
+
+272. **Soru:** Merdiven, koridor, geçiş yolu, yükleme yeri ve rampa
+     dahil tüm yollar güvenli boyut/şekilde olup engebeli/çukur/kaygan
+     değildir; tehlikeli alanlara görevli olmayan kişilerin girişi
+     engellenmiş, yüksekten düşme riski olan yerlerde uygun korkuluklar
+     bulunmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/36-40)
+
+273. **Soru:** İşyerindeki merdivenler ateşe dayanıklı yanmaz
+     malzemeden, sağlam, yeterli genişlik/eğimde ve düşmelere karşı
+     korkuluklarla çevrilidir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/41)
+
+274. **Soru:** Yürüyen merdiven ve bantlar güvenli şekilde çalışmakta
+     olup kolay fark edilir/ulaşılır acil durdurma tertibatına sahiptir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/42)
+
+275. **Soru:** Yükleme yerleri ve rampaları taşınacak yükün boyutuna
+     uygun, çalışanların düşmesini önleyecek şekilde güvenli olup en az
+     bir çıkış yerine sahiptir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/43)
+
+276. **Soru:** Çalışma yerinin taban alanı, yüksekliği ve hava hacmi,
+     çalışanların güvenle ve rahat çalışabilmesi için yeterli olup
+     çalışanın serbestçe hareket edebileceği alan bulunmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/44-45)
+
+277. **Soru:** Gerekli hallerde veya 10 ve daha fazla çalışanın
+     bulunduğu işyerlerinde uygun bir dinlenme yeri sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/46-47)
+
+278. **Soru:** İşyerinde yemek yemek durumunda olan çalışanlar için
+     uygun termal konfor ve hijyen şartlarını haiz bir yemek yeme yeri
+     sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/48)
+
+279. **Soru:** Gebe ve emziren kadın çalışanların uzanarak
+     dinlenebilecekleri uygun şartlar sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/49)
+     **Not:** Mevcut "Gebe/emziren" alt kategorisindeki soru 13 (İş
+     Kanunu Madde 74) analık izni süresini düzenliyor; bu madde fiziksel
+     dinlenme yeri şartını düzenliyor — mükerrer değil, farklı açı.
+
+280. **Soru:** İş elbisesi giyme zorunluluğu olan çalışanlar için kadın
+     ve erkek çalışanlara ayrı ayrı, uygun şartları haiz soyunma yerleri
+     ve her çalışan için kilitli elbise dolabı sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/50-51)
+
+281. **Soru:** Gerektiğinde kadın ve erkek çalışanlar için ayrı ayrı,
+     sıcak ve soğuk akarsuyu bulunan uygun yıkanma yerleri/duşlar tesis
+     edilmiş olup her zaman kullanıma hazır durumdadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/52-54)
+
+282. **Soru:** Çalışma yerlerine, dinlenme/soyunma/duş yerlerine yakın
+     konumda, kadın ve erkek çalışanlar için ayrı ayrı yeterli sayıda
+     tuvalet ve lavabo bulunmakta, gerekli temizlik malzemeleri
+     sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/55-56)
+
+283. **Soru:** İşyerindeki atık ve birikinti suların aktığı/toplandığı
+     yerler, uygun bir kanalizasyon veya fosseptiğe bağlanmış ve
+     kapatılmıştır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/57)
+
+284. **Soru:** İşyerinin büyüklüğü, yapılan işin niteliği ve kaza
+     riskine göre bir veya daha fazla ilkyardım/acil müdahale odası
+     bulunmakta, yeterli ilkyardım malzemesi ve ekipmanıyla teçhiz
+     edilmiş olup usulüne uygun işaretlenmiştir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/58-60)
+
+285. **Soru:** Engelli çalışanların bulunduğu işyerlerinde, bu
+     çalışanların doğrudan çalıştığı yerler ve kullandıkları kapı/geçiş
+     yeri/merdiven/servis aracı/duş/lavabo/tuvalet ilgili standartlara
+     uygun şekilde düzenlenmiştir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/61)
+     **Not:** Mevcut "Engelli Çalışanlar" alt kategorisindeki soru 6 (İş
+     Kanunu Madde 30) engelli çalıştırma kotasını düzenliyor; bu madde
+     fiziksel erişilebilirlik şartını düzenliyor — mükerrer değil, farklı
+     açı.
+
+286. **Soru:** Açık çalışma alanları yaya/araç trafiğinin güvenli
+     yapılmasını sağlayacak şekilde düzenlenmiş, gün ışığının yetersiz
+     olduğu hallerde uygun aydınlatılmış olup çalışanlar olumsuz hava
+     şartlarına, düşme/kaymaya ve zararlı dış etkilere karşı
+     korunmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/62-65)
+
+287. **Soru:** Barınma amaçlı kullanılan tesisler yanıcı olmayan
+     malzemeden inşa edilmiş, ısıtmada açık ateş/mangal kullanılmamakta,
+     yeterli tuvalet/lavabo/duş ve hijyenik şartlar sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/66)
+
+288. **Soru:** Çalışan konutları sağlık ve teknik şartlara uygun inşa
+     edilmiş olup aileleriyle oturan çalışanlar için ayrı, bekar
+     çalışanlar için cinsiyete göre ayrı bölümler halinde
+     düzenlenmiştir.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-a (Ek-1/67)
+
+289. **Soru:** İşyeri bina ve eklentileri ile bulunan ekipman/araç-
+     gereçlerin düzenli teknik bakımı yapılmakta, sağlığı/güvenliği
+     olumsuz etkileyebilecek aksaklıklar en kısa sürede giderilmekte ve
+     gerekli kayıtlar tutulmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-c
+
+290. **Soru:** İşyeri bina ve eklentileri ile ekipman/araç-gereçlerin,
+     özellikle havalandırma sistemlerinin, uygun hijyen şartlarını
+     sağlayacak şekilde düzenli temizliği yapılmakta ve gerekli kayıtlar
+     tutulmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-ç
+
+291. **Soru:** İşyerinin düzeni, sağlık ve güvenlik risklerine yol
+     açmayacak ve çalışanların işlerini rahatça yapabileceği şekilde
+     sağlanmaktadır.
+     **Mevzuat:** İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve
+     Güvenlik Önlemlerine İlişkin Yönetmelik, Madde 5/1-f
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
 - Türkiye Cumhuriyeti Anayasası — somut/denetlenebilir işveren yükümlülüğü yok,
@@ -2280,6 +2503,22 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
   Bakanlık kararı, idari), Madde 10 (yürürlükten kaldırma), Geçici Madde 1
   (2004 yönetmeliği kapsamında zaten bildirim yapmış eski işyerleri için
   dar/tarihsel muafiyet) ve Madde 11-12 (yürürlük/yürütme) atlandı.
+- İşyeri Bina ve Eklentilerinde Alınacak Sağlık ve Güvenlik Önlemlerine
+  İlişkin Yönetmelik — soru 260-291 eklendi, yeni "Genel Yükümlülükler →
+  İşyeri Bina ve Eklentileri" alt kategorisi açıldı (Madde 5/1-a üzerinden
+  EK-1'in 67 maddesi 26 konu kümesine bölünerek soru 260-288'e, Madde
+  5/1-c, 1-ç, 1-f bentlerinden soru 289-291'e dönüştürüldü). Madde 5'in
+  b, d, e, g, ğ bentleri, içerik olarak EK-1'deki ilgili sorularla
+  (acil çıkış, güvenlik ekipmanı bakımı, aydınlatma/havalandırma/termal
+  konfor, yangın, barınma) tamamen örtüştüğü için ayrıca soru yapılmadı
+  (tekrar olurdu). Soru 279 (Ek-1/49, gebe/emziren dinlenme yeri) soru 13
+  (İş Kanunu Madde 74, analık izni) ile, soru 285 (Ek-1/61, engelli
+  fiziksel erişilebilirlik) soru 6 (İş Kanunu Madde 30, engelli kotası)
+  ile aynı genel konuyu paylaşıyor ama farklı açı — kullanıcı talebiyle
+  ayrı soru olarak eklendi. Madde 1-4 (amaç/kapsam/dayanak/tanımlar),
+  Madde 8 (ilgili diğer mevzuat/standartların uygulanması — somut
+  yükümlülük değil, atıf hükmü) ve Madde 9-11 (yürürlükten kaldırma/
+  yürürlük/yürütme) atlandı.
 
 **Tasarım ilkesi (22.10.2026):** "İş Hijyeni" kategorisi, İSG'nin klasik risk
 etmeni sınıflandırmasının (fiziksel, kimyasal, biyolojik, ergonomik,
