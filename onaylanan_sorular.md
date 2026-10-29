@@ -5980,6 +5980,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Asbest Sökümü ile İlgili Eğitim Programlarına İlişkin Tebliğ
+  — Tamamen atlandı. Madde 1-2 amaç/dayanak. Madde 3-5 asbest söküm
+  uzmanlığı eğitimine giriş şartı, İSGÜM başvuru/sınıf/sınav/belge
+  usulü ve 5 yıllık yenileme eğitimi — muhatap İSGÜM ve bireysel
+  belge sahibi (uzman), işveren değil. Madde 6 asbest söküm çalışanı
+  eğitim programı — eğitimi veren İSGÜM/sendikalar/yetkili kurumlar,
+  f.5'teki bilgilendirme yükümlülüğünün muhatabı "asbest söküm
+  uzmanı", işveren değil. İşverenin asbest söküm eğitimi sağlama
+  yükümlülüğü zaten dayanak Yönetmelik'te (Asbestle Çalışmalarda
+  Sağlık ve Güvenlik Önlemleri Hakkında Yönetmelik, Madde 19-20)
+  düzenlenmiş; bu tebliğ sadece o eğitimin müfredat/sınav/belge
+  detaylarını düzenliyor — önceden atlanan KKD onaylanmış kuruluş
+  ve standart tebliğleriyle aynı kategori (eğitim/sertifikasyon
+  idari düzenlemesi). Madde 7-8 yürürlük/yürütme.
+
 - İş Sağlığı ve Güvenliğine İlişkin İşyeri Tehlike Sınıfları Tebliği
   — Madde 1, 3/1-3,5, 4-6 kısmen atlandı. Madde 1 (EK-1 tehlike
   sınıfı listesine atıf) salt bir referans/sınıflandırma tablosu,
