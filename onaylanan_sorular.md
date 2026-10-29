@@ -5966,6 +5966,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Kişisel Koruyucu Donanımlarla İlgili Onaylanmış Kuruluşların
+  Görevlendirilmesine Dair Tebliğ — tamamı atlandı. KKD'lerin CE/
+  uygunluk değerlendirmesini yapacak "onaylanmış kuruluşların" (test/
+  sertifikasyon kuruluşları) Bakanlık tarafından görevlendirilme
+  usul ve esasları — üçüncü taraf uygunluk değerlendirme kuruluşu
+  akreditasyon süreci, işveren-çalışan İSG yükümlülüğü değil.
+  "işveren" 0, "çalışan" 0 eşleşme.
+
 - Radyasyon Güvenliği Yönetmeliği — Madde 1,2,4-9,13,14,16,17,19,
   24-37,39-75,76-79 kısmen atlandı. Nükleer tesisler hariç tüm diğer
   iyonlaştırıcı radyasyon faaliyetlerini (tıbbi, endüstriyel,
