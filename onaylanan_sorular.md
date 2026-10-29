@@ -5864,6 +5864,18 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Maddelerin Taşınmasında Fiziksel Korunma Yönetmeliği —
+  tamamı atlandı. Amaç (Madde 1): nükleer maddelerin taşınması
+  sırasında sabotaj ve hırsızlığa karşı korunması için fiziksel
+  koruma önlemleri — kasıtlı kötü niyetli eylemlere karşı "güvenlik/
+  emniyet" konusu, kaza/sağlık tehlikesi önleme anlamındaki İSG
+  "emniyet/safety" değil. Sivil Havacılık Güvenliği Yönetmeliği,
+  Nükleer Tesislerde Siber Güvenlik ve Nükleer Tesislerin Emniyetine
+  İlişkin Yönetmelik'te kurulan emsalle aynı aile. "çalışan" geçen 7
+  yer de güvenlik personeli/alarm sistemleri/arka plan kontrolü
+  bağlamında, klasik işveren-çalışan İSG yükümlülüğü değil.
+  "işveren": 0 eşleşme.
+
 - Nükleer Tesislerde Radyasyondan Korunma Yönetmeliği — Madde 1-4,
   6, 8-20 (Madde 7 ve 18 hariç), 24, 34/2,4,5-7,9,11, 36, 37, 40, 41,
   42-54, 55, 57, 58 kısmen atlandı. Bu maddeler: doz sınırı/doz
