@@ -5652,8 +5652,67 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      tatbikat yükümlülüğüyle (soru 719) kısmen örtüşüyor, ancak
      radyasyon acil durumuna özgü.
 
+730. **Soru:** İşveren (yetkilendirilen kişi), radyasyon acil
+     durumlarına hızlı ve etkili müdahale için yeterli sayıda ve
+     nitelikte acil durum çalışanı ile yedeklerini önceden
+     belirleyerek bir acil durum müdahale organizasyonu kuruyor mu?
+     **Mevzuat:** Radyasyon Acil Durumlarının Yönetimi Hakkında
+     Yönetmelik, Madde 10
+
+731. **Soru:** İşveren, öngörülebilir radyasyon acil durumu
+     koşullarında kullanıma uygun ve yeterli miktarda acil durum
+     donanımını temin edip bakım/test/kalibrasyonlarını yaparak her
+     an kullanılabilir ve ulaşılabilir durumda muhafaza ediyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 14/1
+
+732. **Soru:** İşveren, radyasyon acil durumuna hazırlık ve
+     müdahaleye yönelik yıllık eğitim programları oluşturup tesiste
+     görev yapan personel ve yöneticilerin bu eğitimleri (teorik ve
+     uygulamalı) periyodik olarak almasını sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 16/1-2
+     **Not:** Soru 729'daki (Radyasyon Tesislerine İlişkin
+     Yetkilendirmeler Yönetmeliği Madde 32/2) genel eğitim/
+     bilgilendirme yükümlülüğüyle örtüşüyor, ancak burada içerik çok
+     daha somut (eğitim konu başlıkları tanımlı).
+
+733. **Soru:** İşveren, tesisin kategorisine göre (Kategori I/II/III)
+     belirlenen periyotlarla (en geç 3, 5 veya 2 yılda bir tam
+     ölçekli; aradaki yıllarda masa başı/kısmi ölçekli) radyasyon
+     acil durum tatbikatları gerçekleştiriyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 16/6-7
+     **Not:** Soru 729'daki genel tatbikat yükümlülüğüyle örtüşüyor,
+     ancak burada periyot kategoriye göre somutlaştırılmış.
+
+734. **Soru:** İşveren, radyasyon acil durumunda sahaya veya tesise
+     girmesi gereken acil durum çalışanlarına kişisel koruyucu
+     donanım ve gerekli hallerde iyot tabletlerini temin ediyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 20/3-d
+
+735. **Soru:** İşveren, sorumluluğu altındaki acil durum
+     çalışanlarının alabileceği radyasyon dozlarının mümkün olan en
+     düşük seviyede tutulmasını sağlayacak acil durum donanımının
+     kullanılmasını ve ilgili talimatların uygulanmasını sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 21
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyasyon Acil Durumlarının Yönetimi Hakkında Yönetmeliğin
+  aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 730-735): Madde 1-9
+  (amaç/kapsam/dayanak/tanımlar/sınıflandırma ilkeleri); Madde 11
+  (radyasyon acil durumu planının hazırlanması/Kuruma sunulması/
+  güncellenmesi — idari süreç, içeriği Madde 10/14/16/20/21 ile
+  zaten kapsandı); Madde 12-13 (planlama koordinasyonu, saha içi
+  acil durum yönetim merkezi kurulması — tesis/kurumsal altyapı,
+  somut çalışan yükümlülüğü değil); Madde 15 (talimatların
+  hazırlanması — Madde 16 eğitimiyle örtüşüyor); Madde 17-19 (karar
+  destek sistemleri, sınıflandırma/bildirim usulleri — Kuruma/AFAD'a
+  karşı idari süreç); Madde 20/1-2, 20/3-a,b,c,e,f,g ve 20/4
+  (hafifletici eylemler, saha dışına tahliye/sığınma, ilk yardım,
+  dış destek, atık yönetimi — genel tahliye/acil durum
+  prosedürleriyle örtüşüyor veya Kategori IV'e özgü dış müdahale);
+  Madde 22-23 (halkın/medyanın bilgilendirilmesi, Kuruma parametre
+  aktarımı — idari/düzenleyici bildirim); Madde 24-29 (müdahalenin
+  sonlandırılması, denetim/yaptırım, yürürlük/yürütme).
 - Nükleer Enerji ve İyonlaştırıcı Radyasyona İlişkin Denetim ve
   Yerinde İncelemeler Yönetmeliği — tamamı atlandı. Amaç (Madde 1)
   "Nükleer Düzenleme Kurumu tarafından yapılan denetim ve yerinde
