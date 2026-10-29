@@ -5862,7 +5862,38 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      tutuyor.
      **Mevzuat:** Aynı Yönetmelik, Madde 56/5
 
+764. **Soru:** İşveren (yetkilendirilen kişi), yüklenici ile
+     yaptığı yazılı anlaşma çerçevesinde harici görevlilerin genel
+     sağlık durumlarının yapacağı göreve uygunluğunu tespit ettirip
+     çalışma sürecinde tıbbi gözetimlerini yaptırıyor.
+     **Mevzuat:** Kontrollü Alanlarda Çalışan Harici Görevlilerin
+     İyonlaştırıcı Radyasyondan Kaynaklanabilecek Risklere Karşı
+     Korunmasına Dair Yönetmelik, Madde 5/1-b
+
+765. **Soru:** İşveren (yetkilendirilen kişi), harici görevlilere
+     radyasyondan korunma ile çalıştıkları kontrollü alan ve
+     uygulamaya özgü eğitimlerin verilmesini sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 5/1-c
+
+766. **Soru:** İşveren (yetkilendirilen kişi), harici görevlilere
+     gerekli kişisel koruyucu ekipmanı kullandırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 5/1-ç
+
+767. **Soru:** İşveren (yetkilendirilen kişi), harici görevlilerin
+     kişisel dozlarının izlenmesini ve gerekiyorsa ilave dozimetrik
+     izlemelerin yapılmasını sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 5/1-d
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Kontrollü Alanlarda Çalışan Harici Görevlilerin İyonlaştırıcı
+  Radyasyondan Kaynaklanabilecek Risklere Karşı Korunmasına Dair
+  Yönetmelik — Madde 5/1-a,e ve Madde 6 kısmen atlandı. Madde 5/1-e
+  (doz takip karnesi/merkezi doz kayıt sistemine işleme) soru
+  746'daki kayıt aktarma yükümlülüğüyle örtüşüyor ve daha az somut;
+  Madde 5/1-a genel doz sınırlama ilkesinin tekrarı niteliğinde;
+  Madde 6 harici görevlinin kendi sorumlulukları olup işveren değil
+  çalışan muhatap.
 
 - Nükleer Maddelerin Taşınmasında Fiziksel Korunma Yönetmeliği —
   tamamı atlandı. Amaç (Madde 1): nükleer maddelerin taşınması
