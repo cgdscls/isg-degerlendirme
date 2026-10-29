@@ -5978,7 +5978,131 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      getirip İş Sağlığı ve Güvenliği Genel Müdürlüğüne bildiriyor.
      **Mevzuat:** Aynı Tebliğ, Madde 3/4
 
+## Genel Yükümlülükler → Çalışan Temsilcisi
+
+783. İşveren, işyerinin değişik bölümlerindeki riskler ve çalışan
+     sayılarını göz önünde bulundurarak dengeli dağılıma özen
+     göstererek, çalışanlar arasında seçim veya seçimle
+     belirlenemediği durumda atama yoluyla yeterli sayıda çalışan
+     temsilcisi görevlendiriyor.
+     **Mevzuat:** İş Sağlığı ve Güvenliği ile İlgili Çalışan
+     Temsilcisinin Nitelikleri ve Seçilme Usul ve Esaslarına İlişkin
+     Tebliğ, Madde 4/1
+     *(Not: Soru 26'daki sayı yükümlülüğüyle örtüşüyor; burada
+     seçim/atama usulü ve dengeli dağılım kriteri somutlaştırılmış.)*
+
+784. İşveren, çalışan temsilcisinin veya temsilcilerinin görevlerini
+     yerine getirebilmeleri için gerekli imkânları sağlıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 4/2
+
+785. İşveren, işyerinde yetkili sendika veya sendikalar bulunması
+     halinde işyeri sendika temsilcisini çalışan temsilcisi olarak
+     görevlendiriyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 4/3
+
+786. İşveren, seçim veya atama yoluyla görevlendirilen çalışan
+     temsilcilerini işyerinde ilan ediyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 4/5
+
+787. Çalışan temsilcisinin seçimle belirlenmesi durumunda, aday
+     başvuruları için en az yedi gün süre tanınarak işveren
+     tarafından işyerinde ilan ediliyor; seçimlerin yapılmasına
+     ilişkin iş ve işlemler için gerekli şartlar sağlanarak yeterli
+     sayıda personel işveren tarafından görevlendiriliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/2,4
+
+788. İşyerinde görevlendirilecek çalışan temsilcisi sayısı,
+     işyerindeki çalışan sayısına göre kademeli olarak belirleniyor
+     (2-50 çalışan: 1, 51-100: 2, 101-500: 3, 501-1000: 4, 1001-2000:
+     5, 2001 ve üzeri: 6).
+     **Mevzuat:** Aynı Tebliğ, Madde 7
+     *(Not: Soru 26'daki kademeli sayı yükümlülüğüyle örtüşüyor;
+     burada tam eşik tablosu (501 ve üzeri dilimler dahil)
+     somutlaştırılmış.)*
+
+789. Çalışan temsilcisi seçimi, işyerindeki çalışanların en az
+     yarıdan bir fazlasının katılacağı gizli oylamayla yapılıyor;
+     vardiya usulü çalışılan işyerlerinde seçimler tüm vardiyalarda
+     çalışanların oy kullanmasına imkân verecek şekilde
+     düzenleniyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/1
+
+790. Çalışan temsilciliği seçiminin sonuçları beş yıl süreyle
+     geçerli oluyor; oylarda eşitlik olması durumunda çalışan
+     temsilcisi, adayların öğrenim durumu ve işyerindeki deneyim
+     süresi gibi kriterler esas alınarak işverence belirleniyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/2
+
+791. Çalışan temsilcisinin herhangi bir nedenle görevinden
+     ayrılması durumunda, daha önce yapılan seçim sonuçlarına göre
+     en fazla oy alan sıradaki aday atanıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/3
+
+792. İşyerinde yetkili sendika bulunması halinde, işyeri sendika
+     temsilcileri çalışan temsilcisi olarak görevlendiriliyor;
+     sendika temsilci sayısının zorunlu çalışan temsilci sayısından
+     az veya çok olması durumuna göre diğer temsilciler dengeli
+     dağılıma özen gösterilerek ya da yetkili sendikanın önerisi
+     doğrultusunda işveren tarafından tamamlanıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/4
+
+793. İşyerinde yetkili sendika bulunmaması veya çalışanlar arasında
+     aday olmaması durumunda, işveren altıncı maddedeki niteliklere
+     uygun çalışan bulunması halinde bunlar arasından atama
+     yapıyor; bu niteliklere uygun çalışan bulunmaması halinde ise
+     niteliklere bakılmaksızın çalışanlar arasından yeterli sayıda
+     çalışan temsilcisinin görev yapmasını sağlıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/6
+
+794. İşyerinde birden fazla çalışan temsilcisinin bulunması
+     durumunda, baş temsilci çalışan temsilcileri arasında yapılacak
+     seçimle belirleniyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/7
+
+795. İşyerindeki yetkili sendikanın yetkisini kaybetmesi veya başka
+     bir sendikanın yetkili sendika olarak ilan edilmesi durumunda,
+     işveren otuz günlük süre içinde çalışan temsilcisi veya
+     temsilcilerinin görev yapmasını sağlıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/8
+
+796. Çalışan temsilcisinin, iş sağlığı ve güvenliği çalışmalarına
+     katılma, çalışmaları izleme, tehlike kaynağının yok edilmesini
+     veya risk azaltımı için tedbir alınmasını isteme ve teklifte
+     bulunma yetkisi, görevini yürütmesi nedeniyle kısıtlanmıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 9/1,2
+
+797. Çalışan temsilcisi, görevi gereği öğrendiği işverenin veya
+     işyerinin mesleki sırlarını ve çalışanlara ait özel bilgileri
+     gizli tutuyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 9/3
+
+798. Çalışan temsilcisi seçimi sonucunda, hangi adayın ne kadar
+     oyla seçildiğine ilişkin tutanak düzenleniyor; tutanak işveren
+     veya vekili ile seçimde görevlendirilen çalışanlar tarafından
+     imzalanıyor ve bir sonraki seçime kadar işyerinde saklanıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 10
+
+799. Çalışan temsilcileri, iş sağlığı ve güvenliği konularında özel
+     olarak eğitiliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 11/1
+     *(Not: Soru 25'teki genel çalışan eğitimi yükümlülüğünden
+     farklı olarak, burada çalışan temsilcisine özgü ayrı bir
+     eğitim yükümlülüğü söz konusu.)*
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- İş Sağlığı ve Güvenliği ile İlgili Çalışan Temsilcisinin
+  Nitelikleri ve Seçilme Usul ve Esaslarına İlişkin Tebliğ —
+  Madde 1-3 (amaç/kapsam/dayanak), Madde 4/4 (genel toparlama
+  hükmü, daha spesifik 4/1,2,3,5 ve 5, 8 maddeleriyle zaten
+  kapsandı), Madde 5/5 (fazla aday durumunda kriter/ilan — dar/
+  istisnai idari detay), Madde 6 (temsilci adayının nitelikleri —
+  muhatabı aday/çalışan, işveren değil; 8/6'da dolaylı referansı
+  var), Madde 8/5 ve örnekleri (çok sendikalı işyerlerde oransal
+  hesaplama yöntemi — teknik/matematiksel, 8/4'teki ilkeyle zaten
+  kapsandı), Madde 11/2 ("sağlanabilir" — ihtiyari, zorunlu değil),
+  Geçici Madde 1, Madde 12-13 (geçiş/yürürlük/yürütme) kısmen
+  atlandı. Genuine işveren yükümlülükleri soru 783-799'da kapsandı.
 
 - Asbest Sökümü ile İlgili Eğitim Programlarına İlişkin Tebliğ
   — Tamamen atlandı. Madde 1-2 amaç/dayanak. Madde 3-5 asbest söküm
