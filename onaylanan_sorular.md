@@ -6097,7 +6097,140 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      farklı olarak, burada çalışan temsilcisine özgü ayrı bir
      eğitim yükümlülüğü söz konusu.)*
 
+## Genel Yükümlülükler → Maden İşyerleri
+
+801. İşveren, sığınma odalarını, henüz üretim aşamasına geçmemiş
+     faaliyet alanları hariç, çalışma alanlarına olan uzaklığı en
+     fazla 700 metre olacak şekilde ve çalışma alanlarının temiz
+     hava girişi sağlayan kuyu dibine veya insan naklinin
+     gerçekleştirildiği yollar üzerinden yeryüzüne mesafesi 700
+     metreyi aşıyorsa kuruyor veya inşa ediyor.
+     **Mevzuat:** Yeraltı Maden İşyerlerinde Kurulacak Sığınma
+     Odaları Hakkında Tebliğ, Madde 4/1-b,c
+
+802. Sığınma odalarının kurulma zorunluluğunun bulunmadığı hallerde
+     işveren, maden işyerinde gerçekleştirilen muhtemel acil durum
+     senaryosuna göre odanın kurulup kurulmayacağına karar veriyor;
+     kurulmasına gerek görülmezse çalışanların kişisel solunum
+     koruma cihazıyla tahliye edilebileceği hususunu sağlık ve
+     güvenlik dokümanında belirtiyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 4/1-d
+
+803. İşveren, sığınma odalarını yangın, patlama, göçük, zehirli
+     veya boğucu gaz çıkışı gibi durumlarda kullanılmak üzere her
+     zaman kullanıma hazır vaziyette bulunduruyor ve acil durum
+     planında odanın konumunu ve içindeki kişilerin kurtarılmasına
+     yönelik hususları belirtiyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/1-a,b
+
+804. İşveren, sığınma odalarını temiz hava giriş yolları öncelikli
+     olmak üzere vardiyadaki çalışan sayısı, odanın kapasitesi ve
+     muhtemel acil durum senaryolarını göz önünde bulundurarak
+     konumlandırıyor ve sayısını belirliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/1-c
+
+805. İşveren, sığınma odalarını hayat hattı ile erişilebilir hale
+     getiriyor; sabit odaları sağlam kayaç içerisine, taşınabilir
+     odaları güvenli bölgelere kuruyor, oluşabilecek
+     süreksizliklere karşı uygun tahkimatla sağlamlaştırıyor ve
+     odaların amacı dışında kullanılmasını engelliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/1-ç,d,e
+
+806. İşveren, muhtemel acil durum senaryolarını değerlendirirken
+     vardiyadaki çalışan sayısı, madenin türü/üretim yöntemi/
+     yolların eğim-uzunluğu, oda kapasitesi, mahsur kalma
+     potansiyeli, iş durdurma süresi, tahliyenin güvenli mümkün
+     olup olmadığı, patlama etkisi, kirli hava çıkış yolu durumu,
+     madenin jeolojik yapısı, odanın tehlike kaynaklarına uzaklığı,
+     ekipman özellikleri, yangın önleme sistemlerinin durumu, KKD
+     tipi/ulaşma süresi ve mevsimsel hava yönü değişimi gibi
+     hususları dikkate alıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/2 (a-k)
+
+807. İşveren, sığınma odasını madenin basınçlı hava hattına
+     bağlıyor ve kapama vanası bulunduruyor; oda içinde en az 36
+     saat yetecek solunabilir hava/güvenilir oksijen kaynağı
+     sağlıyor ve karbondioksit/karbonmonoksitin seyreltilmesini
+     veya filtrelenmesini sağlıyor; odadaki elektrikli ekipmanlar
+     için en az 36 saate kadar yedek enerji kaynağı bulunduruyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/2,3,4
+
+808. İşveren, sığınma odasının tüm gövdesinin en az 5 psi'lik
+     patlama basıncına dayanıklı, zehirli/boğucu gaz girişini
+     engelleyecek sızdırmaz yapıda olmasını ve termal konfor
+     şartlarının sağlanmasını temin ediyor; oda içi oksijen (en az
+     %19), karbonmonoksit (en fazla 35 ppm), karbondioksit (en
+     fazla %0,5) ve sıcaklık (en fazla 35°C) değerlerini sabit veya
+     seyyar ölçüm cihazlarıyla sürekli izliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/5,6,7,8
+
+809. İşveren, sığınma odasında işyeri hekiminin görüşleri
+     doğrultusunda belirlenen ilk yardım çantası ve yeterli
+     miktarda son kullanma tarihi geçmemiş içme suyu bulunduruyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/9,10
+
+810. İşveren, sığınma odası ile yerüstü arasında görsel ve/veya
+     sesli iletişim kurulmasına imkân sağlıyor ve dışarıdaki kirli
+     havanın oda atmosferine sızmaması için pozitif basınç sistemi
+     kuruyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/11,16
+
+811. İşveren, sığınma odasının dışında sesli ve ışıklı uyarılar ile
+     reflektör şerit bulunduruyor; odanın kapılarını dışarıya
+     doğru, taşınabilir odalarda ise çıkış kapısından farklı yönde
+     bir acil çıkış kapısı olacak şekilde yaptırıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/17,18
+
+812. İşveren, sığınma odasında portatif kimyasal tuvalet, oturma
+     yeri, yangın söndürücü ve uygun gözetleme penceresi
+     bulunduruyor, odanın çevresinde kullanımı engelleyecek
+     malzeme/makine bulundurmuyor ve odanın tüm elemanlarını yanmaz
+     malzemeden yaptırıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/13,14,19
+
+813. İşveren, sığınma odasının kurulumundan sonra veya yeri
+     değiştirildiğinde imalatçı verilerine uygun kontrollerini
+     yaptırıyor ve kurulum belgesi düzenletiyor; kullanım
+     kılavuzunda belirtilen (en geç 6 ayda bir) sürelerde periyodik
+     kontrol/bakımını ve uzun süre kullanılmama/arızalı olma/iş
+     kazası gibi durumlarda olağanüstü kontrolünü yaptırarak
+     odanın güvenli olduğunu gösteren belge düzenletiyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 7/1-a,b,c
+
+814. İşveren, sığınma odasının bakımlarını imalatçı tarafından
+     yetkilendirilmiş servislere veya kendisi tarafından
+     görevlendirilmiş, yeterli bilgi ve tecrübeye sahip kişilere
+     yaptırıyor; kontrol ve bakım sonuçlarını kayıt altına alıp
+     yetkililere gösterilmek üzere uygun şekilde saklıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 7/1-ç,d
+
+815. İşveren, sığınma odalarının konumu ve kullanımına ilişkin tüm
+     çalışanları bilgilendiriyor; odanın kullanım koşulları ve acil
+     durumlarda yapılması gerekenleri içeren yazılı talimatı basit
+     ve kolay anlaşılır şekilde hazırlayarak uygun ve görülebilecek
+     yerlere asıyor ve odanın içinde bulunduruyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/1,2,3
+
+816. İşveren, acil durum tatbikatlarına sığınma odalarının
+     kullanımını dâhil ediyor; odanın kontrol ve bakımında görevli
+     çalışanlara her vardiyada en az bir kişi olacak şekilde eğitim
+     veriyor (ilk eğitim kurulum sırasında üretici/kurulum
+     firmasınca, sonraki eğitimler 6 ayda bir işverence belirlenen
+     yetkili kişilerce veriliyor).
+     **Mevzuat:** Aynı Tebliğ, Madde 8/4,5
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Yeraltı Maden İşyerlerinde Kurulacak Sığınma Odaları Hakkında
+  Tebliğ — Madde 1-3 (amaç/kapsam/dayanak), Madde 4/1-a (KKD
+  bulundurma koşulu, Ek-3/14'e atıf — ön koşul, ayrı yükümlülük
+  değil), Madde 4/1-ç (mesafe azaltma/oda sayısı artırma yetkisi —
+  ihtiyari), Madde 6/1,12,15 (teknik özelliklerin belirlenme
+  ilkesi, sabit/taşınabilir tasarım ayrımı, nakliyeye uygun tasarım
+  — pür teknik/tasarım sınıflandırması), Geçici Madde 1 (1/7/2018'e
+  kadar uyum süresi — güncelliğini kaybetmiş geçiş hükmü), Madde
+  9-10 (yürürlük/yürütme) kısmen atlandı. Genuine işveren
+  yükümlülükleri soru 801-816'da kapsandı.
 
 - Tozla Mücadele ile İlgili Uygulamalara İlişkin Tebliğ — Madde
   1-4 (amaç/kapsam/dayanak/tanımlar), Madde 5 (okuyucu eğitimi,
