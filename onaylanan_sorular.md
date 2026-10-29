@@ -6091,6 +6091,18 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Ahşap ve Ön Yapımlı Çelik ile Alüminyum Alaşımlı Bileşenlerden
+  Oluşan Dış Cephe İş İskelelerine Dair Tebliğ — tamamı atlandı.
+  İmar Kanunu'na dayalı yapı ruhsatı/statik proje düzenlemesi;
+  muhatap proje müellifi, yapı sahibi, idare, yüklenici ve sorumlu
+  teknik elemanlar. "işveren" hiç geçmiyor, "çalışan" sadece amaç
+  fıkrasında risk tanımı olarak bir kez geçiyor. Madde 3/2 (6331 ve
+  Yapı İşlerinde İSG Yönetmeliği'ne atıf) salt cross-reference,
+  sıfır ek içerik. Madde 3/6,7 (yükseklik/malzeme ve örtü
+  zorunluluğu) pür teknik/kamu güvenliği spesifikasyonu, aktör
+  belirtilmemiş. Önceden atlanan tasarım/ruhsat ilkeleri
+  kümesiyle aynı kategori.
+
 - İş Sağlığı ve Güvenliği ile İlgili Çalışan Temsilcisinin
   Nitelikleri ve Seçilme Usul ve Esaslarına İlişkin Tebliğ —
   Madde 1-3 (amaç/kapsam/dayanak), Madde 4/4 (genel toparlama
