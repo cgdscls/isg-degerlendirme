@@ -5966,6 +5966,13 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Kişisel Koruyucu Donanımlarla İlgili Uyumlaştırılmış Ulusal
+  Standartlara Dair Tebliğe Ek Yapılması Hakkında Tebliğ — tamamı
+  atlandı. KKD'lerle ilgili uyumlaştırılmış ulusal (EN/TS)
+  standartlar listesine ek yapılması — salt standart referans listesi
+  güncellemesi, somut bir işveren-çalışan yükümlülüğü içermiyor.
+  "işveren" 0, "çalışan" 0 eşleşme.
+
 - Kişisel Koruyucu Donanımlarla İlgili Onaylanmış Kuruluşların
   Görevlendirilmesine Dair Tebliğ — tamamı atlandı. KKD'lerin CE/
   uygunluk değerlendirmesini yapacak "onaylanmış kuruluşların" (test/
