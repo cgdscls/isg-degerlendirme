@@ -5548,6 +5548,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerde Tedarik Zincirine İlişkin Yönetmelik — tamamı
+  atlandı. Amaç (Madde 1) "nükleer tesislerin tedarik zincirine
+  ilişkin Kuruluşun görev ve sorumluluklarını, bildirime ve
+  yetkilendirmeye tabi tedarikçilerin niteliklerini ve bildirim ile
+  yetkilendirilmeye ilişkin usul ve esasları"nı düzenliyor —
+  tedarikçi/imalatçı kalite yönetimi ve Kuruma bildirim/yetkilendirme
+  süreci. "Çalışan" geçen iki yerden biri tanım maddesi (güvenlik
+  açısından önem), diğeri imalatçının (tedarikçinin) kendi personeli
+  arasında güvenlik kültürü geliştirmesi (Madde 7/1) — bu, nükleer
+  kalite güvencesi/tedarik zinciri bağlamında bir imalatçı
+  yükümlülüğü, app'in muhatabı olan işverenin (Kuruluş/tesis
+  işletmecisi) kendi çalışanına karşı İSG yükümlülüğü değil. İçerik
+  tamamen tedarikçi/imalatçı seçimi, bildirim, kalite yönetim sistemi
+  (ISO 9001/19443), alt tedarikçi denetimi gibi tedarik zinciri
+  kalite güvencesi konuları. Metin boyunca hiç "işveren" geçmiyor.
 - Nükleer Tesislerde ve Radyoaktif Atık Tesislerinde Bağımsız Gözetim
   Faaliyetlerine İlişkin Yönetmelik — tamamı atlandı. Amaç/Tanımlar
   (Madde 1, 4): "BGŞ" (Bağımsız Gözetim Şirketi) = Kuruluştan
