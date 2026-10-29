@@ -5696,6 +5696,23 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyoaktif Atık Tesislerine İlişkin Yetkilendirmeler ve Güvenlik
+  İlkeleri Yönetmeliği — tamamı atlandı. 49 madde, radyoaktif atık
+  tesislerinin (işleme, depolama, bertaraf tesisleri) tüm yaşam
+  döngüsünün Kurum tarafından yetkilendirilmesi süreci: niyet
+  bildirimi, saha onayı, inşaat izni, işletmeye alma izni, işletme
+  lisansı, işletmeden çıkarma/kapatma izni, düzenleyici kontrolden
+  çıkarılma — Nükleer Tesislere İlişkin Yetkilendirmeler Yönetmeliği
+  ile aynı yapıda, sadece tesis türü farklı; tamamen Kuruluş-Kurum
+  arası idari yetkilendirme süreci. Madde 5, 7, 14, 27'deki
+  "çalışanların radyasyondan korunması" ifadeleri somut işveren
+  yükümlülüğü değil, tesis tasarım ilkesi niteliğinde (derinliğine
+  savunma, bariyerler) — Radyasyon Tesislerine İlişkin
+  Yetkilendirmeler Yönetmeliği Madde 28 benzeri somut bir
+  "yetkilendirilen kişinin yükümlülükleri" maddesi burada yok.
+  "işveren" tek geçtiği yer tanımlar maddesi, "çalışan" 6 eşleşme,
+  hepsi genel tasarım/koruma ilkesi bağlamında.
+
 - Ulusal Radyasyon İzleme ve Radyasyon Kontrolü Hakkında Yönetmelik —
   tamamı atlandı. 13 madde, ülke çapında radyasyon izleme ağının
   (RADİSA) ve gümrük kapıları/atık işleme tesislerindeki radyasyon
