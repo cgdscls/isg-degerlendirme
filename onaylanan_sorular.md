@@ -5538,6 +5538,20 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Santrallerde Tesis İçi Doğru Akım Güç Kaynakları Yönetmeliği
+  — tamamı atlandı. Amaç (Madde 1) "nükleer santrallerde güvenlik
+  sistemlerine kesintisiz enerji sağlamak üzere kullanılan
+  doğrultucuların ve bataryaların işlevsel güvenilirliğinin ortaya
+  konulması"nı düzenliyor — tamamen mühendislik tasarım/güvenilirlik
+  standardı (batarya kapasitesi, voltaj sınırları, hidrojen
+  konsantrasyonu izleme, kalifikasyon programı vb.). Hidrojen
+  konsantrasyonu izleme gibi hükümler bile (Madde 11) ekipman/sistem
+  güvenilirliğine (patlama riskine karşı batarya odası tasarımına)
+  yönelik, çalışan maruziyetine yönelik bir İSG tedbiri olarak
+  çerçevelenmemiş. Muhatap "Kuruluş" (santral işletmecisi) teknik/
+  mühendislik sıfatıyla; metin boyunca hiç "işveren" veya "çalışan"
+  geçmiyor. Elektrik İç Tesisleri Yönetmeliği ve benzeri teknik
+  mühendislik standardı skip gerekçesiyle aynı kategori.
 - Nükleer İhracat ve Nükleer İthalat Kontrolü Yönetmeliği — tamamı
   atlandı. Amaç/Kapsam (Madde 1-2) "nükleer silahların yayılmasının
   önlenmesi amacıyla nükleer ihracat kontrolüne ve nükleer ithalat
