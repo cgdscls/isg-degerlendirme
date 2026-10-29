@@ -5536,8 +5536,32 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      katkı payı ödüyor mu?
      **Mevzuat:** Nükleer Düzenleme Kanunu, Madde 10/1
 
+714. **Soru:** İşveren (Kuruluş), tesiste meydana gelen ve EK-1'de yer
+     alan olaylara ilişkin ön raporu; acil durum planının
+     uygulanmasını gerektiren olaylarda sekiz saat, diğer olaylarda
+     yirmi dört saat içinde Kuruma sunuyor mu?
+     **Mevzuat:** Nükleer Tesislerde Kayıt, Bildirim ve Raporlama
+     Yönetmeliği, Madde 22/1, 23/1-3
+     **Not:** Nükleer Düzenleme Kanunu Madde 5/1-f'deki genel kayıt/
+     bildirim/raporlama yükümlülüğünün (soru 710) bu yönetmelikteki
+     somut süre detayı; içerik örtüşüyor.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerde Kayıt, Bildirim ve Raporlama Yönetmeliğinin
+  aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 714): Madde 1-4 (amaç/
+  kapsam/dayanak/tanımlar); Madde 5-21 (tesis kabul testi, yıllık
+  rapor, durdurma/yeniden işletme raporu, periyodik güvenlik
+  değerlendirmesi, işletme deneyimi raporu, denetim raporlaması —
+  tesisin nükleer güvenlik performansına yönelik düzenleyici
+  raporlama, çalışan İSG'si değil; "çalışan" kelimesi geçen tek
+  yerler rapor içeriği olarak, bir koruma tedbiri değil); Madde 24-26
+  (ara rapor/olay raporu/takip raporu — olay bildirimi zaten Madde
+  22-23 ile kapsandı, bunlar sadece takip/güncelleme mekanizması);
+  Madde 27 (diğer düzenleyici kontrol konularına ilişkin genel atıf);
+  Madde 28-29 (Kurumun denetim/yaptırım yetkisi, öngörülemeyen
+  durumlar); Madde 30 (yürürlükten kaldırma); Geçici Madde 1 (geçiş
+  hükmü); Madde 31-32 (yürürlük/yürütme).
 - Radyasyondan Korunma Eğitimlerine İlişkin Yönetmelik — tamamı
   atlandı. Amaç/Kapsam (Madde 1-2) radyasyondan korunma eğitimini
   verecek tüzel kişilerin (eğitim kuruluşlarının) yetkilendirilmesi,
