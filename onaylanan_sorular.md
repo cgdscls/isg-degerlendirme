@@ -4976,6 +4976,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      çalışanın kendi kayıtlarına erişim hakkını tanır mı?
      **Mevzuat:** Tozla Mücadele Yönetmeliği, Madde 14
 
+## Genel Yükümlülükler → Tozla Mücadele
+
+800. İşveren, nihai sonuç raporunda teknik olarak kabul edilemez
+     (4. derece) radyografiye sahip olduğu bildirilen çalışanların
+     akciğer radyografilerinin tekrar çektirilmesini sağlıyor.
+     **Mevzuat:** Tozla Mücadele ile İlgili Uygulamalara İlişkin
+     Tebliğ, Madde 7/5
+
 ## Genel Yükümlülükler → Eğitim
 
 645. **Soru:** İşveren, çalışanlara ve temsilcilerine risk değerlendirmesi
@@ -6090,6 +6098,24 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      eğitim yükümlülüğü söz konusu.)*
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Tozla Mücadele ile İlgili Uygulamalara İlişkin Tebliğ — Madde
+  1-4 (amaç/kapsam/dayanak/tanımlar), Madde 5 (okuyucu eğitimi,
+  muhatap İSGÜM/hekim adayları), Madde 6 (radyografi çekim sıklığı
+  — soru 640'ta zaten kapsanmış, pure cross-reference), Madde
+  7/1-4 (teknik kalite derecelendirme kriterleri, muhatap okuyucu),
+  Madde 8 (negatoskop/görüntüleme teknik şartnamesi, muhatap
+  okuyucu), Madde 9/1-3 (okuyucu sayısı/bağımsız değerlendirme
+  usulü, muhatap okuyucu), Madde 9/4 (Kategori 0/1+ takip/SGK
+  sevk — soru 642'de zaten kapsanmış), Madde 9/5 (meslek
+  hastalığı tanısında uygun çalışma koşulları — soru 643'te zaten
+  kapsanmış), Madde 9/6 (işyeri hekimi tavsiyesi — soru 639'da
+  zaten kapsanmış), Madde 9/7-8 (15 yıl saklama — soru 644'te
+  zaten kapsanmış), Madde 9/9 ve Madde 10 (dijital radyografi
+  arşivleme kriterleri, muhatap okuyucu/İSGÜM), Madde 11 (okuyucu
+  listesi ilanı, muhatap İSGÜM), Madde 12-13 (yürürlük/yürütme)
+  kısmen atlandı. Genuine yeni yükümlülük (Madde 7/5) soru 800'de
+  kapsandı.
 
 - Ahşap ve Ön Yapımlı Çelik ile Alüminyum Alaşımlı Bileşenlerden
   Oluşan Dış Cephe İş İskelelerine Dair Tebliğ — tamamı atlandı.
