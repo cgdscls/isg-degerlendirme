@@ -5966,6 +5966,19 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- İş Kazası ve Meslek Hastalığı Sigortası Bakımından İşverenin,
+  Üçüncü Kişilerin ve Sigortalıların Sorumluluğu ile Peşin Sermaye
+  Değerlerinin Hesaplanmasıyla İlgili İşlemler Hakkında Tebliğ —
+  tamamı atlandı. 5510 sayılı Kanun çerçevesinde, kaza
+  gerçekleştikten sonra SGK'nın kusurlu işverene veya üçüncü kişiye
+  rücu (geri ödettirme) tutarının hesaplanması ve "peşin sermaye
+  değeri" aktüeryal hesap yöntemi — kazayı önleyici bir yükümlülük
+  değil, kaza sonrası mali sorumluluk/tazminat hesaplama prosedürü.
+  Nükleer Risklere İlişkin Sorumluluk Sigortası Yönetmeliği'nde
+  kurulan "sivil sorumluluk sigortası rejimi — İSG değil" emsaliyle
+  aynı aile. "işveren" 12 eşleşme, tamamı kusur/rücu/ödettirme
+  bağlamında, önleyici bir yükümlülük formunda değil.
+
 - Kişisel Koruyucu Donanımlarla İlgili Uyumlaştırılmış Ulusal
   Standartlara Dair Tebliğe Ek Yapılması Hakkında Tebliğ — tamamı
   atlandı. KKD'lerle ilgili uyumlaştırılmış ulusal (EN/TS)
