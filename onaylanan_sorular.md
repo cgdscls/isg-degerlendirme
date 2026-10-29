@@ -5546,8 +5546,60 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      bildirim/raporlama yükümlülüğünün (soru 710) bu yönetmelikteki
      somut süre detayı; içerik örtüşüyor.
 
+715. **Soru:** Kuruluş, yangına müdahale prosedürlerinin
+     uygulanmasından ve müdahale ekiplerinin yönetilmesinden sorumlu
+     personel/birim görevlendirip, tesis türüne uygun yeterli sayıda
+     ve yetkin personelden oluşan yangına müdahale ekipleri kurup
+     gerekli ekipman ve araçları temin ediyor mu?
+     **Mevzuat:** Nükleer Tesislerde Yangın Güvenliği Yönetmeliği,
+     Madde 11/1-a,b
+
+716. **Soru:** Kuruluş, yangına müdahalenin yetersiz kalabileceği
+     hâller için dış itfaiye birimleriyle iş birliği yapıp gerekli
+     kaynakları sağlıyor ve personelini tesise özel durumlar için
+     eğitiyor mu?
+     **Mevzuat:** Nükleer Tesislerde Yangın Güvenliği Yönetmeliği,
+     Madde 11/1-c
+
+717. **Soru:** Nükleer santrallerde, Kuruluş 24 saat esasına göre
+     kesintisiz göreve hazır bir saha içi itfaiyesi kuruyor mu (saha
+     içi itfaiyesi personeline görev tanımları haricinde ek iş
+     vermiyor mu)?
+     **Mevzuat:** Nükleer Tesislerde Yangın Güvenliği Yönetmeliği,
+     Madde 11/1-ç
+
+718. **Soru:** Kuruluş, tüm tesis personeline yangın sırasında
+     izlenecek genel prosedür, tahliye yolları ve yangına müdahale
+     ekiplerine ait erişim yolları hakkında eğitim veriyor mu?
+     **Mevzuat:** Nükleer Tesislerde Yangın Güvenliği Yönetmeliği,
+     Madde 12/1, 12/2-a
+     **Not:** Genel işyeri yangın güvenliği eğitim/tahliye
+     yükümlülüğüyle ("İşyeri Bina ve Eklentileri" kategorisi)
+     örtüşüyor, ancak nükleer tesise özgü düzenleme.
+
+719. **Soru:** Kuruluş, alınan önlem ve prosedürlerin etkinliğini
+     test etmek üzere yılda en az bir kez periyodik yangın tatbikatı
+     gerçekleştiriyor mu?
+     **Mevzuat:** Nükleer Tesislerde Yangın Güvenliği Yönetmeliği,
+     Madde 12/3
+     **Not:** Genel işyeri tahliye tatbikatı yükümlülüğüyle örtüşüyor.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerde Yangın Güvenliği Yönetmeliğinin aşağıdaki
+  maddeleri (TAMAMLANDI — bkz. soru 715-719): Madde 1-4 (amaç/
+  kapsam/dayanak/tanımlar); Madde 5-9 (tesis tasarımı, yangın tehlike
+  analizi, yangın kompartımanı/bariyer/havalandırma/söndürme sistemi
+  tasarım esasları — nükleer güvenlik fonksiyonlarını korumaya
+  yönelik mühendislik tasarım standardı, çalışan koruması değil);
+  Madde 10 (yangın güvenliği programının hazırlanması/Kuruma
+  sunulması — idari süreç, içeriği Madde 11-12 ile zaten kapsandı);
+  Madde 12/2-b,c ve 12/4 (müdahale ekiplerine/dış itfaiyeye verilen
+  teknik eğitim içeriği ve ilk yakıt yüklemeden önceki ilk tatbikat —
+  Madde 11-12'nin detay/istisna hükümleri, ayrı soru gerektirmiyor);
+  Madde 13-14 (Kurumun denetim/yaptırım yetkisi, öngörülemeyen
+  durumlar); Geçici Madde 1 (geçiş hükmü); Madde 15-16 (yürürlük/
+  yürütme).
 - Nükleer Tesislerin ve Nükleer Maddelerin Emniyetine İlişkin
   Yönetmelik — tamamı atlandı. Tanımlar (Madde 4-e): "Emniyet:
   Nükleer tesisleri ve nükleer maddeleri hedef alan hırsızlık,
