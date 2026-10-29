@@ -5654,6 +5654,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Enerji ve İyonlaştırıcı Radyasyona İlişkin Denetim ve
+  Yerinde İncelemeler Yönetmeliği — tamamı atlandı. Amaç (Madde 1)
+  "Nükleer Düzenleme Kurumu tarafından yapılan denetim ve yerinde
+  incelemelere ilişkin iş ve işlemleri, denetimlerin türü ve kapsamı
+  ile denetim görevlilerine ilişkin hususları belirlemek" —
+  düzenleyici makamın (Kurum) kendi denetim/teftiş usulünü
+  düzenliyor, denetlenen işverenin yükümlülüğünü değil. Nükleer
+  Düzenleme Kanunu (7381) Madde 7-8'de (Kurumun denetim yetkisi)
+  zaten "düzenleyici makamın kendi süreci" gerekçesiyle atlanan
+  konunun doğrudan uygulama yönetmeliği. Metin boyunca hiç "işveren"
+  veya "çalışan" geçmiyor.
 - Radyoaktif Maddelerin Serbestleştirilmesi ve Salımına İlişkin
   Yönetmelik — tamamı atlandı. Amaç/Kapsam (Madde 1-2) radyoaktif
   maddelerin düzenleyici kontrolden serbestleştirilmesi (belirli
