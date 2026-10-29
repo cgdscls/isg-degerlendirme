@@ -5884,7 +5884,44 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      izlemelerin yapılmasını sağlıyor.
      **Mevzuat:** Aynı Yönetmelik, Madde 5/1-d
 
+768. **Soru:** İşveren, radyoaktif maddenin güvenli taşınmasını
+     temin için normal taşıma koşullarında ve olası tehlike
+     durumlarına uygun radyasyondan korunma programları uyguluyor ve
+     bu programları, ekonomik ve sosyal faktörleri de göz önünde
+     bulundurarak mümkün olan en düşük dozun alınmasını sağlayacak
+     şekilde geliştiriyor.
+     **Mevzuat:** Radyoaktif Maddenin Güvenli Taşınması Yönetmeliği,
+     Madde 5,6
+
+769. **Soru:** İşveren, taşımada çalışan işçileri, kendilerine ve
+     ilgili diğer kişilere gelebilecek radyasyon zararları
+     konusunda eğitiyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 7
+
+770. **Soru:** İşveren, taşıma sırasındaki mesleki ışınlanmalarda,
+     yıllık dozun 1-6 mSv arasında olduğu durumlarda doz
+     değerlendirme programı/iş yeri izlemesi veya kişisel izleme
+     uyguluyor, 6 mSv'in üzerinde olması durumunda kişisel izleme
+     yapıyor ve izleme uygulandığında kayıt tutup muhafaza ediyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 9
+
+771. **Soru:** İşveren, radyoaktif maddeyi halktan ve çalışanlardan
+     yeterli uzaklıkta tutarak çalışma alanlarında işçiler için
+     yıllık dozun 5 mSv'i geçmemesini sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 10
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Radyoaktif Maddenin Güvenli Taşınması Yönetmeliği — Madde 1-4,
+  8, 11-16, 17-252 kısmen atlandı. IAEA TS-R-1 esaslı, 252 madde,
+  büyük ölçüde teknik paketleme/aktivite sınırları/sınıflandırma/
+  etiketleme/tasarım-test standardı (Madde 17-252), Kurum'un kendi
+  doz değerlendirme denetimi (Madde 8), dar teknik detaylar (fotoğraf
+  filmi mesafesi, Madde 11) ve genel/ulusal acil durum koordinasyonu
+  (Madde 12-13) ile kalite temini/denetim idari süreci (Madde 14-16)
+  — somut işveren yükümlülüğüne indirgenebilecek bir fıkra içermiyor;
+  genuine çalışan koruma yükümlülükleri (Madde 5-7, 9-10) zaten soru
+  768-771'de kapsandı.
 
 - Nükleer Güç Santrallerinin Güvenliği İçin Özel İlkeler
   Yönetmeliği — tamamı atlandı. Amaç/Kapsam: nükleer güç
