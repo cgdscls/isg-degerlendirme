@@ -5696,6 +5696,22 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislere İlişkin Yetkilendirmeler Yönetmeliği — tamamı
+  atlandı. 49 madde, tamamı nükleer tesis türlerine göre (santral,
+  araştırma reaktörü, yakıt üretim/yeniden işleme tesisi, hammadde
+  işleme tesisi, maden) lisanslandırma aşamalarını düzenliyor: niyet
+  bildirimi, saha onayı, inşaat lisansı, işletme lisansı, işletmeden
+  çıkarma — tamamen Kurum-Kuruluş arası idari yetkilendirme süreci.
+  Radyasyon Tesislerine ve Radyasyon Uygulamalarına İlişkin
+  Yetkilendirmeler Yönetmeliği'nden farklı olarak, burada o
+  yönetmelikteki Madde 28 benzeri kapsamlı bir "yetkilendirilen
+  kişinin yükümlülükleri" maddesi yok — somut çalışan koruma içeriği
+  (dozimetri, sınıflandırma, KKD, eğitim vb.) bulunmuyor; bu konular
+  zaten Nükleer Düzenleme Kanunu, Nükleer Tesislerde Yangın Güvenliği
+  ve Radyasyon Acil Durumlarının Yönetimi yönetmelikleriyle
+  kapsanmış durumda. "Çalışan" geçen 2 yerden biri tanım/genel ilke
+  maddesi (zaten soru 705'te kapsanan ilke), diğeri "radyolojik
+  etkiler" değerlendirme kriteri listesi — somut yükümlülük değil.
 - Radyasyon Acil Durumlarının Yönetimi Hakkında Yönetmeliğin
   aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 730-735): Madde 1-9
   (amaç/kapsam/dayanak/tanımlar/sınıflandırma ilkeleri); Madde 11
