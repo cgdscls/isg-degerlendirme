@@ -6219,7 +6219,35 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      yetkili kişilerce veriliyor).
      **Mevzuat:** Aynı Tebliğ, Madde 8/4,5
 
+## Elektrik, Makine, Ekipman → İş Ekipmanı Güvenliği
+
+817. İşveren, periyodik kontrol yaptıracağı kişinin ilgili
+     Yönetmelik ekinde belirtilen branştan olduğunu ve EKİPNET
+     sisteminde geçerli bir kayıt numarasının bulunduğunu kontrol
+     ediyor.
+     **Mevzuat:** İş Ekipmanlarının Periyodik Kontrollerini Yapmaya
+     Yetkili Kişilerin Kayıt ve Eğitimlerine İlişkin Tebliğ, Madde 5
+     *(Not: Soru 179'daki (İş Ekipmanlarının Kullanımında Sağlık
+     ve Güvenlik Şartları Yönetmeliği, Madde 7) genel "yetkili
+     kişiye yaptırma" yükümlülüğüyle örtüşüyor; burada EKİPNET
+     kayıt numarası doğrulaması somutlaştırılmış.)*
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- İş Ekipmanlarının Periyodik Kontrollerini Yapmaya Yetkili
+  Kişilerin Kayıt ve Eğitimlerine İlişkin Tebliğ — Madde 1-4
+  (amaç/kapsam/dayanak/tanımlar), Madde 6 (yetkili kişilerin
+  nerelerde kontrol yapabileceği ve aykırılıkta kayıt silme,
+  muhatap yetkili kişi/kuruluş), Madde 7-9 (EKİPNET elektronik
+  kayıt işlemleri/istenen bilgiler/geçici kayıt no, muhatap
+  yetkili kişi/Bakanlık), Madde 10 (gerçeğe aykırı beyan, muhatap
+  yetkili kişi), Madde 11-15 (eğitim programı/eğitim veren
+  kurumlar/başvuru/belgelendirme — İSGÜM/eğitim kurumu/Bakanlık
+  arası idari süreç, asbest söküm eğitimi tebliğiyle aynı
+  kategori), Geçici Madde 1-4 (pilot uygulama/geçiş süreleri/
+  akreditasyon muafiyeti — güncelliğini kaybetmiş geçiş hükümleri),
+  Madde 16-17 (yürürlük/yürütme) kısmen atlandı. Genuine işveren
+  yükümlülüğü (Madde 5) soru 817'de kapsandı.
 
 - Yeraltı Maden İşyerlerinde Kurulacak Sığınma Odaları Hakkında
   Tebliğ — Madde 1-3 (amaç/kapsam/dayanak), Madde 4/1-a (KKD
