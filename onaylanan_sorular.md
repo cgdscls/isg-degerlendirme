@@ -5886,6 +5886,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Yakıt Çevrimi Tesislerinin Güvenliği İçin Özel İlkeler
+  Yönetmeliği — tamamı atlandı. 50 madde, baştan sona nükleer yakıt
+  çevrimi tesisinin tasarım aşamasında uyulacak mühendislik/teknik
+  güvenlik ilkeleri: "tasarımda dikkate alınır", "tasarımda yer
+  verilir" formatında — Kuruluş'un çalışanlara karşı somut işveren
+  yükümlülüğü değil, tesis tasarımcısının/mühendisin uyması gereken
+  teknik kriterler. Elektrik İç Tesisleri Yönetmeliği ve DC Güç
+  Kaynakları Yönetmeliği'nde kurulan "pure technical/engineering
+  design standards" emsaliyle aynı aile. Madde 42/4,6'daki
+  radyasyondan korunma/KKD içeriği de edilgen cümle yapısında ve
+  zaten Nükleer Tesislerde Radyasyondan Korunma Yönetmeliği'nde
+  (soru 740-763) çok daha somut biçimde kapsanmış. "işveren" 0,
+  "çalışan" 10 eşleşme, hepsi tasarım kriteri/genel koruma ilkesi
+  bağlamında.
+
 - Kontrollü Alanlarda Çalışan Harici Görevlilerin İyonlaştırıcı
   Radyasyondan Kaynaklanabilecek Risklere Karşı Korunmasına Dair
   Yönetmelik — Madde 5/1-a,e ve Madde 6 kısmen atlandı. Madde 5/1-e
