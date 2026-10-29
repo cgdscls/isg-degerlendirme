@@ -5538,6 +5538,18 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyasyondan Korunma Eğitimlerine İlişkin Yönetmelik — tamamı
+  atlandı. Amaç/Kapsam (Madde 1-2) radyasyondan korunma eğitimini
+  verecek tüzel kişilerin (eğitim kuruluşlarının) yetkilendirilmesi,
+  sınav ve sertifikasyon usullerini düzenliyor. Tüm madde içeriği
+  (Madde 5-24) "Kuruluş" (eğitim veren kurum) ile Nükleer Düzenleme
+  Kurumu arasındaki yetki belgesi başvurusu/yenileme/denetim/iptal
+  sürecine ilişkin — işverenin kendi çalışanına karşı yükümlülüğü
+  değil, eğitim kurumunun idari lisanslandırma süreci. Metin boyunca
+  hiç "işveren" veya "çalışan" geçmiyor. İlkyardım Yönetmeliği ve
+  Elektrik ile İlgili Fen Adamları Yönetmeliği için verilen skip
+  gerekçesiyle aynı kategori (eğitim kurumu/mesleki lisanslandırma
+  idari süreci).
 - Nükleer Santrallerde Tesis İçi Doğru Akım Güç Kaynakları Yönetmeliği
   — tamamı atlandı. Amaç (Madde 1) "nükleer santrallerde güvenlik
   sistemlerine kesintisiz enerji sağlamak üzere kullanılan
