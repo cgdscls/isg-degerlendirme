@@ -5964,7 +5964,30 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      gerektirmeyen başka bir görevde çalıştırıyor.
      **Mevzuat:** Aynı Yönetmelik, Madde 45
 
+## Genel Yükümlülükler → Genel İş Yeri Gereklilikleri
+
+781. **Soru:** İşveren, işyerinde yürütülen asıl iş faaliyetinde
+     değişiklik olması durumunda bu değişikliği en geç bir ay
+     içinde Çalışma ve Sosyal Güvenlik Bakanlığına bildiriyor.
+     **Mevzuat:** İş Sağlığı ve Güvenliğine İlişkin İşyeri Tehlike
+     Sınıfları Tebliği, Madde 2/2
+
+782. **Soru:** İşveren, işyeri tehlike sınıfının değişmesine
+     ilişkin Bakanlık kararını aldıktan sonra, yeni tehlike
+     sınıfının gerektirdiği iş ve işlemleri 90 gün içinde yerine
+     getirip İş Sağlığı ve Güvenliği Genel Müdürlüğüne bildiriyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 3/4
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- İş Sağlığı ve Güvenliğine İlişkin İşyeri Tehlike Sınıfları Tebliği
+  — Madde 1, 3/1-3,5, 4-6 kısmen atlandı. Madde 1 (EK-1 tehlike
+  sınıfı listesine atıf) salt bir referans/sınıflandırma tablosu,
+  aksiyon gerektiren bir yükümlülük değil; Madde 3/1-3,5 Bakanlık'ın
+  itiraz değerlendirme/denetim/komisyon prosedürü, idari süreç,
+  işveren muhatap değil; Madde 4-6 yürürlükten kaldırma/yürürlük/
+  yürütme. Genuine işveren yükümlülükleri (Madde 2/2, 3/4) soru
+  781-782'de kapsandı.
 
 - İş Kazası ve Meslek Hastalığı Sigortası Bakımından İşverenin,
   Üçüncü Kişilerin ve Sigortalıların Sorumluluğu ile Peşin Sermaye
