@@ -5654,6 +5654,19 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Risklere İlişkin Sorumluluk Sigortasına ve Teminatına Dair
+  Yönetmelik — tamamı atlandı. Amaç (Madde 1) "işletenin nükleer
+  hadiselerden kaynaklanan nükleer zararlara ilişkin hukuki
+  sorumlulukları nedeniyle... yaptırmaları gereken sigortaya veya
+  göstermeleri gereken teminata ilişkin usul ve esasları
+  belirlemek" — Nükleer Düzenleme Kanunu (7381) Madde 14'ün (daha
+  önce "nükleer kaza sivil sorumluluk/tazminat/sigorta rejimi —
+  Paris Sözleşmesi temelli üçüncü taraf zarar sorumluluğu, işçi
+  İSG'si değil, trafik sigortasına benzer mali teminat rejimi"
+  gerekçesiyle atlanan) doğrudan uygulama yönetmeliği. İçerik
+  tamamen sigorta/teminat tutarı, kapsamı, Kuruma sunulacak belgeler,
+  taşıyıcıya devir usulü gibi mali/hukuki sorumluluk sigortası
+  konuları. Metin boyunca hiç "işveren" veya "çalışan" geçmiyor.
 - Radyasyon Tesislerine ve Radyasyon Uygulamalarına İlişkin
   Yetkilendirmeler Yönetmeliğinin aşağıdaki maddeleri (TAMAMLANDI —
   bkz. soru 720-729): Madde 1-12 (amaç/kapsam/tanımlar/lisanslandırma
