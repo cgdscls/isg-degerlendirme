@@ -5696,6 +5696,20 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyoaktif Kirliliğe Maruz Kalmış Alanların Çevresel İyileştirme
+  Faaliyetlerinin Yetkilendirilmesine İlişkin Yönetmelik — tamamı
+  atlandı. 15 madde, baştan sona radyoaktif kirlenmiş alanlarda
+  yürütülecek çevresel iyileştirme (temizleme/koruyucu tedbir)
+  faaliyetinin Kurum tarafından yetkilendirilmesi süreci: başvuru,
+  değerlendirme, izin, ilerleme raporları, alanın düzenleyici
+  kontrolden çıkarılması, yetkinin sona ermesi — Kuruluş-Kurum arası
+  lisanslandırma/izin idari süreci, muhatap "Kirleten" ve "Kuruluş"
+  (çevresel iyileştirme hizmeti veren tüzel kişi). Radyoaktif Atık ve
+  Kullanılmış Yakıt Yönetimi Yönetmeliği ve Radyoaktif Maddelerin
+  Serbestleştirilmesi ve Salımına İlişkin Yönetmelik'te kurulan
+  "atık/salım yönetimi — çevre mevzuatına daha yakın" emsaliyle aynı
+  aile. "işveren" 0, "çalışan" 1 eşleşme (sadece tanımlar maddesinde).
+
 - Nükleer Tesislerde Organizasyon Yapısı ve Personel Yönetmeliği —
   tamamı atlandı. 22 madde, baştan sona nükleer tesis "Kuruluş"unun
   organizasyon yapısı, İK politikası, personel eğitim programı,
