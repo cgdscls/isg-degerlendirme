@@ -5696,6 +5696,19 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Güvence Yönetmeliği — tamamı atlandı. Amaç/Kapsam (Madde
+  1-2): Türkiye-IAEA Güvenlik Denetimi Anlaşması (20/8/1981, 8/3527)
+  ve Ek Protokol (7/6/2001, 2001/2643) çerçevesinde nükleer
+  maddelerin ve nükleer yakıt çevrimi ekipmanlarının ulusal envanter
+  bildirimi/tespiti/takibi ile bunların nükleer silaha veya diğer
+  nükleer patlayıcı aygıtlara dönüştürülmesinin önlenmesi — nükleer
+  silahsızlanma/non-proliferasyon rejimi, ulusal güvenlik konusu,
+  İSG değil. Nükleer Düzenleme Kanunu (7381) Madde 5/1-h'de ve
+  Nükleer İhracat ve Nükleer İthalat Kontrolü Yönetmeliği'nde zaten
+  aynı gerekçeyle atlanan "nükleer güvence" konusunun doğrudan
+  uygulama yönetmeliği. Metin boyunca "işveren" ve "çalışan"
+  kelimelerinin hiçbiri geçmiyor (0/0 eşleşme).
+
 - Nükleer Tesislere İlişkin Yetkilendirmeler Yönetmeliği — tamamı
   atlandı. 49 madde, tamamı nükleer tesis türlerine göre (santral,
   araştırma reaktörü, yakıt üretim/yeniden işleme tesisi, hammadde
