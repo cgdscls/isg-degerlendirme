@@ -5548,6 +5548,21 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerde ve Radyoaktif Atık Tesislerinde Bağımsız Gözetim
+  Faaliyetlerine İlişkin Yönetmelik — tamamı atlandı. Amaç/Tanımlar
+  (Madde 1, 4): "BGŞ" (Bağımsız Gözetim Şirketi) = Kuruluştan
+  bağımsız, Kurumdan yetki belgesi almış üçüncü taraf denetim
+  şirketi. Yönetmelik, bu üçüncü taraf şirketlerin yetkilendirilmesini
+  ve inşaat/montaj/imalat/işletmeye alma faaliyetlerini denetleme
+  usullerini düzenliyor. "Çalışan" geçen tüm yerler (Madde 10/7-a,
+  10/9-c) BGŞ'nin denetim kontrol listesi maddeleri — "işleri
+  gerçekleştiren çalışanların gerekli yeterliklere sahip olduğunu
+  kontrol eder" şeklinde, işverenin kendi çalışanına karşı doğrudan
+  yükümlülüğü değil, üçüncü taraf denetçinin inceleme kriteri. Yapı
+  Denetimi Uygulama Yönetmeliği (üçüncü taraf yapı denetim
+  kuruluşlarının lisanslanması/denetim usulleri) için verilen skip
+  gerekçesiyle aynı kategori: işverenin değil, denetleyen üçüncü
+  tarafın yükümlülükleri. Metin boyunca hiç "işveren" geçmiyor.
 - Nükleer Tesislerde Kayıt, Bildirim ve Raporlama Yönetmeliğinin
   aşağıdaki maddeleri (TAMAMLANDI — bkz. soru 714): Madde 1-4 (amaç/
   kapsam/dayanak/tanımlar); Madde 5-21 (tesis kabul testi, yıllık
