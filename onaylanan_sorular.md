@@ -5886,6 +5886,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Araştırma Reaktörlerinin Güvenliği İçin Özel İlkeler Yönetmeliği —
+  tamamı atlandı. Araştırma reaktörlerinin tasarım/güvenlik ilkeleri
+  açısından, Nükleer Yakıt Çevrimi Tesislerinin Güvenliği İçin Özel
+  İlkeler Yönetmeliği ile aynı yapıda: teknik/mühendislik tasarım
+  kriterleri, somut işveren-çalışan yükümlülüğü değil. "işveren" 0,
+  "çalışan" 3 eşleşme, hepsi genel "halkın ve çalışanların sağlık ve
+  güvenliği" ilke ifadesi içinde.
+
 - Nükleer Güç Santrali Sahalarına İlişkin Yönetmelik — tamamı
   atlandı. Amaç (Madde 1): bir sahada nükleer güç santrali
   kurulabilmesi için nükleer güvenliğe ilişkin saha seçim/
