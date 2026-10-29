@@ -6286,7 +6286,50 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      *(Not: Soru 820 ile aynı kural, burada güvenlik raporu
      için.)*
 
+## Genel Yükümlülükler → Büyük Endüstriyel Kazalar
+
+824. Büyük kaza senaryo dokümanı, Bakanlığa gönderilmeden tüm
+     ekleriyle birlikte kuruluşta muhafaza ediliyor.
+     **Mevzuat:** Büyük Endüstriyel Kazalarla İlgili Hazırlanacak
+     Büyük Kaza Senaryo Dokümanı Tebliği, Madde 5/2
+
+825. İşletmeye yeni açılacak veya Yönetmelik kapsamına yeni
+     girecek kuruluşun işletmecisi, tehlikeli ekipmanların en az
+     dörtte biri üzerinden senaryolar oluşturarak büyük kaza
+     senaryo dokümanını bir yıl içinde hazırlamaya başlıyor ve
+     devam eden üç yıl içinde her yıl senaryo yaparak tüm tehlikeli
+     ekipmanlar için senaryoları en geç dört yılda tamamlıyor; bu
+     süre boyunca tehlikeli ekipman sayısındaki değişiklik söz
+     konusu süreyi uzatmıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/1,2
+
+826. Dört yıllık tamamlama süresinin bitmesinden sonra kuruluşa
+     yeni tehlikeli ekipman girmesi durumunda işletmeci, ekipmanı
+     işletmeye almadan önce senaryoyu tamamlıyor; mevcut bir
+     ekipmanın tehlikeli ekipman kapsamına girmesi durumunda ise
+     ekipmanın çalışmasına senaryo hazırlandıktan sonra izin
+     veriyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 6/3
+
+827. İşletmeci, büyük kaza senaryo dokümanında yabancı dildeki
+     kaynaklardaki bilgileri kullanması halinde, doküman ekinde bu
+     bilgilerin yeminli tercüman tarafından hazırlanan Türkçe
+     çevirisini sunuyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 7
+     *(Not: Soru 819/822 ile aynı kural, burada büyük kaza senaryo
+     dokümanı için.)*
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Büyük Kaza
+  Senaryo Dokümanı Tebliği — Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar), Madde 5/1 (senaryo dokümanı hazırlama — soru 660'ta
+  zaten kapsanmış, pure near-duplicate), Geçici Madde 1 (1/7/2020
+  itibarıyla faaliyette olan kuruluşlar için Madde 6'daki sürelerin
+  uygulanması — en geç 4 yıllık geçiş süresi artık dolmuş,
+  güncelliğini kaybetmiş), Madde 8-9 (yürürlük/yürütme) kısmen
+  atlandı. Genuine işletmeci yükümlülükleri soru 824-827'de
+  kapsandı.
 
 - Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Güvenlik Raporu
   Tebliği — Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde 5
