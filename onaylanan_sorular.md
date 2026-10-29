@@ -5538,6 +5538,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer İhracat ve Nükleer İthalat Kontrolü Yönetmeliği — tamamı
+  atlandı. Amaç/Kapsam (Madde 1-2) "nükleer silahların yayılmasının
+  önlenmesi amacıyla nükleer ihracat kontrolüne ve nükleer ithalat
+  kontrolüne ilişkin usul ve esaslar"ı düzenliyor — tamamen nükleer
+  non-proliferasyon/dış ticaret (gümrük) rejimi. Nükleer Düzenleme
+  Kanunu (7381) değerlendirmesinde Madde 5/1-h (nükleer güvence/silah
+  yayılmasının önlenmesi) kapsamında zaten "ulusal güvenlik/
+  nonproliferation, İSG değil" gerekçesiyle atlanan konunun doğrudan
+  uzantısı/detay yönetmeliği. Metin boyunca hiç "işveren" veya
+  "çalışan" geçmiyor; muhatap ihracatçı/ithalatçı ve Nükleer Düzenleme
+  Kurumu.
 - Nükleer Tesislerde Siber Güvenliğe İlişkin Yönetmelik — tamamı
   atlandı. Amaç/Kapsam (Madde 1-2) "nükleer tesislere yönelik
   düzenleyici kontrole tabi faaliyetlerin yürütülmesi sırasında siber
