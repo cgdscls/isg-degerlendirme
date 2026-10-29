@@ -5886,6 +5886,15 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Güç Santrallerinin Güvenliği İçin Tasarım İlkeleri
+  Yönetmeliği — tamamı atlandı. Amaç: Kurum tarafından tanımlanan
+  nükleer güvenlik hedeflerine santral tasarımında uyulması gereken
+  teknik ilkeler — Nükleer Yakıt Çevrimi Tesislerinin Güvenliği İçin
+  Özel İlkeler Yönetmeliği ve Araştırma Reaktörlerinin Güvenliği
+  İçin Özel İlkeler Yönetmeliği ile aynı yapıda, mühendislik/tasarım
+  standardı. "işveren" 0, "çalışan" 2 eşleşme, somut işveren
+  yükümlülüğü yok.
+
 - Araştırma Reaktörlerinin Güvenliği İçin Özel İlkeler Yönetmeliği —
   tamamı atlandı. Araştırma reaktörlerinin tasarım/güvenlik ilkeleri
   açısından, Nükleer Yakıt Çevrimi Tesislerinin Güvenliği İçin Özel
