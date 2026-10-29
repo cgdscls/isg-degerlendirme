@@ -6255,7 +6255,47 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      işin/işletmenin gerçeklerine uygun biçimde hazırlıyor.
      **Mevzuat:** Aynı Tebliğ, Madde 8
 
+## Genel Yükümlülükler → Büyük Endüstriyel Kazalar
+
+821. İşletmeci, güvenlik raporunda yer alan tehlikeli maddelerin
+     bilinen isimleri ve temel zararlılık özelliklerine ilişkin
+     basit açıklamalar hariç, Yönetmelik Ek-2'nin 1.1.7, 1.2, 1.4,
+     1.5.1, 1.5.2, 1.5.3 numaralı maddeleri ile ikinci bölümünün
+     tamamında belirtilen bilgileri gizli tutuyor ve üçüncü
+     kişilere açıklamıyor.
+     **Mevzuat:** Büyük Endüstriyel Kazalarla İlgili Hazırlanacak
+     Güvenlik Raporu Tebliği, Madde 6
+     *(Not: Soru 818'deki BKÖP belgesi gizlilik yükümlülüğüyle
+     paralel; burada üst seviyeli kuruluşun güvenlik raporu ve
+     farklı Ek-2 madde numaraları söz konusu.)*
+
+822. İşletmeci, güvenlik raporunda yabancı dildeki kaynaklardaki
+     bilgileri kullanması halinde, rapor ekinde bu bilgilerin
+     yeminli tercüman tarafından hazırlanan Türkçe çevirisini
+     sunuyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 7
+     *(Not: Soru 819 ile aynı kural, burada güvenlik raporu
+     için.)*
+
+823. İşletmeye yeni açılacak kuruluş, hazırlayacağı güvenlik
+     raporunun işletmeye açılmadan kesinleşmeyecek bilgiler
+     bulunan bölümlerini, işletmeye açıldıktan sonraki durumu
+     öngörerek ve işin/işletmenin gerçeklerine uygun biçimde
+     hazırlıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8
+     *(Not: Soru 820 ile aynı kural, burada güvenlik raporu
+     için.)*
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Güvenlik Raporu
+  Tebliği — Madde 1-4 (amaç/kapsam/dayanak/tanımlar), Madde 5
+  (güvenlik raporu hazırlama — soru 663'te zaten kapsanmış, pure
+  near-duplicate), Madde 9 (eski tebliğin yürürlükten kaldırılması),
+  Geçici Madde 1 (mevcut raporların 6 ay içinde uyumlu hale
+  getirilmesi — güncelliğini kaybetmiş geçiş hükmü), Madde 10-11
+  (yürürlük/yürütme) kısmen atlandı. Genuine işletmeci
+  yükümlülükleri soru 821-823'te kapsandı.
 
 - Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Büyük Kaza
   Önleme Politika Belgesi Tebliği — Madde 1-4 (amaç/kapsam/
