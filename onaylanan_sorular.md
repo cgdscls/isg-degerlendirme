@@ -5584,8 +5584,99 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      Madde 12/3
      **Not:** Genel işyeri tahliye tatbikatı yükümlülüğüyle örtüşüyor.
 
+720. **Soru:** İşveren (yetkilendirilen kişi), Kurum tarafından
+     belirlenen nitelikleri taşıyan yeterli sayıda radyasyondan
+     korunma sorumlusu istihdam edip yetkili kılıyor mu?
+     **Mevzuat:** Radyasyon Tesislerine ve Radyasyon Uygulamalarına
+     İlişkin Yetkilendirmeler Yönetmeliği, Madde 28/1-b
+
+721. **Soru:** İşveren, radyasyon tesislerini işletmek/radyasyon
+     uygulamalarını yürütmek üzere güvenlik ve emniyet kültürüne
+     sahip yeterli sayıda ve yetkin personel istihdam edip görev ve
+     sorumluluklarını belirliyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-c
+     **Not:** Nükleer Düzenleme Kanunu Madde 5/1-b'deki (soru 706)
+     genel personel yeterliği ilkesiyle örtüşüyor, ancak burada
+     kapsam nükleer tesislerle sınırlı değil, tüm radyasyon kullanan
+     işyerlerini içeriyor.
+
+722. **Soru:** İşveren, radyasyon acil durumlarında kullanılacaklar
+     dahil olmak üzere gerekli koruyucu donanım ve ekipmanı temin
+     edip uygun şartlarda muhafaza ediyor, test/kontrollerini yaparak
+     hazır bulunduruyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-d
+
+723. **Soru:** İşveren, uygun radyasyon ölçüm cihazlarının ve aktif
+     dozimetrelerin temin edilmesini, bakımlı ve çalışır halde
+     bulundurulmasını sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-e
+
+724. **Soru:** İşveren, radyasyonla çalışanlar ile radyasyon
+     alanlarında bulunması muhtemel personele radyasyondan korunma,
+     radyasyon güvenliği, radyoaktif atık yönetimi, taşıma, acil
+     durum yönetimi ve çalışma talimatları konularında düzenli
+     eğitim veriyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-g,ğ
+
+725. **Soru:** İşveren, radyasyon alanlarının sınıflandırılmasını,
+     uygun uyarı işaret levhalarının yerleştirilmesini, bu alanlara
+     erişim kontrolünü ve çalışma/acil durum talimatlarının
+     hazırlanmasını sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-ı
+
+726. **Soru:** İşveren, radyasyonla çalışanların sınıflandırılmasını
+     (A sınıfı dahil), bu kişilere pasif dozimetre temin edilmesini
+     ve düzenli kullanılmasını, doz sonuçlarının takip/
+     değerlendirilmesini, tıbbi gözetimlerinin düzenli yaptırılmasını
+     ve doz sınırı aşımında gerekli işlemlerin (görev planı
+     değişikliği dahil) yapılmasını sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-i
+
+727. **Soru:** İşveren, radyasyon alanlarında yapılacak bakım,
+     onarım, kaynak değişimi/sökümü, test/kalibrasyon işlemlerinin
+     yetkin personel tarafından ve dozimetre kullanılarak
+     gerçekleştirilmesini sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-l
+
+728. **Soru:** İşveren, radyasyonla çalışanlar dışında radyasyon
+     alanlarında bulunması muhtemel personelin maruz kalabileceği
+     dozların halk için belirlenen yıllık doz sınırlarının altında
+     kalmasını sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 28/1-p
+
+729. **Soru:** İşveren, radyasyon acil durum planını gerektiğinde
+     güncelleyip çalışanları bu doğrultuda bilgilendiriyor, eğitiyor
+     ve planı tatbikatlarla sınıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 32/2
+     **Not:** Nükleer Tesislerde Yangın Güvenliği Yönetmeliği'ndeki
+     tatbikat yükümlülüğüyle (soru 719) kısmen örtüşüyor, ancak
+     radyasyon acil durumuna özgü.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyasyon Tesislerine ve Radyasyon Uygulamalarına İlişkin
+  Yetkilendirmeler Yönetmeliğinin aşağıdaki maddeleri (TAMAMLANDI —
+  bkz. soru 720-729): Madde 1-12 (amaç/kapsam/tanımlar/lisanslandırma
+  ilkeleri); Madde 13-14 (radyasyondan korunma programı/güvenlik
+  değerlendirmesi raporunun Kuruma sunulması — idari süreç, içeriği
+  Madde 28 ile zaten kapsandı); Madde 15-26 (işletmeye alma izni,
+  değişiklik izni, lisans başvurusu/yenileme/iptal — Kurumla idari
+  izin süreci); Madde 27 (temel yükümlülükler — Madde 28'in şemsiye/
+  özet maddesi, Madde 28 detaylarıyla zaten kapsandı); Madde 28/1-
+  a,ç,f,h,j,k,m,n,o,ö,r,s,ş,t,u,ü (idari altyapı/mali kaynak — soru
+  707 ile örtüşüyor, kaynak temini/akreditasyon hizmeti alımı,
+  güvenlik değerlendirmesi raporu — Madde 14 ile örtüşüyor, kayıt
+  tutma — genel kayıt yükümlülüğüyle örtüşüyor, kapalı kaynak sızıntı
+  testi, ekipman kabul/bakım programı, yönetim sistemi, bilgilendirme
+  — Madde 28/ğ ile örtüşüyor, kirlilik önlemi, taşıma lojistiği,
+  çevresel izleme, Kuruma bildirim/izin, RPO eksiklik takibi,
+  birimlerarası koordinasyon — idari/teknik/örtüşen hükümler); Madde
+  29-31 (kullanım dışı kapalı kaynak yönetimi, radyoaktif kaynak
+  emniyeti, radyoaktif atık yönetimi — Radyoaktif Atık ve Kullanılmış
+  Yakıt Yönetimi Yönetmeliği ve Nükleer Tesislerin Emniyetine İlişkin
+  Yönetmelik için verilen skip gerekçeleriyle aynı kategoriler); Madde
+  33 (kayıt tutma — idari, genel kayıt yükümlülüğüyle örtüşüyor);
+  Madde 34-38 (denetim/yaptırım/yürürlük/yürütme).
 - Radyoaktif Atık ve Kullanılmış Yakıt Yönetimi Yönetmeliği — tamamı
   atlandı. Amaç/Kapsam (Madde 1-2) radyoaktif atıkların ve kullanılmış
   yakıtların güvenli yönetimini (sınıflandırma, paketleme, taşıma,
