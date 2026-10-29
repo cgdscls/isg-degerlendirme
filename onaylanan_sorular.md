@@ -5696,6 +5696,17 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Ulusal Radyasyon İzleme ve Radyasyon Kontrolü Hakkında Yönetmelik —
+  tamamı atlandı. 13 madde, ülke çapında radyasyon izleme ağının
+  (RADİSA) ve gümrük kapıları/atık işleme tesislerindeki radyasyon
+  kontrol ve tespit sistemlerinin (RKTS) kurulması, işletilmesi ve
+  yönetimi: Kurum, Ticaret Bakanlığı, Çevre Bakanlığı ve bu sistemleri
+  işleten gerçek/tüzel kişilerin görev ve sorumlulukları. Amaç,
+  halkın/çevrenin ve ülkenin radyasyon tehlikelerinden (kaçak nükleer
+  madde girişi, art alan radyasyonu) korunması — ulusal izleme/gümrük
+  denetimi altyapısı, işyeri İSG yükümlülüğü değil. "işveren" 0,
+  "çalışan" 0 eşleşme.
+
 - Radyoaktif Kirliliğe Maruz Kalmış Alanların Çevresel İyileştirme
   Faaliyetlerinin Yetkilendirilmesine İlişkin Yönetmelik — tamamı
   atlandı. 15 madde, baştan sona radyoaktif kirlenmiş alanlarda
