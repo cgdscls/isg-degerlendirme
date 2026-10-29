@@ -6232,7 +6232,40 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      kişiye yaptırma" yükümlülüğüyle örtüşüyor; burada EKİPNET
      kayıt numarası doğrulaması somutlaştırılmış.)*
 
+## Genel Yükümlülükler → Büyük Endüstriyel Kazalar
+
+818. İşletmeci, BKÖP belgesinde yer alan tehlikeli maddelerin
+     bilinen isimleri ve temel zararlılık özelliklerine ilişkin
+     basit açıklamalar hariç, Yönetmelik Ek-2'nin 1.1.5, 1.2, 1.3,
+     1.4.1, 1.4.2, 1.4.3 numaralı maddeleri ile ikinci bölümünün
+     tamamında belirtilen bilgileri gizli tutuyor ve üçüncü
+     kişilere açıklamıyor.
+     **Mevzuat:** Büyük Endüstriyel Kazalarla İlgili Hazırlanacak
+     Büyük Kaza Önleme Politika Belgesi Tebliği, Madde 6
+
+819. İşletmeci, BKÖP belgesinde yabancı dildeki kaynaklardaki
+     bilgileri kullanması halinde, belge ekinde bu bilgilerin
+     yeminli tercüman tarafından hazırlanan Türkçe çevirisini
+     sunuyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 7
+
+820. İşletmeye yeni açılacak kuruluş, hazırlayacağı BKÖP belgesinin
+     işletmeye açılmadan kesinleşmeyecek bilgiler bulunan
+     bölümlerini, işletmeye açıldıktan sonraki durumu öngörerek ve
+     işin/işletmenin gerçeklerine uygun biçimde hazırlıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Büyük Kaza
+  Önleme Politika Belgesi Tebliği — Madde 1-4 (amaç/kapsam/
+  dayanak/tanımlar), Madde 5 (BKÖP belgesi hazırlama — soru
+  662'de zaten kapsanmış, pure near-duplicate, format uyumu ayrı
+  bir aksiyon gerektirmiyor), Madde 9 (eski tebliğin yürürlükten
+  kaldırılması), Geçici Madde 1 (mevcut belgelerin 6 ay içinde
+  uyumlu hale getirilmesi — güncelliğini kaybetmiş geçiş hükmü),
+  Madde 10-11 (yürürlük/yürütme) kısmen atlandı. Genuine işletmeci
+  yükümlülükleri soru 818-820'de kapsandı.
 
 - İş Ekipmanlarının Periyodik Kontrollerini Yapmaya Yetkili
   Kişilerin Kayıt ve Eğitimlerine İlişkin Tebliğ — Madde 1-4
