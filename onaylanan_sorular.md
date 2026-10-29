@@ -5654,6 +5654,16 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyoaktif Maddelerin Serbestleştirilmesi ve Salımına İlişkin
+  Yönetmelik — tamamı atlandı. Amaç/Kapsam (Madde 1-2) radyoaktif
+  maddelerin düzenleyici kontrolden serbestleştirilmesi (belirli
+  eşik değerlerin altında kalanların kontrolden çıkarılması) ve
+  çevreye kontrollü salımı (atmosfer, yüzey/yeraltı suları,
+  kanalizasyon) usullerini düzenliyor — tamamen teknik/çevresel
+  radyasyon koruma standardı. Radyoaktif Atık ve Kullanılmış Yakıt
+  Yönetimi Yönetmeliği için verilen skip gerekçesiyle aynı kategori:
+  "atık/salım yönetimi — çevre mevzuatına daha yakın." Metin boyunca
+  hiç "işveren" veya "çalışan" geçmiyor.
 - Nükleer Risklere İlişkin Sorumluluk Sigortasına ve Teminatına Dair
   Yönetmelik — tamamı atlandı. Amaç (Madde 1) "işletenin nükleer
   hadiselerden kaynaklanan nükleer zararlara ilişkin hukuki
