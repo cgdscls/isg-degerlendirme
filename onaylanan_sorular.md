@@ -5886,6 +5886,14 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Güç Santrali Sahalarına İlişkin Yönetmelik — tamamı
+  atlandı. Amaç (Madde 1): bir sahada nükleer güç santrali
+  kurulabilmesi için nükleer güvenliğe ilişkin saha seçim/
+  değerlendirme esasları (deprem, jeoloji, hidroloji, nüfus
+  yoğunluğu gibi saha kriterleri) — tamamen teknik saha
+  değerlendirme/lisanslandırma konusu, işveren-çalışan İSG
+  yükümlülüğü değil. "işveren" 0, "çalışan" 0 eşleşme.
+
 - Nükleer Yakıt Çevrimi Tesislerinin Güvenliği İçin Özel İlkeler
   Yönetmeliği — tamamı atlandı. 50 madde, baştan sona nükleer yakıt
   çevrimi tesisinin tasarım aşamasında uyulacak mühendislik/teknik
