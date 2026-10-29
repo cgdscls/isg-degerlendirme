@@ -5694,7 +5694,45 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      kullanılmasını ve ilgili talimatların uygulanmasını sağlıyor mu?
      **Mevzuat:** Aynı Yönetmelik, Madde 21
 
+736. **Soru:** İşveren, çalışanların bireysel veya sistemsel
+     hatalarını, herhangi bir yaptırıma maruz kalma korkusu olmadan
+     bildirebilmelerini sağlayan bir mekanizma kurup uyguluyor mu?
+     **Mevzuat:** Nükleer Tesisler, Radyasyon Tesisleri ve Radyoaktif
+     Atık Tesislerinde Yönetim Sistemi Yönetmeliği, Madde 5/6
+
+737. **Soru:** İşveren, çalışanlarını, güvenlik kültürünün
+     özelliklerini ve yürüttükleri görevlerin güvenlik açısından
+     önemini anlamaları amacıyla eğitiyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 7/5
+
+738. **Soru:** İşveren, yönetim sistemi dokümanlarını çalışanlara
+     yönelik olarak hazırlayıp çalışanların bu dokümanlara
+     erişebilmesini sağlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 8/4
+
+739. **Soru:** İşveren, çalışanlarını yönetim sistemine ve yönetim
+     sisteminin ilgili gereklerine ilişkin olarak eğitip bu
+     eğitimleri düzenli aralıklarla tekrarlıyor mu?
+     **Mevzuat:** Aynı Yönetmelik, Madde 8/5
+     **Not:** Soru 737'deki eğitim yükümlülüğüyle kısmen örtüşüyor;
+     biri güvenlik kültürünün önemine, bu ise yönetim sisteminin
+     kendisine ilişkin eğitimi düzenliyor.
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Nükleer Tesisler, Radyasyon Tesisleri ve Radyoaktif Atık
+  Tesislerinde Yönetim Sistemi Yönetmeliği — Madde 6, 9-20 (Madde
+  8/4, 8/5 ve 5/6, 7/5 hariç) kısmen atlandı. Bu maddeler kurumsal
+  yönetim sistemi/kalite güvence iskeletini oluşturuyor: süreç
+  yönetimi, kaynak yönetimi, tedarik/tedarikçi yönetimi, doküman
+  yönetimi (genel), değişiklik yönetimi, konfigürasyon yönetimi, iç/
+  bağımsız değerlendirme ve Kurumun bu sisteme ilişkin denetimi —
+  somut, bireysel çalışan yükümlülüğüne indirgenebilecek bir fıkra
+  içermiyor; Kuruluşun Kurum'a karşı kurumsal yönetişim/QMS
+  yükümlülüğü niteliğinde. "çalışan" geçen diğer fıkralar (Madde
+  6, 7) genel liderlik/güvenlik kültürü ilkeleri düzeyinde, somut ve
+  ölçülebilir bir yükümlülük formunda değil (soru 736-737 zaten en
+  somut ve genellenebilir olanlarını kapsıyor).
 
 - Radyoaktif Atık Tesislerine İlişkin Yetkilendirmeler ve Güvenlik
   İlkeleri Yönetmeliği — tamamı atlandı. 49 madde, radyoaktif atık
