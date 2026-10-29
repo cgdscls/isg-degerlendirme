@@ -5696,6 +5696,23 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerde Organizasyon Yapısı ve Personel Yönetmeliği —
+  tamamı atlandı. 22 madde, baştan sona nükleer tesis "Kuruluş"unun
+  organizasyon yapısı, İK politikası, personel eğitim programı,
+  simülatör gerekleri ve en ağırlıklı kısım olan (Madde 9-17)
+  reaktör/türbin/kıdemli operatör yetki belgesi (lisans) süreci:
+  Kurum'un sınav komitesi, yazılı/uygulamalı sınav, yetkilendirme
+  başvurusu, yetki belgesi yenileme/sona erme — tamamen Kuruluş-Kurum
+  arası mesleki yetkilendirme/lisanslandırma idari süreci. "işveren"
+  0 eşleşme; "çalışan" 3 eşleşme, hepsi genel ifade içinde (klasik
+  işveren-çalışan İSG yükümlülüğü formatında değil). Madde 6(3)-(4)
+  sağlık koşulları/göreve hazır olma kontrolleri ve Madde 8 eğitim
+  programı da genel İSG değil, operatörlük görevine özgü mesleki
+  yeterlilik/lisans koşulu niteliğinde — Radyasyondan Korunma
+  Eğitimleri Yönetmeliği ve Nükleer Tesislere İlişkin Yetkilendirmeler
+  Yönetmeliği'nde kurulan "eğitim kurumu/mesleki lisanslandırma idari
+  süreci" ve "pure licensing" emsalleriyle aynı aile.
+
 - Nükleer Güvence Yönetmeliği — tamamı atlandı. Amaç/Kapsam (Madde
   1-2): Türkiye-IAEA Güvenlik Denetimi Anlaşması (20/8/1981, 8/3527)
   ve Ek Protokol (7/6/2001, 2001/2643) çerçevesinde nükleer
