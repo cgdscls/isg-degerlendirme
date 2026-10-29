@@ -5538,6 +5538,20 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerde Siber Güvenliğe İlişkin Yönetmelik — tamamı
+  atlandı. Amaç/Kapsam (Madde 1-2) "nükleer tesislere yönelik
+  düzenleyici kontrole tabi faaliyetlerin yürütülmesi sırasında siber
+  güvenliğin sağlanması"nı düzenliyor — dijital varlıkların (donanım/
+  yazılım/veri/sistem) siber saldırılara karşı korunması. Madde 6'daki
+  "Kuruluşun yükümlülükleri" (siber saldırı önleme/tespit/müdahale,
+  siber güvenlik yöneticisi atama, bilgi güvenliği yönetim sistemi
+  kurma, personel yeterliği sağlama vb.) tamamen bilgi/IT güvenliği
+  konusu; çalışanın iş kazası/meslek hastalığı riskinden korunmasıyla
+  ilgisi yok. Metin boyunca hiç "işveren" veya "çalışan" geçmiyor.
+  Sivil Havacılık Güvenliği Yönetmeliği (SHY-GÜVENLİK) için verilen
+  skip gerekçesiyle aynı aile (kasıtlı/kötü niyetli saldırılara karşı
+  "güvenlik"/security, İSG'nin "emniyet"/safety kapsamından ayrı), ama
+  burada fiziksel değil dijital/siber alan.
 - Nükleer Düzenleme Kanunu'nun (7381) aşağıdaki maddeleri (TAMAMLANDI —
   bkz. soru 705-713): Madde 1-2 (amaç/kapsam/tanımlar); Madde 3-4
   (uluslararası anlaşmalara uyma, Kurumdan yetki alma — idari başvuru
