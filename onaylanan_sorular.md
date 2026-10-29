@@ -6319,7 +6319,214 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      *(Not: Soru 819/822 ile aynı kural, burada büyük kaza senaryo
      dokümanı için.)*
 
+## Genel Yükümlülükler → Büyük Endüstriyel Kazalar
+
+828. İşveren, dâhili acil durum planını hazırlar/hazırlatır, nihai
+     planı bir ay içinde Bakanlığın bildirim sistemine yükler ve
+     kuruluşta bulundurur; yeni açılacak kuruluşlar bu planı
+     faaliyete geçmeden önce hazırlar.
+     **Mevzuat:** Büyük Endüstriyel Kazalarda Uygulanacak Dâhili
+     Acil Durum Planları Hakkında Tebliğ, Madde 5/1,2
+     *(Not: Soru 665 ile örtüşüyor; burada Bakanlık bildirim
+     sistemine yükleme süresi ve yeni açılan kuruluşlar için
+     zamanlama somutlaştırılmış.)*
+
+829. Dâhili acil durum planı, büyük kaza senaryo dokümanındaki her
+     bir kaza türünü (yangın, patlama, toksik yayılım) kapsayacak
+     ve deprem/sel/taşkın gibi doğal afetleri de dikkate alacak
+     şekilde hazırlanıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/3
+
+830. İşveren, kuruluşta çalışan personel sayısını dikkate alarak
+     planda yer alan her bir acil müdahale senaryosu için gerekli
+     hizmet gruplarını kuruyor ve bu gruplara gerekli eğitimleri
+     veriyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/6
+
+831. İşveren, acil durum müdahalelerinde kullanılacak kaynak ve
+     ekipmanların (yangınla mücadele ekipmanları, alarmlar vb.)
+     bakım, muayene, inceleme ve test edilmesi için uygun
+     düzenlemelerin yapıldığını gösteriyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/7
+
+832. İşveren, dâhili acil durum planının hazırlanmasında güvenlik
+     raporu ve büyük kaza senaryo dokümanını dikkate alarak ilgili
+     formata uyuyor, kilit paydaşlarla gerekli istişareyi yapıyor
+     ve her türlü acil durumu karşılayacak yeterli sayıda uygun
+     kaynak/ekipmanı planlıyor, sağlıyor veya bu ihtiyacı
+     karşılayacak şekilde hizmet alıyor/işbirliği yapıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/8-a,b,ç
+
+833. İşveren, acil durumun sona erdiği ilan edilip kuruluş güvenli
+     hale getirildikten ve ilgili veriler toplandıktan sonra,
+     etkilenen alanın temizlenmesini sağlıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 5/9
+
+834. Acil duruma yönelik düzenlemeler günün 24 saatini kapsıyor;
+     tatil, hastalık, vardiya değişikliği, bakım, tesisin devre
+     dışı bırakılması/devreye alınması ve OHAL/sıkıyönetim/salgın
+     gibi mücbir durumlar da dikkate alınıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/2
+
+835. Kaza sonrasında basına ve kamuya verilecek demeçlerin kim
+     tarafından yapılacağı planda belirtiliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 8/3
+
+836. Dâhili acil durum planı; kuruluş faaliyetlerindeki
+     değişiklikler, hizmet gruplarındaki değişiklikler, yeni etki
+     azaltıcı yöntemler, geçmiş kaza/ramak kala derslerinden çıkan
+     değişiklikler, tatbikat sonuçları, iç tetkik sonuçları,
+     senaryo dokümanı güncellemeleri ve organizasyon/proses/
+     tehlikeli madde/ekipman/güvenlik belgeleri/çevresel koşul
+     değişiklikleri gibi durumlarda gözden geçiriliyor, kilit
+     paydaşlarla istişare edilerek en kısa sürede güncelleniyor ve
+     güncellenmiş nihai plan bir ay içinde Bakanlığın bildirim
+     sistemine yükleniyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 9/1,2,3
+
+837. İşveren, büyük kaza senaryo dokümanındaki her bir senaryoyu
+     karşılayacak şekilde büyük endüstriyel kazaya müdahale
+     senaryosu tanımlıyor ve bunu ilgili formatta özetliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 10/2
+
+838. İşveren, büyük endüstriyel kazaya müdahale organizasyonunda
+     kuruluş içi acil durum yönetim merkezi ve yedeğini, acil
+     durum yöneticisini ve olay yeri koordinatörünü içeren bir
+     komuta zinciri oluşturuyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 11/1-e
+
+839. İşveren, bölgesindeki acil hizmet birimleri, il afet ve acil
+     durum müdürlükleri ile (varsa) OSB/endüstri bölgesi
+     yönetimleriyle işbirliği ve bilgi alışverişi için uygun bir
+     sistem kuruyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 11/2
+
+840. İşveren, büyük endüstriyel kazanın erken algılanması ve
+     personelin ikaz edilmesi için alarm/ikaz sistemleri kuruyor,
+     işletiyor ve komşu kuruluşa/kuruluş dışına (sosyal medya
+     dahil) ikaz iletilmesine yönelik tedbirleri belirliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 12
+
+841. İşveren, tehlikeli maddeye müdahale kartını nihai hale
+     getirmeden önce il afet/acil durum müdürlüğü, il sağlık
+     müdürlüğü ve ilgili itfaiye teşkilatıyla görüş alışverişinde
+     bulunuyor; uygun görüş alındıktan sonra kartın nihai halini bu
+     kurumlara 5 gün içinde gönderip bildirim sistemine yüklüyor ve
+     tehlikeli madde değişikliklerinde kartı güncelleyip aynı
+     usulle yeniden gönderiyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 13/2,3
+
+842. İşveren, büyük endüstriyel kazalara etkin müdahale amacıyla
+     ilgili itfaiye teşkilatından güncel itfaiye raporunu dâhili
+     acil durum planı nihai hale gelmeden önce alıyor ve
+     kuruluşunda muhafaza ediyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 13/4
+
+843. İşveren, tahliye yollarını, toplanma noktalarını, sığınak/
+     korunaklı alanları ve acil kaçış yolları ile yangın pompası/
+     jeneratör/hidrant/yangın dolabı/su deposu/itfaiye su
+     alma-verme ağızlarının yerlerini gece aydınlatmasıyla birlikte
+     belirleyip vaziyet planına işliyor ve tahliye edilemeyen
+     kişilerin kurtarılması için arama-kurtarma ekibi oluşturuyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 14/1-a,b,c,ç,d
+
+844. Vaziyet planları, ziyaretçiler ve alt işveren çalışanları
+     dahil tüm çalışanların görebileceği panolara asılıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 14/2
+
+845. İşveren, Ek-1'deki asgari eğitimlere ilaveten eğitim ihtiyaç
+     analizine göre belirlediği eğitimlerin ilgili personele
+     periyodik olarak verilmesini sağlıyor; eğitim kapsamına
+     kuruluş personelinin yanı sıra alt işveren çalışanlarını,
+     karşılıklı yardım anlaşması kapsamındaki komşu kuruluş
+     personelini ve ziyaretçileri de alıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 15/2,3
+
+846. İşveren, dâhili acil durum planının doğruluğu/yeterliliği/
+     uygulanabilirliğini test etmek amacıyla yılda en az bir canlı
+     tatbikat olmak üzere müdahale senaryolarını 3 yılı aşmayan
+     aralıklarla tatbik ediyor; canlı tatbik edilmeyen senaryoların
+     tatbikatı masa başı gözden geçirme yöntemiyle yapılabiliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 16/1
+     *(Not: Soru 666'daki "3 yılda bir tatbikat" yükümlülüğüyle
+     örtüşüyor; burada yıllık en az bir canlı tatbikat zorunluluğu
+     somutlaştırılmış.)*
+
+847. İşveren, tatbikattan en az 15 gün önce itfaiye, il emniyet/
+     jandarma, 112, il sağlık müdürlüğü, sahil güvenlik (gerekirse)
+     ve çevre/afet il müdürlüklerini bilgilendirip tatbikata davet
+     ediyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 16/5
+
+848. İşveren, her tatbikat sonucunda iyileştirilmesi gereken
+     hususları içeren bir tatbikat raporu oluşturuyor; aksayan
+     durumlar tespit edildiğinde tekrarını önlemek için çalışma
+     yapıp kayıt alıyor ve gerekirse planı güncelliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 16/6,7
+
+849. İşveren, tatbikatlar hakkında kuruluş çevresindeki komşu
+     kuruluş ve halkı önceden haberdar ederek yersiz endişe
+     oluşmasını engelliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 16/8
+
+850. İşveren, acil durum planındaki iç kaynakların her zaman
+     müdahaleye hazır olmasını, dış kaynaklara kuruluş içi
+     erişimin sağlanmasını ve kullanım süresi dolan/tüketilen
+     kaynakların yenilenip tamamlanmasını izliyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 17
+
+851. Acil müdahale imkânları yetersiz kaldığında il afet müdahale
+     planı uygulanıncaya kadar dâhili acil durum planı
+     uygulanmaya devam ediyor; il afet müdahale organizasyonuna
+     geçildiğinde dâhili plan müdahale birimleri bu organizasyona
+     göre faaliyetine devam ediyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 18/2
+
+852. İşveren, kaza sonuçlarının ve çevreye olabilecek etkilerin
+     izlenmesi için ölçme/izleme/örnekleme faaliyetlerine ilişkin
+     usul ve esasları belirleyip uyguluyor; planda bu amaçla
+     gerekli kaynak ve tedbirlerin sağlandığını gösteriyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 20/b,c
+
+853. Acil durumun sona ermesinden sonra olay yeri koordinatörü ve
+     kuruluş içi acil durum yönetim merkezi işbirliğiyle kazaya
+     ilişkin tüm veriler toplanıp değerlendiriliyor, müdahaledeki
+     eksiklikleri belirten bir rapor hazırlanıp kayıt altına
+     alınıyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 21
+
+854. İşveren, acil durum eğitim kayıtları, kaza/olay/ramak kala
+     kayıtları, tatbikat raporları, kilit paydaş istişare kayıtları,
+     denetim sonuçları ve performans izleme kontrol sonuçlarını
+     içeren dokümantasyonu kuruluşta muhafaza ediyor.
+     **Mevzuat:** Aynı Tebliğ, Madde 23
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Büyük Endüstriyel Kazalarda Uygulanacak Dâhili Acil Durum
+  Planları Hakkında Tebliğ — Madde 1-4 (amaç/kapsam/dayanak/
+  tanımlar), Madde 5/4 (prosedür hazırlama/plan içinde atıf
+  yapma — yapısal/meta kural), Madde 5/5,10 ve Madde 18/1 (planı
+  derhal uygulama/ilgili mercilere bilgi verme — soru 667 ile
+  pure duplicate), Madde 6-7 (planın amacı/hedefi — tanımlayıcı),
+  Madde 8/1 (hazırlık sırasında dikkate alınacak faktörler — Madde
+  5/8 ile örtüşüyor), Madde 10/1, 11/1 (a,b,c,ç,d,f,g,ğ,h,ı,i,j,k)
+  (SYS prosedür hazırlama ve aşırı ayrıntılı kaynak/organizasyon
+  listesi — Madde 5/8, 11/1-e, 17 ile örtüşüyor veya çok
+  granüler), Madde 13/1 (müdahale kartı hazırlama, Yönetmelik
+  Madde 6'nın tekrarı), Madde 15/1 (eğitim prosedürü belirleme —
+  SYS meta), Madde 16/2,3,4 (tatbikat metodolojisi/denenecek
+  unsurlar — Madde 16/1 ile örtüşüyor, çok granüler checklist),
+  Madde 19 (deniz kirliliği — niş, kıyı tesislerine özgü, ayrı
+  kanuna atıf), Madde 20/a (çevre tedbiri — Madde 5/1 ile pure
+  duplicate), Madde 22 (kaza sonrası temizleme — Madde 5/9 ile
+  pure duplicate), Madde 24 (atıf yapma tekniği — çok teknik/
+  bürokratik), Madde 25 (gizli bilgiler — soru 818/821'e
+  cross-reference, sıfır ek içerik), Madde 26 (eski tebliğin
+  kaldırılması), Geçici Madde 1 (1 yıllık hazırlama süresi —
+  güncelliğini kaybetmiş), Madde 27-28 (yürürlük/yürütme) kısmen
+  atlandı. Genuine işveren yükümlülükleri soru 828-854'te
+  kapsandı.
 
 - Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Büyük Kaza
   Senaryo Dokümanı Tebliği — Madde 1-4 (amaç/kapsam/dayanak/
