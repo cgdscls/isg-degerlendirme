@@ -5586,6 +5586,19 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Radyoaktif Atık ve Kullanılmış Yakıt Yönetimi Yönetmeliği — tamamı
+  atlandı. Amaç/Kapsam (Madde 1-2) radyoaktif atıkların ve kullanılmış
+  yakıtların güvenli yönetimini (sınıflandırma, paketleme, taşıma,
+  depolama, bertaraf usulleri) düzenliyor — içerik tamamen atık
+  yönetimi mühendisliği/çevresel koruma konuları. "Çalışan" geçen tüm
+  yerler (Madde 5/2, 9, 26) halk/çevre/gelecek nesillerle birlikte
+  sayılan genel radyasyondan korunma ilkesi ("etkilerin kabul
+  edilebilir düzeylerden fazla olmaması") — Nükleer Düzenleme Kanunu
+  Madde 5/1-a'da zaten kapsanan genel koruma ilkesinin (soru 705)
+  tekrarı, ayrı/somut bir işveren-çalışan yükümlülüğü değil. Kimyasal
+  Maddelerle Çalışma değerlendirmesinde kurulan precedent ile aynı:
+  "atık yönetimi — çevre mevzuatına daha yakın." Metin boyunca hiç
+  "işveren" geçmiyor.
 - Nükleer Tesislerde Yangın Güvenliği Yönetmeliğinin aşağıdaki
   maddeleri (TAMAMLANDI — bkz. soru 715-719): Madde 1-4 (amaç/
   kapsam/dayanak/tanımlar); Madde 5-9 (tesis tasarımı, yangın tehlike
