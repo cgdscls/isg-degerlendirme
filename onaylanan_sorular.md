@@ -5548,6 +5548,24 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
 
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
 
+- Nükleer Tesislerin ve Nükleer Maddelerin Emniyetine İlişkin
+  Yönetmelik — tamamı atlandı. Tanımlar (Madde 4-e): "Emniyet:
+  Nükleer tesisleri ve nükleer maddeleri hedef alan hırsızlık,
+  sabotaj, yetkisiz erişim ve diğer kötü niyetli girişimleri
+  engellemek..." — bu yönetmelikte "emniyet" kavramı kasıtlı/kötü
+  niyetli saldırılara karşı güvenlik (security) anlamında kullanılıyor
+  (7381 sayılı Kanun'un tanımlarıyla uyumlu), İSG'nin "safety"
+  kapsamından ayrı. İçerik: özel güvenlik görevlisi istihdamı, giriş
+  kontrolü, alarm sistemleri, korunan/iç/hayati alan tasarımı, Merkezi
+  Alarm İstasyonu, kolluk kuvvetleriyle iş birliği. "Çalışan" geçen
+  yerler hep güvenlik bağlamında: "nükleer tesis çalışanlarını...
+  emniyet konusunda eğitmekle" (Madde 6/j) — İSG eğitimi değil,
+  güvenlik tehdidi farkındalık eğitimi; "çalışanların olmadığı
+  zamanlarda alarm aktif hale getirilir" gibi hükümler de izinsiz
+  giriş tespitine yönelik, çalışan sağlığı/güvenliği tedbiri değil.
+  Sivil Havacılık Güvenliği Yönetmeliği ve Nükleer Tesislerde Siber
+  Güvenliğe İlişkin Yönetmelik ile aynı aile: kasıtlı kötü niyetli
+  eylemlere karşı güvenlik (security), İSG dışı.
 - Nükleer Tesislerde Tedarik Zincirine İlişkin Yönetmelik — tamamı
   atlandı. Amaç (Madde 1) "nükleer tesislerin tedarik zincirine
   ilişkin Kuruluşun görev ve sorumluluklarını, bildirime ve
