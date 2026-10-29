@@ -5718,7 +5718,168 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      biri güvenlik kültürünün önemine, bu ise yönetim sisteminin
      kendisine ilişkin eğitimi düzenliyor.
 
+740. **Soru:** İşveren, 18 yaşından küçükleri radyasyona maruz
+     kalmaya neden olabilecek bir görevde çalıştırmıyor.
+     **Mevzuat:** Nükleer Tesislerde Radyasyondan Korunma
+     Yönetmeliği, Madde 7/3
+
+741. **Soru:** İşveren, hamilelik veya emzirme durumunu bildiren
+     radyasyonla çalışanları, bildirim tarihinden itibaren
+     radyasyona maruz kalma riski taşıyan işlerde
+     görevlendirmiyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 7/4
+
+742. **Soru:** İşveren, tesiste dereceli yaklaşım ilkesi gereğince
+     yeterli sayıda radyasyondan korunma personeli çalıştırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 21/1
+     **Not:** Soru 720'deki RPO istihdamı yükümlülüğüyle örtüşüyor,
+     burada "dereceli yaklaşım" ve sayısal yeterlilik vurgusu var.
+
+743. **Soru:** İşveren, radyasyondan korunma personeline,
+     radyasyondan korunma açısından yetersizlik tespit ettiği
+     durumlarda tesisin çalışmasına izin vermeme veya tesisi
+     durdurma yetkisini tanıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 21/2
+
+744. **Soru:** İşveren, nükleer tesiste görevli iş güvenliği
+     uzmanlarının radyasyondan korunma personeli ile işbirliği
+     içinde çalışmasını sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 23/2
+
+745. **Soru:** İşveren, tesiste radyasyon alanında çalışacak A
+     sınıfı harici çalışanlara kontrollü alanlara giriş/çalışma
+     koşulları ile acil durum prosedürleri konusunda bilgilendirme
+     ve eğitim yapıp kişisel izlemelerini garanti altına alıyor ve
+     tüm harici çalışanlara uygun kişisel koruyucu donanım
+     sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 25/1-ç
+
+746. **Soru:** İşveren, harici çalışanların kişisel izleme
+     kayıtlarının tutulmasını, kendilerine bildirilmesini ve
+     çalışanların kendi doz kayıtlarına erişebilmesini sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 25/1-f
+
+747. **Soru:** İşveren, nükleer tesiste radyasyon alanlarını
+     belirleyip bu alanlara yönelik korunma ve güvenliğin temini
+     için gerekli idari ve teknik düzenlemeleri yapıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 26/1
+
+748. **Soru:** İşveren, kontrollü alanlarda faaliyet gösterecek
+     personeli gerekli nitelik ve yeterliğe sahip kişiler arasından
+     görevlendirip çalışacağı işe uygun olarak eğitiyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 27/1-a
+
+749. **Soru:** İşveren, kontrollü alanların girişlerine, alanın
+     sınıfını, uyulması gereken kuralları ve acil durum bilgilerini
+     içeren uyarı işaretleri ve çalışma talimatlarını okunaklı ve
+     görünür biçimde yerleştiriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 27/1-ç
+
+750. **Soru:** İşveren, kontrollü alan girişlerinde koruyucu
+     donanım ile kişisel/alan izleme cihazlarını temin edip
+     personelin kıyafet değiştirebileceği alanları, çıkışlarda ise
+     bulaşma ölçüm cihazlarını ve arındırma imkanlarını sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 27/1-e,f
+
+751. **Soru:** İşveren, normal çalışma koşullarında yıllık doz
+     değerlerini ve potansiyel ışınlanma olasılığını dikkate alarak
+     radyasyonla çalışanları A ve B sınıfı olarak sınıflandırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 29/1,2
+     **Not:** Soru 723'teki (Yetkilendirmeler Yönetmeliği Madde
+     28) sınıflandırma/dozimetri yükümlülüğüyle örtüşüyor, burada
+     sayısal eşik değerleri somutlaştırılmış (6 mSv, 15 mSv, 150
+     mSv).
+
+752. **Soru:** İşveren, radyasyonla çalışanlara ilgili standartlara
+     uygun koruyucu giysi, cihaz, malzeme ve ekipmanı tedarik edip
+     bunların kullanımına ilişkin yeterli eğitim veriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 31/1-a,b
+
+753. **Soru:** İşveren, belirli koruyucu donanım kullanılmasını
+     gerektiren görevleri, sadece işyeri hekiminin tavsiyesi
+     doğrultusunda sağlık koşulları yeterli olan radyasyonla
+     çalışanlara veriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 31/1-c
+
+754. **Soru:** İşveren, işyerinde görevlendirdiği işyeri hekiminin
+     radyasyondan korunma, radyobiyoloji, radyasyon kazaları ve
+     acil durum konularında eğitim almasını sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 32/1
+
+755. **Soru:** İşveren, radyasyonla çalışanların işe girişlerinde
+     sağlık raporu aldırıp çalıştıkları süre boyunca yılda en az
+     bir kez sağlık gözetimi yaptırıyor ve izin verilen doz
+     sınırlarının üzerinde doz alındığından şüphelenildiğinde
+     gerekli tetkik/tedaviyi sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 32/2
+
+756. **Soru:** İşveren, Madde 7'de belirtilen doz sınırlarını aşan
+     her olayda radyasyona maruz kalan çalışana özel sağlık
+     gözetimi uyguluyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 33
+
+757. **Soru:** İşveren, A sınıfı radyasyonla çalışanları kişisel
+     dozimetre ile izlemeye tabi tutup bu hizmeti Kurumdan veya
+     Kurum onaylı dozimetri servislerinden alıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 35/1,3
+
+758. **Soru:** İşveren, kişisel doz değerlendirme sonuçlarının
+     radyasyonla çalışanlara bildirilmesini ve çalışanların kendi
+     kişisel doz kayıtlarına erişebilmesini sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 35/8
+
+759. **Soru:** İşveren, tüm çalışanlar için radyasyona maruz
+     kalmanın sağlık riskleri ile korunma/güvenliğe ilişkin teorik
+     ve uygulamalı eğitim programları hazırlayıp düzenli
+     aralıklarla tekrarlıyor, radyasyonla çalışanlara ayrıca
+     hamilelik/emzirme dönemine ilişkin riskler konusunda eğitim
+     veriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 38/2-a,c
+
+760. **Soru:** İşveren, radyasyon alanlarına giren ziyaretçilere
+     koruma ve güvenliğe yönelik bilgilendirme yapıp kontrollü
+     alana giren ziyaretçilere bu konuda bilgili bir çalışanın eşlik
+     etmesini sağlıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 39
+
+761. **Soru:** İşveren, radyasyonla çalışanın görevi bırakıp başka
+     yerde çalışmaya başlaması durumunda doz kayıtlarının bir
+     kopyasını çalışana veriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 43/3
+
+762. **Soru:** İşveren, acil durumda alabilecekleri etkin doz 50
+     mSv'i aşabilecek acil durum çalışanlarını ortaya çıkabilecek
+     sağlık etkileri ve koruyucu eylemler hakkında detaylı
+     bilgilendirip gönüllülük esasına göre çalıştırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 56/4
+     **Not:** Soru 734-735'teki (Radyasyon Acil Durumlarının
+     Yönetimi Yönetmeliği) acil durum çalışanı KKD/doz
+     yükümlülükleriyle aynı aile, ancak burada "gönüllülük esası" ve
+     bilgilendirme ayrı ve somut bir yükümlülük.
+
+763. **Soru:** İşveren, hamile olan ya da hamilelik şüphesi olan
+     kadın çalışanları acil durum müdahale faaliyetlerinin dışında
+     tutuyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 56/5
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Nükleer Tesislerde Radyasyondan Korunma Yönetmeliği — Madde 1-4,
+  6, 8-20 (Madde 7 ve 18 hariç), 24, 34/2,4,5-7,9,11, 36, 37, 40, 41,
+  42-54, 55, 57, 58 kısmen atlandı. Bu maddeler: doz sınırı/doz
+  kısıtı genel ilkeleri ve lisanslama sürecinde Kuruma gösterilen
+  doz tahminleri (Madde 5, 10, 16-18 kısmen), genel sorumluluk/
+  dereceli yaklaşım ilkeleri (Madde 11, 13), radyasyon
+  kaynaklarının lisans/ithalat-ihracat işlemleri (Madde 14), atık
+  yönetimi/çevresel izleme (çevre mevzuatına atıf, Madde 15-16),
+  radyasyonla çalışanların KENDİ sorumlulukları (işveren değil
+  çalışan muhatap, Madde 24), ekipman kalibrasyon/bakımı (Madde 37),
+  araştırma reaktörü özel atıfları (Madde 54) ve ayrıntılı kayıt
+  tutma/raporlama prosedürleri (Madde 42-53, soru 746/758/761'de
+  zaten en somut yönleri kapsanmış) — somut, genellenebilir ve
+  halihazırda kapsanmamış bir çalışan koruma yükümlülüğü
+  içermiyor; ya idari/teknik lisanslama süreci ya da zaten başka bir
+  soruda daha somut haliyle yer almış.
 
 - Nükleer Tesisler, Radyasyon Tesisleri ve Radyoaktif Atık
   Tesislerinde Yönetim Sistemi Yönetmeliği — Madde 6, 9-20 (Madde
