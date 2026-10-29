@@ -5910,7 +5910,75 @@ tek maddeye bölündü (bkz. aşağıdaki soru numaralarındaki artış).
      yıllık dozun 5 mSv'i geçmemesini sağlıyor.
      **Mevzuat:** Aynı Yönetmelik, Madde 10
 
+772. **Soru:** İşveren, 18 yaşından küçükleri radyasyon uygulaması
+     işinde çalıştırmıyor.
+     **Mevzuat:** Radyasyon Güvenliği Yönetmeliği, Madde 10/c
+
+773. **Soru:** İşveren, hamileliğini bildiren kadın çalışanın
+     çalışma koşullarını yeniden düzenleyerek doğacak çocuğun
+     alacağı dozun mümkün olduğunca düşük tutulmasını sağlıyor;
+     emzirme döneminde olan kadın çalışanları radyoaktif
+     kontaminasyon riski taşıyan işlerde çalıştırmıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 12
+
+774. **Soru:** İşveren, radyasyon alanlarını denetimli ve gözetimli
+     alan olarak sınıflandırıp denetimli alanların girişlerine ve
+     içlerine gerekli radyasyon uyarı levha/işaretlerini
+     yerleştiriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 15
+
+775. **Soru:** İşveren, ziyaretçilerin denetimli alanlara girmesine
+     izin vermiyor, gözetimli alanlara ise radyasyondan korunma
+     sorumlusunun izni olmadan girmelerine izin vermiyor ve izin
+     verilen ziyaretçilerin giriş-çıkış kayıtlarını tutuyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 18
+
+776. **Soru:** İşveren, Çalışma Koşulu A kapsamındaki radyasyon
+     görevlilerine kişisel dozimetre kullandırıyor ve bu dozimetri
+     hizmetini Kurumdan veya Kurum tarafından uygun görülen
+     kuruluşlardan alıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 21
+
+777. **Soru:** İşveren, yapılan işin niteliğine uygun koruyucu
+     giysi ve teçhizat kullandırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 22
+
+778. **Soru:** İşveren, Çalışma Koşulu A'da çalışan radyasyon
+     görevlilerinin işe başlamadan önce ve çalıştığı süre boyunca
+     yılda en az bir kez tıbbi muayenelerini yaptırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 23
+
+779. **Soru:** İşveren, yeraltı maden ocakları ve benzeri çalışma
+     ortamlarında radon ölçümü yaptırıyor, radon konsantrasyonu
+     1000 Bq/m3'ü aşarsa havalandırma sistemleri kuruyor, uranyum/
+     toryum/fosforlu malzeme içeren üretim/taşıma/depolama
+     faaliyetlerinde çalışanlara toz maskesi kullandırıyor ve bu
+     çalışanları aldıkları radyasyon ve sağlık riski konusunda
+     bilgilendiriyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 38
+
+780. **Soru:** İşveren, doz sınırları üzerinde radyasyona maruz
+     kalan ve eski görevine devamı sağlık raporuyla sakıncalı
+     bulunan radyasyon görevlisini, sosyal/ekonomik durumu, yaşı ve
+     becerilerini göz önünde bulundurarak radyasyona maruz kalmayı
+     gerektirmeyen başka bir görevde çalıştırıyor.
+     **Mevzuat:** Aynı Yönetmelik, Madde 45
+
 ## İncelenip EKLENMEMESİNE karar verilen mevzuatlar
+
+- Radyasyon Güvenliği Yönetmeliği — Madde 1,2,4-9,13,14,16,17,19,
+  24-37,39-75,76-79 kısmen atlandı. Nükleer tesisler hariç tüm diğer
+  iyonlaştırıcı radyasyon faaliyetlerini (tıbbi, endüstriyel,
+  araştırma, maden) kapsayan genel/temel radyasyon güvenliği
+  yönetmeliği. Madde 39-75 (lisanslandırma, izin, denetim, kayıt,
+  lisans sahibi/yönetim/RPO/danışman görev ve sorumlulukları) 2020/
+  2023 değişiklikleriyle tamamen mülga edilmiş, 7381 rejimine
+  devredilmiş. Madde 24-32 hasta/tıbbi ışınlama odaklı (hasta
+  koruması, çalışan koruması değil); Madde 33-37 çevresel salım
+  izni/doğal radyasyon izleme (Kurum/çevre idari süreci); Madde 43,
+  46 kaza/şüpheli durum Kurum'a raporlama (idari). Yürürlükte kalan
+  ve genuine çalışan koruma yükümlülükleri (Madde 10/c, 12, 15, 18,
+  21, 22, 23, 38, 45) soru 772-780'de kapsandı.
 
 - Radyoaktif Maddenin Güvenli Taşınması Yönetmeliği — Madde 1-4,
   8, 11-16, 17-252 kısmen atlandı. IAEA TS-R-1 esaslı, 252 madde,
