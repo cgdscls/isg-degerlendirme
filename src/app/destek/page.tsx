@@ -3,6 +3,7 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import { BILET_TURLERI, biletTuruEtiket, biletDurumu } from "@/lib/destek";
+import { sendEmail } from "@/lib/email";
 
 export default async function DestekPage({
   searchParams,
@@ -45,6 +46,21 @@ export default async function DestekPage({
     if (error) {
       redirect(`/destek?hata=${encodeURIComponent(error.message)}`);
     }
+
+    const adminEmail = process.env.ADMIN_BILDIRIM_EMAIL;
+    if (adminEmail) {
+      await sendEmail({
+        to: adminEmail,
+        subject: `Yeni destek bileti: ${baslik}`,
+        html: `
+          <p><strong>Tür:</strong> ${biletTuruEtiket(tur)}</p>
+          <p><strong>Gönderen:</strong> ${user.email}</p>
+          <p><strong>Başlık:</strong> ${baslik}</p>
+          <p><strong>Açıklama:</strong><br/>${aciklama}</p>
+        `,
+      });
+    }
+
     revalidatePath("/destek");
     redirect("/destek");
   }

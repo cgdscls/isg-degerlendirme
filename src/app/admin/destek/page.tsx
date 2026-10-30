@@ -4,6 +4,7 @@ import { requireAdmin } from "@/lib/requireAdmin";
 import { createAdminClient } from "@/lib/supabase/admin";
 import NavBar from "@/components/NavBar";
 import { BILET_DURUMLARI, biletTuruEtiket, biletDurumu } from "@/lib/destek";
+import { sendEmail } from "@/lib/email";
 
 export default async function AdminDestekPage() {
   const { supabase } = await requireAdmin();
@@ -35,10 +36,35 @@ export default async function AdminDestekPage() {
     const id = String(formData.get("id"));
     const durum = String(formData.get("durum") ?? "");
     const admin_yaniti = String(formData.get("admin_yaniti") ?? "").trim();
+
+    const { data: bilet } = await supabase
+      .from("destek_biletleri")
+      .select("user_id, baslik")
+      .eq("id", id)
+      .single();
+
     await supabase
       .from("destek_biletleri")
       .update({ durum, admin_yaniti: admin_yaniti || null, updated_at: new Date().toISOString() })
       .eq("id", id);
+
+    if (bilet) {
+      const admin = createAdminClient();
+      const { data: userData } = await admin.auth.admin.getUserById(bilet.user_id);
+      const email = userData?.user?.email;
+      if (email) {
+        const durumEtiketi = BILET_DURUMLARI.find((d) => d.deger === durum)?.etiket ?? durum;
+        await sendEmail({
+          to: email,
+          subject: `Destek biletin güncellendi: ${bilet.baslik}`,
+          html: `
+            <p><strong>Durum:</strong> ${durumEtiketi}</p>
+            ${admin_yaniti ? `<p><strong>Yanıt:</strong><br/>${admin_yaniti}</p>` : ""}
+          `,
+        });
+      }
+    }
+
     revalidatePath("/admin/destek");
   }
 
