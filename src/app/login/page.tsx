@@ -67,6 +67,12 @@ export default function LoginPage() {
           {loading ? "Giriş yapılıyor..." : "Giriş Yap"}
         </button>
 
+        <p className="mt-3 text-center text-sm">
+          <Link href="/sifremi-unuttum" className="font-medium text-brand-700">
+            Şifremi unuttum
+          </Link>
+        </p>
+
         <p className="mt-4 text-center text-sm text-gray-600">
           Hesabın yok mu?{" "}
           <Link href="/register" className="font-medium text-brand-700">
