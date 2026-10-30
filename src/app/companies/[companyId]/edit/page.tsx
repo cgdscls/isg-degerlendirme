@@ -3,6 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
+import OnayliSilForm from "@/components/OnayliSilForm";
 import { IS_KOLLARI } from "@/lib/isKollari";
 
 export default async function EditCompanyPage({
@@ -20,7 +21,7 @@ export default async function EditCompanyPage({
   const { data: company } = await supabase
     .from("companies")
     .select(
-      "id, name, address, contact_name, contact_phone, contact_email, tax_no, sector, nace_code"
+      "id, name, address, contact_name, contact_phone, contact_email, tax_no, sgk_no, sector, nace_code"
     )
     .eq("id", params.companyId)
     .single();
@@ -41,6 +42,7 @@ export default async function EditCompanyPage({
     const contact_phone = String(formData.get("contact_phone") ?? "").trim();
     const contact_email = String(formData.get("contact_email") ?? "").trim();
     const tax_no = String(formData.get("tax_no") ?? "").trim();
+    const sgk_no = String(formData.get("sgk_no") ?? "").trim();
     const sector = String(formData.get("sector") ?? "").trim();
     const nace_code = String(formData.get("nace_code") ?? "").trim();
     if (!name) return;
@@ -59,6 +61,7 @@ export default async function EditCompanyPage({
         contact_phone: contact_phone || null,
         contact_email: contact_email || null,
         tax_no: tax_no || null,
+        sgk_no: sgk_no || null,
         sector: sector || null,
         nace_code: nace_code || null,
       })
@@ -72,6 +75,19 @@ export default async function EditCompanyPage({
     revalidatePath(`/companies/${params.companyId}`);
     revalidatePath("/companies");
     redirect(`/companies/${params.companyId}`);
+  }
+
+  async function deleteCompany() {
+    "use server";
+    const supabase = createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) redirect("/login");
+
+    await supabase.from("companies").delete().eq("id", params.companyId);
+    revalidatePath("/companies");
+    redirect("/companies");
   }
 
   return (
@@ -111,6 +127,12 @@ export default async function EditCompanyPage({
               name="tax_no"
               defaultValue={company.tax_no ?? ""}
               placeholder="Vergi no (opsiyonel)"
+              className="rounded-md border border-gray-300 px-3 py-2 text-sm"
+            />
+            <input
+              name="sgk_no"
+              defaultValue={(company as any).sgk_no ?? ""}
+              placeholder="İşyeri SGK no (opsiyonel)"
               className="rounded-md border border-gray-300 px-3 py-2 text-sm"
             />
             <select
@@ -163,6 +185,14 @@ export default async function EditCompanyPage({
             </Link>
           </div>
         </form>
+
+        <div className="mt-4">
+          <OnayliSilForm
+            action={deleteCompany}
+            confirmMesaji={`"${company.name}" firmasını ve tüm değerlendirme cevaplarını kalıcı olarak silmek istediğine emin misin? Bu işlem geri alınamaz.`}
+            butonMetni="Firmayı Sil"
+          />
+        </div>
       </main>
     </>
   );

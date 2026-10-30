@@ -111,8 +111,11 @@ export default function KullanimKosullariPage() {
         <h2>10. İletişim</h2>
         <p>
           Bu Koşullar'a ilişkin sorularınız için{" "}
-          <a href="mailto:kvkk@isgmevzuat.tr">kvkk@isgmevzuat.tr</a> adresinden
-          bize ulaşabilirsiniz.
+          <a href="mailto:destek@isgmevzuat.tr">destek@isgmevzuat.tr</a>{" "}
+          adresinden bize ulaşabilirsiniz. Kişisel verilerinize ilişkin
+          başvurularınız içinse{" "}
+          <a href="mailto:kvkk@isgmevzuat.tr">kvkk@isgmevzuat.tr</a> adresini
+          kullanınız.
         </p>
       </div>
     </main>

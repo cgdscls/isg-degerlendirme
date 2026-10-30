@@ -59,6 +59,7 @@ create table public.companies (
   contact_phone text,
   contact_email text,
   tax_no text,
+  sgk_no text,
   sector text check (sector is null or sector in (
     'Avcılık, balıkçılık, tarım ve ormancılık',
     'Gıda sanayi',
@@ -186,6 +187,22 @@ create table public.mevzuat_kaynagi (
 
 create index mevzuat_kaynagi_kategori_idx on public.mevzuat_kaynagi (kategori);
 
+-- 6c) Destek biletleri: kullanıcıların mevzuat ekleme önerisi, sistem
+-- önerisi veya hata bildirimi gönderebildiği basit bilet sistemi.
+create table public.destek_biletleri (
+  id uuid primary key default gen_random_uuid(),
+  user_id uuid not null references auth.users (id) on delete cascade,
+  tur text not null check (tur in ('mevzuat_onerisi', 'sistem_onerisi', 'hata_bildirimi', 'diger')),
+  baslik text not null,
+  aciklama text not null,
+  durum text not null default 'acik' check (durum in ('acik', 'inceleniyor', 'cozuldu')),
+  admin_yaniti text,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create index destek_biletleri_user_id_idx on public.destek_biletleri (user_id);
+
 -- 6) Cevaplar (firma bazında; "Hayır" cevabında faktör/öneri alanları anlamlıdır)
 create table public.responses (
   id uuid primary key default gen_random_uuid(),
@@ -234,6 +251,7 @@ alter table public.maddeler enable row level security;
 alter table public.questions enable row level security;
 alter table public.responses enable row level security;
 alter table public.mevzuat_kaynagi enable row level security;
+alter table public.destek_biletleri enable row level security;
 
 -- Profiller
 create policy "profiles_select_own_or_admin" on public.profiles
@@ -297,6 +315,15 @@ create policy "mevzuat_kaynagi_select_public" on public.mevzuat_kaynagi
   for select using (true);
 create policy "mevzuat_kaynagi_admin_write" on public.mevzuat_kaynagi
   for all using (public.is_admin()) with check (public.is_admin());
+
+-- Destek biletleri: kullanıcı kendi biletini oluşturur/görür, admin hepsini
+-- görür ve yanıtlar/durum günceller
+create policy "destek_biletleri_select_own_or_admin" on public.destek_biletleri
+  for select using (user_id = auth.uid() or public.is_admin());
+create policy "destek_biletleri_insert_own" on public.destek_biletleri
+  for insert with check (user_id = auth.uid());
+create policy "destek_biletleri_update_admin" on public.destek_biletleri
+  for update using (public.is_admin()) with check (public.is_admin());
 
 -- Kendini admin yapmak için (SQL Editor'den kendi kullanıcın için çalıştır):
 -- update public.profiles set role = 'admin' where id = 'BURAYA-KENDI-USER-UUID-NI-YAZ';

@@ -61,6 +61,7 @@ export default async function CompaniesPage() {
     const contact_phone = String(formData.get("contact_phone") ?? "").trim();
     const contact_email = String(formData.get("contact_email") ?? "").trim();
     const tax_no = String(formData.get("tax_no") ?? "").trim();
+    const sgk_no = String(formData.get("sgk_no") ?? "").trim();
     const sector = String(formData.get("sector") ?? "").trim();
     const nace_code = String(formData.get("nace_code") ?? "").trim();
     if (!name) return;
@@ -76,6 +77,7 @@ export default async function CompaniesPage() {
       contact_phone: contact_phone || null,
       contact_email: contact_email || null,
       tax_no: tax_no || null,
+      sgk_no: sgk_no || null,
       sector: sector || null,
       nace_code: nace_code || null,
     });
@@ -159,6 +161,11 @@ export default async function CompaniesPage() {
               <input
                 name="tax_no"
                 placeholder="Vergi no (opsiyonel)"
+                className="rounded-md border border-gray-300 px-3 py-2 text-sm"
+              />
+              <input
+                name="sgk_no"
+                placeholder="İşyeri SGK no (opsiyonel)"
                 className="rounded-md border border-gray-300 px-3 py-2 text-sm"
               />
               <select
