@@ -31,6 +31,12 @@ export default async function NavBar() {
           <Link href="/companies" className="text-sm text-gray-600 hover:text-brand-700">
             Firmalarım
           </Link>
+          <Link href="/destek" className="text-sm text-gray-600 hover:text-brand-700">
+            Destek
+          </Link>
+          <Link href="/profil" className="text-sm text-gray-600 hover:text-brand-700">
+            Profilim
+          </Link>
           {isAdmin && (
             <Link href="/admin" className="text-sm text-gray-600 hover:text-brand-700">
               Yönetim

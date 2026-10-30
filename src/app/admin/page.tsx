@@ -57,6 +57,18 @@ export default async function AdminPage() {
             >
               Mevzuat Kaynağı (herkese açık liste) →
             </Link>
+            <Link
+              href="/admin/uyeler"
+              className="text-sm font-medium text-brand-700 hover:underline"
+            >
+              Üyeler →
+            </Link>
+            <Link
+              href="/admin/destek"
+              className="text-sm font-medium text-brand-700 hover:underline"
+            >
+              Destek Biletleri →
+            </Link>
           </div>
         </div>
         <p className="mt-1 text-sm text-gray-600">
