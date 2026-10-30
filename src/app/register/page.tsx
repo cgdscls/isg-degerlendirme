@@ -12,10 +12,15 @@ export default function RegisterPage() {
   const [error, setError] = useState<string | null>(null);
   const [done, setDone] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [kabulEdildi, setKabulEdildi] = useState(false);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
+    if (!kabulEdildi) {
+      setError("Devam etmek için KVKK Aydınlatma Metni'ni ve Kullanım Koşulları'nı kabul etmelisiniz.");
+      return;
+    }
     setLoading(true);
     const { error } = await supabase.auth.signUp({
       email,
@@ -90,11 +95,30 @@ export default function RegisterPage() {
           className="mb-4 w-full rounded-md border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none"
         />
 
+        <label className="mb-4 flex items-start gap-2 text-sm text-gray-700">
+          <input
+            type="checkbox"
+            checked={kabulEdildi}
+            onChange={(e) => setKabulEdildi(e.target.checked)}
+            className="mt-0.5"
+          />
+          <span>
+            <Link href="/kvkk" target="_blank" className="font-medium text-brand-700 underline">
+              KVKK Aydınlatma Metni
+            </Link>
+            'ni ve{" "}
+            <Link href="/kullanim-kosullari" target="_blank" className="font-medium text-brand-700 underline">
+              Kullanım Koşulları
+            </Link>
+            'nı okudum, kabul ediyorum.
+          </span>
+        </label>
+
         {error && <p className="mb-4 text-sm text-red-600">{error}</p>}
 
         <button
           type="submit"
-          disabled={loading}
+          disabled={loading || !kabulEdildi}
           className="w-full rounded-md bg-brand-600 px-4 py-2.5 font-medium text-white hover:bg-brand-700 disabled:opacity-60"
         >
           {loading ? "Kaydediliyor..." : "Kayıt Ol"}

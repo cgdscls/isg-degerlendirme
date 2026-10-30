@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import PublicHeader from "@/components/PublicHeader";
+import PublicFooter from "@/components/PublicFooter";
 import MevzuatKaynagiTablosu from "@/components/MevzuatKaynagiTablosu";
 import { kategoriSlugDan, MevzuatKaynagiKayit } from "@/lib/mevzuatKaynagi";
 
@@ -41,6 +42,7 @@ export default async function MevzuatKategoriPage({
           />
         </div>
       </main>
+      <PublicFooter />
     </>
   );
 }

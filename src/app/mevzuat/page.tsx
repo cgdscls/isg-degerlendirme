@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import PublicHeader from "@/components/PublicHeader";
+import PublicFooter from "@/components/PublicFooter";
 import { KATEGORILER } from "@/lib/mevzuatKaynagi";
 
 export default async function MevzuatAnaSayfa() {
@@ -48,6 +49,7 @@ export default async function MevzuatAnaSayfa() {
           ))}
         </div>
       </main>
+      <PublicFooter />
     </>
   );
 }
