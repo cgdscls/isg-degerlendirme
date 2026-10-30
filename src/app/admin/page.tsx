@@ -44,12 +44,20 @@ export default async function AdminPage() {
       <main className="mx-auto max-w-3xl px-6 py-8">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-semibold text-gray-900">Yönetim</h1>
-          <Link
-            href="/admin/mevzuat"
-            className="text-sm font-medium text-brand-700 hover:underline"
-          >
-            Mevzuat / Madde Yönetimi →
-          </Link>
+          <div className="flex flex-col items-end gap-1">
+            <Link
+              href="/admin/mevzuat"
+              className="text-sm font-medium text-brand-700 hover:underline"
+            >
+              Mevzuat / Madde Yönetimi →
+            </Link>
+            <Link
+              href="/admin/mevzuat-kaynagi"
+              className="text-sm font-medium text-brand-700 hover:underline"
+            >
+              Mevzuat Kaynağı (herkese açık liste) →
+            </Link>
+          </div>
         </div>
         <p className="mt-1 text-sm text-gray-600">
           Kategorileri, alt kategorileri ve sorularını buradan yönet.

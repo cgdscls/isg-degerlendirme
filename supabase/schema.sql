@@ -160,6 +160,32 @@ create table public.questions (
   updated_at timestamptz not null default now()
 );
 
+-- 6b) Mevzuat Kaynağı: isgmevzuat.tr'deki ILO Sözleşmeleri / Kanunlar /
+-- Yönetmelikler / Tebliğler listesi. Karne'nin mevzuat/madde yapısından
+-- bağımsız, herkese açık (girişsiz okunabilir) bir referans kütüphanesi.
+create table public.mevzuat_kaynagi (
+  id uuid primary key default gen_random_uuid(),
+  kategori text not null check (kategori in ('ilo_sozlesmesi', 'kanun', 'yonetmelik', 'teblig')),
+  ad text not null,
+  sozlesme_no text,
+  ilo_kabul_tarihi date,
+  yururluk_tarihi date,
+  kanun_no text,
+  kabul_rg_no text,
+  kabul_rg_tarihi date,
+  degisiklik_rg_no text,
+  degisiklik_rg_tarihi date,
+  mbs_link text,
+  word_link text,
+  pdf_link text,
+  kaysis_link text,
+  sort_order int not null default 0,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
+create index mevzuat_kaynagi_kategori_idx on public.mevzuat_kaynagi (kategori);
+
 -- 6) Cevaplar (firma bazında; "Hayır" cevabında faktör/öneri alanları anlamlıdır)
 create table public.responses (
   id uuid primary key default gen_random_uuid(),
@@ -207,6 +233,7 @@ alter table public.mevzuatlar enable row level security;
 alter table public.maddeler enable row level security;
 alter table public.questions enable row level security;
 alter table public.responses enable row level security;
+alter table public.mevzuat_kaynagi enable row level security;
 
 -- Profiller
 create policy "profiles_select_own_or_admin" on public.profiles
@@ -264,6 +291,12 @@ create policy "responses_update_own_company" on public.responses
   for update using (
     exists (select 1 from public.companies c where c.id = responses.company_id and c.owner_id = auth.uid())
   );
+
+-- Mevzuat Kaynağı: herkes (girişsiz dahil) okur, sadece admin yazar
+create policy "mevzuat_kaynagi_select_public" on public.mevzuat_kaynagi
+  for select using (true);
+create policy "mevzuat_kaynagi_admin_write" on public.mevzuat_kaynagi
+  for all using (public.is_admin()) with check (public.is_admin());
 
 -- Kendini admin yapmak için (SQL Editor'den kendi kullanıcın için çalıştır):
 -- update public.profiles set role = 'admin' where id = 'BURAYA-KENDI-USER-UUID-NI-YAZ';
