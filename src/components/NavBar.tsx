@@ -25,6 +25,9 @@ export default async function NavBar() {
           İSG Mevzuat Uyum Karnesi
         </Link>
         <nav className="flex items-center gap-5">
+          <Link href="/" className="text-sm text-gray-600 hover:text-brand-700">
+            ← Ana Sayfa
+          </Link>
           <Link href="/companies" className="text-sm text-gray-600 hover:text-brand-700">
             Firmalarım
           </Link>

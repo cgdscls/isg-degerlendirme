@@ -16,7 +16,20 @@ export default async function MevzuatAnaSayfa() {
     <>
       <PublicHeader />
       <main className="mx-auto max-w-5xl px-6 py-10">
-        <h1 className="text-3xl font-bold text-brand-700">İSG Mevzuat Kaynağı</h1>
+        <div className="rounded-lg border border-brand-100 bg-brand-50 p-6">
+          <p className="text-lg font-semibold text-brand-700">İSG Mevzuat Uyum Karnesi</p>
+          <p className="mt-1 text-sm text-gray-700">
+            İşyerinizin mevzuata uyumunu soru soru değerlendirin, eksiklerinizi görün.
+          </p>
+          <Link
+            href="/karne"
+            className="mt-4 inline-block rounded-md bg-brand-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-brand-700"
+          >
+            Uyum Karnesine Git →
+          </Link>
+        </div>
+
+        <h1 className="mt-10 text-3xl font-bold text-brand-700">İSG Mevzuat Kaynağı</h1>
         <p className="mt-3 max-w-2xl text-gray-600">
           Ücretsiz İSG mevzuat listeleri — ayrıntılı arama yaparak işletmenizin iş
           sağlığı ve güvenliğine uyumunu sağlayın.
@@ -33,19 +46,6 @@ export default async function MevzuatAnaSayfa() {
               <p className="mt-1 text-sm text-gray-500">{sayilar.get(k.deger) ?? 0} kayıt</p>
             </Link>
           ))}
-        </div>
-
-        <div className="mt-10 rounded-lg border border-brand-100 bg-brand-50 p-6">
-          <p className="text-lg font-semibold text-brand-700">İSG Mevzuat Uyum Karnesi</p>
-          <p className="mt-1 text-sm text-gray-700">
-            İşyerinizin mevzuata uyumunu soru soru değerlendirin, eksiklerinizi görün.
-          </p>
-          <Link
-            href="/karne"
-            className="mt-4 inline-block rounded-md bg-brand-600 px-5 py-2.5 text-sm font-medium text-white hover:bg-brand-700"
-          >
-            Uyum Karnesine Git →
-          </Link>
         </div>
       </main>
     </>

@@ -13,7 +13,13 @@ export default async function HomePage() {
   }
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
+    <main className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
+      <Link
+        href="/"
+        className="absolute left-6 top-6 text-sm text-gray-500 hover:text-brand-700"
+      >
+        ← Ana Sayfa
+      </Link>
       <h1 className="text-3xl font-bold text-brand-700">İSG Değerlendirme</h1>
       <p className="mt-3 max-w-md text-gray-600">
         İş sağlığı ve güvenliği mevzuatına uyumunuzu kategori bazında
