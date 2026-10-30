@@ -190,6 +190,16 @@ export default function MevzuatKaynagiTablosu({
                         MBS Link
                       </a>
                     )}
+                    {k.kaysis_link && (
+                      <a
+                        href={k.kaysis_link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-sm font-medium text-brand-700 hover:underline"
+                      >
+                        KAYSİS
+                      </a>
+                    )}
                     {k.word_link && (
                       <a
                         href={k.word_link}
@@ -208,16 +218,6 @@ export default function MevzuatKaynagiTablosu({
                         title="PDF olarak indir"
                       >
                         <PdfIcon />
-                      </a>
-                    )}
-                    {k.kaysis_link && (
-                      <a
-                        href={k.kaysis_link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-sm font-medium text-brand-700 hover:underline"
-                      >
-                        KAYSİS
                       </a>
                     )}
                     {!k.mbs_link && !k.word_link && !k.pdf_link && !k.kaysis_link && (
