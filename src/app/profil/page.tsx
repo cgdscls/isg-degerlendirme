@@ -3,6 +3,7 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import NavBar from "@/components/NavBar";
 import OnayliSilForm from "@/components/OnayliSilForm";
+import SifreDegistirForm from "@/components/SifreDegistirForm";
 
 export default async function ProfilPage() {
   const supabase = createClient();
@@ -61,6 +62,13 @@ export default async function ProfilPage() {
               </dd>
             </div>
           </dl>
+        </div>
+
+        <div className="mt-6 rounded-lg border border-gray-200 bg-white p-5">
+          <p className="text-sm font-semibold text-gray-900">Şifre Değiştir</p>
+          <div className="mt-3">
+            <SifreDegistirForm />
+          </div>
         </div>
 
         <div className="mt-8 rounded-lg border border-red-200 bg-red-50 p-5">
