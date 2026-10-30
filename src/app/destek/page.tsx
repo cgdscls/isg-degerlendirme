@@ -4,7 +4,11 @@ import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import { BILET_TURLERI, biletTuruEtiket, biletDurumu } from "@/lib/destek";
 
-export default async function DestekPage() {
+export default async function DestekPage({
+  searchParams,
+}: {
+  searchParams: { hata?: string };
+}) {
   const supabase = createClient();
   const {
     data: { user },
@@ -32,13 +36,17 @@ export default async function DestekPage() {
       redirect(`/destek?hata=${encodeURIComponent("Lütfen tüm alanları doldurun.")}`);
     }
 
-    await supabase.from("destek_biletleri").insert({
+    const { error } = await supabase.from("destek_biletleri").insert({
       user_id: user.id,
       tur,
       baslik,
       aciklama,
     });
+    if (error) {
+      redirect(`/destek?hata=${encodeURIComponent(error.message)}`);
+    }
     revalidatePath("/destek");
+    redirect("/destek");
   }
 
   return (
@@ -50,6 +58,12 @@ export default async function DestekPage() {
           Eklenmesini istediğin bir mevzuat, sistemle ilgili bir öneri ya da
           karşılaştığın bir hata varsa buradan bize bildir.
         </p>
+
+        {searchParams.hata && (
+          <div className="mt-4 rounded-md bg-red-50 p-3 text-sm text-red-700">
+            {searchParams.hata}
+          </div>
+        )}
 
         <form
           action={biletOlustur}
