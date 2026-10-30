@@ -3,29 +3,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
-
-export const IS_KOLLARI = [
-  "Avcılık, balıkçılık, tarım ve ormancılık",
-  "Gıda sanayi",
-  "Madencilik ve taş ocakları",
-  "Petrol, kimya, lastik, plastik ve ilaç",
-  "Dokuma, hazır giyim ve deri",
-  "Ağaç ve kâğıt",
-  "İletişim",
-  "Basın, yayın ve gazetecilik",
-  "Banka, finans ve sigorta",
-  "Ticaret, büro, eğitim ve güzel sanatlar",
-  "Çimento, toprak ve cam",
-  "Metal",
-  "İnşaat",
-  "Enerji",
-  "Taşımacılık",
-  "Gemi yapımı ve deniz taşımacılığı, ardiye ve antrepoculuk",
-  "Sağlık ve sosyal hizmetler",
-  "Konaklama ve eğlence işleri",
-  "Savunma ve güvenlik",
-  "Genel işler",
-];
+import { IS_KOLLARI } from "@/lib/isKollari";
 
 export default async function CompaniesPage() {
   const supabase = createClient();

@@ -3,7 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
-import { IS_KOLLARI } from "../../page";
+import { IS_KOLLARI } from "@/lib/isKollari";
 
 export default async function EditCompanyPage({
   params,
