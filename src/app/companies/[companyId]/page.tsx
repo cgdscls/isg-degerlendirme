@@ -1,7 +1,20 @@
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
+import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
+import OnayliSilForm from "@/components/OnayliSilForm";
+
+// Her işyerinde geçerli olmayan, özel/niş alt kategoriler. Bu listedeki
+// alt kategoriler için kart üzerinde tek tıkla "Kapsam Dışı Yap" butonu
+// gösterilir, kullanıcı onlarca soruyu tek tek cevaplamak zorunda kalmaz.
+const KAPSAM_DISI_ONERILEN = [
+  "Sağlık Kurumu Çalışan Güvenliği",
+  "Maden İşyerleri",
+  "Büyük Endüstriyel Kazalar",
+  "Nükleer ve Radyasyon Tesisleri",
+  "Sivil Savunma",
+];
 
 export default async function CompanyDashboardPage({
   params,
@@ -70,6 +83,32 @@ export default async function CompanyDashboardPage({
   const genelToplam = subStats.reduce((a, s) => a + s.total, 0);
   const genelCevaplanan = subStats.reduce((a, s) => a + s.answered, 0);
 
+  async function kapsamDisiYap(companyId: string, subcategoryId: string) {
+    "use server";
+    const supabase = createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) redirect("/login");
+
+    const { data: subQuestions } = await supabase
+      .from("questions")
+      .select("id")
+      .eq("subcategory_id", subcategoryId);
+
+    if (subQuestions && subQuestions.length > 0) {
+      const rows = subQuestions.map((q) => ({
+        company_id: companyId,
+        question_id: q.id,
+        answer: "kapsam_disi",
+        updated_by: user.id,
+        updated_at: new Date().toISOString(),
+      }));
+      await supabase.from("responses").upsert(rows, { onConflict: "company_id,question_id" });
+    }
+    revalidatePath(`/companies/${companyId}`);
+  }
+
   return (
     <>
       <NavBar />
@@ -130,40 +169,55 @@ export default async function CompanyDashboardPage({
                   {cat.name}
                 </h2>
                 <div className="grid gap-3 sm:grid-cols-2">
-                  {subs.map((sub) => (
-                    <Link
-                      key={sub.id}
-                      href={`/companies/${company.id}/assessment/${sub.id}`}
-                      className="rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-brand-400 hover:shadow"
-                    >
-                      <p className="font-medium text-gray-900">
-                        {sub.name}
-                        {sub.needsReview && (
-                          <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
-                            Güncellendi
-                          </span>
-                        )}
-                      </p>
-                      <div className="mt-2 flex items-center justify-between text-sm">
-                        <span className="text-gray-500">
-                          {sub.answered}/{sub.total} soru
-                        </span>
-                        {sub.uyum !== null && (
-                          <span
-                            className={`rounded-full px-2.5 py-0.5 font-medium ${
-                              sub.uyum >= 80
-                                ? "bg-green-100 text-green-700"
-                                : sub.uyum >= 50
-                                ? "bg-yellow-100 text-yellow-700"
-                                : "bg-red-100 text-red-700"
-                            }`}
-                          >
-                            %{sub.uyum}
-                          </span>
+                  {subs.map((sub) => {
+                    const kapsamDisiAdayi = KAPSAM_DISI_ONERILEN.includes(sub.name);
+                    return (
+                      <div
+                        key={sub.id}
+                        className="relative rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-brand-400 hover:shadow"
+                      >
+                        <Link href={`/companies/${company.id}/assessment/${sub.id}`} className="block">
+                          <p className="pr-8 font-medium text-gray-900">
+                            {sub.name}
+                            {sub.needsReview && (
+                              <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                                Güncellendi
+                              </span>
+                            )}
+                          </p>
+                          <div className="mt-2 flex items-center justify-between text-sm">
+                            <span className="text-gray-500">
+                              {sub.answered}/{sub.total} soru
+                            </span>
+                            {sub.uyum !== null && (
+                              <span
+                                className={`rounded-full px-2.5 py-0.5 font-medium ${
+                                  sub.uyum >= 80
+                                    ? "bg-green-100 text-green-700"
+                                    : sub.uyum >= 50
+                                    ? "bg-yellow-100 text-yellow-700"
+                                    : "bg-red-100 text-red-700"
+                                }`}
+                              >
+                                %{sub.uyum}
+                              </span>
+                            )}
+                          </div>
+                        </Link>
+
+                        {kapsamDisiAdayi && (
+                          <div className="absolute right-2 top-2">
+                            <OnayliSilForm
+                              action={kapsamDisiYap.bind(null, company.id, sub.id)}
+                              confirmMesaji={`İşyerin "${sub.name}" kapsamına girmiyorsa, bu alt kategorideki ${sub.total} sorunun tamamı "Kapsam Dışı" olarak işaretlenecek. Devam edilsin mi?`}
+                              butonMetni="Kapsam Dışı Yap"
+                              className="rounded-full border border-gray-300 bg-white px-2 py-1 text-xs font-medium text-gray-600 hover:border-gray-400 hover:bg-gray-50"
+                            />
+                          </div>
                         )}
                       </div>
-                    </Link>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             );
