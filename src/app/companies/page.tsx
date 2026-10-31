@@ -95,7 +95,7 @@ export default async function CompaniesPage() {
         <h1 className="text-2xl font-semibold text-gray-900">Firmalarım</h1>
         <p className="mt-1 text-sm text-gray-600">
           Değerlendirme yapacağın firmayı seç, ya da yeni bir firma ekle.
-          {plan === "free" && " Ücretsiz planda en fazla 1 firma ekleyebilirsin."}
+          {plan !== "premium" && " En fazla 1 firma ekleyebilirsin."}
         </p>
 
         {totalNeedsReview > 0 && (
@@ -209,8 +209,7 @@ export default async function CompaniesPage() {
           </form>
         ) : (
           <div className="mt-8 rounded-lg border border-yellow-200 bg-yellow-50 p-4 text-sm text-yellow-800">
-            Ücretsiz planda en fazla 1 firma ekleyebilirsin. Daha fazla firma
-            için premium plana geçmen gerekiyor.
+            En fazla 1 firma ekleyebilirsin.
           </div>
         )}
       </main>

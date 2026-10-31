@@ -14,7 +14,7 @@ export default async function ProfilPage() {
 
   const { data: profile } = await supabase
     .from("profiles")
-    .select("full_name, plan")
+    .select("full_name")
     .eq("id", user.id)
     .single();
 
@@ -54,12 +54,6 @@ export default async function ProfilPage() {
             <div className="flex justify-between">
               <dt className="text-gray-500">E-posta</dt>
               <dd className="font-medium text-gray-900">{user.email}</dd>
-            </div>
-            <div className="flex justify-between">
-              <dt className="text-gray-500">Plan</dt>
-              <dd className="font-medium text-gray-900">
-                {profile?.plan === "premium" ? "Premium" : "Ücretsiz"}
-              </dd>
             </div>
           </dl>
         </div>
