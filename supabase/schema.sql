@@ -60,6 +60,7 @@ create table public.companies (
   contact_email text,
   tax_no text,
   sgk_no text,
+  tehlike_sinifi text check (tehlike_sinifi in ('cok_tehlikeli', 'tehlikeli', 'az_tehlikeli')),
   sector text check (sector is null or sector in (
     'Avcılık, balıkçılık, tarım ve ormancılık',
     'Gıda sanayi',

@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import { IS_KOLLARI } from "@/lib/isKollari";
+import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
 
 export default async function CompaniesPage() {
   const supabase = createClient();
@@ -64,6 +65,7 @@ export default async function CompaniesPage() {
     const sgk_no = String(formData.get("sgk_no") ?? "").trim();
     const sector = String(formData.get("sector") ?? "").trim();
     const nace_code = String(formData.get("nace_code") ?? "").trim();
+    const tehlike_sinifi = String(formData.get("tehlike_sinifi") ?? "").trim();
     if (!name) return;
     if (!sector) {
       redirect(`/companies?hata=${encodeURIComponent("İş kolu seçimi zorunludur.")}`);
@@ -80,6 +82,7 @@ export default async function CompaniesPage() {
       sgk_no: sgk_no || null,
       sector: sector || null,
       nace_code: nace_code || null,
+      tehlike_sinifi: tehlike_sinifi || null,
     });
 
     if (error) {
@@ -188,6 +191,18 @@ export default async function CompaniesPage() {
                 placeholder="NACE kodu (opsiyonel)"
                 className="rounded-md border border-gray-300 px-3 py-2 text-sm"
               />
+              <select
+                name="tehlike_sinifi"
+                defaultValue=""
+                className="rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-700"
+              >
+                <option value="">Tehlike sınıfı (opsiyonel)</option>
+                {TEHLIKE_SINIFLARI.map((t) => (
+                  <option key={t.deger} value={t.deger}>
+                    {t.etiket}
+                  </option>
+                ))}
+              </select>
               <input
                 name="contact_phone"
                 placeholder="Telefon"

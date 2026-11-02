@@ -5,6 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import OnayliSilForm from "@/components/OnayliSilForm";
 import { IS_KOLLARI } from "@/lib/isKollari";
+import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
 
 export default async function EditCompanyPage({
   params,
@@ -21,7 +22,7 @@ export default async function EditCompanyPage({
   const { data: company } = await supabase
     .from("companies")
     .select(
-      "id, name, address, contact_name, contact_phone, contact_email, tax_no, sgk_no, sector, nace_code"
+      "id, name, address, contact_name, contact_phone, contact_email, tax_no, sgk_no, sector, nace_code, tehlike_sinifi"
     )
     .eq("id", params.companyId)
     .single();
@@ -45,6 +46,7 @@ export default async function EditCompanyPage({
     const sgk_no = String(formData.get("sgk_no") ?? "").trim();
     const sector = String(formData.get("sector") ?? "").trim();
     const nace_code = String(formData.get("nace_code") ?? "").trim();
+    const tehlike_sinifi = String(formData.get("tehlike_sinifi") ?? "").trim();
     if (!name) return;
     if (!sector) {
       redirect(
@@ -64,6 +66,7 @@ export default async function EditCompanyPage({
         sgk_no: sgk_no || null,
         sector: sector || null,
         nace_code: nace_code || null,
+        tehlike_sinifi: tehlike_sinifi || null,
       })
       .eq("id", params.companyId);
 
@@ -156,6 +159,18 @@ export default async function EditCompanyPage({
               placeholder="NACE kodu (opsiyonel)"
               className="rounded-md border border-gray-300 px-3 py-2 text-sm"
             />
+            <select
+              name="tehlike_sinifi"
+              defaultValue={(company as any).tehlike_sinifi ?? ""}
+              className="rounded-md border border-gray-300 px-3 py-2 text-sm text-gray-700"
+            >
+              <option value="">Tehlike sınıfı (opsiyonel)</option>
+              {TEHLIKE_SINIFLARI.map((t) => (
+                <option key={t.deger} value={t.deger}>
+                  {t.etiket}
+                </option>
+              ))}
+            </select>
             <input
               name="contact_phone"
               defaultValue={company.contact_phone ?? ""}
