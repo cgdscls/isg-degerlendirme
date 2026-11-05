@@ -124,7 +124,7 @@ export default function MevzuatKaynagiTablosu({
               ) : (
                 <>
                   <th className={thSinif} onClick={() => basligaTikla("kabul_rg_tarihi")}>
-                    Kabul RG (Tarih / Sayı){ok("kabul_rg_tarihi")}
+                    Yayımlandığı RG (Tarih / Sayı){ok("kabul_rg_tarihi")}
                   </th>
                   <th className={thSinif} onClick={() => basligaTikla("degisiklik_rg_tarihi")}>
                     Değişiklik RG (Tarih – Sayı){ok("degisiklik_rg_tarihi")}
