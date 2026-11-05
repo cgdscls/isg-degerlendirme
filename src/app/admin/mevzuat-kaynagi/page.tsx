@@ -180,7 +180,7 @@ export default async function AdminMevzuatKaynagiPage({
           )}
 
           <label className="text-xs text-gray-600">
-            Kabul / Resmî Gazete No
+            Yayımlandığı Resmî Gazete No
             <input
               name="kabul_rg_no"
               placeholder="örn: 18565"
@@ -188,7 +188,7 @@ export default async function AdminMevzuatKaynagiPage({
             />
           </label>
           <label className="text-xs text-gray-600">
-            Kabul / Resmî Gazete Tarihi
+            Yayımlandığı Resmî Gazete Tarihi
             <input
               name="kabul_rg_tarihi"
               type="date"
@@ -312,7 +312,7 @@ export default async function AdminMevzuatKaynagiPage({
                 )}
 
                 <label className="text-xs text-gray-600">
-                  Kabul RG No
+                  Yayımlandığı RG No
                   <input
                     name="kabul_rg_no"
                     defaultValue={kayit.kabul_rg_no ?? ""}
@@ -320,7 +320,7 @@ export default async function AdminMevzuatKaynagiPage({
                   />
                 </label>
                 <label className="text-xs text-gray-600">
-                  Kabul RG Tarihi
+                  Yayımlandığı RG Tarihi
                   <input
                     name="kabul_rg_tarihi"
                     type="date"
