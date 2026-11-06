@@ -111,7 +111,7 @@ export default function ReportCharts({
             color="#ea580c"
           />
           <FactorBarChart
-            title="İdari bulgular — uyum düzeyi dağılımı"
+            title="Uyum ve idari düzenleme bulguları — uyum düzeyi dağılımı"
             data={uyumDuzeyiData}
             color="#2563eb"
           />

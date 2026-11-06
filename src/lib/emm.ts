@@ -23,7 +23,7 @@ export const DEGERLENDIRME_TIPLERI: Secenek<DegerlendirmeTipi>[] = [
   },
   {
     deger: "idari",
-    etiket: "İdari / uyum",
+    etiket: "Uyum ve idari düzenleme bulguları",
     aciklama:
       "Gereklilik kendi başına riski kontrol etmez (kayıt, bildirim, görevlendirme, belge vb.).",
   },

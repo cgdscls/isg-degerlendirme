@@ -203,7 +203,7 @@ function EmmAlanlari({ q }: { q?: any }) {
         </details>
       </div>
       <p className="text-[11px] text-gray-500">
-        İdari sorularda yalnızca bağlayıcılık kaydedilir; referans risk alanları temizlenir.
+        Uyum ve idari düzenleme sorularında yalnızca bağlayıcılık kaydedilir; referans risk alanları temizlenir.
       </p>
     </fieldset>
   );
@@ -428,7 +428,7 @@ export default async function AdminQuestionsPage({
                   {q.degerlendirme_tipi === "risk"
                     ? `Risk · ${referansAciklamasi(q) ?? "referans eksik"}`
                     : q.degerlendirme_tipi === "idari"
-                    ? "İdari"
+                    ? "Uyum ve idari düzenleme"
                     : "Tip yok"}
                 </span>
                 {q.degerlendirme_tipi && (
