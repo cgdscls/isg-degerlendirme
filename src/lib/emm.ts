@@ -1,4 +1,6 @@
 // HSE Enforcement Management Model (EMM, operasyonel sürüm 3.2) temelli
+// Contains public sector information published by the Health and Safety Executive
+// and licensed under the Open Government Licence v3.0.
 // uyumsuzluk değerlendirmesi. Kaynak: docs/kaynaklar/HSE_Enforcement_Management_Model_EMM.pdf
 //
 // Bir soru "Hayır" cevaplandığında, sorunun önceden belirlenmiş tipine göre

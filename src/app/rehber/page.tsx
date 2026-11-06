@@ -396,6 +396,20 @@ export default function RehberPage() {
             <li>6331 sayılı İş Sağlığı ve Güvenliği Kanunu, md. 5 (Risklerden korunma ilkeleri)</li>
           </ul>
           <p className="text-xs text-gray-500">
+            Bu sayfa ve karnedeki değerlendirme yöntemi, Health and Safety Executive tarafından
+            yayımlanan kamu sektörü bilgilerini içerir ve{" "}
+            <a
+              href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+              className="text-brand-700 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Open Government Licence v3.0
+            </a>{" "}
+            kapsamında uyarlanmıştır. (Contains public sector information published by the Health
+            and Safety Executive and licensed under the Open Government Licence.)
+          </p>
+          <p className="text-xs text-gray-500">
             Karne bir öz-değerlendirme aracıdır; resmî denetim veya hukuki görüş yerine geçmez.
           </p>
         </div>
