@@ -7,6 +7,7 @@ import {
   RISK_ACIGI_BILGI,
   RISK_ACIGI_SIRASI,
   UYUM_DUZEYI_SECENEKLERI,
+  referansBelirle,
   riskAcigiHesapla,
 } from "@/lib/emm";
 
@@ -36,7 +37,9 @@ export default async function CompanyReportPage({
 
   const { data: questions } = await supabase
     .from("questions")
-    .select("id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik");
+    .select(
+      "id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc"
+    );
 
   const { data: responses } = await supabase
     .from("responses")
@@ -88,12 +91,13 @@ export default async function CompanyReportPage({
     const q = questionById.get(r.question_id);
     if (!q) return;
     if (q.degerlendirme_tipi === "risk") {
+      const ref = referansBelirle(q, r.olasilik);
       const acik = riskAcigiHesapla({
         sonuc: r.sonuc,
         olasilik: r.olasilik,
         kapsam: r.kapsam,
-        referansSonuc: q.referans_sonuc,
-        referansOlasilik: q.referans_olasilik,
+        referansSonuc: ref?.sonuc,
+        referansOlasilik: ref?.olasilik,
       });
       if (acik) riskSayilari.set(acik, (riskSayilari.get(acik) ?? 0) + 1);
       else riskDegerlendirilmedi++;

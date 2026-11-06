@@ -5,103 +5,205 @@ import { requireAdmin } from "@/lib/requireAdmin";
 import NavBar from "@/components/NavBar";
 import MevzuatMaddeSelect from "@/components/MevzuatMaddeSelect";
 import {
+  BAGLAYICILIK_SECENEKLERI,
   DEGERLENDIRME_TIPLERI,
+  GEREKLILIK_ETKISI_SECENEKLERI,
   OLASILIK_SECENEKLERI,
   SONUC_SECENEKLERI,
+  baglayicilikBilgi,
+  referansAciklamasi,
   referansGecerliMi,
-  referansRiskMetni,
+  yardimciHatasi,
 } from "@/lib/emm";
+
+const SECIM_SINIFI = "mt-1 w-full rounded-md border border-gray-300 px-2 py-1.5 text-sm";
+
+function oku(formData: FormData, ad: string) {
+  return String(formData.get(ad) ?? "").trim();
+}
 
 // Formdan gelen EMM alanlarını okur ve doğrular.
 function emmAlanlari(formData: FormData) {
-  const tip = String(formData.get("degerlendirme_tipi") ?? "").trim();
-  const refSonuc = String(formData.get("referans_sonuc") ?? "").trim();
-  const refOlasilik = String(formData.get("referans_olasilik") ?? "").trim();
+  const tip = oku(formData, "degerlendirme_tipi");
   const degerlendirme_tipi = tip === "risk" || tip === "idari" ? tip : null;
+  const bag = oku(formData, "standart_baglayiciligi");
+  const standart_baglayiciligi = BAGLAYICILIK_SECENEKLERI.some((b) => b.deger === bag) ? bag : null;
+
+  const bos = {
+    referans_sonuc: null,
+    referans_olasilik: null,
+    tehlike_sonuc: null,
+    gereklilik_etkisi: null,
+    azaltilmis_sonuc: null,
+    referans_gerekce: null,
+  };
+
   if (degerlendirme_tipi !== "risk") {
-    return { alanlar: { degerlendirme_tipi, referans_sonuc: null, referans_olasilik: null }, hata: null };
+    return { alanlar: { degerlendirme_tipi, standart_baglayiciligi, ...bos }, hata: null };
   }
+
+  const refSonuc = oku(formData, "referans_sonuc");
+  const refOlasilik = oku(formData, "referans_olasilik");
   if ((refSonuc || refOlasilik) && !referansGecerliMi(refSonuc, refOlasilik)) {
     return {
       alanlar: null,
-      hata: "Referans risk geçersiz: sonuç ve olasılığın ikisi de seçilmeli; 'Ciddi – Muhtemel' referans olamaz.",
+      hata: "Elle referans risk geçersiz: sonuç ve olasılığın ikisi de seçilmeli; 'Ciddi – Muhtemel' referans olamaz.",
     };
   }
+
+  const tehlike_sonuc = oku(formData, "tehlike_sonuc") || null;
+  const gereklilik_etkisi = oku(formData, "gereklilik_etkisi") || null;
+  const azaltilmisHam = oku(formData, "azaltilmis_sonuc") || null;
+  const azaltilmis_sonuc =
+    gereklilik_etkisi === "sonuc_azaltir" || gereklilik_etkisi === "ikisi" ? azaltilmisHam : null;
+  const hata = yardimciHatasi({ tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc });
+  if (hata) return { alanlar: null, hata };
+
   return {
     alanlar: {
       degerlendirme_tipi,
+      standart_baglayiciligi,
       referans_sonuc: refSonuc || null,
       referans_olasilik: refOlasilik || null,
+      tehlike_sonuc,
+      gereklilik_etkisi,
+      azaltilmis_sonuc,
+      referans_gerekce: oku(formData, "referans_gerekce") || null,
     },
     hata: null,
   };
 }
 
-function EmmAlanlari({
-  tip,
-  refSonuc,
-  refOlasilik,
+function SecimKutusu({
+  ad,
+  etiket,
+  deger,
+  secenekler,
+  bosEtiket = "—",
 }: {
-  tip?: string | null;
-  refSonuc?: string | null;
-  refOlasilik?: string | null;
+  ad: string;
+  etiket: string;
+  deger?: string | null;
+  secenekler: { deger: string; etiket: string }[];
+  bosEtiket?: string;
 }) {
   return (
-    <fieldset className="rounded-md border border-gray-200 p-3">
+    <label className="text-xs text-gray-600">
+      {etiket}
+      <select name={ad} defaultValue={deger ?? ""} className={SECIM_SINIFI}>
+        <option value="">{bosEtiket}</option>
+        {secenekler.map((s) => (
+          <option key={s.deger} value={s.deger}>
+            {s.etiket}
+          </option>
+        ))}
+      </select>
+    </label>
+  );
+}
+
+function EmmAlanlari({ q }: { q?: any }) {
+  return (
+    <fieldset className="space-y-3 rounded-md border border-gray-200 p-3">
       <legend className="px-1 text-xs font-medium text-gray-600">
         Uyumsuzluk değerlendirmesi (EMM)
       </legend>
-      <div className="grid gap-3 sm:grid-cols-3">
-        <label className="text-xs text-gray-600">
-          Değerlendirme tipi
-          <select
-            name="degerlendirme_tipi"
-            defaultValue={tip ?? ""}
-            className="mt-1 w-full rounded-md border border-gray-300 px-2 py-1.5 text-sm"
-          >
-            <option value="">Tanımlanmadı</option>
-            {DEGERLENDIRME_TIPLERI.map((t) => (
-              <option key={t.deger} value={t.deger}>
-                {t.etiket}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="text-xs text-gray-600">
-          Referans sonuç
-          <select
-            name="referans_sonuc"
-            defaultValue={refSonuc ?? ""}
-            className="mt-1 w-full rounded-md border border-gray-300 px-2 py-1.5 text-sm"
-          >
-            <option value="">—</option>
-            {SONUC_SECENEKLERI.map((s) => (
-              <option key={s.deger} value={s.deger}>
-                {s.etiket}
-              </option>
-            ))}
-          </select>
-        </label>
-        <label className="text-xs text-gray-600">
-          Referans olasılık
-          <select
-            name="referans_olasilik"
-            defaultValue={refOlasilik ?? ""}
-            className="mt-1 w-full rounded-md border border-gray-300 px-2 py-1.5 text-sm"
-          >
-            <option value="">—</option>
-            {OLASILIK_SECENEKLERI.map((s) => (
-              <option key={s.deger} value={s.deger}>
-                {s.etiket}
-              </option>
-            ))}
-          </select>
-        </label>
+
+      <div className="grid gap-3 sm:grid-cols-2">
+        <SecimKutusu
+          ad="degerlendirme_tipi"
+          etiket="Değerlendirme tipi"
+          deger={q?.degerlendirme_tipi}
+          secenekler={DEGERLENDIRME_TIPLERI}
+          bosEtiket="Tanımlanmadı"
+        />
+        <SecimKutusu
+          ad="standart_baglayiciligi"
+          etiket="Standardın bağlayıcılığı (EMM Tablo 3)"
+          deger={q?.standart_baglayiciligi}
+          secenekler={BAGLAYICILIK_SECENEKLERI}
+          bosEtiket="Tanımlı (varsayılan)"
+        />
       </div>
-      <p className="mt-2 text-[11px] leading-snug text-gray-500">
-        Referans risk yalnızca risk temelli sorularda kullanılır: gereklilik tam karşılandığında
-        kalacak risk. Örn. durdurma kumandası varken bile sonuç ciddidir ama olasılık uzaktır →
-        Ciddi – Uzak. İdari sorularda referans alanları kaydedilmez.
+      <ul className="space-y-0.5 text-[11px] leading-snug text-gray-500">
+        {BAGLAYICILIK_SECENEKLERI.map((b) => (
+          <li key={b.deger}>
+            <strong>{b.etiket}:</strong> {b.aciklama}
+          </li>
+        ))}
+      </ul>
+
+      <div className="rounded-md bg-gray-50 p-3">
+        <p className="text-xs font-medium text-gray-700">
+          Referans risk yardımcısı — yalnızca risk temelli sorular
+        </p>
+        <p className="mt-0.5 text-[11px] leading-snug text-gray-500">
+          Referans risk, gereklilik karşılandığında kalan risktir (EMM par. 35, 44-46). Örn. tornada
+          koruyucu: tehlike Ciddi, gereklilik olayı imkânsız kılar → Ciddi – Yok.
+        </p>
+        <div className="mt-2 grid gap-3 sm:grid-cols-3">
+          <SecimKutusu
+            ad="tehlike_sonuc"
+            etiket="Tehlikenin gerçekçi en kötü sonucu"
+            deger={q?.tehlike_sonuc}
+            secenekler={SONUC_SECENEKLERI}
+          />
+          <SecimKutusu
+            ad="gereklilik_etkisi"
+            etiket="Gereklilik ne yapıyor?"
+            deger={q?.gereklilik_etkisi}
+            secenekler={GEREKLILIK_ETKISI_SECENEKLERI}
+          />
+          <SecimKutusu
+            ad="azaltilmis_sonuc"
+            etiket="Azaltılmış sonuç (sonucu azaltanlarda)"
+            deger={q?.azaltilmis_sonuc}
+            secenekler={SONUC_SECENEKLERI}
+            bosEtiket="Bir kademe aşağı (varsayılan)"
+          />
+        </div>
+        <ul className="mt-2 space-y-0.5 text-[11px] leading-snug text-gray-500">
+          {GEREKLILIK_ETKISI_SECENEKLERI.map((g) => (
+            <li key={g.deger}>
+              <strong>{g.etiket}:</strong> {g.aciklama}
+            </li>
+          ))}
+        </ul>
+        <textarea
+          name="referans_gerekce"
+          defaultValue={q?.referans_gerekce ?? ""}
+          rows={2}
+          placeholder="Gerekçe: gereklilik neden bu etkiyi yaratıyor? (kullanıcıya da gösterilir)"
+          className="mt-2 w-full rounded-md border border-gray-300 px-3 py-2 text-xs"
+        />
+        {q && (
+          <p className="mt-1 text-xs text-gray-600">
+            Şu anki referans risk: <strong>{referansAciklamasi(q) ?? "tanımlanmadı"}</strong>
+          </p>
+        )}
+
+        <details className="mt-2">
+          <summary className="cursor-pointer text-[11px] text-gray-500">
+            Elle referans risk (yardımcı boş bırakılırsa kullanılır)
+          </summary>
+          <div className="mt-2 grid gap-3 sm:grid-cols-2">
+            <SecimKutusu
+              ad="referans_sonuc"
+              etiket="Referans sonuç"
+              deger={q?.referans_sonuc}
+              secenekler={SONUC_SECENEKLERI}
+            />
+            <SecimKutusu
+              ad="referans_olasilik"
+              etiket="Referans olasılık"
+              deger={q?.referans_olasilik}
+              secenekler={OLASILIK_SECENEKLERI}
+            />
+          </div>
+        </details>
+      </div>
+      <p className="text-[11px] text-gray-500">
+        İdari sorularda yalnızca bağlayıcılık kaydedilir; referans risk alanları temizlenir.
       </p>
     </fieldset>
   );
@@ -137,7 +239,7 @@ export default async function AdminQuestionsPage({
   const { data: questionsRaw } = await supabase
     .from("questions")
     .select(
-      "id, text, guide_note, beklenen_kanit, madde_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, sort_order, maddeler(mevzuat_id)"
+      "id, text, guide_note, beklenen_kanit, madde_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc, referans_gerekce, standart_baglayiciligi, sort_order, maddeler(mevzuat_id)"
     )
     .eq("subcategory_id", params.subcategoryId)
     .order("sort_order", { ascending: true });
@@ -252,7 +354,7 @@ export default async function AdminQuestionsPage({
         {(() => {
           const tanimsiz = questions.filter((q: any) => !q.degerlendirme_tipi).length;
           const referanssiz = questions.filter(
-            (q: any) => q.degerlendirme_tipi === "risk" && !referansGecerliMi(q.referans_sonuc, q.referans_olasilik)
+            (q: any) => q.degerlendirme_tipi === "risk" && !referansAciklamasi(q)
           ).length;
           if (tanimsiz === 0 && referanssiz === 0) return null;
           return (
@@ -315,7 +417,7 @@ export default async function AdminQuestionsPage({
                 <span
                   className={`ml-2 inline-block rounded-full px-2 py-0.5 text-xs font-medium ${
                     q.degerlendirme_tipi === "risk"
-                      ? referansGecerliMi(q.referans_sonuc, q.referans_olasilik)
+                      ? referansAciklamasi(q)
                         ? "bg-orange-100 text-orange-800"
                         : "bg-amber-100 text-amber-800"
                       : q.degerlendirme_tipi === "idari"
@@ -324,11 +426,17 @@ export default async function AdminQuestionsPage({
                   }`}
                 >
                   {q.degerlendirme_tipi === "risk"
-                    ? `Risk · ${referansRiskMetni(q.referans_sonuc, q.referans_olasilik) ?? "referans eksik"}`
+                    ? `Risk · ${referansAciklamasi(q) ?? "referans eksik"}`
                     : q.degerlendirme_tipi === "idari"
                     ? "İdari"
                     : "Tip yok"}
                 </span>
+                {q.degerlendirme_tipi && (
+                  <span className="ml-1 inline-block rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600">
+                    {baglayicilikBilgi(q.standart_baglayiciligi).etiket}
+                    {baglayicilikBilgi(q.standart_baglayiciligi).varsayilan ? " (vars.)" : ""}
+                  </span>
+                )}
               </summary>
 
               <form action={updateQuestion} className="mt-3 space-y-3">
@@ -358,11 +466,7 @@ export default async function AdminQuestionsPage({
                   placeholder="Yardımcı not"
                   className="w-full rounded-md border border-gray-300 px-3 py-2 text-sm"
                 />
-                <EmmAlanlari
-                  tip={q.degerlendirme_tipi}
-                  refSonuc={q.referans_sonuc}
-                  refOlasilik={q.referans_olasilik}
-                />
+                <EmmAlanlari q={q} />
                 <button
                   type="submit"
                   className="rounded-md bg-gray-900 px-3 py-1.5 text-sm font-medium text-white hover:bg-gray-700"

@@ -161,6 +161,12 @@ create table public.questions (
   degerlendirme_tipi text check (degerlendirme_tipi in ('risk', 'idari')),
   referans_sonuc text check (referans_sonuc in ('ciddi', 'onemli', 'hafif')),
   referans_olasilik text check (referans_olasilik in ('muhtemel', 'mumkun', 'uzak', 'yok')),
+  -- Referans risk yardımcısı (EMM paragraf 44-46) ve standardın bağlayıcılığı (Tablo 3)
+  tehlike_sonuc text check (tehlike_sonuc in ('ciddi', 'onemli', 'hafif')),
+  gereklilik_etkisi text check (gereklilik_etkisi in ('olasilik_kaldirir', 'olasilik_azaltir', 'sonuc_azaltir', 'ikisi')),
+  azaltilmis_sonuc text check (azaltilmis_sonuc in ('ciddi', 'onemli', 'hafif')),
+  referans_gerekce text,
+  standart_baglayiciligi text check (standart_baglayiciligi in ('tanimli', 'yerlesik', 'yorumsal')),
   sort_order int not null default 0,
   created_at timestamptz not null default now(),
   updated_at timestamptz not null default now(),

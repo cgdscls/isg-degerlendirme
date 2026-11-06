@@ -203,3 +203,150 @@ export function referansRiskMetni(sonuc?: string | null, olasilik?: string | nul
   if (!referansGecerliMi(sonuc, olasilik)) return null;
   return `${etiketBul(SONUC_SECENEKLERI, sonuc)} – ${etiketBul(OLASILIK_SECENEKLERI, olasilik)}`;
 }
+
+// ---------------------------------------------------------------------------
+// Referans risk yardımcısı (EMM paragraf 35 ve 44-46)
+// Referans risk = gereklilik karşılandığında kalan risk. Gerekliliğin olasılığı mı,
+// sonucu mu, ikisini mi azalttığına bakılarak türetilir. Kurallar EMM'nin üç
+// örneğini (torna, yüksekten düşme, diş röntgeni) aynen verir.
+
+export type GereklilikEtkisi = "olasilik_kaldirir" | "olasilik_azaltir" | "sonuc_azaltir" | "ikisi";
+
+export const GEREKLILIK_ETKISI_SECENEKLERI: Secenek<GereklilikEtkisi>[] = [
+  {
+    deger: "olasilik_kaldirir",
+    etiket: "Olayı imkânsız kılar",
+    aciklama: "Fiziksel engel, kilitleme, ayırma vb. Tehlike durur ama olay gerçekleşemez → olasılık Yok.",
+  },
+  {
+    deger: "olasilik_azaltir",
+    etiket: "Olasılığı azaltır",
+    aciklama: "Korkuluk, bakım, kontrol, prosedür vb. Sonuç değişmez → olasılık Uzak.",
+  },
+  {
+    deger: "sonuc_azaltir",
+    etiket: "Sonucu azaltır",
+    aciklama: "Güvenlik ağı, acil durdurma, KKD vb. Olasılık değişmez, sonuç düşer.",
+  },
+  {
+    deger: "ikisi",
+    etiket: "İkisini de azaltır",
+    aciklama: "Hem olasılığı hem sonucu düşürür → düşük sonuç, olasılık Uzak.",
+  },
+];
+
+const SONUC_SIRA: Sonuc[] = ["hafif", "onemli", "ciddi"];
+
+function birKademeAsagi(s: Sonuc): Sonuc {
+  const i = SONUC_SIRA.indexOf(s);
+  return SONUC_SIRA[Math.max(0, i - 1)];
+}
+
+export type SoruReferansAlanlari = {
+  referans_sonuc?: string | null;
+  referans_olasilik?: string | null;
+  tehlike_sonuc?: string | null;
+  gereklilik_etkisi?: string | null;
+  azaltilmis_sonuc?: string | null;
+};
+
+function yardimciDoluMu(q: SoruReferansAlanlari) {
+  return Boolean(q.tehlike_sonuc && q.gereklilik_etkisi);
+}
+
+/**
+ * Sorunun referans riskini verir. Yardımcı alanlar doluysa onlardan türetilir,
+ * değilse elle girilmiş referans_sonuc/referans_olasilik kullanılır.
+ * "Sonucu azaltır" durumunda referans olasılık, mevcut olasılıkla aynıdır.
+ */
+export function referansBelirle(
+  q: SoruReferansAlanlari,
+  mevcutOlasilik?: string | null
+): { sonuc: Sonuc; olasilik: Olasilik } | null {
+  if (yardimciDoluMu(q)) {
+    const tehlike = q.tehlike_sonuc as Sonuc;
+    const dusuk = (q.azaltilmis_sonuc as Sonuc) || birKademeAsagi(tehlike);
+    let sonuc: { sonuc: Sonuc; olasilik: Olasilik } | null = null;
+    switch (q.gereklilik_etkisi) {
+      case "olasilik_kaldirir":
+        sonuc = { sonuc: tehlike, olasilik: "yok" };
+        break;
+      case "olasilik_azaltir":
+        sonuc = { sonuc: tehlike, olasilik: "uzak" };
+        break;
+      case "sonuc_azaltir":
+        if (!mevcutOlasilik) return null;
+        sonuc = { sonuc: dusuk, olasilik: mevcutOlasilik as Olasilik };
+        break;
+      case "ikisi":
+        sonuc = { sonuc: dusuk, olasilik: "uzak" };
+        break;
+    }
+    if (!sonuc || !referansGecerliMi(sonuc.sonuc, sonuc.olasilik)) return null;
+    return sonuc;
+  }
+  if (referansGecerliMi(q.referans_sonuc, q.referans_olasilik)) {
+    return { sonuc: q.referans_sonuc as Sonuc, olasilik: q.referans_olasilik as Olasilik };
+  }
+  return null;
+}
+
+/** Referans riskin insan okunur özeti (mevcut olasılıktan bağımsız). */
+export function referansAciklamasi(q: SoruReferansAlanlari): string | null {
+  if (yardimciDoluMu(q)) {
+    if (q.gereklilik_etkisi === "sonuc_azaltir") {
+      const dusuk = (q.azaltilmis_sonuc as Sonuc) || birKademeAsagi(q.tehlike_sonuc as Sonuc);
+      return `${etiketBul(SONUC_SECENEKLERI, dusuk)} – mevcut olasılıkla aynı`;
+    }
+    const r = referansBelirle(q);
+    return r ? referansRiskMetni(r.sonuc, r.olasilik) : null;
+  }
+  return referansRiskMetni(q.referans_sonuc, q.referans_olasilik);
+}
+
+/** Admin formundan gelen yardımcı alanları doğrular; hata metni ya da null döner. */
+export function yardimciHatasi(q: SoruReferansAlanlari): string | null {
+  const dolu = [q.tehlike_sonuc, q.gereklilik_etkisi].filter(Boolean).length;
+  if (dolu === 1) return "Referans risk yardımcısında tehlikenin sonucu ve gerekliliğin etkisi birlikte seçilmeli.";
+  if (dolu === 0) return null;
+  if (q.azaltilmis_sonuc) {
+    if (q.gereklilik_etkisi !== "sonuc_azaltir" && q.gereklilik_etkisi !== "ikisi") return null;
+    const a = SONUC_SIRA.indexOf(q.azaltilmis_sonuc as Sonuc);
+    const t = SONUC_SIRA.indexOf(q.tehlike_sonuc as Sonuc);
+    if (a >= t && t > 0) return "Azaltılmış sonuç, tehlikenin sonucundan düşük olmalı.";
+  }
+  return null;
+}
+
+// ---------------------------------------------------------------------------
+// Standardın bağlayıcılığı (EMM Tablo 3, paragraf 67-69)
+// Hukuken zorunlu olup olmamasına değil, işverenin ne yapacağını öğrenmek için
+// nereye bakması gerektiğine göre belirlenir.
+
+export type Baglayicilik = "tanimli" | "yerlesik" | "yorumsal";
+
+export const BAGLAYICILIK_SECENEKLERI: Secenek<Baglayicilik>[] = [
+  {
+    deger: "tanimli",
+    etiket: "Tanımlı",
+    aciklama: "Ne yapılacağı kanun, yönetmelik veya tebliğ maddesinde açıkça belirtilmiş.",
+  },
+  {
+    deger: "yerlesik",
+    etiket: "Yerleşik",
+    aciklama:
+      "Mevzuat genel bir yükümlülük koyuyor; ayrıntı mevzuatla bağlantılı standartta (TS EN vb.) veya yayımlanmış rehberde.",
+  },
+  {
+    deger: "yorumsal",
+    etiket: "Yorumsal",
+    aciklama: "Ayrıntı yayımlanmış bir kaynakta yok; ne yapılacağı uzman yorumuna kalmış.",
+  },
+];
+
+/** Tanımlanmamışsa varsayılan Tanımlı kabul edilir. */
+export function baglayicilikBilgi(deger?: string | null) {
+  const s = BAGLAYICILIK_SECENEKLERI.find((b) => b.deger === deger);
+  if (s) return { ...s, varsayilan: false };
+  return { ...BAGLAYICILIK_SECENEKLERI[0], varsayilan: true };
+}

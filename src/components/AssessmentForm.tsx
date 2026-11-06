@@ -9,7 +9,9 @@ import {
   RISK_ACIGI_BILGI,
   SONUC_SECENEKLERI,
   UYUM_DUZEYI_SECENEKLERI,
-  referansRiskMetni,
+  baglayicilikBilgi,
+  referansAciklamasi,
+  referansBelirle,
   riskAcigiHesapla,
 } from "@/lib/emm";
 
@@ -22,6 +24,11 @@ type Question = {
   degerlendirme_tipi: string | null;
   referans_sonuc: string | null;
   referans_olasilik: string | null;
+  tehlike_sonuc: string | null;
+  gereklilik_etkisi: string | null;
+  azaltilmis_sonuc: string | null;
+  referans_gerekce: string | null;
+  standart_baglayiciligi: string | null;
   needsReview?: boolean;
 };
 
@@ -226,7 +233,11 @@ export default function AssessmentForm({
                     onChange={(p) => patchAndSave(q, p)}
                   />
                 ) : q.degerlendirme_tipi === "idari" ? (
-                  <IdariDegerlendirme row={row} onChange={(p) => patchAndSave(q, p)} />
+                  <IdariDegerlendirme
+                    question={q}
+                    row={row}
+                    onChange={(p) => patchAndSave(q, p)}
+                  />
                 ) : (
                   <p className="text-xs text-gray-500">
                     Bu soru için değerlendirme tipi henüz tanımlanmadı.
@@ -291,13 +302,14 @@ function RiskDegerlendirmesi({
   row: RowState;
   onChange: (p: Partial<RowState>) => void;
 }) {
-  const referans = referansRiskMetni(question.referans_sonuc, question.referans_olasilik);
+  const referans = referansAciklamasi(question);
+  const ref = referansBelirle(question, row.olasilik);
   const acik = riskAcigiHesapla({
     sonuc: row.sonuc,
     olasilik: row.olasilik,
     kapsam: row.kapsam,
-    referansSonuc: question.referans_sonuc,
-    referansOlasilik: question.referans_olasilik,
+    referansSonuc: ref?.sonuc,
+    referansOlasilik: ref?.olasilik,
   });
 
   return (
@@ -344,15 +356,33 @@ function RiskDegerlendirmesi({
             </span>
           )}
         </span>
+        <BaglayicilikSatiri deger={question.standart_baglayiciligi} />
       </div>
+      {question.referans_gerekce && (
+        <p className="text-[11px] leading-snug text-gray-500">
+          Referans gerekçesi: {question.referans_gerekce}
+        </p>
+      )}
     </>
   );
 }
 
+function BaglayicilikSatiri({ deger }: { deger: string | null }) {
+  const b = baglayicilikBilgi(deger);
+  return (
+    <span title={b.aciklama}>
+      Standart bağlayıcılığı: <strong>{b.etiket}</strong>
+      {b.varsayilan && <span className="text-gray-400"> (varsayılan)</span>}
+    </span>
+  );
+}
+
 function IdariDegerlendirme({
+  question,
   row,
   onChange,
 }: {
+  question: Question;
   row: RowState;
   onChange: (p: Partial<RowState>) => void;
 }) {
@@ -367,6 +397,9 @@ function IdariDegerlendirme({
           onChange={(v) => onChange({ uyum_duzeyi: v })}
         />
       </div>
+      <p className="text-xs text-gray-600">
+        <BaglayicilikSatiri deger={question.standart_baglayiciligi} />
+      </p>
     </>
   );
 }
