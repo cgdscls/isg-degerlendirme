@@ -245,7 +245,7 @@ export default function AssessmentForm({
                 )}
 
                 <textarea
-                  placeholder="Öneri / düzeltici aksiyon (opsiyonel)"
+                  placeholder="Öneri / düzeltici faaliyet (opsiyonel)"
                   value={row.oneri}
                   onChange={(e) => patch(q.id, { oneri: e.target.value })}
                   onBlur={() => blurField(q)}
