@@ -4,10 +4,10 @@ import { revalidatePath } from "next/cache";
 import { requireAdmin } from "@/lib/requireAdmin";
 import NavBar from "@/components/NavBar";
 import MevzuatMaddeSelect from "@/components/MevzuatMaddeSelect";
+import ReferansYardimcisi from "@/components/ReferansYardimcisi";
 import {
   BAGLAYICILIK_SECENEKLERI,
   DEGERLENDIRME_TIPLERI,
-  GEREKLILIK_ETKISI_SECENEKLERI,
   OLASILIK_SECENEKLERI,
   SONUC_SECENEKLERI,
   baglayicilikBilgi,
@@ -141,34 +141,11 @@ function EmmAlanlari({ q }: { q?: any }) {
           Referans risk, gereklilik karşılandığında kalan risktir (EMM par. 35, 44-46). Örn. tornada
           koruyucu: tehlike Ciddi, gereklilik olayı imkânsız kılar → Ciddi – Yok.
         </p>
-        <div className="mt-2 grid gap-3 sm:grid-cols-3">
-          <SecimKutusu
-            ad="tehlike_sonuc"
-            etiket="Tehlikenin gerçekçi en kötü sonucu"
-            deger={q?.tehlike_sonuc}
-            secenekler={SONUC_SECENEKLERI}
-          />
-          <SecimKutusu
-            ad="gereklilik_etkisi"
-            etiket="Gereklilik ne yapıyor?"
-            deger={q?.gereklilik_etkisi}
-            secenekler={GEREKLILIK_ETKISI_SECENEKLERI}
-          />
-          <SecimKutusu
-            ad="azaltilmis_sonuc"
-            etiket="Azaltılmış sonuç (sonucu azaltanlarda)"
-            deger={q?.azaltilmis_sonuc}
-            secenekler={SONUC_SECENEKLERI}
-            bosEtiket="Bir kademe aşağı (varsayılan)"
-          />
-        </div>
-        <ul className="mt-2 space-y-0.5 text-[11px] leading-snug text-gray-500">
-          {GEREKLILIK_ETKISI_SECENEKLERI.map((g) => (
-            <li key={g.deger}>
-              <strong>{g.etiket}:</strong> {g.aciklama}
-            </li>
-          ))}
-        </ul>
+        <ReferansYardimcisi
+          tehlikeSonuc={q?.tehlike_sonuc}
+          gereklilikEtkisi={q?.gereklilik_etkisi}
+          azaltilmisSonuc={q?.azaltilmis_sonuc}
+        />
         <textarea
           name="referans_gerekce"
           defaultValue={q?.referans_gerekce ?? ""}
@@ -177,8 +154,8 @@ function EmmAlanlari({ q }: { q?: any }) {
           className="mt-2 w-full rounded-md border border-gray-300 px-3 py-2 text-xs"
         />
         {q && (
-          <p className="mt-1 text-xs text-gray-600">
-            Şu anki referans risk: <strong>{referansAciklamasi(q) ?? "tanımlanmadı"}</strong>
+          <p className="mt-1 text-[11px] text-gray-500">
+            Kayıtlı referans risk: {referansAciklamasi(q) ?? "tanımlanmadı"}
           </p>
         )}
 

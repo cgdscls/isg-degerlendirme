@@ -216,22 +216,26 @@ export const GEREKLILIK_ETKISI_SECENEKLERI: Secenek<GereklilikEtkisi>[] = [
   {
     deger: "olasilik_kaldirir",
     etiket: "Olayı imkânsız kılar",
-    aciklama: "Fiziksel engel, kilitleme, ayırma vb. Tehlike durur ama olay gerçekleşemez → olasılık Yok.",
+    aciklama:
+      "Tehlike durur ama olay gerçekleşemez → aynı sonuç, olasılık Yok. Örn. sabit koruyucu, kilitleme, enerjinin kesilip topraklanması.",
   },
   {
     deger: "olasilik_azaltir",
     etiket: "Olasılığı azaltır",
-    aciklama: "Korkuluk, bakım, kontrol, prosedür vb. Sonuç değişmez → olasılık Uzak.",
+    aciklama:
+      "Olay hâlâ olabilir ama daha az olası; zarar değişmez → aynı sonuç, olasılık Uzak. Örn. korkuluk ve topuk levhası, periyodik bakım.",
   },
   {
     deger: "sonuc_azaltir",
     etiket: "Sonucu azaltır",
-    aciklama: "Güvenlik ağı, acil durdurma, KKD vb. Olasılık değişmez, sonuç düşer.",
+    aciklama:
+      "Olayın olasılığı değişmez, zararı azalır → azaltılmış sonuç, mevcut olasılık. Örn. güvenlik ağı, acil durdurma tetiği, KKD.",
   },
   {
     deger: "ikisi",
     etiket: "İkisini de azaltır",
-    aciklama: "Hem olasılığı hem sonucu düşürür → düşük sonuç, olasılık Uzak.",
+    aciklama:
+      "Hem olasılığı hem zararı düşürür → azaltılmış sonuç, olasılık Uzak. Örn. forkliftte hız sınırlayıcı.",
   },
 ];
 
