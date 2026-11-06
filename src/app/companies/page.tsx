@@ -100,6 +100,11 @@ export default async function CompaniesPage() {
           Değerlendirme yapacağın firmayı seç, ya da yeni bir firma ekle.
           {plan !== "premium" && " En fazla 1 firma ekleyebilirsin."}
         </p>
+        <p className="mt-2 text-sm">
+          <Link href="/rehber" className="font-medium text-brand-700 hover:underline">
+            Karneyi nasıl dolduracağım? Doldurma rehberini oku →
+          </Link>
+        </p>
 
         {totalNeedsReview > 0 && (
           <div className="mt-4 rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800">
