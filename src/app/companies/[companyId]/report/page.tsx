@@ -3,28 +3,12 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import ReportCharts from "@/components/ReportCharts";
-
-const SISTEM_FAKTORU_SECENEKLERI = [
-  "Gereklilik tespit edilmemiş",
-  "Uygun kontrol bulunamamış",
-  "Kontrol uygulanmamış",
-  "Sistem eksikliği",
-];
-
-const MALIYET_FAKTORU_SECENEKLERI = [
-  "Yüksek getirili yatırım (ROI > %10)",
-  "Düşük getirili yatırım (ROI < %10)",
-  "İşgücü artışı gerektiriyor",
-  "İşletme maliyetini artırıyor",
-  "Önemli maliyet etkisi yok",
-];
-
-const EYLEM_FAKTORU_SECENEKLERI = [
-  "Acil eylem gerekli (24 saat içinde)",
-  "Eylem zorunlu (1 ay içinde)",
-  "Eylem gerekli (3 ay içinde)",
-  "Eylem önerilir (12 ay içinde)",
-];
+import {
+  RISK_ACIGI_BILGI,
+  RISK_ACIGI_SIRASI,
+  UYUM_DUZEYI_SECENEKLERI,
+  riskAcigiHesapla,
+} from "@/lib/emm";
 
 export default async function CompanyReportPage({
   params,
@@ -52,19 +36,17 @@ export default async function CompanyReportPage({
 
   const { data: questions } = await supabase
     .from("questions")
-    .select("id, subcategory_id");
+    .select("id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik");
 
   const { data: responses } = await supabase
     .from("responses")
-    .select("question_id, answer, sistem_faktoru, maliyet_faktoru, eylem_faktoru")
+    .select("question_id, answer, sonuc, olasilik, kapsam, uyum_duzeyi")
     .eq("company_id", params.companyId);
 
   const categoryBySubcategory = new Map(
     (subcategories ?? []).map((s) => [s.id, s.category_id])
   );
-  const categoryByQuestion = new Map(
-    (questions ?? []).map((q) => [q.id, categoryBySubcategory.get(q.subcategory_id)])
-  );
+  const questionById = new Map((questions ?? []).map((q) => [q.id, q]));
   const answerByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r]));
 
   const categoryStats = (categories ?? []).map((cat) => {
@@ -94,19 +76,50 @@ export default async function CompanyReportPage({
   const genelUyum =
     genelEvet + genelHayir > 0 ? Math.round((genelEvet / (genelEvet + genelHayir)) * 100) : null;
 
-  function countBy(field: "sistem_faktoru" | "maliyet_faktoru" | "eylem_faktoru", options: string[]) {
-    const counts = new Map(options.map((o) => [o, 0]));
-    (responses ?? []).forEach((r) => {
-      if (r.answer === "hayir" && r[field] && counts.has(r[field] as string)) {
-        counts.set(r[field] as string, (counts.get(r[field] as string) ?? 0) + 1);
-      }
-    });
-    return options.map((o) => ({ name: o, value: counts.get(o) ?? 0 }));
-  }
+  // "Hayır" cevaplarının EMM değerlendirme dağılımları
+  const riskSayilari = new Map<string, number>();
+  const uyumSayilari = new Map<string, number>();
+  let riskDegerlendirilmedi = 0;
+  let idariDegerlendirilmedi = 0;
+  let tipTanimsiz = 0;
 
-  const sistemData = countBy("sistem_faktoru", SISTEM_FAKTORU_SECENEKLERI);
-  const maliyetData = countBy("maliyet_faktoru", MALIYET_FAKTORU_SECENEKLERI);
-  const eylemData = countBy("eylem_faktoru", EYLEM_FAKTORU_SECENEKLERI);
+  (responses ?? []).forEach((r) => {
+    if (r.answer !== "hayir") return;
+    const q = questionById.get(r.question_id);
+    if (!q) return;
+    if (q.degerlendirme_tipi === "risk") {
+      const acik = riskAcigiHesapla({
+        sonuc: r.sonuc,
+        olasilik: r.olasilik,
+        kapsam: r.kapsam,
+        referansSonuc: q.referans_sonuc,
+        referansOlasilik: q.referans_olasilik,
+      });
+      if (acik) riskSayilari.set(acik, (riskSayilari.get(acik) ?? 0) + 1);
+      else riskDegerlendirilmedi++;
+    } else if (q.degerlendirme_tipi === "idari") {
+      if (r.uyum_duzeyi) uyumSayilari.set(r.uyum_duzeyi, (uyumSayilari.get(r.uyum_duzeyi) ?? 0) + 1);
+      else idariDegerlendirilmedi++;
+    } else {
+      tipTanimsiz++;
+    }
+  });
+
+  const riskAcigiData = [
+    ...RISK_ACIGI_SIRASI.map((k) => ({
+      name: RISK_ACIGI_BILGI[k].etiket,
+      value: riskSayilari.get(k) ?? 0,
+    })),
+    { name: "Değerlendirilmedi", value: riskDegerlendirilmedi },
+  ];
+
+  const uyumDuzeyiData = [
+    ...UYUM_DUZEYI_SECENEKLERI.map((s) => ({
+      name: s.etiket,
+      value: uyumSayilari.get(s.deger) ?? 0,
+    })),
+    { name: "Değerlendirilmedi", value: idariDegerlendirilmedi },
+  ];
 
   return (
     <>
@@ -126,9 +139,9 @@ export default async function CompanyReportPage({
 
         <ReportCharts
           categoryStats={categoryStats}
-          sistemData={sistemData}
-          maliyetData={maliyetData}
-          eylemData={eylemData}
+          riskAcigiData={riskAcigiData}
+          uyumDuzeyiData={uyumDuzeyiData}
+          tipTanimsiz={tipTanimsiz}
         />
       </main>
     </>

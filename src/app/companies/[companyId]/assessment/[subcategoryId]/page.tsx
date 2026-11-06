@@ -28,7 +28,7 @@ export default async function AssessmentPage({
   const { data: questionsRaw } = await supabase
     .from("questions")
     .select(
-      "id, text, guide_note, beklenen_kanit, sort_order, updated_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
+      "id, text, guide_note, beklenen_kanit, degerlendirme_tipi, referans_sonuc, referans_olasilik, sort_order, updated_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
     )
     .eq("subcategory_id", params.subcategoryId)
     .order("sort_order", { ascending: true });
@@ -43,7 +43,7 @@ export default async function AssessmentPage({
   const { data: responses } = await supabase
     .from("responses")
     .select(
-      "question_id, answer, note, oneri, sistem_faktoru, maliyet_faktoru, eylem_faktoru, updated_at"
+      "question_id, answer, note, oneri, sonuc, olasilik, kapsam, uyum_duzeyi, updated_at"
     )
     .eq("company_id", params.companyId);
 
@@ -70,6 +70,9 @@ export default async function AssessmentPage({
       text: q.text,
       guide_note: q.guide_note,
       beklenen_kanit: q.beklenen_kanit,
+      degerlendirme_tipi: q.degerlendirme_tipi ?? null,
+      referans_sonuc: q.referans_sonuc ?? null,
+      referans_olasilik: q.referans_olasilik ?? null,
       citation,
       needsReview,
     };

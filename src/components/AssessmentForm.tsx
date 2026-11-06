@@ -3,6 +3,15 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import {
+  KAPSAM_SECENEKLERI,
+  OLASILIK_SECENEKLERI,
+  RISK_ACIGI_BILGI,
+  SONUC_SECENEKLERI,
+  UYUM_DUZEYI_SECENEKLERI,
+  referansRiskMetni,
+  riskAcigiHesapla,
+} from "@/lib/emm";
 
 type Question = {
   id: string;
@@ -10,6 +19,9 @@ type Question = {
   guide_note: string | null;
   beklenen_kanit: string | null;
   citation: string | null;
+  degerlendirme_tipi: string | null;
+  referans_sonuc: string | null;
+  referans_olasilik: string | null;
   needsReview?: boolean;
 };
 
@@ -20,18 +32,20 @@ type ExistingResponse = {
   answer: Answer;
   note: string | null;
   oneri: string | null;
-  sistem_faktoru: string | null;
-  maliyet_faktoru: string | null;
-  eylem_faktoru: string | null;
+  sonuc: string | null;
+  olasilik: string | null;
+  kapsam: string | null;
+  uyum_duzeyi: string | null;
 };
 
 type RowState = {
   answer?: Answer;
   note: string;
   oneri: string;
-  sistem_faktoru: string;
-  maliyet_faktoru: string;
-  eylem_faktoru: string;
+  sonuc: string;
+  olasilik: string;
+  kapsam: string;
+  uyum_duzeyi: string;
 };
 
 const ANSWER_LABELS: Record<Answer, string> = {
@@ -40,30 +54,8 @@ const ANSWER_LABELS: Record<Answer, string> = {
   kapsam_disi: "Kapsam Dışı",
 };
 
-const SISTEM_FAKTORU_SECENEKLERI = [
-  "Gereklilik tespit edilmemiş",
-  "Uygun kontrol bulunamamış",
-  "Kontrol uygulanmamış",
-  "Sistem eksikliği",
-];
-
-const MALIYET_FAKTORU_SECENEKLERI = [
-  "Yüksek getirili yatırım (ROI > %10)",
-  "Düşük getirili yatırım (ROI < %10)",
-  "İşgücü artışı gerektiriyor",
-  "İşletme maliyetini artırıyor",
-  "Önemli maliyet etkisi yok",
-];
-
-const EYLEM_FAKTORU_SECENEKLERI = [
-  "Acil eylem gerekli (24 saat içinde)",
-  "Eylem zorunlu (1 ay içinde)",
-  "Eylem gerekli (3 ay içinde)",
-  "Eylem önerilir (12 ay içinde)",
-];
-
 function emptyRow(): RowState {
-  return { note: "", oneri: "", sistem_faktoru: "", maliyet_faktoru: "", eylem_faktoru: "" };
+  return { note: "", oneri: "", sonuc: "", olasilik: "", kapsam: "", uyum_duzeyi: "" };
 }
 
 export default function AssessmentForm({
@@ -85,9 +77,10 @@ export default function AssessmentForm({
         answer: r.answer,
         note: r.note ?? "",
         oneri: r.oneri ?? "",
-        sistem_faktoru: r.sistem_faktoru ?? "",
-        maliyet_faktoru: r.maliyet_faktoru ?? "",
-        eylem_faktoru: r.eylem_faktoru ?? "",
+        sonuc: r.sonuc ?? "",
+        olasilik: r.olasilik ?? "",
+        kapsam: r.kapsam ?? "",
+        uyum_duzeyi: r.uyum_duzeyi ?? "",
       },
     ])
   );
@@ -95,32 +88,40 @@ export default function AssessmentForm({
   const [state, setState] = useState<Map<string, RowState>>(initial);
   const [savingId, setSavingId] = useState<string | null>(null);
   const [savedId, setSavedId] = useState<string | null>(null);
+  const [errorId, setErrorId] = useState<string | null>(null);
 
-  async function save(questionId: string, row: RowState) {
+  async function save(question: Question, row: RowState) {
     if (!row.answer) return;
-    setSavingId(questionId);
+    const hayir = row.answer === "hayir";
+    const risk = hayir && question.degerlendirme_tipi === "risk";
+    const idari = hayir && question.degerlendirme_tipi === "idari";
+    setSavingId(question.id);
+    setErrorId(null);
     const { data: auth } = await supabase.auth.getUser();
     const { error } = await supabase.from("responses").upsert(
       {
         company_id: companyId,
-        question_id: questionId,
+        question_id: question.id,
         answer: row.answer,
         note: row.note || null,
-        oneri: row.answer === "hayir" ? row.oneri || null : null,
-        sistem_faktoru: row.answer === "hayir" ? row.sistem_faktoru || null : null,
-        maliyet_faktoru: row.answer === "hayir" ? row.maliyet_faktoru || null : null,
-        eylem_faktoru: row.answer === "hayir" ? row.eylem_faktoru || null : null,
+        oneri: hayir ? row.oneri || null : null,
+        sonuc: risk ? row.sonuc || null : null,
+        olasilik: risk ? row.olasilik || null : null,
+        kapsam: risk ? row.kapsam || null : null,
+        uyum_duzeyi: idari ? row.uyum_duzeyi || null : null,
         updated_by: auth.user?.id,
         updated_at: new Date().toISOString(),
       },
       { onConflict: "company_id,question_id" }
     );
     setSavingId(null);
-    if (!error) {
-      setSavedId(questionId);
-      setTimeout(() => setSavedId(null), 1500);
-      router.refresh();
+    if (error) {
+      setErrorId(question.id);
+      return;
     }
+    setSavedId(question.id);
+    setTimeout(() => setSavedId(null), 1500);
+    router.refresh();
   }
 
   function patch(questionId: string, patch: Partial<RowState>) {
@@ -132,14 +133,14 @@ export default function AssessmentForm({
     return updated;
   }
 
-  function updateAnswer(questionId: string, answer: Answer) {
-    const updated = patch(questionId, { answer });
-    save(questionId, updated);
+  function patchAndSave(question: Question, p: Partial<RowState>) {
+    const updated = patch(question.id, p);
+    save(question, updated);
   }
 
-  function blurField(questionId: string) {
-    const current = state.get(questionId);
-    if (current?.answer) save(questionId, current);
+  function blurField(question: Question) {
+    const current = state.get(question.id);
+    if (current?.answer) save(question, current);
   }
 
   const reviewCount = questions.filter((q) => q.needsReview).length;
@@ -173,6 +174,9 @@ export default function AssessmentForm({
               {savedId === q.id && (
                 <span className="shrink-0 text-xs text-green-600">kaydedildi ✓</span>
               )}
+              {errorId === q.id && (
+                <span className="shrink-0 text-xs text-red-600">kaydedilemedi</span>
+              )}
             </div>
 
             {q.citation && <p className="mt-1 text-xs text-gray-400">Dayanak: {q.citation}</p>}
@@ -188,7 +192,7 @@ export default function AssessmentForm({
                 <button
                   key={a}
                   type="button"
-                  onClick={() => updateAnswer(q.id, a)}
+                  onClick={() => patchAndSave(q, { answer: a })}
                   className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
                     row.answer === a
                       ? a === "evet"
@@ -208,81 +212,32 @@ export default function AssessmentForm({
               placeholder="Bulgu açıklaması / not (opsiyonel)"
               value={row.note}
               onChange={(e) => patch(q.id, { note: e.target.value })}
-              onBlur={() => blurField(q.id)}
+              onBlur={() => blurField(q)}
               className="mt-3 w-full rounded-md border border-gray-200 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none"
               rows={2}
             />
 
             {isHayir && (
               <div className="mt-3 space-y-3 rounded-md bg-red-50 p-3">
-                <p className="text-xs font-medium text-red-700">
-                  Uyumsuzluk değerlendirmesi
-                </p>
-
-                <div className="grid gap-3 sm:grid-cols-3">
-                  <div>
-                    <label className="mb-1 block text-xs text-gray-600">Sistem Faktörü</label>
-                    <select
-                      value={row.sistem_faktoru}
-                      onChange={(e) => {
-                        const updated = patch(q.id, { sistem_faktoru: e.target.value });
-                        save(q.id, updated);
-                      }}
-                      className="w-full rounded-md border border-gray-300 px-2 py-1.5 text-xs"
-                    >
-                      <option value="">Seçiniz</option>
-                      {SISTEM_FAKTORU_SECENEKLERI.map((s) => (
-                        <option key={s} value={s}>
-                          {s}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="mb-1 block text-xs text-gray-600">Maliyet Faktörü</label>
-                    <select
-                      value={row.maliyet_faktoru}
-                      onChange={(e) => {
-                        const updated = patch(q.id, { maliyet_faktoru: e.target.value });
-                        save(q.id, updated);
-                      }}
-                      className="w-full rounded-md border border-gray-300 px-2 py-1.5 text-xs"
-                    >
-                      <option value="">Seçiniz</option>
-                      {MALIYET_FAKTORU_SECENEKLERI.map((s) => (
-                        <option key={s} value={s}>
-                          {s}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div>
-                    <label className="mb-1 block text-xs text-gray-600">Eylem Faktörü</label>
-                    <select
-                      value={row.eylem_faktoru}
-                      onChange={(e) => {
-                        const updated = patch(q.id, { eylem_faktoru: e.target.value });
-                        save(q.id, updated);
-                      }}
-                      className="w-full rounded-md border border-gray-300 px-2 py-1.5 text-xs"
-                    >
-                      <option value="">Seçiniz</option>
-                      {EYLEM_FAKTORU_SECENEKLERI.map((s) => (
-                        <option key={s} value={s}>
-                          {s}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                </div>
+                {q.degerlendirme_tipi === "risk" ? (
+                  <RiskDegerlendirmesi
+                    question={q}
+                    row={row}
+                    onChange={(p) => patchAndSave(q, p)}
+                  />
+                ) : q.degerlendirme_tipi === "idari" ? (
+                  <IdariDegerlendirme row={row} onChange={(p) => patchAndSave(q, p)} />
+                ) : (
+                  <p className="text-xs text-gray-500">
+                    Bu soru için değerlendirme tipi henüz tanımlanmadı.
+                  </p>
+                )}
 
                 <textarea
                   placeholder="Öneri / düzeltici aksiyon (opsiyonel)"
                   value={row.oneri}
                   onChange={(e) => patch(q.id, { oneri: e.target.value })}
-                  onBlur={() => blurField(q.id)}
+                  onBlur={() => blurField(q)}
                   className="w-full rounded-md border border-gray-300 px-3 py-2 text-xs focus:border-brand-500 focus:outline-none"
                   rows={2}
                 />
@@ -292,5 +247,126 @@ export default function AssessmentForm({
         );
       })}
     </div>
+  );
+}
+
+function Secim({
+  etiket,
+  deger,
+  secenekler,
+  onChange,
+}: {
+  etiket: string;
+  deger: string;
+  secenekler: { deger: string; etiket: string; aciklama: string }[];
+  onChange: (v: string) => void;
+}) {
+  const secili = secenekler.find((s) => s.deger === deger);
+  return (
+    <div>
+      <label className="mb-1 block text-xs text-gray-600">{etiket}</label>
+      <select
+        value={deger}
+        onChange={(e) => onChange(e.target.value)}
+        className="w-full rounded-md border border-gray-300 bg-white px-2 py-1.5 text-xs"
+      >
+        <option value="">Seçiniz</option>
+        {secenekler.map((s) => (
+          <option key={s.deger} value={s.deger} title={s.aciklama}>
+            {s.etiket}
+          </option>
+        ))}
+      </select>
+      {secili && <p className="mt-1 text-[11px] leading-snug text-gray-500">{secili.aciklama}</p>}
+    </div>
+  );
+}
+
+function RiskDegerlendirmesi({
+  question,
+  row,
+  onChange,
+}: {
+  question: Question;
+  row: RowState;
+  onChange: (p: Partial<RowState>) => void;
+}) {
+  const referans = referansRiskMetni(question.referans_sonuc, question.referans_olasilik);
+  const acik = riskAcigiHesapla({
+    sonuc: row.sonuc,
+    olasilik: row.olasilik,
+    kapsam: row.kapsam,
+    referansSonuc: question.referans_sonuc,
+    referansOlasilik: question.referans_olasilik,
+  });
+
+  return (
+    <>
+      <p className="text-xs font-medium text-red-700">
+        Risk temelli değerlendirme — mevcut risk
+      </p>
+      <div className="grid gap-3 sm:grid-cols-3">
+        <Secim
+          etiket="Sonuç"
+          deger={row.sonuc}
+          secenekler={SONUC_SECENEKLERI}
+          onChange={(v) => onChange({ sonuc: v })}
+        />
+        <Secim
+          etiket="Olasılık"
+          deger={row.olasilik}
+          secenekler={OLASILIK_SECENEKLERI}
+          onChange={(v) => onChange({ olasilik: v })}
+        />
+        <Secim
+          etiket="Kapsam"
+          deger={row.kapsam}
+          secenekler={KAPSAM_SECENEKLERI}
+          onChange={(v) => onChange({ kapsam: v })}
+        />
+      </div>
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-gray-600">
+        <span>
+          Referans risk: <strong>{referans ?? "tanımlanmadı"}</strong>
+        </span>
+        <span className="flex items-center gap-1">
+          Risk açığı:
+          {acik ? (
+            <span
+              className={`rounded-full px-2 py-0.5 font-medium ${RISK_ACIGI_BILGI[acik].sinif}`}
+              title={`EMM: ${RISK_ACIGI_BILGI[acik].emm}`}
+            >
+              {RISK_ACIGI_BILGI[acik].etiket}
+            </span>
+          ) : (
+            <span className="text-gray-400">
+              {referans ? "seçimleri tamamlayın" : "referans risk tanımlanmadığı için hesaplanamıyor"}
+            </span>
+          )}
+        </span>
+      </div>
+    </>
+  );
+}
+
+function IdariDegerlendirme({
+  row,
+  onChange,
+}: {
+  row: RowState;
+  onChange: (p: Partial<RowState>) => void;
+}) {
+  return (
+    <>
+      <p className="text-xs font-medium text-red-700">İdari / uyum değerlendirmesi</p>
+      <div className="sm:w-1/2">
+        <Secim
+          etiket="Uyum düzeyi"
+          deger={row.uyum_duzeyi}
+          secenekler={UYUM_DUZEYI_SECENEKLERI}
+          onChange={(v) => onChange({ uyum_duzeyi: v })}
+        />
+      </div>
+    </>
   );
 }

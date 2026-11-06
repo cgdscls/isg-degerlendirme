@@ -30,14 +30,14 @@ type FactorDatum = { name: string; value: number };
 
 export default function ReportCharts({
   categoryStats,
-  sistemData,
-  maliyetData,
-  eylemData,
+  riskAcigiData,
+  uyumDuzeyiData,
+  tipTanimsiz,
 }: {
   categoryStats: CategoryStat[];
-  sistemData: FactorDatum[];
-  maliyetData: FactorDatum[];
-  eylemData: FactorDatum[];
+  riskAcigiData: FactorDatum[];
+  uyumDuzeyiData: FactorDatum[];
+  tipTanimsiz: number;
 }) {
   const radarData = categoryStats.map((c) => ({
     name: c.name,
@@ -102,16 +102,29 @@ export default function ReportCharts({
         </ResponsiveContainer>
       </div>
 
-      {/* Faktör dağılımları */}
+      {/* Uyumsuzluk değerlendirmesi dağılımları (EMM) */}
       {hasAnyHayir ? (
         <div className="grid gap-6 sm:grid-cols-1">
-          <FactorBarChart title="Sistem Faktörü Dağılımı" data={sistemData} color="#dc2626" />
-          <FactorBarChart title="Maliyet Faktörü Dağılımı" data={maliyetData} color="#d97706" />
-          <FactorBarChart title="Eylem Faktörü Dağılımı" data={eylemData} color="#7c3aed" />
+          <FactorBarChart
+            title="Risk temelli bulgular — risk açığı dağılımı"
+            data={riskAcigiData}
+            color="#ea580c"
+          />
+          <FactorBarChart
+            title="İdari bulgular — uyum düzeyi dağılımı"
+            data={uyumDuzeyiData}
+            color="#2563eb"
+          />
+          {tipTanimsiz > 0 && (
+            <p className="text-center text-xs text-gray-500">
+              {tipTanimsiz} "Hayır" cevabı, değerlendirme tipi henüz tanımlanmamış sorulara ait
+              olduğu için dağılımlara dahil edilmedi.
+            </p>
+          )}
         </div>
       ) : (
         <p className="text-center text-sm text-gray-500">
-          Henüz "Hayır" cevabı olmadığı için faktör dağılımı gösterilecek veri yok.
+          Henüz "Hayır" cevabı olmadığı için değerlendirme dağılımı gösterilecek veri yok.
         </p>
       )}
     </div>

@@ -157,9 +157,15 @@ create table public.questions (
   guide_note text,
   madde_id uuid references public.maddeler (id) on delete set null,
   beklenen_kanit text,
+  -- EMM değerlendirme tipi ve referans risk (yükümlülük karşılanınca kalacak risk)
+  degerlendirme_tipi text check (degerlendirme_tipi in ('risk', 'idari')),
+  referans_sonuc text check (referans_sonuc in ('ciddi', 'onemli', 'hafif')),
+  referans_olasilik text check (referans_olasilik in ('muhtemel', 'mumkun', 'uzak', 'yok')),
   sort_order int not null default 0,
   created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
+  updated_at timestamptz not null default now(),
+  constraint questions_referans_risk_gecerli
+    check (not (referans_sonuc = 'ciddi' and referans_olasilik = 'muhtemel'))
 );
 
 -- 6b) Mevzuat Kaynağı: isgmevzuat.tr'deki ILO Sözleşmeleri / Kanunlar /
@@ -237,6 +243,11 @@ create table public.responses (
       'Eylem önerilir (12 ay içinde)'
     )
   ),
+  -- EMM değerlendirmesi (risk temelli: sonuc/olasilik/kapsam; idari: uyum_duzeyi)
+  sonuc text check (sonuc in ('ciddi', 'onemli', 'hafif')),
+  olasilik text check (olasilik in ('muhtemel', 'mumkun', 'uzak', 'yok')),
+  kapsam text check (kapsam in ('tek_az', 'cok')),
+  uyum_duzeyi text check (uyum_duzeyi in ('hic_yok', 'yetersiz', 'kucuk')),
   updated_by uuid references auth.users (id),
   updated_at timestamptz not null default now(),
   unique (company_id, question_id)
