@@ -40,7 +40,7 @@ export default function KullanimKosullariPage() {
         <h2>2. Hizmetin Niteliği ve Sorumluluk Sınırı</h2>
         <p>
           Karne, bir <strong>öz-değerlendirme aracıdır</strong>; hukuki
-          danışmanlık, İSG uzmanlığı hizmeti veya resmî bir denetim/belgelendirme
+          danışmanlık, iş güvenliği uzmanlığı hizmeti veya resmî bir denetim/belgelendirme
           süreci yerine geçmez. Sitede yer alan mevzuat listeleri ve sorular
           bilgilendirme amaçlıdır; güncelliği ve eksiksizliği için makul çaba
           gösterilmekle birlikte, bu konuda herhangi bir garanti verilmez.
@@ -48,7 +48,7 @@ export default function KullanimKosullariPage() {
         <p>
           Kullanıcı, işyerinin mevzuata uyumuna ilişkin nihai sorumluluğun
           kendisine ait olduğunu, Hizmet'ten elde ettiği sonuçları resmî bir
-          İSG uzmanı/işyeri hekimi veya ilgili mevzuata göre ayrıca teyit
+          iş güvenliği uzmanı/işyeri hekimi veya ilgili mevzuata göre ayrıca teyit
           etmesi gerektiğini kabul eder. İşletici, Hizmet'in kullanımından
           doğrudan veya dolaylı olarak doğabilecek zararlardan, kasıt veya
           ağır ihmal halleri saklı kalmak kaydıyla, sorumlu tutulamaz.

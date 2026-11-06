@@ -352,7 +352,7 @@ export default function RehberPage() {
           </ul>
           <IyiKotu
             kotu="Gerekli önlemler alınmalı."
-            iyi="Pres kumanda takılana kadar kullanımdan çekilecek (Üretim Şefi, derhal). Ekipmanı tümüyle durduran kumanda takılacak (Bakım Birimi, 30.11.2026); montaj sonrası yetkili kişiye kontrol yaptırılıp raporu dosyalanacak. Periyodik kontrol formuna durdurma kumandası maddesi eklenecek (İSG Uzmanı, 15.12.2026)."
+            iyi="Pres kumanda takılana kadar kullanımdan çekilecek (Üretim Şefi, derhal). Ekipmanı tümüyle durduran kumanda takılacak (Bakım Birimi, 30.11.2026); montaj sonrası yetkili kişiye kontrol yaptırılıp raporu dosyalanacak. Periyodik kontrol formuna durdurma kumandası maddesi eklenecek (İş Güvenliği Uzmanı, 15.12.2026)."
           />
 
           {/* 10 */}
