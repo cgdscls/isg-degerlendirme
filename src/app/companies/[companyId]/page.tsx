@@ -74,6 +74,10 @@ export default async function CompanyDashboardPage({
     return existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at);
   }).length;
   const firstNeedsReviewSubId = [...needsReviewSubIds][0];
+  const ilkGuncellenenSoru = questions.find((q: any) => {
+    const existing = responseByQuestion.get(q.id);
+    return existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at);
+  });
 
   const subStats = (subcategories ?? []).map((sub) => {
     const subQuestions = (questions ?? []).filter((q) => q.subcategory_id === sub.id);
@@ -162,7 +166,11 @@ export default async function CompanyDashboardPage({
 
         {needsReviewCount > 0 && firstNeedsReviewSubId && (
           <Link
-            href={`/companies/${company.id}/assessment/${firstNeedsReviewSubId}`}
+            href={`/companies/${company.id}/assessment/${firstNeedsReviewSubId}${
+              ilkGuncellenenSoru && ilkGuncellenenSoru.subcategory_id === firstNeedsReviewSubId
+                ? `#soru-${ilkGuncellenenSoru.id}`
+                : ""
+            }`}
             className="mt-4 block rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800 hover:border-amber-400"
           >
             <strong>Mevzuat güncellendi.</strong> {needsReviewCount} sorunuz, cevapladıktan

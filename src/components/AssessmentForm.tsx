@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import {
@@ -97,6 +97,11 @@ export default function AssessmentForm({
   const [savingId, setSavingId] = useState<string | null>(null);
   const [savedId, setSavedId] = useState<string | null>(null);
   const [errorId, setErrorId] = useState<string | null>(null);
+  // Son kaydedilen hâl: alandan çıkıldığında değişiklik yoksa tekrar kaydedilmez.
+  // Böylece "Mevzuat güncellendi" işareti yanlışlıkla (yalnızca tıklayıp çıkınca) kalkmaz.
+  const kayitli = useRef(new Map<string, string>(
+    [...initial.entries()].map(([id, r]) => [id, JSON.stringify(r)])
+  ));
 
   async function save(question: Question, row: RowState) {
     if (!row.answer) return;
@@ -127,6 +132,7 @@ export default function AssessmentForm({
       setErrorId(question.id);
       return;
     }
+    kayitli.current.set(question.id, JSON.stringify(row));
     setSavedId(question.id);
     setTimeout(() => setSavedId(null), 1500);
     router.refresh();
@@ -148,7 +154,9 @@ export default function AssessmentForm({
 
   function blurField(question: Question) {
     const current = state.get(question.id);
-    if (current?.answer) save(question, current);
+    if (!current?.answer) return;
+    if (kayitli.current.get(question.id) === JSON.stringify(current)) return;
+    save(question, current);
   }
 
   const reviewCount = questions.filter((q) => q.needsReview).length;
@@ -157,16 +165,35 @@ export default function AssessmentForm({
     <div className="space-y-5">
       {reviewCount > 0 && (
         <div className="rounded-lg border border-amber-300 bg-amber-50 p-4 text-sm text-amber-800">
-          <strong>Mevzuat güncellendi.</strong> Aşağıda işaretli {reviewCount} soru,
-          daha önce cevapladığınızdan sonra admin tarafından güncellendi. Lütfen
-          cevaplarınızı gözden geçirin.
+          <strong>Mevzuat güncellendi.</strong> Aşağıdaki {reviewCount} soru, siz cevapladıktan
+          sonra güncellendi. Soruyu ve dayanağını yeniden okuyun; cevabınız hâlâ geçerliyse
+          "Gözden geçirdim" deyin, değilse cevabı değiştirin.
+          <div className="mt-2 flex flex-wrap gap-2">
+            {questions.map((q, idx) =>
+              q.needsReview ? (
+                <a
+                  key={q.id}
+                  href={`#soru-${q.id}`}
+                  className="rounded-full bg-white px-2.5 py-0.5 text-xs font-medium text-amber-800 ring-1 ring-amber-300 hover:bg-amber-100"
+                >
+                  Soru {idx + 1} ↓
+                </a>
+              ) : null
+            )}
+          </div>
         </div>
       )}
       {questions.map((q, idx) => {
         const row = state.get(q.id) ?? emptyRow();
         const isHayir = row.answer === "hayir";
         return (
-          <div key={q.id} className="rounded-lg border border-gray-200 bg-white p-5 shadow-sm">
+          <div
+            key={q.id}
+            id={`soru-${q.id}`}
+            className={`scroll-mt-20 rounded-lg border bg-white p-5 shadow-sm ${
+              q.needsReview ? "border-amber-400 ring-2 ring-amber-200" : "border-gray-200"
+            }`}
+          >
             <div className="flex items-start justify-between gap-3">
               <p className="whitespace-pre-line text-sm font-medium text-gray-900">
                 {idx + 1}. {q.text}
@@ -219,6 +246,15 @@ export default function AssessmentForm({
                   {ANSWER_LABELS[a]}
                 </button>
               ))}
+              {q.needsReview && row.answer && (
+                <button
+                  type="button"
+                  onClick={() => save(q, row)}
+                  className="ml-auto rounded-md border border-amber-400 bg-amber-50 px-3 py-1.5 text-sm font-medium text-amber-800 hover:bg-amber-100"
+                >
+                  Gözden geçirdim, cevabım geçerli
+                </button>
+              )}
             </div>
 
             <textarea
