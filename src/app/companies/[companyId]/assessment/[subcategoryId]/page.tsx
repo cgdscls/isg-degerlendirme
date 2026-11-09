@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import AssessmentForm from "@/components/AssessmentForm";
+import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
 
 export default async function AssessmentPage({
   params,
@@ -13,7 +14,7 @@ export default async function AssessmentPage({
 
   const { data: company } = await supabase
     .from("companies")
-    .select("id, name")
+    .select("id, name, created_at")
     .eq("id", params.companyId)
     .single();
 
@@ -28,7 +29,7 @@ export default async function AssessmentPage({
   const { data: questionsRaw } = await supabase
     .from("questions")
     .select(
-      "id, text, guide_note, beklenen_kanit, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc, referans_gerekce, standart_baglayiciligi, sort_order, updated_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
+      "id, text, guide_note, beklenen_kanit, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc, referans_gerekce, standart_baglayiciligi, sort_order, updated_at, created_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
     )
     .eq("subcategory_id", params.subcategoryId)
     .order("sort_order", { ascending: true });
@@ -40,12 +41,13 @@ export default async function AssessmentPage({
     return `${gun}.${ay}.${yil}`;
   }
 
-  const { data: responses } = await supabase
-    .from("responses")
-    .select(
-      "question_id, answer, note, oneri, sonuc, olasilik, kapsam, uyum_duzeyi, updated_at"
-    )
-    .eq("company_id", params.companyId);
+  const responses = await tumunuGetir<any>(() =>
+    supabase
+      .from("responses")
+      .select("question_id, answer, note, oneri, sonuc, olasilik, kapsam, uyum_duzeyi, updated_at")
+      .eq("company_id", params.companyId)
+      .order("question_id")
+  );
 
   const responseByQuestion = new Map(
     (responses ?? []).map((r) => [r.question_id, r])
@@ -80,6 +82,7 @@ export default async function AssessmentPage({
       standart_baglayiciligi: q.standart_baglayiciligi ?? null,
       citation,
       needsReview,
+      yeni: yeniSoruMu(q.created_at, company.created_at, Boolean(existing)),
     };
   });
 
@@ -104,7 +107,7 @@ export default async function AssessmentPage({
             <AssessmentForm
               companyId={company.id}
               questions={questions}
-              existingResponses={(responses ?? []).filter((r) =>
+              existingResponses={responses.filter((r: any) =>
                 questions.some((q) => q.id === r.question_id)
               )}
             />

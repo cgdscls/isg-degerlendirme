@@ -35,18 +35,7 @@ export function emmEtiketi(q: any): { metin: string; sinif: string } {
   return { metin: "Tip yok", sinif: "bg-gray-100 text-gray-600" };
 }
 
-// Supabase tek sorguda en fazla 1000 satır döndürür; büyük tablolar sayfa sayfa okunur.
-// sorgu: her çağrıda yeni bir sorgu üreten fonksiyon (ör. () => supabase.from("x").select("..."))
-export async function tumunuGetir<T = any>(sorgu: () => any, sayfa = 1000): Promise<T[]> {
-  const sonuc: T[] = [];
-  for (let bas = 0; ; bas += sayfa) {
-    const { data, error } = await sorgu().range(bas, bas + sayfa - 1);
-    if (error || !data) break;
-    sonuc.push(...data);
-    if (data.length < sayfa) break;
-  }
-  return sonuc;
-}
+export { tumunuGetir } from "@/lib/tumunuGetir";
 
 export function rgMetni(no: string | null, tarih: string | null) {
   const t = tarih ? tarih.split("-").reverse().join(".") : null;

@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
+import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
 import { IS_KOLLARI } from "@/lib/isKollari";
 import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
 
@@ -22,7 +23,7 @@ export default async function CompaniesPage() {
 
   const { data: companies } = await supabase
     .from("companies")
-    .select("id, name, address, contact_name, sector")
+    .select("id, name, address, contact_name, sector, created_at")
     .order("created_at", { ascending: true });
 
   const plan = profile?.plan ?? "free";
@@ -30,15 +31,30 @@ export default async function CompaniesPage() {
 
   const companyIds = (companies ?? []).map((c) => c.id);
   let reviewCountByCompany = new Map<string, number>();
+  const yeniByCompany = new Map<string, number>();
   if (companyIds.length > 0) {
-    const { data: questions } = await supabase.from("questions").select("id, updated_at");
-    const { data: responses } = await supabase
-      .from("responses")
-      .select("company_id, question_id, updated_at")
-      .in("company_id", companyIds);
+    const questions = await tumunuGetir<any>(() =>
+      supabase.from("questions").select("id, updated_at, created_at").order("id")
+    );
+    const responses = await tumunuGetir<any>(() =>
+      supabase
+        .from("responses")
+        .select("company_id, question_id, updated_at")
+        .in("company_id", companyIds)
+        .order("company_id")
+        .order("question_id")
+    );
 
-    const questionById = new Map((questions ?? []).map((q) => [q.id, q]));
-    reviewCountByCompany = (responses ?? []).reduce((map, r) => {
+    const cevaplanan = new Set(responses.map((r: any) => `${r.company_id}:${r.question_id}`));
+    (companies ?? []).forEach((c: any) => {
+      const n = questions.filter((q: any) =>
+        yeniSoruMu(q.created_at, c.created_at, cevaplanan.has(`${c.id}:${q.id}`))
+      ).length;
+      if (n > 0) yeniByCompany.set(c.id, n);
+    });
+
+    const questionById = new Map<string, any>(questions.map((q: any) => [q.id, q]));
+    reviewCountByCompany = responses.reduce((map: Map<string, number>, r: any) => {
       const q = questionById.get(r.question_id);
       if (q?.updated_at && new Date(q.updated_at) > new Date(r.updated_at)) {
         map.set(r.company_id, (map.get(r.company_id) ?? 0) + 1);
@@ -116,6 +132,7 @@ export default async function CompaniesPage() {
         <div className="mt-6 space-y-3">
           {(companies ?? []).map((c) => {
             const reviewCount = reviewCountByCompany.get(c.id) ?? 0;
+            const yeniSayisi = yeniByCompany.get(c.id) ?? 0;
             return (
               <Link
                 key={c.id}
@@ -127,6 +144,11 @@ export default async function CompaniesPage() {
                   {reviewCount > 0 && (
                     <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
                       {reviewCount} soru güncellendi
+                    </span>
+                  )}
+                  {yeniSayisi > 0 && (
+                    <span className="ml-2 inline-block rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                      {yeniSayisi} yeni soru
                     </span>
                   )}
                 </p>

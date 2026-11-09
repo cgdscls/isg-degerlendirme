@@ -30,6 +30,7 @@ type Question = {
   referans_gerekce: string | null;
   standart_baglayiciligi: string | null;
   needsReview?: boolean;
+  yeni?: boolean;
 };
 
 type Answer = "evet" | "hayir" | "kapsam_disi";
@@ -169,6 +170,11 @@ export default function AssessmentForm({
             <div className="flex items-start justify-between gap-3">
               <p className="whitespace-pre-line text-sm font-medium text-gray-900">
                 {idx + 1}. {q.text}
+                {q.yeni && !row.answer && (
+                  <span className="ml-2 inline-block rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                    Yeni soru
+                  </span>
+                )}
                 {q.needsReview && (
                   <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
                     Mevzuat güncellendi — gözden geçir

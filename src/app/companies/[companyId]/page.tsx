@@ -5,6 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import OnayliSilForm from "@/components/OnayliSilForm";
 import AcilirKategori from "@/components/AcilirKategori";
+import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
 
 // Her işyerinde geçerli olmayan, özel/niş alt kategoriler. Bu listedeki
 // alt kategoriler için kart üzerinde tek tıkla "Kapsam Dışı Yap" butonu
@@ -27,7 +28,7 @@ export default async function CompanyDashboardPage({
 
   const { data: company } = await supabase
     .from("companies")
-    .select("id, name, address, contact_name, sector, nace_code")
+    .select("id, name, address, contact_name, sector, nace_code, created_at")
     .eq("id", params.companyId)
     .single();
 
@@ -43,14 +44,17 @@ export default async function CompanyDashboardPage({
     .select("id, category_id, name, sort_order")
     .order("sort_order", { ascending: true });
 
-  const { data: questions } = await supabase
-    .from("questions")
-    .select("id, subcategory_id, updated_at");
+  const questions = await tumunuGetir<any>(() =>
+    supabase.from("questions").select("id, subcategory_id, updated_at, created_at").order("id")
+  );
 
-  const { data: responses } = await supabase
-    .from("responses")
-    .select("question_id, answer, updated_at")
-    .eq("company_id", params.companyId);
+  const responses = await tumunuGetir<any>(() =>
+    supabase
+      .from("responses")
+      .select("question_id, answer, updated_at")
+      .eq("company_id", params.companyId)
+      .order("question_id")
+  );
 
   const answerByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r.answer]));
   const responseByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r]));
@@ -77,13 +81,18 @@ export default async function CompanyDashboardPage({
     const answered = subQuestions.filter((q) => answerByQuestion.has(q.id)).length;
     const evet = subQuestions.filter((q) => answerByQuestion.get(q.id) === "evet").length;
     const hayir = subQuestions.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
+    const yeni = subQuestions.filter((q) =>
+      yeniSoruMu(q.created_at, company.created_at, answerByQuestion.has(q.id))
+    ).length;
     const degerlendirilebilir = evet + hayir;
     const uyum = degerlendirilebilir > 0 ? Math.round((evet / degerlendirilebilir) * 100) : null;
-    return { ...sub, total, answered, evet, hayir, uyum, needsReview: needsReviewSubIds.has(sub.id) };
+    return { ...sub, total, answered, evet, hayir, yeni, uyum, needsReview: needsReviewSubIds.has(sub.id) };
   });
 
   const genelToplam = subStats.reduce((a, s) => a + s.total, 0);
   const genelCevaplanan = subStats.reduce((a, s) => a + s.answered, 0);
+  const genelYeni = subStats.reduce((a, s) => a + s.yeni, 0);
+  const ilkYeniAlt = subStats.find((s) => s.yeni > 0);
 
   async function kapsamDisiYap(companyId: string, subcategoryId: string) {
     "use server";
@@ -161,6 +170,16 @@ export default async function CompanyDashboardPage({
           </Link>
         )}
 
+        {genelYeni > 0 && ilkYeniAlt && (
+          <Link
+            href={`/companies/${company.id}/assessment/${ilkYeniAlt.id}`}
+            className="mt-4 block rounded-lg border border-blue-300 bg-blue-50 p-4 text-sm text-blue-800 hover:border-blue-400"
+          >
+            <strong>Yeni soru eklendi.</strong> Firmayı ekledikten sonra {genelYeni} yeni soru
+            eklendi ve henüz cevaplanmadı. "Yeni" etiketli alt kategorilere bakın →
+          </Link>
+        )}
+
         <div className="mt-6 space-y-3">
           {(categories ?? []).map((cat) => {
             const subs = subStats.filter((s) => s.category_id === cat.id);
@@ -172,6 +191,7 @@ export default async function CompanyDashboardPage({
             const katUyum =
               katEvet + katHayir > 0 ? Math.round((katEvet / (katEvet + katHayir)) * 100) : null;
             const katGuncellendi = subs.some((s) => s.needsReview);
+            const katYeni = subs.reduce((a, s) => a + s.yeni, 0);
             return (
               <AcilirKategori
                 key={cat.id}
@@ -179,6 +199,11 @@ export default async function CompanyDashboardPage({
                 baslik={cat.name}
                 sag={
                   <>
+                    {katYeni > 0 && (
+                      <span className="rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                        {katYeni} yeni
+                      </span>
+                    )}
                     {katGuncellendi && (
                       <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
                         Güncellendi
@@ -214,6 +239,11 @@ export default async function CompanyDashboardPage({
                         <Link href={`/companies/${company.id}/assessment/${sub.id}`} className="block">
                           <p className="pr-8 font-medium text-gray-900">
                             {sub.name}
+                            {sub.yeni > 0 && (
+                              <span className="ml-2 inline-block rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
+                                {sub.yeni} yeni
+                              </span>
+                            )}
                             {sub.needsReview && (
                               <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
                                 Güncellendi

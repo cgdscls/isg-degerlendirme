@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { tumunuGetir } from "@/lib/tumunuGetir";
 import NavBar from "@/components/NavBar";
 import ReportCharts from "@/components/ReportCharts";
 import {
@@ -35,16 +36,22 @@ export default async function CompanyReportPage({
     .from("subcategories")
     .select("id, category_id");
 
-  const { data: questions } = await supabase
-    .from("questions")
-    .select(
-      "id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc"
-    );
+  const questions = await tumunuGetir<any>(() =>
+    supabase
+      .from("questions")
+      .select(
+        "id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc"
+      )
+      .order("id")
+  );
 
-  const { data: responses } = await supabase
-    .from("responses")
-    .select("question_id, answer, sonuc, olasilik, kapsam, uyum_duzeyi")
-    .eq("company_id", params.companyId);
+  const responses = await tumunuGetir<any>(() =>
+    supabase
+      .from("responses")
+      .select("question_id, answer, sonuc, olasilik, kapsam, uyum_duzeyi")
+      .eq("company_id", params.companyId)
+      .order("question_id")
+  );
 
   const categoryBySubcategory = new Map(
     (subcategories ?? []).map((s) => [s.id, s.category_id])
