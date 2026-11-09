@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import OnayliSilForm from "@/components/OnayliSilForm";
+import AcilirKategori from "@/components/AcilirKategori";
 
 // Her işyerinde geçerli olmayan, özel/niş alt kategoriler. Bu listedeki
 // alt kategoriler için kart üzerinde tek tıkla "Kapsam Dışı Yap" butonu
@@ -78,7 +79,7 @@ export default async function CompanyDashboardPage({
     const hayir = subQuestions.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
     const degerlendirilebilir = evet + hayir;
     const uyum = degerlendirilebilir > 0 ? Math.round((evet / degerlendirilebilir) * 100) : null;
-    return { ...sub, total, answered, uyum, needsReview: needsReviewSubIds.has(sub.id) };
+    return { ...sub, total, answered, evet, hayir, uyum, needsReview: needsReviewSubIds.has(sub.id) };
   });
 
   const genelToplam = subStats.reduce((a, s) => a + s.total, 0);
@@ -160,15 +161,48 @@ export default async function CompanyDashboardPage({
           </Link>
         )}
 
-        <div className="mt-6 space-y-6">
+        <div className="mt-6 space-y-3">
           {(categories ?? []).map((cat) => {
             const subs = subStats.filter((s) => s.category_id === cat.id);
             if (subs.length === 0) return null;
+            const katToplam = subs.reduce((a, s) => a + s.total, 0);
+            const katCevaplanan = subs.reduce((a, s) => a + s.answered, 0);
+            const katEvet = subs.reduce((a, s) => a + s.evet, 0);
+            const katHayir = subs.reduce((a, s) => a + s.hayir, 0);
+            const katUyum =
+              katEvet + katHayir > 0 ? Math.round((katEvet / (katEvet + katHayir)) * 100) : null;
+            const katGuncellendi = subs.some((s) => s.needsReview);
             return (
-              <div key={cat.id}>
-                <h2 className="mb-2 text-sm font-semibold uppercase tracking-wide text-gray-500">
-                  {cat.name}
-                </h2>
+              <AcilirKategori
+                key={cat.id}
+                depoAnahtari={`kategori-acik:${company.id}:${cat.id}`}
+                baslik={cat.name}
+                sag={
+                  <>
+                    {katGuncellendi && (
+                      <span className="rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
+                        Güncellendi
+                      </span>
+                    )}
+                    <span className="text-gray-500">
+                      {katCevaplanan}/{katToplam} soru
+                    </span>
+                    {katUyum !== null && (
+                      <span
+                        className={`rounded-full px-2.5 py-0.5 font-medium ${
+                          katUyum >= 80
+                            ? "bg-green-100 text-green-700"
+                            : katUyum >= 50
+                            ? "bg-yellow-100 text-yellow-700"
+                            : "bg-red-100 text-red-700"
+                        }`}
+                      >
+                        %{katUyum}
+                      </span>
+                    )}
+                  </>
+                }
+              >
                 <div className="grid gap-3 sm:grid-cols-2">
                   {subs.map((sub) => {
                     const kapsamDisiAdayi = KAPSAM_DISI_ONERILEN.includes(sub.name);
@@ -220,7 +254,7 @@ export default async function CompanyDashboardPage({
                     );
                   })}
                 </div>
-              </div>
+              </AcilirKategori>
             );
           })}
         </div>
