@@ -1,9 +1,14 @@
 import Link from "next/link";
-import { revalidatePath } from "next/cache";
+import OnayliSilForm from "@/components/OnayliSilForm";
+import { kategoriEkle, kategoriGuncelle, kategoriSil } from "@/lib/kategoriIslemleri";
 import { requireAdmin } from "@/lib/requireAdmin";
 import NavBar from "@/components/NavBar";
 
-export default async function AdminPage() {
+export default async function AdminPage({
+  searchParams,
+}: {
+  searchParams: { hata?: string };
+}) {
   const { supabase } = await requireAdmin();
 
   const { data: categories } = await supabase
@@ -20,24 +25,6 @@ export default async function AdminPage() {
     countByCategory.set(s.category_id, (countByCategory.get(s.category_id) ?? 0) + 1);
   });
 
-  async function createCategory(formData: FormData) {
-    "use server";
-    const { supabase } = await requireAdmin();
-    const name = String(formData.get("name") ?? "").trim();
-    const description = String(formData.get("description") ?? "").trim();
-    if (!name) return;
-    await supabase.from("categories").insert({ name, description: description || null });
-    revalidatePath("/admin");
-  }
-
-  async function deleteCategory(formData: FormData) {
-    "use server";
-    const { supabase } = await requireAdmin();
-    const id = String(formData.get("id"));
-    await supabase.from("categories").delete().eq("id", id);
-    revalidatePath("/admin");
-  }
-
   return (
     <>
       <NavBar />
@@ -49,7 +36,7 @@ export default async function AdminPage() {
               href="/admin/mevzuat"
               className="text-sm font-medium text-brand-700 hover:underline"
             >
-              Mevzuat / Madde Yönetimi →
+              Mevzuat / Madde / Soru →
             </Link>
             <Link
               href="/admin/mevzuat-kaynagi"
@@ -72,11 +59,21 @@ export default async function AdminPage() {
           </div>
         </div>
         <p className="mt-1 text-sm text-gray-600">
-          Kategorileri, alt kategorileri ve sorularını buradan yönet.
+          Kategori ve alt kategorileri buradan yönet. Yeni soru{" "}
+          <Link href="/admin/mevzuat" className="text-brand-700 underline">
+            Mevzuat / Madde / Soru
+          </Link>{" "}
+          sayfasında, ilgili maddenin altından eklenir.
         </p>
 
+        {searchParams.hata && (
+          <div className="mt-4 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+            {searchParams.hata}
+          </div>
+        )}
+
         <form
-          action={createCategory}
+          action={kategoriEkle}
           className="mt-6 flex flex-col gap-2 rounded-lg border border-gray-200 bg-white p-4 sm:flex-row sm:items-end"
         >
           <div className="flex-1">
@@ -109,34 +106,54 @@ export default async function AdminPage() {
 
         <div className="mt-6 space-y-3">
           {(categories ?? []).map((cat) => (
-            <div
-              key={cat.id}
-              className="flex items-center justify-between rounded-lg border border-gray-200 bg-white p-4"
-            >
-              <div>
-                <p className="font-medium text-gray-900">{cat.name}</p>
-                <p className="text-sm text-gray-500">
-                  {countByCategory.get(cat.id) ?? 0} alt kategori
-                  {cat.description ? ` · ${cat.description}` : ""}
-                </p>
-              </div>
-              <div className="flex items-center gap-3">
+            <div key={cat.id} className="rounded-lg border border-gray-200 bg-white p-4">
+              <div className="flex items-center justify-between gap-3">
+                <div>
+                  <p className="font-medium text-gray-900">{cat.name}</p>
+                  <p className="text-sm text-gray-500">
+                    {countByCategory.get(cat.id) ?? 0} alt kategori
+                    {cat.description ? ` · ${cat.description}` : ""}
+                  </p>
+                </div>
                 <Link
                   href={`/admin/subcategories/${cat.id}`}
-                  className="text-sm font-medium text-brand-700 hover:underline"
+                  className="shrink-0 text-sm font-medium text-brand-700 hover:underline"
                 >
                   Alt kategorileri yönet
                 </Link>
-                <form action={deleteCategory}>
+              </div>
+              <details className="mt-2">
+                <summary className="cursor-pointer text-xs text-gray-500">Düzenle / sil</summary>
+                <form action={kategoriGuncelle} className="mt-2 grid gap-2 sm:grid-cols-[1fr_1fr_auto]">
                   <input type="hidden" name="id" value={cat.id} />
+                  <input
+                    name="name"
+                    required
+                    defaultValue={cat.name}
+                    className="rounded-md border border-gray-300 px-2 py-1.5 text-sm"
+                  />
+                  <input
+                    name="description"
+                    defaultValue={cat.description ?? ""}
+                    placeholder="Açıklama"
+                    className="rounded-md border border-gray-300 px-2 py-1.5 text-sm"
+                  />
                   <button
                     type="submit"
-                    className="text-sm font-medium text-red-600 hover:underline"
+                    className="rounded-md bg-gray-900 px-3 py-1.5 text-sm font-medium text-white hover:bg-gray-700"
                   >
-                    Sil
+                    Kaydet
                   </button>
                 </form>
-              </div>
+                <div className="mt-2">
+                  <OnayliSilForm
+                    action={kategoriSil.bind(null, cat.id)}
+                    confirmMesaji={`"${cat.name}" silinecek. Altındaki ${countByCategory.get(cat.id) ?? 0} alt kategori, bütün soruları ve firmaların bu sorulara verdiği cevaplar da kalıcı olarak silinir. Devam edilsin mi?`}
+                    butonMetni="Kategoriyi sil"
+                    className="text-xs font-medium text-red-600 hover:underline"
+                  />
+                </div>
+              </details>
             </div>
           ))}
           {(categories ?? []).length === 0 && (

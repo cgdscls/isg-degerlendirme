@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { maddeleriSirala } from "@/lib/maddeSiralama";
 
 type Mevzuat = { id: string; ad: string };
 type Madde = { id: string; mevzuat_id: string; madde_no: string; madde_baslik: string | null };
@@ -19,7 +20,7 @@ export default function MevzuatMaddeSelect({
   const [mevzuatId, setMevzuatId] = useState(initialMevzuatId ?? "");
 
   const filtered = useMemo(
-    () => maddeler.filter((m) => m.mevzuat_id === mevzuatId),
+    () => maddeleriSirala(maddeler.filter((m) => m.mevzuat_id === mevzuatId)),
     [maddeler, mevzuatId]
   );
 
@@ -58,7 +59,7 @@ export default function MevzuatMaddeSelect({
         </select>
         {mevzuatId && filtered.length === 0 && (
           <p className="mt-1 text-xs text-amber-600">
-            Bu mevzuatın henüz maddesi yok — önce Mevzuat/Madde sayfasından ekle.
+            Bu mevzuatın henüz maddesi yok — Mevzuat / Madde sayfasından ekle.
           </p>
         )}
       </div>
