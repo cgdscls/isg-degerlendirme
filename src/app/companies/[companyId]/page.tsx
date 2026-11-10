@@ -17,6 +17,7 @@ const KAPSAM_DISI_ONERILEN = [
   "Nükleer ve Radyasyon Tesisleri",
   "Sivil Savunma",
   "Yapı İşleri",
+  "Balıkçı Gemileri",
 ];
 
 export default async function CompanyDashboardPage({
