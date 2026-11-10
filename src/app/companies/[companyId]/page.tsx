@@ -1,15 +1,16 @@
 import Link from "next/link";
-import { notFound, redirect } from "next/navigation";
-import { revalidatePath } from "next/cache";
+import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
-import OnayliSilForm from "@/components/OnayliSilForm";
 import AcilirKategori from "@/components/AcilirKategori";
+import KapsamAnahtari from "@/components/KapsamAnahtari";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
+import { kapsamDisiGetir } from "@/lib/kapsam";
+import { kapsamDisiBirak, kapsamaAl } from "@/lib/kapsamIslemleri";
 
-// Her işyerinde geçerli olmayan, özel/niş alt kategoriler. Bu listedeki
-// alt kategoriler için kart üzerinde tek tıkla "Kapsam Dışı Yap" butonu
-// gösterilir, kullanıcı onlarca soruyu tek tek cevaplamak zorunda kalmaz.
+// Çoğu işyerinde geçerli olmayan özel alanlar. Bu alt kategorilerde, henüz
+// cevap yoksa kart üzerinde "Çoğu işyerinde kapsam dışı" ipucu gösterilir.
+// Kapsam anahtarı bütün alt kategorilerde vardır.
 const KAPSAM_DISI_ONERILEN = [
   "Sağlık Kurumu Çalışan Güvenliği",
   "Maden İşyerleri",
@@ -58,11 +59,15 @@ export default async function CompanyDashboardPage({
       .order("question_id")
   );
 
+  const kapsamDisi = (await kapsamDisiGetir(supabase, [company.id])).get(company.id) ?? new Map();
+  // Kapsam dışı alt kategorilerin soruları sayımlara, uyarılara ve rozetlere katılmaz.
+  const kapsamdakiSorular = questions.filter((q: any) => !kapsamDisi.has(q.subcategory_id));
+
   const answerByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r.answer]));
   const responseByQuestion = new Map((responses ?? []).map((r) => [r.question_id, r]));
 
   const needsReviewSubIds = new Set(
-    (questions ?? [])
+    kapsamdakiSorular
       .filter((q: any) => {
         const existing = responseByQuestion.get(q.id);
         return (
@@ -71,12 +76,12 @@ export default async function CompanyDashboardPage({
       })
       .map((q: any) => q.subcategory_id)
   );
-  const needsReviewCount = (questions ?? []).filter((q: any) => {
+  const needsReviewCount = kapsamdakiSorular.filter((q: any) => {
     const existing = responseByQuestion.get(q.id);
     return existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at);
   }).length;
   const firstNeedsReviewSubId = [...needsReviewSubIds][0];
-  const ilkGuncellenenSoru = questions.find((q: any) => {
+  const ilkGuncellenenSoru = kapsamdakiSorular.find((q: any) => {
     const existing = responseByQuestion.get(q.id);
     return existing && q.updated_at && new Date(q.updated_at) > new Date(existing.updated_at);
   });
@@ -87,44 +92,33 @@ export default async function CompanyDashboardPage({
     const answered = subQuestions.filter((q) => answerByQuestion.has(q.id)).length;
     const evet = subQuestions.filter((q) => answerByQuestion.get(q.id) === "evet").length;
     const hayir = subQuestions.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
-    const yeni = subQuestions.filter((q) =>
-      yeniSoruMu(q.created_at, company.created_at, answerByQuestion.has(q.id))
-    ).length;
+    const kapsam = kapsamDisi.get(sub.id) ?? null;
+    const yeni = kapsam
+      ? 0
+      : subQuestions.filter((q) =>
+          yeniSoruMu(q.created_at, company.created_at, answerByQuestion.has(q.id))
+        ).length;
     const degerlendirilebilir = evet + hayir;
     const uyum = degerlendirilebilir > 0 ? Math.round((evet / degerlendirilebilir) * 100) : null;
-    return { ...sub, total, answered, evet, hayir, yeni, uyum, needsReview: needsReviewSubIds.has(sub.id) };
+    return {
+      ...sub,
+      total,
+      answered,
+      evet,
+      hayir,
+      yeni,
+      uyum,
+      kapsam,
+      needsReview: needsReviewSubIds.has(sub.id),
+    };
   });
 
-  const genelToplam = subStats.reduce((a, s) => a + s.total, 0);
-  const genelCevaplanan = subStats.reduce((a, s) => a + s.answered, 0);
-  const genelYeni = subStats.reduce((a, s) => a + s.yeni, 0);
-  const ilkYeniAlt = subStats.find((s) => s.yeni > 0);
-
-  async function kapsamDisiYap(companyId: string, subcategoryId: string) {
-    "use server";
-    const supabase = createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-    if (!user) redirect("/login");
-
-    const { data: subQuestions } = await supabase
-      .from("questions")
-      .select("id")
-      .eq("subcategory_id", subcategoryId);
-
-    if (subQuestions && subQuestions.length > 0) {
-      const rows = subQuestions.map((q) => ({
-        company_id: companyId,
-        question_id: q.id,
-        answer: "kapsam_disi",
-        updated_by: user.id,
-        updated_at: new Date().toISOString(),
-      }));
-      await supabase.from("responses").upsert(rows, { onConflict: "company_id,question_id" });
-    }
-    revalidatePath(`/companies/${companyId}`);
-  }
+  const kapsamdakiAltlar = subStats.filter((s) => !s.kapsam);
+  const genelToplam = kapsamdakiAltlar.reduce((a, s) => a + s.total, 0);
+  const genelCevaplanan = kapsamdakiAltlar.reduce((a, s) => a + s.answered, 0);
+  const genelYeni = kapsamdakiAltlar.reduce((a, s) => a + s.yeni, 0);
+  const ilkYeniAlt = kapsamdakiAltlar.find((s) => s.yeni > 0);
+  const kapsamDisiSayisi = subStats.length - kapsamdakiAltlar.length;
 
   return (
     <>
@@ -164,6 +158,8 @@ export default async function CompanyDashboardPage({
           {genelToplam === 0
             ? "Henüz soru eklenmemiş. Yönetici panelinden kategori ve soru eklenmesi gerekiyor."
             : `Toplam ${genelToplam} sorudan ${genelCevaplanan} tanesi cevaplandı.`}
+          {kapsamDisiSayisi > 0 &&
+            ` ${kapsamDisiSayisi} alan kapsam dışı bırakıldı; bu alanların soruları sayıma katılmaz.`}
         </p>
 
         {needsReviewCount > 0 && firstNeedsReviewSubId && (
@@ -196,10 +192,11 @@ export default async function CompanyDashboardPage({
               a.name.localeCompare(b.name, "tr", { numeric: true, sensitivity: "base" })
             );
             if (subs.length === 0) return null;
-            const katToplam = subs.reduce((a, s) => a + s.total, 0);
-            const katCevaplanan = subs.reduce((a, s) => a + s.answered, 0);
-            const katEvet = subs.reduce((a, s) => a + s.evet, 0);
-            const katHayir = subs.reduce((a, s) => a + s.hayir, 0);
+            const katKapsamda = subs.filter((s) => !s.kapsam);
+            const katToplam = katKapsamda.reduce((a, s) => a + s.total, 0);
+            const katCevaplanan = katKapsamda.reduce((a, s) => a + s.answered, 0);
+            const katEvet = katKapsamda.reduce((a, s) => a + s.evet, 0);
+            const katHayir = katKapsamda.reduce((a, s) => a + s.hayir, 0);
             const katUyum =
               katEvet + katHayir > 0 ? Math.round((katEvet / (katEvet + katHayir)) * 100) : null;
             const katGuncellendi = subs.some((s) => s.needsReview);
@@ -242,59 +239,70 @@ export default async function CompanyDashboardPage({
               >
                 <div className="space-y-2">
                   {subs.map((sub) => {
-                    const kapsamDisiAdayi = KAPSAM_DISI_ONERILEN.includes(sub.name);
+                    const onerilen = KAPSAM_DISI_ONERILEN.includes(sub.name);
+                    const disarida = Boolean(sub.kapsam);
                     return (
                       <div
                         key={sub.id}
-                        className="flex items-center gap-3 rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition hover:border-brand-400 hover:shadow"
+                        className={`flex items-start gap-3 rounded-lg border px-4 py-3 transition ${
+                          disarida
+                            ? "border-dashed border-gray-300 bg-gray-50"
+                            : "border-gray-200 bg-white shadow-sm hover:border-brand-400 hover:shadow"
+                        }`}
                       >
                         <Link
                           href={`/companies/${company.id}/assessment/${sub.id}`}
                           className="min-w-0 flex-1"
                         >
-                          <p className="font-medium text-gray-900">
+                          <p className={`font-medium ${disarida ? "text-gray-500" : "text-gray-900"}`}>
                             {sub.name}
-                            {sub.yeni > 0 && (
+                            {!disarida && sub.yeni > 0 && (
                               <span className="ml-2 inline-block rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
                                 {sub.yeni} yeni
                               </span>
                             )}
-                            {sub.needsReview && (
+                            {!disarida && sub.needsReview && (
                               <span className="ml-2 inline-block rounded-full bg-amber-100 px-2 py-0.5 text-xs font-medium text-amber-700">
                                 Güncellendi
                               </span>
                             )}
                           </p>
-                          <div className="mt-1 flex items-center gap-3 text-sm">
-                            <span className="text-gray-500">
-                              {sub.answered}/{sub.total} soru
-                            </span>
-                            {sub.uyum !== null && (
-                              <span
-                                className={`rounded-full px-2.5 py-0.5 font-medium ${
-                                  sub.uyum >= 80
-                                    ? "bg-green-100 text-green-700"
-                                    : sub.uyum >= 50
-                                    ? "bg-yellow-100 text-yellow-700"
-                                    : "bg-red-100 text-red-700"
-                                }`}
-                              >
-                                %{sub.uyum}
+                          {disarida ? (
+                            <p className="mt-1 text-sm text-gray-500">
+                              {sub.kapsam?.gerekce ? sub.kapsam.gerekce : "Kapsam dışı bırakıldı"}
+                              <span className="text-gray-400"> · {sub.total} soru sayıma katılmıyor</span>
+                            </p>
+                          ) : (
+                            <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+                              <span className="text-gray-500">
+                                {sub.answered}/{sub.total} soru
                               </span>
-                            )}
-                          </div>
+                              {sub.uyum !== null && (
+                                <span
+                                  className={`rounded-full px-2.5 py-0.5 font-medium ${
+                                    sub.uyum >= 80
+                                      ? "bg-green-100 text-green-700"
+                                      : sub.uyum >= 50
+                                      ? "bg-yellow-100 text-yellow-700"
+                                      : "bg-red-100 text-red-700"
+                                  }`}
+                                >
+                                  %{sub.uyum}
+                                </span>
+                              )}
+                              {onerilen && sub.answered === 0 && (
+                                <span className="text-xs text-gray-400">Çoğu işyerinde kapsam dışı</span>
+                              )}
+                            </div>
+                          )}
                         </Link>
 
-                        {kapsamDisiAdayi && (
-                          <div className="shrink-0">
-                            <OnayliSilForm
-                              action={kapsamDisiYap.bind(null, company.id, sub.id)}
-                              confirmMesaji={`İşyerin "${sub.name}" kapsamına girmiyorsa, bu alt kategorideki ${sub.total} sorunun tamamı "Kapsam Dışı" olarak işaretlenecek. Devam edilsin mi?`}
-                              butonMetni="Kapsam Dışı Yap"
-                              className="rounded-full border border-gray-300 bg-white px-2 py-1 text-xs font-medium text-gray-600 hover:border-gray-400 hover:bg-gray-50"
-                            />
-                          </div>
-                        )}
+                        <KapsamAnahtari
+                          altAdi={sub.name}
+                          kapsamDisi={disarida}
+                          birakAction={kapsamDisiBirak.bind(null, company.id, sub.id)}
+                          alAction={kapsamaAl.bind(null, company.id, sub.id)}
+                        />
                       </div>
                     );
                   })}

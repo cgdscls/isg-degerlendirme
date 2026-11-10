@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
+import { kapsamDisiGetir } from "@/lib/kapsam";
 import { IS_KOLLARI } from "@/lib/isKollari";
 import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
 
@@ -34,7 +35,7 @@ export default async function CompaniesPage() {
   const yeniByCompany = new Map<string, number>();
   if (companyIds.length > 0) {
     const questions = await tumunuGetir<any>(() =>
-      supabase.from("questions").select("id, updated_at, created_at").order("id")
+      supabase.from("questions").select("id, subcategory_id, updated_at, created_at").order("id")
     );
     const responses = await tumunuGetir<any>(() =>
       supabase
@@ -45,10 +46,17 @@ export default async function CompaniesPage() {
         .order("question_id")
     );
 
+    // Kapsam dışı bırakılan alt kategorilerin soruları rozetlere katılmaz.
+    const kapsamDisi = await kapsamDisiGetir(supabase, companyIds);
+    const disarida = (companyId: string, q: any) =>
+      Boolean(kapsamDisi.get(companyId)?.has(q?.subcategory_id));
+
     const cevaplanan = new Set(responses.map((r: any) => `${r.company_id}:${r.question_id}`));
     (companies ?? []).forEach((c: any) => {
-      const n = questions.filter((q: any) =>
-        yeniSoruMu(q.created_at, c.created_at, cevaplanan.has(`${c.id}:${q.id}`))
+      const n = questions.filter(
+        (q: any) =>
+          !disarida(c.id, q) &&
+          yeniSoruMu(q.created_at, c.created_at, cevaplanan.has(`${c.id}:${q.id}`))
       ).length;
       if (n > 0) yeniByCompany.set(c.id, n);
     });
@@ -56,7 +64,11 @@ export default async function CompaniesPage() {
     const questionById = new Map<string, any>(questions.map((q: any) => [q.id, q]));
     reviewCountByCompany = responses.reduce((map: Map<string, number>, r: any) => {
       const q = questionById.get(r.question_id);
-      if (q?.updated_at && new Date(q.updated_at) > new Date(r.updated_at)) {
+      if (
+        q?.updated_at &&
+        !disarida(r.company_id, q) &&
+        new Date(q.updated_at) > new Date(r.updated_at)
+      ) {
         map.set(r.company_id, (map.get(r.company_id) ?? 0) + 1);
       }
       return map;

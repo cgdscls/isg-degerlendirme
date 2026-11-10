@@ -4,6 +4,9 @@ import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import AssessmentForm from "@/components/AssessmentForm";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
+import KapsamAnahtari from "@/components/KapsamAnahtari";
+import { kapsamDisiGetir, tarihTr } from "@/lib/kapsam";
+import { kapsamDisiBirak, kapsamaAl } from "@/lib/kapsamIslemleri";
 
 export default async function AssessmentPage({
   params,
@@ -25,6 +28,9 @@ export default async function AssessmentPage({
     .single();
 
   if (!company || !subcategory) notFound();
+
+  const kapsam =
+    (await kapsamDisiGetir(supabase, [company.id])).get(company.id)?.get(subcategory.id) ?? null;
 
   const { data: questionsRaw } = await supabase
     .from("questions")
@@ -100,10 +106,31 @@ export default async function AssessmentPage({
         <p className="mt-2 text-xs font-medium uppercase tracking-wide text-gray-400">
           {categoryName}
         </p>
-        <h1 className="text-2xl font-semibold text-gray-900">{subcategory.name}</h1>
+        <div className="flex items-start justify-between gap-3">
+          <h1 className="text-2xl font-semibold text-gray-900">{subcategory.name}</h1>
+          <KapsamAnahtari
+            altAdi={subcategory.name}
+            kapsamDisi={Boolean(kapsam)}
+            birakAction={kapsamDisiBirak.bind(null, company.id, subcategory.id)}
+            alAction={kapsamaAl.bind(null, company.id, subcategory.id)}
+          />
+        </div>
 
         <div className="mt-6">
-          {questions.length > 0 ? (
+          {kapsam ? (
+            <div className="rounded-lg border border-dashed border-gray-300 bg-gray-50 p-5 text-sm text-gray-700">
+              <p className="font-medium text-gray-900">Bu alan işyeriniz için kapsam dışı.</p>
+              <p className="mt-1">
+                {tarihTr(kapsam.created_at)} tarihinde kapsam dışı bırakıldı
+                {kapsam.gerekce ? `: ${kapsam.gerekce}` : "."}
+              </p>
+              <p className="mt-2 text-gray-500">
+                Bu alandaki {questions.length} soru değerlendirmeye ve rapora katılmıyor. İşyerinizde
+                bu alana giren bir faaliyet başlarsa sağ üstteki anahtarla kapsama alın; daha önce
+                verdiğiniz cevaplar korunur.
+              </p>
+            </div>
+          ) : questions.length > 0 ? (
             <AssessmentForm
               companyId={company.id}
               questions={questions}

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { tumunuGetir } from "@/lib/tumunuGetir";
+import { kapsamDisiGetir, tarihTr } from "@/lib/kapsam";
 import NavBar from "@/components/NavBar";
 import ReportCharts from "@/components/ReportCharts";
 import {
@@ -34,9 +35,11 @@ export default async function CompanyReportPage({
 
   const { data: subcategories } = await supabase
     .from("subcategories")
-    .select("id, category_id");
+    .select("id, category_id, name, sort_order");
 
-  const questions = await tumunuGetir<any>(() =>
+  const kapsamDisi = (await kapsamDisiGetir(supabase, [company.id])).get(company.id) ?? new Map();
+
+  const tumSorular = await tumunuGetir<any>(() =>
     supabase
       .from("questions")
       .select(
@@ -52,6 +55,19 @@ export default async function CompanyReportPage({
       .eq("company_id", params.companyId)
       .order("question_id")
   );
+
+  // Kapsam dışı bırakılan alt kategorilerin soruları ve cevapları rapora katılmaz.
+  const questions = tumSorular.filter((q: any) => !kapsamDisi.has(q.subcategory_id));
+  const katAdi = new Map((categories ?? []).map((c) => [c.id, c.name]));
+  const kapsamDisiListe = (subcategories ?? [])
+    .filter((s: any) => kapsamDisi.has(s.id))
+    .map((s: any) => ({
+      ad: s.name,
+      kategori: katAdi.get(s.category_id) ?? "",
+      soruSayisi: tumSorular.filter((q: any) => q.subcategory_id === s.id).length,
+      ...kapsamDisi.get(s.id)!,
+    }))
+    .sort((a: any, b: any) => a.kategori.localeCompare(b.kategori, "tr") || a.ad.localeCompare(b.ad, "tr"));
 
   const categoryBySubcategory = new Map(
     (subcategories ?? []).map((s) => [s.id, s.category_id])
@@ -95,6 +111,7 @@ export default async function CompanyReportPage({
 
   (responses ?? []).forEach((r) => {
     if (r.answer !== "hayir") return;
+    if (!questionById.has(r.question_id)) return;
     const q = questionById.get(r.question_id);
     if (!q) return;
     if (q.degerlendirme_tipi === "risk") {
@@ -154,6 +171,40 @@ export default async function CompanyReportPage({
           uyumDuzeyiData={uyumDuzeyiData}
           tipTanimsiz={tipTanimsiz}
         />
+
+        {kapsamDisiListe.length > 0 && (
+          <section className="mt-8">
+            <h2 className="text-lg font-semibold text-gray-900">Kapsam dışı bırakılan alanlar</h2>
+            <p className="mt-1 text-sm text-gray-600">
+              Bu alanların soruları yukarıdaki sayımlara ve grafiklere katılmamıştır.
+            </p>
+            <div className="mt-3 overflow-x-auto rounded-lg border border-gray-200 bg-white">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-gray-50 text-xs text-gray-500">
+                  <tr>
+                    <th className="px-4 py-2 font-medium">Alan</th>
+                    <th className="px-4 py-2 font-medium">Gerekçe</th>
+                    <th className="px-4 py-2 font-medium">Tarih</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {kapsamDisiListe.map((k: any) => (
+                    <tr key={`${k.kategori}-${k.ad}`}>
+                      <td className="px-4 py-2">
+                        <span className="text-gray-900">{k.ad}</span>
+                        <span className="block text-xs text-gray-500">
+                          {k.kategori} · {k.soruSayisi} soru
+                        </span>
+                      </td>
+                      <td className="px-4 py-2 text-gray-700">{k.gerekce || "—"}</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-500">{tarihTr(k.created_at)}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
       </main>
     </>
   );
