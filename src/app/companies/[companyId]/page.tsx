@@ -18,6 +18,7 @@ const KAPSAM_DISI_ONERILEN = [
   "Sivil Savunma",
   "Yapı İşleri",
   "Balıkçı Gemileri",
+  "Yıkım İşleri",
 ];
 
 export default async function CompanyDashboardPage({
