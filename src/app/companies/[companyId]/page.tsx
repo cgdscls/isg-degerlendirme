@@ -190,7 +190,9 @@ export default async function CompanyDashboardPage({
 
         <div className="mt-6 space-y-3">
           {(categories ?? []).map((cat) => {
-            const subs = subStats.filter((s) => s.category_id === cat.id);
+            const subs = (subStats.filter((s) => s.category_id === cat.id)).sort((a, b) =>
+              a.name.localeCompare(b.name, "tr", { numeric: true, sensitivity: "base" })
+            );
             if (subs.length === 0) return null;
             const katToplam = subs.reduce((a, s) => a + s.total, 0);
             const katCevaplanan = subs.reduce((a, s) => a + s.answered, 0);
@@ -236,16 +238,19 @@ export default async function CompanyDashboardPage({
                   </>
                 }
               >
-                <div className="grid gap-3 sm:grid-cols-2">
+                <div className="space-y-2">
                   {subs.map((sub) => {
                     const kapsamDisiAdayi = KAPSAM_DISI_ONERILEN.includes(sub.name);
                     return (
                       <div
                         key={sub.id}
-                        className="relative rounded-lg border border-gray-200 bg-white p-4 shadow-sm transition hover:border-brand-400 hover:shadow"
+                        className="flex items-center gap-3 rounded-lg border border-gray-200 bg-white px-4 py-3 shadow-sm transition hover:border-brand-400 hover:shadow"
                       >
-                        <Link href={`/companies/${company.id}/assessment/${sub.id}`} className="block">
-                          <p className="pr-8 font-medium text-gray-900">
+                        <Link
+                          href={`/companies/${company.id}/assessment/${sub.id}`}
+                          className="min-w-0 flex-1"
+                        >
+                          <p className="font-medium text-gray-900">
                             {sub.name}
                             {sub.yeni > 0 && (
                               <span className="ml-2 inline-block rounded-full bg-blue-100 px-2 py-0.5 text-xs font-medium text-blue-700">
@@ -258,7 +263,7 @@ export default async function CompanyDashboardPage({
                               </span>
                             )}
                           </p>
-                          <div className="mt-2 flex items-center justify-between text-sm">
+                          <div className="mt-1 flex items-center gap-3 text-sm">
                             <span className="text-gray-500">
                               {sub.answered}/{sub.total} soru
                             </span>
@@ -279,7 +284,7 @@ export default async function CompanyDashboardPage({
                         </Link>
 
                         {kapsamDisiAdayi && (
-                          <div className="absolute right-2 top-2">
+                          <div className="shrink-0">
                             <OnayliSilForm
                               action={kapsamDisiYap.bind(null, company.id, sub.id)}
                               confirmMesaji={`İşyerin "${sub.name}" kapsamına girmiyorsa, bu alt kategorideki ${sub.total} sorunun tamamı "Kapsam Dışı" olarak işaretlenecek. Devam edilsin mi?`}
