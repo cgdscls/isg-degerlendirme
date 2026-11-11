@@ -23,7 +23,8 @@ const ICINDEKILER = [
   { id: "bulgu", baslik: "8. Bulgu açıklaması nasıl yazılır?" },
   { id: "duzeltici", baslik: "9. Düzeltici faaliyet nasıl yazılır?" },
   { id: "rapor", baslik: "10. Özet rapor nasıl okunur?" },
-  { id: "guncelleme", baslik: "11. \"Mevzuat güncellendi\" uyarısı" },
+  { id: "guncelleme", baslik: "11. Yeni soru ve \"Mevzuat güncellendi\" uyarıları" },
+  { id: "alan-kapsami", baslik: "12. Bir alanı kapsam dışı bırakma" },
   { id: "kaynaklar", baslik: "Kaynaklar" },
 ];
 
@@ -115,9 +116,15 @@ export default function RehberPage() {
               belgeyi veya durumu görmüş olmanız beklenir.
             </li>
             <li>
-              Firma sayfasında bazı alt kategorilerde (ör. Maden İşyerleri, Sivil Savunma){" "}
-              <strong>"Kapsam Dışı Yap"</strong> düğmesi vardır. İşyeriniz o kapsamda değilse,
-              tek tıkla alt kategorideki bütün soruları "Kapsam Dışı" yapar.
+              Firma sayfasında her alt kategorinin yanında bir <strong>Kapsamda / Kapsam dışı</strong>{" "}
+              anahtarı vardır. İşyerinizde hiç bulunmayan bir alanı (ör. yıkım işi, maden,
+              balıkçı gemisi) bu anahtarla kapatırsınız; cevaplarınız silinmez, istediğiniz an
+              geri açabilirsiniz. Ayrıntısı <a href="#alan-kapsami" className="text-brand-700 underline">12. bölümde</a>.
+            </li>
+            <li>
+              Alt kategoriler üst kategori içinde alfabetik sıralanır. Yanındaki mavi{" "}
+              <strong>"yeni"</strong> ve sarı <strong>"Güncellendi"</strong> etiketleri, bakmanız
+              gereken soruların nerede olduğunu gösterir (11. bölüm).
             </li>
           </ul>
 
@@ -138,13 +145,18 @@ export default function RehberPage() {
               {
                 etiket: "Kapsam Dışı",
                 aciklama:
-                  "Yükümlülük işyerinize uygulanmıyor (ör. 50'den az çalışanı olan işyerinde 50+ çalışana yönelik bir şart). Uyum oranına dahil edilmez. \"Yapmadık\" demek değildir; o durum Hayır'dır.",
+                  "Yükümlülük işyerinize uygulanmıyor (ör. 50'den az çalışanı olan işyerinde 50+ çalışana yönelik bir şart). Uyum oranına dahil edilmez. \"Yapmadık\" demek değildir; o durum Hayır'dır. Bir alt kategorinin bütün soruları işyerinize uymuyorsa soruları tek tek işaretlemek yerine alanın kapsam anahtarını kapatın (12. bölüm).",
               },
             ]}
           />
           <p>
             Emin değilseniz "Evet" demeyin. Kanıtı olmayan bir "Evet", eksikliği raporda
             görünmez kılar.
+          </p>
+          <p>
+            Bazı sorular yalnızca bir olay olduğunda geçerlidir (ör. "asansör kazasından sonra
+            periyodik kontrol tekrarlanmaktadır"). Böyle bir olay hiç yaşanmadıysa "Evet" değil
+            "Kapsam Dışı" işaretleyin; yardımcı not bunu ayrıca belirtir.
           </p>
 
           {/* 3 */}
@@ -371,6 +383,12 @@ export default function RehberPage() {
               yok / Yetersiz / Küçük eksik dağılımı.
             </li>
             <li>
+              <strong>Kapsam dışı bırakılan alanlar:</strong> kapsam anahtarıyla kapattığınız alt
+              kategoriler hiçbir sayıma ve grafiğe katılmaz. Raporun sonunda gerekçesi ve
+              tarihiyle ayrı bir tabloda listelenir; bir denetimde "bu alanı neden
+              değerlendirmediniz?" sorusunun cevabı bu tablodur.
+            </li>
+            <li>
               <strong>Değerlendirilmedi:</strong> "Hayır" denmiş ama seçimleri eksik bırakılmış
               ya da referans riski henüz tanımlanmamış bulgular. Seçimleri tamamladığınızda
               ilgili düzeye geçer.
@@ -378,12 +396,83 @@ export default function RehberPage() {
           </ul>
 
           {/* 11 */}
-          <h2 id="guncelleme">11. "Mevzuat güncellendi" uyarısı</h2>
+          <h2 id="guncelleme">11. Yeni soru ve "Mevzuat güncellendi" uyarıları</h2>
           <p>
-            Bir soru siz cevapladıktan sonra mevzuat değişikliği nedeniyle güncellenirse, soru
-            sarı "Mevzuat güncellendi — gözden geçir" etiketiyle işaretlenir. Soruyu ve
-            dayanağını yeniden okuyun; cevabınız hâlâ doğruysa aynı cevaba tekrar tıklamanız
-            yeterlidir, etiket kalkar.
+            Soru bankası mevzuat değiştikçe güncellenir. Karne size iki tür uyarı gösterir:
+          </p>
+          <Tablo
+            satirlar={[
+              {
+                etiket: "Yeni soru (mavi)",
+                aciklama:
+                  "Firmanızı ekledikten sonra soru bankasına eklenen ve henüz cevaplamadığınız sorular. Firmalarım sayfasında, firma sayfasının üstünde, kategori ve alt kategori satırlarında sayı olarak görünür; soruyu cevapladığınızda etiket kalkar.",
+              },
+              {
+                etiket: "Mevzuat güncellendi (sarı)",
+                aciklama:
+                  "Siz cevapladıktan sonra metni, beklenen kanıtı veya dayandığı madde değişen sorular. Yalnızca daha önce cevapladığınız sorularda çıkar; cevabınızın eski metne göre verildiğini hatırlatır.",
+              },
+            ]}
+          />
+          <h3>Güncellenen soruyu gözden geçirme</h3>
+          <ol>
+            <li>
+              Firma sayfasının üstündeki sarı kutuya tıklayın; sizi doğrudan güncellenen soruya
+              götürür.
+            </li>
+            <li>
+              Alt kategori sayfasının üstünde güncellenen soruların numaraları listelenir
+              ("Soru 14 ↓"); güncellenen soru sarı çerçeveyle vurgulanır.
+            </li>
+            <li>
+              Soruyu ve dayanağını yeniden okuyun. Cevabınız hâlâ geçerliyse{" "}
+              <strong>"Gözden geçirdim, cevabım geçerli"</strong> düğmesine basın; geçerli
+              değilse cevabı veya değerlendirmeyi değiştirin. Her iki durumda da işaret kalkar.
+            </li>
+          </ol>
+          <p>
+            Bir alana yalnızca tıklayıp hiçbir şey değiştirmeden çıkmak işareti kaldırmaz; işaret
+            bilerek gözden geçirdiğinizde kalkar.
+          </p>
+
+          {/* 12 */}
+          <h2 id="alan-kapsami">12. Bir alanı kapsam dışı bırakma</h2>
+          <p>
+            Bazı alt kategoriler yalnızca belirli işyerlerinde geçerlidir: yapı ve yıkım işleri,
+            maden, balıkçı gemisi, nükleer tesis gibi. Böyle bir alan işyerinizde yoksa, onlarca
+            soruyu tek tek "Kapsam Dışı" işaretlemek yerine alanı bir kerede kapsam dışı
+            bırakın.
+          </p>
+          <ol>
+            <li>
+              Firma sayfasında alt kategori kartının sağındaki <strong>Kapsamda</strong>{" "}
+              anahtarına dokunun (aynı anahtar alt kategori sayfasının başlığında da vardır).
+            </li>
+            <li>
+              Açılan kutuya isterseniz kısa bir gerekçe yazın (ör. "İşyerinde yıkım işi
+              yapılmıyor") ve <strong>Kapsam dışı bırak</strong>'a basın.
+            </li>
+            <li>
+              Kart soluklaşır, gerekçe kartta görünür. Alanın soruları soru sayısına, uyum
+              oranına, uyarılara ve rapora katılmaz; alana sonradan eklenen sorular da "yeni"
+              uyarısı üretmez.
+            </li>
+          </ol>
+          <p>
+            <strong>Geri almak kayıpsızdır.</strong> İşyerinizde o alana giren bir faaliyet
+            başlarsa (ör. bir bina yıkılıp yerine yenisi yapılacaksa) anahtarı tekrar açın.
+            Daha önce verdiğiniz cevaplar olduğu gibi geri gelir; hiç cevaplamadıysanız sorular
+            değerlendirmeye hazır olarak görünür.
+          </p>
+          <p>
+            Henüz cevaplanmamış bazı alanlarda kartta "Çoğu işyerinde kapsam dışı" ipucu görünür.
+            Bu bir öneridir; karar sizindir. Alan işyerinizin bir bölümünde bile geçerliyse
+            kapsamda bırakın.
+          </p>
+          <p>
+            Alanın kendisi geçerli ama içindeki tek bir soru işyerinize uymuyorsa (ör. asansörü
+            olan bir işyerinde "kırmızı etiketli asansör" sorusu), anahtarı değil, o sorunun
+            "Kapsam Dışı" cevabını kullanın.
           </p>
 
           <h2 id="kaynaklar">Kaynaklar</h2>
