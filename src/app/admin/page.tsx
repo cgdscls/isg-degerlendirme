@@ -13,7 +13,7 @@ export default async function AdminPage({
 
   const { data: categories } = await supabase
     .from("categories")
-    .select("id, name, description, sort_order")
+    .select("id, name, description, sort_order, on_kosul_sorusu, on_kosul_aciklama")
     .order("sort_order", { ascending: true });
 
   const { data: subcategories } = await supabase
@@ -109,7 +109,14 @@ export default async function AdminPage({
             <div key={cat.id} className="rounded-lg border border-gray-200 bg-white p-4">
               <div className="flex items-center justify-between gap-3">
                 <div>
-                  <p className="font-medium text-gray-900">{cat.name}</p>
+                  <p className="font-medium text-gray-900">
+                    {cat.name}
+                    {cat.on_kosul_sorusu && (
+                      <span className="ml-2 rounded-full bg-brand-50 px-2 py-0.5 text-xs font-normal text-brand-700">
+                        Ön koşul var
+                      </span>
+                    )}
+                  </p>
                   <p className="text-sm text-gray-500">
                     {countByCategory.get(cat.id) ?? 0} alt kategori
                     {cat.description ? ` · ${cat.description}` : ""}
@@ -138,6 +145,24 @@ export default async function AdminPage({
                     placeholder="Açıklama"
                     className="rounded-md border border-gray-300 px-2 py-1.5 text-sm"
                   />
+                                    <label className="text-xs text-gray-600 sm:col-span-3">
+                    Ön koşul sorusu (opsiyonel, firma bilgisinde sorulur; "Hayır" → otomatik kapsam dışı)
+                    <input
+                      name="on_kosul_sorusu"
+                      defaultValue={cat.on_kosul_sorusu ?? ""}
+                      placeholder="Örn. İşyerinde yıkım işi yapılıyor veya yaptırılıyor mu?"
+                      className="mt-1 w-full rounded-md border border-gray-300 px-2 py-1.5 text-sm"
+                    />
+                  </label>
+                  <label className="text-xs text-gray-600 sm:col-span-3">
+                    Ön koşul açıklaması (kullanıcıya yardımcı not)
+                    <textarea
+                      name="on_kosul_aciklama"
+                      rows={2}
+                      defaultValue={cat.on_kosul_aciklama ?? ""}
+                      className="mt-1 w-full rounded-md border border-gray-300 px-2 py-1.5 text-sm"
+                    />
+                  </label>
                   <button
                     type="submit"
                     className="rounded-md bg-gray-900 px-3 py-1.5 text-sm font-medium text-white hover:bg-gray-700"

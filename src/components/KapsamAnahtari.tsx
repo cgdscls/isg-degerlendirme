@@ -9,9 +9,13 @@ export default function KapsamAnahtari({
   kapsamDisi,
   birakAction,
   alAction,
+  kilitliHref,
 }: {
   altAdi: string;
   kapsamDisi: boolean;
+  // Firma bilgisindeki ön koşul cevabından geliyorsa anahtar kilitlidir;
+  // değiştirmek için firma bilgisine yönlendirilir.
+  kilitliHref?: string | null;
   birakAction: (formData: FormData) => void | Promise<void>;
   alAction: (formData: FormData) => void | Promise<void>;
 }) {
@@ -19,6 +23,22 @@ export default function KapsamAnahtari({
   const [bekliyor, setBekliyor] = useState(false);
   const alForm = useRef<HTMLFormElement>(null);
   const kapsamda = !kapsamDisi;
+
+  if (kilitliHref) {
+    return (
+      <div className="flex shrink-0 flex-col items-end text-right">
+        <span className="flex items-center gap-2 text-xs font-medium text-gray-400">
+          Kapsam dışı
+          <span aria-hidden className="relative inline-block h-5 w-9 rounded-full bg-gray-200">
+            <span className="absolute left-0.5 top-0.5 h-4 w-4 rounded-full bg-white shadow" />
+          </span>
+        </span>
+        <a href={kilitliHref} className="mt-1 text-[11px] text-brand-700 underline">
+          Firma bilgisinden değiştir
+        </a>
+      </div>
+    );
+  }
 
   function tikla() {
     if (bekliyor) return;

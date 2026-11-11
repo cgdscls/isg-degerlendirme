@@ -6,6 +6,7 @@ import NavBar from "@/components/NavBar";
 import OnayliSilForm from "@/components/OnayliSilForm";
 import { IS_KOLLARI } from "@/lib/isKollari";
 import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
+import { onKosulSorulariGetir } from "@/lib/kapsam";
 
 export default async function EditCompanyPage({
   params,
@@ -28,6 +29,14 @@ export default async function EditCompanyPage({
     .single();
 
   if (!company) notFound();
+
+  const [onKosulSorulari, { data: onKosulCevaplari }] = await Promise.all([
+    onKosulSorulariGetir(supabase),
+    supabase.from("firma_on_kosul").select("hedef_tur, hedef_id, cevap").eq("company_id", params.companyId),
+  ]);
+  const cevapHaritasi = new Map(
+    (onKosulCevaplari ?? []).map((r: any) => [`${r.hedef_tur}:${r.hedef_id}`, r.cevap as string])
+  );
 
   async function updateCompany(formData: FormData) {
     "use server";
@@ -75,7 +84,52 @@ export default async function EditCompanyPage({
         `/companies/${params.companyId}/edit?hata=${encodeURIComponent(error.message)}`
       );
     }
-    revalidatePath(`/companies/${params.companyId}`);
+    // Ön koşul (faaliyet) cevapları: "onkosul:<tur>:<id>" alanları
+    const kaydedilecek: any[] = [];
+    const silinecek: { hedef_tur: string; hedef_id: string }[] = [];
+    for (const [anahtar, deger] of formData.entries()) {
+      if (!anahtar.startsWith("onkosul:")) continue;
+      const [, hedef_tur, hedef_id] = anahtar.split(":");
+      if (hedef_tur !== "kategori" && hedef_tur !== "alt") continue;
+      const cevap = String(deger);
+      if (cevap === "evet" || cevap === "hayir" || cevap === "bilmiyorum") {
+        kaydedilecek.push({
+          company_id: params.companyId,
+          hedef_tur,
+          hedef_id,
+          cevap,
+          updated_at: new Date().toISOString(),
+        });
+      } else {
+        silinecek.push({ hedef_tur, hedef_id });
+      }
+    }
+    if (kaydedilecek.length) {
+      // Cevabı değişmeyenlerin tarihi korunur.
+      const { data: eski } = await supabase
+        .from("firma_on_kosul")
+        .select("hedef_tur, hedef_id, cevap")
+        .eq("company_id", params.companyId);
+      const eskiCevap = new Map((eski ?? []).map((r: any) => [`${r.hedef_tur}:${r.hedef_id}`, r.cevap]));
+      const degisen = kaydedilecek.filter(
+        (r) => eskiCevap.get(`${r.hedef_tur}:${r.hedef_id}`) !== r.cevap
+      );
+      if (degisen.length) {
+        await supabase
+          .from("firma_on_kosul")
+          .upsert(degisen, { onConflict: "company_id,hedef_tur,hedef_id" });
+      }
+    }
+    for (const sil of silinecek) {
+      await supabase
+        .from("firma_on_kosul")
+        .delete()
+        .eq("company_id", params.companyId)
+        .eq("hedef_tur", sil.hedef_tur)
+        .eq("hedef_id", sil.hedef_id);
+    }
+
+    revalidatePath(`/companies/${params.companyId}`, "layout");
     revalidatePath("/companies");
     redirect(`/companies/${params.companyId}`);
   }
@@ -185,6 +239,47 @@ export default async function EditCompanyPage({
               className="rounded-md border border-gray-300 px-3 py-2 text-sm"
             />
           </div>
+          {onKosulSorulari.length > 0 && (
+            <fieldset id="faaliyetler" className="scroll-mt-20 rounded-lg border border-gray-200 bg-white p-4">
+              <legend className="px-1 text-sm font-semibold text-gray-900">
+                İşyerinizin faaliyetleri
+              </legend>
+              <p className="text-xs text-gray-500">
+                "Hayır" dediğiniz faaliyetlerin soruları otomatik olarak kapsam dışı bırakılır ve
+                rapora katılmaz. Emin değilseniz "Bilmiyorum" seçin; alan kapsamda kalır.
+                Cevabınızı değiştirdiğinizde önceki cevaplarınız geri gelir.
+              </p>
+              <div className="mt-3 divide-y divide-gray-100">
+                {onKosulSorulari.map((q) => {
+                  const ad = `onkosul:${q.tur}:${q.id}`;
+                  const mevcut = cevapHaritasi.get(`${q.tur}:${q.id}`) ?? "";
+                  return (
+                    <div key={ad} className="py-3">
+                      <p className="text-sm text-gray-900">{q.soru}</p>
+                      <p className="text-[11px] text-gray-400">{q.ad}</p>
+                      {q.aciklama && <p className="mt-1 text-xs text-gray-500">{q.aciklama}</p>}
+                      <div className="mt-2 flex flex-wrap gap-2">
+                        {[
+                          { d: "evet", e: "Evet" },
+                          { d: "hayir", e: "Hayır" },
+                          { d: "bilmiyorum", e: "Bilmiyorum" },
+                        ].map((o) => (
+                          <label
+                            key={o.d}
+                            className="flex cursor-pointer items-center gap-1.5 rounded-md border border-gray-300 px-3 py-1.5 text-sm has-[:checked]:border-brand-600 has-[:checked]:bg-brand-50"
+                          >
+                            <input type="radio" name={ad} value={o.d} defaultChecked={mevcut === o.d} />
+                            {o.e}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </fieldset>
+          )}
+
           <div className="flex items-center gap-3">
             <button
               type="submit"

@@ -118,6 +118,7 @@ export default async function AssessmentPage({
             kapsamDisi={Boolean(kapsam)}
             birakAction={kapsamDisiBirak.bind(null, company.id, subcategory.id)}
             alAction={kapsamaAl.bind(null, company.id, subcategory.id)}
+            kilitliHref={kapsam?.kaynak === "on_kosul" ? `/companies/${company.id}/edit#faaliyetler` : null}
           />
         </div>
 
@@ -128,6 +129,11 @@ export default async function AssessmentPage({
               <p className="mt-1">
                 {tarihTr(kapsam.created_at)} tarihinde kapsam dışı bırakıldı
                 {kapsam.gerekce ? `: ${kapsam.gerekce}` : "."}
+              </p>
+              <p className="mt-2 text-gray-500">
+                {kapsam.kaynak === "on_kosul"
+                  ? "Bu durum firma bilgisindeki faaliyet sorusundan geliyor; değiştirmek için Bilgi Güncelle ekranındaki cevabı değiştirin."
+                  : ""}
               </p>
               <p className="mt-2 text-gray-500">
                 Bu alandaki {questions.length} soru değerlendirmeye ve rapora katılmıyor. İşyerinizde

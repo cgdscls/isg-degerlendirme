@@ -48,7 +48,12 @@ export async function kategoriGuncelle(formData: FormData) {
   if (!name) redirect(hataYolu("/admin", "Kategori adı boş olamaz."));
   const { error } = await supabase
     .from("categories")
-    .update({ name, description: oku(formData, "description") || null })
+    .update({
+      name,
+      description: oku(formData, "description") || null,
+      on_kosul_sorusu: oku(formData, "on_kosul_sorusu") || null,
+      on_kosul_aciklama: oku(formData, "on_kosul_aciklama") || null,
+    })
     .eq("id", id);
   if (error) redirect(hataYolu("/admin", error.message));
   yenile();
@@ -97,6 +102,8 @@ export async function altKategoriGuncelle(formData: FormData) {
     .from("subcategories")
     .update({
       name,
+      on_kosul_sorusu: oku(formData, "on_kosul_sorusu") || null,
+      on_kosul_aciklama: oku(formData, "on_kosul_aciklama") || null,
       ...(tasiniyor
         ? {
             category_id,

@@ -465,6 +465,16 @@ export default function RehberPage() {
             Daha önce verdiğiniz cevaplar olduğu gibi geri gelir; hiç cevaplamadıysanız sorular
             değerlendirmeye hazır olarak görünür.
           </p>
+          <h3>Faaliyet soruları ile otomatik kapsam</h3>
+          <p>
+            Firma bilgilerinde (<strong>Bilgi Güncelle</strong>) "İşyerinizin faaliyetleri"
+            başlığı altında "İşyerinde yıkım işi yapılıyor mu?", "Balıkçı gemisi var mı?" gibi
+            sorular bulunur. "Hayır" dediğiniz faaliyetin alanı otomatik olarak kapsam dışı
+            bırakılır; kartta gerekçe olarak firma bilgisindeki cevap yazar ve anahtar kilitlenir.
+            Faaliyet başladığında cevabı "Evet" yapmanız yeterlidir; alan önceki cevaplarınızla
+            birlikte geri gelir. Emin değilseniz "Bilmiyorum" seçin, alan kapsamda kalır. Cevap
+            bekleyen faaliyet soruları varsa firma sayfasının üstünde hatırlatılır.
+          </p>
           <p>
             Henüz cevaplanmamış bazı alanlarda kartta "Çoğu işyerinde kapsam dışı" ipucu görünür.
             Bu bir öneridir; karar sizindir. Alan işyerinizin bir bölümünde bile geçerliyse

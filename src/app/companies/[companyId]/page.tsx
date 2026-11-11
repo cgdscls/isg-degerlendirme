@@ -5,7 +5,7 @@ import NavBar from "@/components/NavBar";
 import AcilirKategori from "@/components/AcilirKategori";
 import KapsamAnahtari from "@/components/KapsamAnahtari";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
-import { kapsamDisiGetir } from "@/lib/kapsam";
+import { kapsamDisiGetir, onKosulSorulariGetir } from "@/lib/kapsam";
 import { kapsamDisiBirak, kapsamaAl, iyiUygulamaAyarla } from "@/lib/kapsamIslemleri";
 import { dayanakTuru } from "@/lib/dayanak";
 
@@ -72,6 +72,16 @@ export default async function CompanyDashboardPage({
   );
 
   const kapsamDisi = (await kapsamDisiGetir(supabase, [company.id])).get(company.id) ?? new Map();
+
+  // Firma bilgisinde cevap bekleyen ön koşul ("İşyerinde ... var mı?") soruları
+  const [onKosulSorulari, { data: onKosulCevaplari }] = await Promise.all([
+    onKosulSorulariGetir(supabase),
+    supabase.from("firma_on_kosul").select("hedef_tur, hedef_id").eq("company_id", company.id),
+  ]);
+  const cevaplananOnKosul = new Set(
+    (onKosulCevaplari ?? []).map((r: any) => `${r.hedef_tur}:${r.hedef_id}`)
+  );
+  const bekleyenOnKosul = onKosulSorulari.filter((s) => !cevaplananOnKosul.has(`${s.tur}:${s.id}`)).length;
   // Kapsam dışı alt kategorilerin soruları sayımlara, uyarılara ve rozetlere katılmaz.
   const kapsamdakiSorular = questions.filter((q: any) => !kapsamDisi.has(q.subcategory_id));
 
@@ -181,6 +191,16 @@ export default async function CompanyDashboardPage({
           {kapsamDisiSayisi > 0 &&
             ` ${kapsamDisiSayisi} alan kapsam dışı bırakıldı; bu alanların soruları sayıma katılmaz.`}
         </p>
+        {bekleyenOnKosul > 0 && (
+          <Link
+            href={`/companies/${company.id}/edit#faaliyetler`}
+            className="mt-4 block rounded-lg border border-brand-300 bg-brand-50 p-4 text-sm text-brand-800 hover:border-brand-400"
+          >
+            <strong>{bekleyenOnKosul} faaliyet sorusu cevap bekliyor.</strong> İşyerinizde
+            bulunmayan faaliyetleri (ör. yıkım işi, balıkçı gemisi) işaretleyin; ilgili alanlar
+            otomatik olarak kapsam dışı bırakılır →
+          </Link>
+        )}
         {searchParams.hata && (
           <div className="mt-3 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
             {searchParams.hata}
@@ -350,6 +370,11 @@ export default async function CompanyDashboardPage({
                           kapsamDisi={disarida}
                           birakAction={kapsamDisiBirak.bind(null, company.id, sub.id)}
                           alAction={kapsamaAl.bind(null, company.id, sub.id)}
+                          kilitliHref={
+                            sub.kapsam?.kaynak === "on_kosul"
+                              ? `/companies/${company.id}/edit#faaliyetler`
+                              : null
+                          }
                         />
                       </div>
                     );
