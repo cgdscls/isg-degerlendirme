@@ -17,7 +17,7 @@ export default async function AssessmentPage({
 
   const { data: company } = await supabase
     .from("companies")
-    .select("id, name, created_at")
+    .select("id, name, created_at, iyi_uygulama_goster")
     .eq("id", params.companyId)
     .single();
 
@@ -35,7 +35,7 @@ export default async function AssessmentPage({
   const { data: questionsRaw } = await supabase
     .from("questions")
     .select(
-      "id, text, guide_note, beklenen_kanit, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc, referans_gerekce, standart_baglayiciligi, sort_order, updated_at, created_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi))"
+      "id, text, guide_note, beklenen_kanit, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc, referans_gerekce, standart_baglayiciligi, sort_order, updated_at, created_at, maddeler(madde_no, mevzuatlar(ad, resmi_gazete_no, resmi_gazete_tarihi, tur))"
     )
     .eq("subcategory_id", params.subcategoryId)
     .order("sort_order", { ascending: true });
@@ -59,6 +59,7 @@ export default async function AssessmentPage({
     (responses ?? []).map((r) => [r.question_id, r])
   );
 
+  const iuGoster = company.iyi_uygulama_goster !== false;
   const questions = (questionsRaw ?? []).map((q: any) => {
     const madde = Array.isArray(q.maddeler) ? q.maddeler[0] : q.maddeler;
     const mevzuat = madde ? (Array.isArray(madde.mevzuatlar) ? madde.mevzuatlar[0] : madde.mevzuatlar) : null;
@@ -89,8 +90,12 @@ export default async function AssessmentPage({
       citation,
       needsReview,
       yeni: yeniSoruMu(q.created_at, company.created_at, Boolean(existing)),
+      iyiUygulama: mevzuat?.tur === "iyi_uygulama",
     };
-  });
+  })
+    // Önce yasal sorular, sonra iyi uygulama; firma ayarı kapalıysa iyi uygulama gizli.
+    .filter((q) => iuGoster || !q.iyiUygulama)
+    .sort((a, b) => Number(a.iyiUygulama) - Number(b.iyiUygulama));
 
   const categoryName = Array.isArray(subcategory.categories)
     ? subcategory.categories[0]?.name

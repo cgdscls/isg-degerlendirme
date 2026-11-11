@@ -47,3 +47,14 @@ export async function kapsamaAl(companyId: string, subcategoryId: string, _formD
     .eq("subcategory_id", subcategoryId);
   yenile(companyId);
 }
+
+// Firma ayarı: iyi uygulama soruları gösterilsin mi.
+export async function iyiUygulamaAyarla(companyId: string, goster: boolean, _formData?: FormData) {
+  const supabase = createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) redirect("/login");
+  await supabase.from("companies").update({ iyi_uygulama_goster: goster }).eq("id", companyId);
+  yenile(companyId);
+}

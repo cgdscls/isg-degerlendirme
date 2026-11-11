@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { tumunuGetir } from "@/lib/tumunuGetir";
 import { kapsamDisiGetir, tarihTr } from "@/lib/kapsam";
+import { dayanakTuru } from "@/lib/dayanak";
 import NavBar from "@/components/NavBar";
 import ReportCharts from "@/components/ReportCharts";
 import {
@@ -22,7 +23,7 @@ export default async function CompanyReportPage({
 
   const { data: company } = await supabase
     .from("companies")
-    .select("id, name")
+    .select("id, name, iyi_uygulama_goster")
     .eq("id", params.companyId)
     .single();
 
@@ -43,7 +44,7 @@ export default async function CompanyReportPage({
     supabase
       .from("questions")
       .select(
-        "id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc"
+        "id, subcategory_id, degerlendirme_tipi, referans_sonuc, referans_olasilik, tehlike_sonuc, gereklilik_etkisi, azaltilmis_sonuc, maddeler(mevzuatlar(tur))"
       )
       .order("id")
   );
@@ -57,7 +58,12 @@ export default async function CompanyReportPage({
   );
 
   // Kapsam dışı bırakılan alt kategorilerin soruları ve cevapları rapora katılmaz.
-  const questions = tumSorular.filter((q: any) => !kapsamDisi.has(q.subcategory_id));
+  const kapsamdaki = tumSorular.filter((q: any) => !kapsamDisi.has(q.subcategory_id));
+  // Mevzuat uyum oranı ve EMM dağılımları yalnızca yasal sorulardan hesaplanır;
+  // iyi uygulama soruları (firma ayarı açıksa) ayrı bölümde gösterilir.
+  const questions = kapsamdaki.filter((q: any) => dayanakTuru(q) === "yasal");
+  const iuGoster = company.iyi_uygulama_goster !== false;
+  const iuSorular = iuGoster ? kapsamdaki.filter((q: any) => dayanakTuru(q) === "iyi_uygulama") : [];
   const katAdi = new Map((categories ?? []).map((c) => [c.id, c.name]));
   const kapsamDisiListe = (subcategories ?? [])
     .filter((s: any) => kapsamDisi.has(s.id))
@@ -101,6 +107,26 @@ export default async function CompanyReportPage({
   const genelEvet = categoryStats.reduce((a, c) => a + c.evet, 0);
   const genelUyum =
     genelEvet + genelHayir > 0 ? Math.round((genelEvet / (genelEvet + genelHayir)) * 100) : null;
+
+  const iuStats = (categories ?? [])
+    .map((cat) => {
+      const qs = iuSorular.filter((q: any) => categoryBySubcategory.get(q.subcategory_id) === cat.id);
+      let evet = 0,
+        hayir = 0,
+        kd = 0;
+      qs.forEach((q: any) => {
+        const a = answerByQuestion.get(q.id)?.answer;
+        if (a === "evet") evet++;
+        else if (a === "hayir") hayir++;
+        else if (a === "kapsam_disi") kd++;
+      });
+      const oran = evet + hayir > 0 ? Math.round((evet / (evet + hayir)) * 100) : null;
+      return { id: cat.id, name: cat.name, total: qs.length, cevaplanan: evet + hayir + kd, evet, hayir, oran };
+    })
+    .filter((c) => c.total > 0);
+  const iuEvet = iuStats.reduce((a, c) => a + c.evet, 0);
+  const iuHayir = iuStats.reduce((a, c) => a + c.hayir, 0);
+  const iuOran = iuEvet + iuHayir > 0 ? Math.round((iuEvet / (iuEvet + iuHayir)) * 100) : null;
 
   // "Hayır" cevaplarının EMM değerlendirme dağılımları
   const riskSayilari = new Map<string, number>();
@@ -160,8 +186,8 @@ export default async function CompanyReportPage({
         <p className="mt-1 text-sm text-gray-600">
           {genelToplam === 0
             ? "Henüz soru eklenmemiş."
-            : `Toplam ${genelToplam} sorudan ${genelCevaplanan} tanesi cevaplandı${
-                genelUyum !== null ? ` — genel uyum %${genelUyum}` : ""
+            : `Mevzuat soruları: ${genelToplam} sorudan ${genelCevaplanan} tanesi cevaplandı${
+                genelUyum !== null ? ` — mevzuat uyum oranı %${genelUyum}` : ""
               }.`}
         </p>
 
@@ -171,6 +197,48 @@ export default async function CompanyReportPage({
           uyumDuzeyiData={uyumDuzeyiData}
           tipTanimsiz={tipTanimsiz}
         />
+
+        {iuStats.length > 0 && (
+          <section className="mt-8">
+            <h2 className="text-lg font-semibold text-gray-900">İyi uygulama soruları</h2>
+            <p className="mt-1 text-sm text-gray-600">
+              Dayanağı yasal yükümlülük olmayan (OSHA, rehber, standart) sorular. Yukarıdaki
+              mevzuat uyum oranına katılmamıştır.
+              {iuOran !== null && (
+                <>
+                  {" "}
+                  İyi uygulama oranı: <strong>%{iuOran}</strong>.
+                </>
+              )}
+            </p>
+            <div className="mt-3 overflow-x-auto rounded-lg border border-violet-200 bg-white">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-violet-50 text-xs text-violet-900">
+                  <tr>
+                    <th className="px-4 py-2 font-medium">Kategori</th>
+                    <th className="px-4 py-2 font-medium">Cevaplanan</th>
+                    <th className="px-4 py-2 font-medium">Evet</th>
+                    <th className="px-4 py-2 font-medium">Hayır</th>
+                    <th className="px-4 py-2 font-medium">Oran</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-100">
+                  {iuStats.map((c) => (
+                    <tr key={c.id}>
+                      <td className="px-4 py-2 text-gray-900">{c.name}</td>
+                      <td className="px-4 py-2 text-gray-600">
+                        {c.cevaplanan}/{c.total}
+                      </td>
+                      <td className="px-4 py-2 text-gray-600">{c.evet}</td>
+                      <td className="px-4 py-2 text-gray-600">{c.hayir}</td>
+                      <td className="px-4 py-2 text-gray-900">{c.oran !== null ? `%${c.oran}` : "—"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
 
         {kapsamDisiListe.length > 0 && (
           <section className="mt-8">

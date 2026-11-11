@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { Fragment, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import {
@@ -31,6 +31,7 @@ type Question = {
   standart_baglayiciligi: string | null;
   needsReview?: boolean;
   yeni?: boolean;
+  iyiUygulama?: boolean;
 };
 
 type Answer = "evet" | "hayir" | "kapsam_disi";
@@ -186,9 +187,17 @@ export default function AssessmentForm({
       {questions.map((q, idx) => {
         const row = state.get(q.id) ?? emptyRow();
         const isHayir = row.answer === "hayir";
+        const ilkIu = q.iyiUygulama && !questions[idx - 1]?.iyiUygulama;
         return (
+          <Fragment key={q.id}>
+          {ilkIu && (
+            <div className="rounded-lg border border-violet-200 bg-violet-50 p-4 text-sm text-violet-900">
+              <strong>İyi uygulama soruları.</strong> Aşağıdaki sorular yasal yükümlülük değildir;
+              dayanakları OSHA, rehber veya standart gibi bağlayıcı olmayan kaynaklardır.
+              Cevaplarınız mevzuat uyum oranına katılmaz, raporda ayrı gösterilir.
+            </div>
+          )}
           <div
-            key={q.id}
             id={`soru-${q.id}`}
             className={`scroll-mt-20 rounded-lg border bg-white p-5 shadow-sm ${
               q.needsReview ? "border-amber-400 ring-2 ring-amber-200" : "border-gray-200"
@@ -219,7 +228,16 @@ export default function AssessmentForm({
               )}
             </div>
 
-            {q.citation && <p className="mt-1 text-xs text-gray-400">Dayanak: {q.citation}</p>}
+            {q.citation && (
+              <p className="mt-1 text-xs text-gray-400">
+                Dayanak: {q.citation}
+                {q.iyiUygulama && (
+                  <span className="ml-2 inline-block rounded-full bg-violet-100 px-2 py-0.5 font-medium text-violet-800">
+                    İyi uygulama
+                  </span>
+                )}
+              </p>
+            )}
             {q.beklenen_kanit && (
               <p className="mt-1 text-xs text-gray-500">
                 Beklenen kanıt: {q.beklenen_kanit}
@@ -297,6 +315,7 @@ export default function AssessmentForm({
               </div>
             )}
           </div>
+          </Fragment>
         );
       })}
     </div>
@@ -398,7 +417,7 @@ function RiskDegerlendirmesi({
             </span>
           )}
         </span>
-        <BaglayicilikSatiri deger={question.standart_baglayiciligi} />
+        <BaglayicilikSatiri deger={question.standart_baglayiciligi} iyiUygulama={question.iyiUygulama} />
       </div>
       {question.referans_gerekce && (
         <p className="text-[11px] leading-snug text-gray-500">
@@ -409,7 +428,14 @@ function RiskDegerlendirmesi({
   );
 }
 
-function BaglayicilikSatiri({ deger }: { deger: string | null }) {
+function BaglayicilikSatiri({ deger, iyiUygulama }: { deger: string | null; iyiUygulama?: boolean }) {
+  if (iyiUygulama) {
+    return (
+      <span title="Dayanağı bağlayıcı olmayan bir kaynak (OSHA, rehber, standart)">
+        Standart bağlayıcılığı: <strong>Yasal yükümlülük değildir</strong> (iyi uygulama)
+      </span>
+    );
+  }
   const b = baglayicilikBilgi(deger);
   return (
     <span title={b.aciklama}>
@@ -440,7 +466,7 @@ function IdariDegerlendirme({
         />
       </div>
       <p className="text-xs text-gray-600">
-        <BaglayicilikSatiri deger={question.standart_baglayiciligi} />
+        <BaglayicilikSatiri deger={question.standart_baglayiciligi} iyiUygulama={question.iyiUygulama} />
       </p>
     </>
   );

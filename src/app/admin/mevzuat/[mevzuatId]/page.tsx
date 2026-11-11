@@ -9,6 +9,7 @@ import { SORU_ALANLARI, emmEtiketi, kategoriAgaciGetir, rgMetni } from "@/lib/ad
 import { baglayicilikBilgi } from "@/lib/emm";
 import { maddeEkle, maddeGuncelle, maddeSil, mevzuatGuncelle, mevzuatSil } from "@/lib/mevzuatIslemleri";
 import { soruSil } from "@/lib/soruIslemleri";
+import { DAYANAK_TURLERI } from "@/lib/dayanak";
 
 type Madde = { id: string; madde_no: string; madde_baslik: string | null };
 
@@ -23,7 +24,7 @@ export default async function MevzuatDetayPage({
 
   const { data: mevzuat } = await supabase
     .from("mevzuatlar")
-    .select("id, ad, resmi_gazete_no, resmi_gazete_tarihi")
+    .select("id, ad, resmi_gazete_no, resmi_gazete_tarihi, tur")
     .eq("id", params.mevzuatId)
     .single();
   if (!mevzuat) notFound();
@@ -77,7 +78,20 @@ export default async function MevzuatDetayPage({
         <Link href="/admin/mevzuat" className="text-sm text-brand-700">
           ← Mevzuat listesi
         </Link>
-        <h1 className="mt-2 text-2xl font-semibold text-gray-900">{mevzuat.ad}</h1>
+        <h1 className="mt-2 text-2xl font-semibold text-gray-900">
+          {mevzuat.ad}
+          {mevzuat.tur === "iyi_uygulama" && (
+            <span className="ml-2 align-middle rounded-full bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-800">
+              İyi uygulama
+            </span>
+          )}
+        </h1>
+        {mevzuat.tur === "iyi_uygulama" && (
+          <p className="mt-1 text-xs text-violet-800">
+            Bu kaynağa bağlı sorular kullanıcıya "İyi uygulama — yasal yükümlülük değildir" etiketiyle
+            gösterilir ve mevzuat uyum oranına katılmaz.
+          </p>
+        )}
         <p className="mt-1 text-sm text-gray-500">
           {rg ? `${rg} · ` : ""}
           {maddeler.length} madde · {toplamSoru} soru
@@ -99,6 +113,17 @@ export default async function MevzuatDetayPage({
               defaultValue={mevzuat.ad}
               className="rounded-md border border-gray-300 px-3 py-2 text-sm sm:col-span-3"
             />
+            <select
+              name="tur"
+              defaultValue={mevzuat.tur ?? "yasal"}
+              className="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm sm:col-span-3"
+            >
+              {DAYANAK_TURLERI.map((t) => (
+                <option key={t.deger} value={t.deger}>
+                  Dayanak türü: {t.etiket}
+                </option>
+              ))}
+            </select>
             <input
               name="resmi_gazete_no"
               defaultValue={mevzuat.resmi_gazete_no ?? ""}

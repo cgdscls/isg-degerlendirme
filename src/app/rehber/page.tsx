@@ -25,6 +25,7 @@ const ICINDEKILER = [
   { id: "rapor", baslik: "10. Özet rapor nasıl okunur?" },
   { id: "guncelleme", baslik: "11. Yeni soru ve \"Mevzuat güncellendi\" uyarıları" },
   { id: "alan-kapsami", baslik: "12. Bir alanı kapsam dışı bırakma" },
+  { id: "iyi-uygulama", baslik: "13. İyi uygulama soruları" },
   { id: "kaynaklar", baslik: "Kaynaklar" },
 ];
 
@@ -473,6 +474,39 @@ export default function RehberPage() {
             Alanın kendisi geçerli ama içindeki tek bir soru işyerinize uymuyorsa (ör. asansörü
             olan bir işyerinde "kırmızı etiketli asansör" sorusu), anahtarı değil, o sorunun
             "Kapsam Dışı" cevabını kullanın.
+          </p>
+
+          {/* 13 */}
+          <h2 id="iyi-uygulama">13. İyi uygulama soruları</h2>
+          <p>
+            Karnedeki soruların çoğu Türk mevzuatındaki bir yükümlülüğe dayanır. Bazı sorular ise
+            yasal olarak zorunlu olmayan ama yerleşik iyi uygulamayı yansıtan kaynaklara dayanır:
+            ABD İş Güvenliği İdaresi (OSHA) düzenlemeleri, uluslararası rehberler ve standartlar
+            gibi. Bu sorular:
+          </p>
+          <ul>
+            <li>
+              Alt kategori sayfasında yasal soruların altında, mor bir ayırıcıdan sonra gelir;
+              dayanak satırında <strong>"İyi uygulama"</strong> etiketi taşır.
+            </li>
+            <li>
+              <strong>Mevzuat uyum oranına katılmaz.</strong> Firma sayfasında alt kategori
+              kartında ayrı bir "İyi uygulama %…" etiketiyle, raporda ayrı bir bölümde
+              gösterilir.
+            </li>
+            <li>
+              "Hayır" cevabında risk açığı yine hesaplanır; önceliklendirmede kullanabilirsiniz.
+              Standart bağlayıcılığı yerine "Yasal yükümlülük değildir" yazar.
+            </li>
+            <li>
+              Yalnızca yasal uyumla ilgileniyorsanız firma sayfasının üstündeki{" "}
+              <strong>"Gizle"</strong> bağlantısıyla bu soruları gizleyebilirsiniz. Gizli
+              sorular sayımlara, uyarılara ve rapora katılmaz; cevaplarınız silinmez.
+            </li>
+          </ul>
+          <p>
+            İyi uygulama sorusuna verdiğiniz "Hayır", mevzuata uyumsuzluk anlamına gelmez. Raporu
+            bir denetimde veya üçüncü kişilerle paylaşırken bu ayrımı koruyun.
           </p>
 
           <h2 id="kaynaklar">Kaynaklar</h2>

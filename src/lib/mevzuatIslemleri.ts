@@ -28,6 +28,7 @@ export async function mevzuatEkle(formData: FormData) {
       ad,
       resmi_gazete_no: oku(formData, "resmi_gazete_no") || null,
       resmi_gazete_tarihi: oku(formData, "resmi_gazete_tarihi") || null,
+      tur: oku(formData, "tur") === "iyi_uygulama" ? "iyi_uygulama" : "yasal",
     })
     .select("id")
     .single();
@@ -49,6 +50,7 @@ export async function mevzuatGuncelle(formData: FormData) {
       ad,
       resmi_gazete_no: oku(formData, "resmi_gazete_no") || null,
       resmi_gazete_tarihi: oku(formData, "resmi_gazete_tarihi") || null,
+      tur: oku(formData, "tur") === "iyi_uygulama" ? "iyi_uygulama" : "yasal",
     })
     .eq("id", id);
   if (error) redirect(hataYolu(yol, error.message));

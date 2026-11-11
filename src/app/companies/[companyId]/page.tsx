@@ -6,7 +6,8 @@ import AcilirKategori from "@/components/AcilirKategori";
 import KapsamAnahtari from "@/components/KapsamAnahtari";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
 import { kapsamDisiGetir } from "@/lib/kapsam";
-import { kapsamDisiBirak, kapsamaAl } from "@/lib/kapsamIslemleri";
+import { kapsamDisiBirak, kapsamaAl, iyiUygulamaAyarla } from "@/lib/kapsamIslemleri";
+import { dayanakTuru } from "@/lib/dayanak";
 
 // Çoğu işyerinde geçerli olmayan özel alanlar. Bu alt kategorilerde, henüz
 // cevap yoksa kart üzerinde "Çoğu işyerinde kapsam dışı" ipucu gösterilir.
@@ -31,7 +32,7 @@ export default async function CompanyDashboardPage({
 
   const { data: company } = await supabase
     .from("companies")
-    .select("id, name, address, contact_name, sector, nace_code, created_at")
+    .select("id, name, address, contact_name, sector, nace_code, created_at, iyi_uygulama_goster")
     .eq("id", params.companyId)
     .single();
 
@@ -47,9 +48,18 @@ export default async function CompanyDashboardPage({
     .select("id, category_id, name, sort_order")
     .order("sort_order", { ascending: true });
 
-  const questions = await tumunuGetir<any>(() =>
-    supabase.from("questions").select("id, subcategory_id, updated_at, created_at").order("id")
+  const iuGoster = company.iyi_uygulama_goster !== false;
+  const tumSorular = await tumunuGetir<any>(() =>
+    supabase
+      .from("questions")
+      .select("id, subcategory_id, updated_at, created_at, maddeler(mevzuatlar(tur))")
+      .order("id")
   );
+  // İyi uygulama soruları firma ayarı kapalıysa hiç görünmez.
+  const questions = tumSorular
+    .map((q: any) => ({ ...q, iu: dayanakTuru(q) === "iyi_uygulama" }))
+    .filter((q: any) => iuGoster || !q.iu);
+  const iuSoruVar = tumSorular.some((q: any) => dayanakTuru(q) === "iyi_uygulama");
 
   const responses = await tumunuGetir<any>(() =>
     supabase
@@ -90,8 +100,14 @@ export default async function CompanyDashboardPage({
     const subQuestions = (questions ?? []).filter((q) => q.subcategory_id === sub.id);
     const total = subQuestions.length;
     const answered = subQuestions.filter((q) => answerByQuestion.has(q.id)).length;
-    const evet = subQuestions.filter((q) => answerByQuestion.get(q.id) === "evet").length;
-    const hayir = subQuestions.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
+    // Uyum oranı yalnızca yasal sorulardan; iyi uygulama ayrı sayılır.
+    const yasal = subQuestions.filter((q: any) => !q.iu);
+    const iu = subQuestions.filter((q: any) => q.iu);
+    const evet = yasal.filter((q) => answerByQuestion.get(q.id) === "evet").length;
+    const hayir = yasal.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
+    const iuEvet = iu.filter((q) => answerByQuestion.get(q.id) === "evet").length;
+    const iuHayir = iu.filter((q) => answerByQuestion.get(q.id) === "hayir").length;
+    const iuOran = iuEvet + iuHayir > 0 ? Math.round((iuEvet / (iuEvet + iuHayir)) * 100) : null;
     const kapsam = kapsamDisi.get(sub.id) ?? null;
     const yeni = kapsam
       ? 0
@@ -108,6 +124,8 @@ export default async function CompanyDashboardPage({
       hayir,
       yeni,
       uyum,
+      iuToplam: iu.length,
+      iuOran,
       kapsam,
       needsReview: needsReviewSubIds.has(sub.id),
     };
@@ -161,6 +179,24 @@ export default async function CompanyDashboardPage({
           {kapsamDisiSayisi > 0 &&
             ` ${kapsamDisiSayisi} alan kapsam dışı bırakıldı; bu alanların soruları sayıma katılmaz.`}
         </p>
+        {iuSoruVar && (
+          <form
+            action={iyiUygulamaAyarla.bind(null, company.id, !iuGoster)}
+            className="mt-2 flex flex-wrap items-center gap-2 text-xs text-gray-500"
+          >
+            <span>
+              İyi uygulama soruları{" "}
+              <strong className="font-medium text-gray-700">{iuGoster ? "gösteriliyor" : "gizli"}</strong>
+              {iuGoster && " — mevzuat uyum oranına katılmaz"}.
+            </span>
+            <button type="submit" className="font-medium text-brand-700 underline">
+              {iuGoster ? "Gizle" : "Göster"}
+            </button>
+            <Link href="/rehber#iyi-uygulama" className="text-gray-400 underline">
+              Bu nedir?
+            </Link>
+          </form>
+        )}
 
         {needsReviewCount > 0 && firstNeedsReviewSubId && (
           <Link
@@ -288,6 +324,11 @@ export default async function CompanyDashboardPage({
                                   }`}
                                 >
                                   %{sub.uyum}
+                                </span>
+                              )}
+                              {sub.iuToplam > 0 && (
+                                <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs text-violet-800">
+                                  İyi uygulama{sub.iuOran !== null ? ` %${sub.iuOran}` : ` ${sub.iuToplam}`}
                                 </span>
                               )}
                               {onerilen && sub.answered === 0 && (

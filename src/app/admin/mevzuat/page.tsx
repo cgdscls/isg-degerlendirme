@@ -3,6 +3,7 @@ import { requireAdmin } from "@/lib/requireAdmin";
 import NavBar from "@/components/NavBar";
 import { mevzuatEkle } from "@/lib/mevzuatIslemleri";
 import { rgMetni, tumunuGetir } from "@/lib/adminVeri";
+import { DAYANAK_TURLERI } from "@/lib/dayanak";
 
 const turkce = new Intl.Collator("tr", { numeric: true, sensitivity: "base" });
 
@@ -14,7 +15,7 @@ export default async function AdminMevzuatPage({
   const { supabase } = await requireAdmin();
 
   const [{ data: mevzuatlarHam }, maddeler, sorular] = await Promise.all([
-    supabase.from("mevzuatlar").select("id, ad, resmi_gazete_no, resmi_gazete_tarihi"),
+    supabase.from("mevzuatlar").select("id, ad, resmi_gazete_no, resmi_gazete_tarihi, tur"),
     tumunuGetir<{ id: string; mevzuat_id: string }>(() =>
       supabase.from("maddeler").select("id, mevzuat_id").order("id")
     ),
@@ -75,9 +76,20 @@ export default async function AdminMevzuatPage({
               placeholder="Mevzuat adı *"
               className="rounded-md border border-gray-300 px-3 py-2 text-sm sm:col-span-3"
             />
+            <select
+              name="tur"
+              defaultValue={"yasal"}
+              className="rounded-md border border-gray-300 bg-white px-3 py-2 text-sm sm:col-span-3"
+            >
+              {DAYANAK_TURLERI.map((t) => (
+                <option key={t.deger} value={t.deger}>
+                  Dayanak türü: {t.etiket}
+                </option>
+              ))}
+            </select>
             <input
               name="resmi_gazete_no"
-              placeholder="Resmî Gazete No"
+              placeholder="Resmî Gazete No (yasal mevzuat için)"
               className="rounded-md border border-gray-300 px-3 py-2 text-sm"
             />
             <input
@@ -130,7 +142,14 @@ export default async function AdminMevzuatPage({
                   className="flex items-center justify-between gap-3 px-4 py-3 hover:bg-gray-50"
                 >
                   <div className="min-w-0">
-                    <p className="text-sm font-medium text-gray-900">{mv.ad}</p>
+                    <p className="text-sm font-medium text-gray-900">
+                      {mv.ad}
+                      {mv.tur === "iyi_uygulama" && (
+                        <span className="ml-2 rounded-full bg-violet-100 px-2 py-0.5 text-xs font-medium text-violet-800">
+                          İyi uygulama
+                        </span>
+                      )}
+                    </p>
                     <p className="mt-0.5 text-xs text-gray-500">
                       {rg ? `${rg} · ` : ""}
                       {o.madde} madde · {o.soru} soru

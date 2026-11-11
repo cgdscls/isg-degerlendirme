@@ -5,6 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
 import { kapsamDisiGetir } from "@/lib/kapsam";
+import { dayanakTuru } from "@/lib/dayanak";
 import { IS_KOLLARI } from "@/lib/isKollari";
 import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
 
@@ -24,7 +25,7 @@ export default async function CompaniesPage() {
 
   const { data: companies } = await supabase
     .from("companies")
-    .select("id, name, address, contact_name, sector, created_at")
+    .select("id, name, address, contact_name, sector, created_at, iyi_uygulama_goster")
     .order("created_at", { ascending: true });
 
   const plan = profile?.plan ?? "free";
@@ -35,7 +36,10 @@ export default async function CompaniesPage() {
   const yeniByCompany = new Map<string, number>();
   if (companyIds.length > 0) {
     const questions = await tumunuGetir<any>(() =>
-      supabase.from("questions").select("id, subcategory_id, updated_at, created_at").order("id")
+      supabase
+        .from("questions")
+        .select("id, subcategory_id, updated_at, created_at, maddeler(mevzuatlar(tur))")
+        .order("id")
     );
     const responses = await tumunuGetir<any>(() =>
       supabase
@@ -48,8 +52,13 @@ export default async function CompaniesPage() {
 
     // Kapsam dışı bırakılan alt kategorilerin soruları rozetlere katılmaz.
     const kapsamDisi = await kapsamDisiGetir(supabase, companyIds);
+    // İyi uygulama soruları, firma ayarında gizlendiyse uyarılara da katılmaz.
+    const iuGizli = new Set(
+      (companies ?? []).filter((c: any) => c.iyi_uygulama_goster === false).map((c: any) => c.id)
+    );
     const disarida = (companyId: string, q: any) =>
-      Boolean(kapsamDisi.get(companyId)?.has(q?.subcategory_id));
+      Boolean(kapsamDisi.get(companyId)?.has(q?.subcategory_id)) ||
+      (iuGizli.has(companyId) && dayanakTuru(q) === "iyi_uygulama");
 
     const cevaplanan = new Set(responses.map((r: any) => `${r.company_id}:${r.question_id}`));
     (companies ?? []).forEach((c: any) => {
