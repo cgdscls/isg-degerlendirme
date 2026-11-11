@@ -36,8 +36,8 @@ export default async function EditCompanyPage({
     onKosulSorulariGetir(supabase),
     supabase.from("firma_on_kosul").select("hedef_tur, hedef_id, cevap").eq("company_id", params.companyId),
   ]);
-  const cevapHaritasi = new Map(
-    (onKosulCevaplari ?? []).map((r: any) => [`${r.hedef_tur}:${r.hedef_id}`, r.cevap as string])
+  const cevapHaritasi = new Map<string, string>(
+    (onKosulCevaplari ?? []).map((r: any): [string, string] => [`${r.hedef_tur}:${r.hedef_id}`, r.cevap as string])
   );
 
   async function updateCompany(formData: FormData) {
