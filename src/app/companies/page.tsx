@@ -4,7 +4,9 @@ import { revalidatePath } from "next/cache";
 import { createClient } from "@/lib/supabase/server";
 import NavBar from "@/components/NavBar";
 import { tumunuGetir, yeniSoruMu } from "@/lib/tumunuGetir";
-import { kapsamDisiGetir } from "@/lib/kapsam";
+import { kapsamDisiGetir, onKosulSorulariGetir } from "@/lib/kapsam";
+import { onKosulCevaplariniKaydet } from "@/lib/onKosulKayit";
+import FaaliyetSorulari from "@/components/FaaliyetSorulari";
 import { dayanakTuru } from "@/lib/dayanak";
 import { IS_KOLLARI } from "@/lib/isKollari";
 import { TEHLIKE_SINIFLARI } from "@/lib/tehlikeSinifi";
@@ -85,6 +87,8 @@ export default async function CompaniesPage() {
   }
   const totalNeedsReview = [...reviewCountByCompany.values()].reduce((a, n) => a + n, 0);
 
+  const onKosulSorulari = canCreateMore ? await onKosulSorulariGetir(supabase) : [];
+
   async function createCompany(formData: FormData) {
     "use server";
     const supabase = createClient();
@@ -108,7 +112,7 @@ export default async function CompaniesPage() {
       redirect(`/companies?hata=${encodeURIComponent("İş kolu seçimi zorunludur.")}`);
     }
 
-    const { error } = await supabase.from("companies").insert({
+    const { data: yeniFirma, error } = await supabase.from("companies").insert({
       owner_id: user.id,
       name,
       address: address || null,
@@ -120,11 +124,14 @@ export default async function CompaniesPage() {
       sector: sector || null,
       nace_code: nace_code || null,
       tehlike_sinifi: tehlike_sinifi || null,
-    });
+    })
+      .select("id")
+      .single();
 
-    if (error) {
-      redirect(`/companies?hata=${encodeURIComponent(error.message)}`);
+    if (error || !yeniFirma) {
+      redirect(`/companies?hata=${encodeURIComponent(error?.message ?? "Firma eklenemedi.")}`);
     }
+    await onKosulCevaplariniKaydet(supabase, yeniFirma.id, formData);
     revalidatePath("/companies");
   }
 
@@ -263,6 +270,7 @@ export default async function CompaniesPage() {
                 className="rounded-md border border-gray-300 px-3 py-2 text-sm"
               />
             </div>
+            <FaaliyetSorulari sorular={onKosulSorulari} />
             <button
               type="submit"
               className="rounded-md bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700"
