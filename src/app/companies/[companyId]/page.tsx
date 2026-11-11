@@ -194,7 +194,7 @@ export default async function CompanyDashboardPage({
         {bekleyenOnKosul > 0 && (
           <Link
             href={`/companies/${company.id}/edit#faaliyetler`}
-            className="mt-4 block rounded-lg border border-brand-300 bg-brand-50 p-4 text-sm text-brand-800 hover:border-brand-400"
+            className="mt-4 block rounded-lg border border-red-300 bg-red-50 p-4 text-sm text-red-800 hover:border-red-400"
           >
             <strong>{bekleyenOnKosul} faaliyet sorusu cevap bekliyor.</strong> İşyerinizde
             bulunmayan faaliyetleri (ör. yıkım işi, balıkçı gemisi) işaretleyin; ilgili alanlar
