@@ -47,6 +47,32 @@ Sonra yeniden ele alınacak konular. Her konu: tarih, durum, senin notların, Cl
 
 ---
 
+## 2. Alan adı taşıma: karne.isg360.tr (şirket kurulunca)
+
+**Park tarihi:** 11.11.2026
+**Durum:** Şirket kuruluşunu bekliyor
+
+### Senin notların
+- Mevzuat dışı (iyi uygulama) sorular geldikçe adreste "mevzuat" kelimesinin olması ürünü daraltıyor.
+- Ürün İSG360 şemsiyesi altında bir alt alan adına taşınabilir. Sahip olunan alan adı **isg360.tr**; isg360.com başkasına ait.
+
+### Claude'un önerileri
+- Adres: **karne.isg360.tr** (ürünü anlatır; ileride ikinci bir ürün olursa ör. egitim.isg360.tr ile tutarlı). "app." yalnızca tek platform ve iç modüller planlanıyorsa.
+- Zaman: şirket kurulduğunda, Resend (e-posta), ücretli plan ve kurumsal siteyle aynı anda. Marka şirket kimliğine oturur, aynı ayarlar iki kez değişmez.
+- isgmevzuat.tr kapatılmaz; aynı yolu koruyarak kalıcı (308) yönlendirme ile yeni adrese bağlanır. Bugün gönderilen davet ve linkler çalışmaya devam eder.
+- isg360.com'un kimde olduğu ve nasıl kullanıldığı kontrol edilmeli; markayla karıştırılabilir. Tescilli sınıflarda (41/42/44/45) kullanılıyorsa marka hakkı açısından değerlendirilmeli (avukat).
+
+### Taşıma günü yapılacaklar
+- [ ] Vercel'e karne.isg360.tr ekle; alan adı panelinde CNAME kaydını gir.
+- [ ] Supabase → Authentication → URL Configuration: Site URL ve Redirect URLs'i güncelle.
+- [ ] E-posta şablonlarını kontrol et ({{ .SiteURL }} kullandıkları için kendiliğinden düzelir).
+- [ ] isgmevzuat.tr → karne.isg360.tr kalıcı yönlendirme (yol korunarak).
+- [ ] Kullanıcıları bilgilendir: oturumlar adrese bağlı, herkes bir kez yeniden giriş yapacak.
+- [ ] Site, rehber, kullanım koşulları ve KVKK metnindeki "isgmevzuat.tr" geçen yerleri güncelle.
+- [ ] Resend kuruluyorsa gönderen alan adını (bildirim@…) yeni yapıya göre seç.
+
+---
+
 ## Diğer açık konular (11.11.2026 itibarıyla, kısa liste)
 
 Bunlar park edilmedi; hatırlatma için:
