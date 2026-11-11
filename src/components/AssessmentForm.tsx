@@ -240,10 +240,31 @@ export default function AssessmentForm({
             )}
             {q.beklenen_kanit && (
               <p className="mt-1 text-xs text-gray-500">
-                Beklenen kanıt: {q.beklenen_kanit}
+                Beklenen kanıt: {q.beklenen_kanit.replace(/^\s*[-–•]\s*/, "")}
               </p>
             )}
-            {q.guide_note && <p className="mt-1 text-xs text-gray-500">{q.guide_note}</p>}
+            {q.guide_note && (
+              <details className="group mt-2 text-xs">
+                <summary className="inline-flex cursor-pointer list-none items-center gap-1 rounded text-brand-700 hover:underline [&::-webkit-details-marker]:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    className="h-3.5 w-3.5 transition-transform group-open:rotate-90"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M7.21 14.77a.75.75 0 0 1 .02-1.06L11.17 10 7.23 6.29a.75.75 0 1 1 1.04-1.08l4.5 4.25a.75.75 0 0 1 0 1.08l-4.5 4.25a.75.75 0 0 1-1.06-.02Z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                  Nasıl değerlendirilir?
+                </summary>
+                <div className="mt-1.5 whitespace-pre-line rounded-md bg-gray-50 px-3 py-2 leading-relaxed text-gray-600">
+                  {q.guide_note}
+                </div>
+              </details>
+            )}
 
             <div className="mt-3 flex gap-2">
               {(Object.keys(ANSWER_LABELS) as Answer[]).map((a) => (
