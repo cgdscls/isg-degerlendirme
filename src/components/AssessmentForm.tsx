@@ -258,7 +258,7 @@ export default function AssessmentForm({
                       clipRule="evenodd"
                     />
                   </svg>
-                  Nasıl değerlendirilir?
+                  Yardımcı not / açıklama
                 </summary>
                 <div className="mt-1.5 whitespace-pre-line rounded-md bg-gray-50 px-3 py-2 leading-relaxed text-gray-600">
                   {q.guide_note}
