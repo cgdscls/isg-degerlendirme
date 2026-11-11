@@ -25,8 +25,10 @@ const KAPSAM_DISI_ONERILEN = [
 
 export default async function CompanyDashboardPage({
   params,
+  searchParams,
 }: {
   params: { companyId: string };
+  searchParams: { hata?: string };
 }) {
   const supabase = createClient();
 
@@ -179,6 +181,11 @@ export default async function CompanyDashboardPage({
           {kapsamDisiSayisi > 0 &&
             ` ${kapsamDisiSayisi} alan kapsam dışı bırakıldı; bu alanların soruları sayıma katılmaz.`}
         </p>
+        {searchParams.hata && (
+          <div className="mt-3 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-700">
+            {searchParams.hata}
+          </div>
+        )}
         {iuSoruVar && (
           <form
             action={iyiUygulamaAyarla.bind(null, company.id, !iuGoster)}

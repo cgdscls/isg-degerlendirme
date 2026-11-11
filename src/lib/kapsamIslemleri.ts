@@ -55,6 +55,15 @@ export async function iyiUygulamaAyarla(companyId: string, goster: boolean, _for
     data: { user },
   } = await supabase.auth.getUser();
   if (!user) redirect("/login");
-  await supabase.from("companies").update({ iyi_uygulama_goster: goster }).eq("id", companyId);
+  const { data, error } = await supabase
+    .from("companies")
+    .update({ iyi_uygulama_goster: goster })
+    .eq("id", companyId)
+    .select("id");
   yenile(companyId);
+  // Güncelleme sessizce 0 satır etkileyebilir (yetki); bu durumda kullanıcıya hata gösterilir.
+  const hata = error?.message ?? (!data || data.length === 0 ? "Ayar kaydedilemedi." : null);
+  redirect(
+    `/companies/${companyId}?t=${Date.now()}${hata ? `&hata=${encodeURIComponent(hata)}` : ""}`
+  );
 }
