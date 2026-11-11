@@ -328,7 +328,7 @@ export default async function CompanyDashboardPage({
                               )}
                               {sub.iuToplam > 0 && (
                                 <span className="rounded-full bg-violet-50 px-2 py-0.5 text-xs text-violet-800">
-                                  İyi uygulama{sub.iuOran !== null ? ` %${sub.iuOran}` : ` ${sub.iuToplam}`}
+                                  İyi uygulama{sub.iuOran !== null ? ` %${sub.iuOran}` : ""}
                                 </span>
                               )}
                               {onerilen && sub.answered === 0 && (

@@ -53,8 +53,10 @@ export default function AcilirKategori({
             clipRule="evenodd"
           />
         </svg>
-        <span className="min-w-0 flex-1 font-semibold text-gray-900">{baslik}</span>
-        {sag && <span className="flex items-center gap-2 text-sm">{sag}</span>}
+        <span className="min-w-[10rem] flex-1 font-semibold text-gray-900">{baslik}</span>
+        {sag && (
+          <span className="ml-auto flex flex-wrap items-center justify-end gap-2 text-sm">{sag}</span>
+        )}
       </summary>
       <div className="border-t border-gray-100 p-4">{children}</div>
     </details>
