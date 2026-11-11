@@ -106,11 +106,32 @@ export default function RehberPage() {
             soru mevzuattaki tek bir yükümlülüğü sorar ve altında dayanağı (kanun/yönetmelik ve
             madde) yazar.
           </p>
+          <h3>İlk adımlar</h3>
+          <ol>
+            <li>
+              <strong>Firmanızı ekleyin ve "İşyerinizin faaliyetleri" sorularını cevaplayın.</strong>{" "}
+              "İşyerinde asansör var mı?", "Yıkım işi yapılıyor mu?" gibi sorulara "Hayır"
+              dediğiniz alanlar otomatik olarak kapsam dışı bırakılır; karne yalnızca işyerinizi
+              ilgilendiren sorularla açılır. Bu soruları firma eklerken atladıysanız firma
+              sayfasının üstündeki kırmızı hatırlatmadan veya <strong>Bilgi Güncelle</strong>{" "}
+              ekranından cevaplayabilirsiniz (12. bölüm).
+            </li>
+            <li>
+              Firma sayfasında kategorileri açın, alt kategorilere girip soruları cevaplayın.
+              İşyerinizde hiç bulunmayan başka bir alan kalırsa kartın anahtarıyla kapatın.
+            </li>
+            <li>
+              "Hayır" dediğiniz sorularda uyumsuzluğu değerlendirin (4-7. bölümler), bulguyu ve
+              düzeltici faaliyeti yazın (8-9. bölümler).
+            </li>
+            <li>Özet raporu açın (10. bölüm).</li>
+          </ol>
           <ul>
             <li>
               Cevaplar <strong>otomatik kaydedilir</strong>. Evet / Hayır / Kapsam Dışı ve
-              açılır listelerdeki seçimler tıkladığınız anda, metin alanları alandan
-              çıktığınızda kaydedilir. Sağ üstte "kaydedildi ✓" yazısını görürsünüz.
+              açılır listelerdeki seçimler tıkladığınız anda, metin alanları değişiklik
+              yaptıysanız alandan çıktığınızda kaydedilir. Sağ üstte "kaydedildi ✓" yazısını
+              görürsünüz.
             </li>
             <li>
               Sorunun altında <strong>"Beklenen kanıt"</strong> yazıyorsa, "Evet" demeden önce o
@@ -126,6 +147,10 @@ export default function RehberPage() {
               Alt kategoriler üst kategori içinde alfabetik sıralanır. Yanındaki mavi{" "}
               <strong>"yeni"</strong> ve sarı <strong>"Güncellendi"</strong> etiketleri, bakmanız
               gereken soruların nerede olduğunu gösterir (11. bölüm).
+            </li>
+            <li>
+              Mor <strong>"İyi uygulama"</strong> etiketli sorular yasal yükümlülük değildir;
+              mevzuat uyum oranına katılmaz (13. bölüm).
             </li>
           </ul>
 
@@ -467,13 +492,35 @@ export default function RehberPage() {
           </p>
           <h3>Faaliyet soruları ile otomatik kapsam</h3>
           <p>
-            Firma bilgilerinde (<strong>Bilgi Güncelle</strong>) "İşyerinizin faaliyetleri"
-            başlığı altında "İşyerinde yıkım işi yapılıyor mu?", "Balıkçı gemisi var mı?" gibi
-            sorular bulunur. "Hayır" dediğiniz faaliyetin alanı otomatik olarak kapsam dışı
-            bırakılır; kartta gerekçe olarak firma bilgisindeki cevap yazar ve anahtar kilitlenir.
-            Faaliyet başladığında cevabı "Evet" yapmanız yeterlidir; alan önceki cevaplarınızla
-            birlikte geri gelir. Emin değilseniz "Bilmiyorum" seçin, alan kapsamda kalır. Cevap
-            bekleyen faaliyet soruları varsa firma sayfasının üstünde hatırlatılır.
+            Firma eklerken ve firma bilgilerinde (<strong>Bilgi Güncelle</strong>) "İşyerinizin
+            faaliyetleri" başlığı altında sorular bulunur: işyerinde asansör, maden faaliyeti,
+            yıkım işi, balıkçı gemisi olup olmadığı; işyerinin sağlık kurumu, Büyük Endüstriyel
+            Kazalar Yönetmeliği kapsamında kuruluş veya OSHA PSM kapsamında proses içerip
+            içermediği gibi. Her sorunun altında neyin kapsama girdiğini anlatan bir açıklama
+            vardır.
+          </p>
+          <ul>
+            <li>
+              <strong>Hayır:</strong> İlgili alan otomatik olarak kapsam dışı bırakılır. Kartta
+              gerekçe olarak firma bilgisindeki cevap yazar ve anahtar kilitlenir; değiştirmek
+              için firma bilgisindeki cevabı değiştirirsiniz. Bu alanlar raporun "Kapsam dışı
+              bırakılan alanlar" tablosunda da aynı gerekçeyle listelenir.
+            </li>
+            <li>
+              <strong>Evet:</strong> Alan kapsamda kalır.
+            </li>
+            <li>
+              <strong>Bilmiyorum:</strong> Alan kapsamda kalır. Özellikle tehlikeli madde
+              miktarına bağlı sorularda (Büyük Endüstriyel Kazalar, proses güvenliği) hesaplama
+              yapmadıysanız "Hayır" değil "Bilmiyorum" seçin; kapsamda olduğunuzu bilmemek en
+              ağır riski gözden kaçırmak demektir.
+            </li>
+          </ul>
+          <p>
+            Faaliyet başladığında (ör. işyerinde yıkım planlandığında) cevabı "Evet" yapmanız
+            yeterlidir; alan, varsa önceki cevaplarınızla birlikte geri gelir. Cevap bekleyen
+            faaliyet soruları varsa firma sayfasının üstünde kırmızı bir hatırlatma çıkar.
+            Kendi elinizle anahtardan kapattığınız alanlar faaliyet cevaplarından etkilenmez.
           </p>
           <p>
             Henüz cevaplanmamış bazı alanlarda kartta "Çoğu işyerinde kapsam dışı" ipucu görünür.
@@ -492,7 +539,9 @@ export default function RehberPage() {
             Karnedeki soruların çoğu Türk mevzuatındaki bir yükümlülüğe dayanır. Bazı sorular ise
             yasal olarak zorunlu olmayan ama yerleşik iyi uygulamayı yansıtan kaynaklara dayanır:
             ABD İş Güvenliği İdaresi (OSHA) düzenlemeleri, uluslararası rehberler ve standartlar
-            gibi. Bu sorular:
+            gibi. Örneğin <strong>Proses Güvenliği</strong> kategorisinin soruları ABD İş
+            Güvenliği İdaresinin proses güvenliği yönetimi standardına (OSHA 29 CFR 1910.119)
+            dayanır. Bu sorular:
           </p>
           <ul>
             <li>
