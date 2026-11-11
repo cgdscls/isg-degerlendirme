@@ -73,6 +73,45 @@ Sonra yeniden ele alınacak konular. Her konu: tarih, durum, senin notların, Cl
 
 ---
 
+## 3. Büyük Endüstriyel Kazalar (BEK) mevzuatı ve soruları
+
+**Park tarihi:** 11.11.2026
+**Durum:** Park edildi — mevzuatlar ve sorular sonra değerlendirilecek
+
+### Kapsamdaki mevzuatlar (11.11.2026 itibarıyla bankada)
+
+| Mevzuat | Madde | Soru |
+|---|---|---|
+| Büyük Endüstriyel Kazaların Önlenmesi ve Etkilerinin Azaltılması Hakkında Yönetmelik | 13 | 13 |
+| Büyük Endüstriyel Kazalarda Uygulanacak Dâhili Acil Durum Planları Hakkında Tebliğ | 27 | 27 |
+| Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Büyük Kaza Önleme Politika Belgesi Tebliği | 3 | 3 |
+| Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Büyük Kaza Senaryo Dokümanı Tebliği | 4 | 4 |
+| Büyük Endüstriyel Kazalarla İlgili Hazırlanacak Güvenlik Raporu Tebliği | 3 | 3 |
+| **Toplam** | **50** | **50** |
+
+### Senin notların
+- BEK ile ilgili mevzuatlar sonra değerlendirilecek.
+
+### Bugüne kadar konuşulanlar
+- **Dâhili Acil Durum Planları Tebliği yalnızca üst seviyeli kuruluşlara uygulanır** (Tebliğ md. 2 — doğrulandı). Alt seviyeli kuruluşlar için 27 sorunun hepsi kapsam dışı.
+- Kapsam cümlesini 27 soruya tek tek eklemek yerine öneri: yeni alt kategori **"Büyük Endüstriyel Kazalar — Üst Seviyeli Kuruluşlar"** (Acil Durum, Yangın, Patlama altında) ve oraya ön koşul:
+  - Soru: "İşyeri, BEK Yönetmeliği kapsamında üst seviyeli kuruluş mu?"
+  - Açıklama: "Üst seviyeli kuruluş, sahasındaki tehlikeli madde miktarı BEK Yönetmeliği Ek-1'deki üst seviye eşik değerlerine ulaşan kuruluştur; seviyeniz BEKRA Bildirim Sistemi'ndeki hesaplama sonucunda görünür. Alt seviyeli kuruluşsanız ya da BEK kapsamında değilseniz "Hayır" deyin. Hesaplama yapılmadıysa "Bilmiyorum" seçin."
+- Mevcut "Büyük Endüstriyel Kazalar" alt kategorisinin ön koşulu ("alt veya üst seviyeli kuruluş mu?") ortak yükümlülükler için kalır.
+- Tebliğ md. 5 için hazırlanan soru (son hal): "Üst seviyeli kuruluşlarda işletmeci, Yönetmelik, Tebliğ ve ilgili mevzuattaki usul ve esasları dikkate alarak dâhili acil durum planını hazırlamakta veya hazırlatmakta, nihai planı bir ay içinde Bakanlığın bildirim sistemine yüklemekte ve kuruluşta bulundurmaktadır; yeni açılacak kuruluşlarda plan faaliyete geçmeden önce hazırlanıp sisteme yüklenmektedir." — Risk temelli; Tanımlı; tehlike Ciddi, Sonucu azaltır, azaltılmış Önemli. Yükümlü terim "işveren" değil "işletmeci".
+- Soruları topluca taşıma SQL'i (önce önizleme, sonra taşıma; mevzuat adı "dâhili acil durum" ile eşleşir; alt kategori adı birebir yazılmalı) sohbette verildi; gerektiğinde yeniden üretilebilir.
+
+### Yapılacaklar (yeniden ele alınınca)
+- [ ] Her tebliğin kapsam maddesini kontrol et: alt seviye mi, üst seviye mi, ikisi mi? [Tahmin: Güvenlik Raporu ve Dâhili Acil Durum Planı yalnızca üst seviye; Büyük Kaza Önleme Politika Belgesi her iki seviye; Senaryo Dokümanı doğrulanmalı]
+- [ ] Yalnızca üst seviyeye ait soruları yeni alt kategoriye taşı; ön koşulu yaz.
+- [ ] Dâhili Acil Durum Tebliği md. 5'teki "bir ay"ın neyden itibaren sayıldığını (geçici madde) doğrula, yardımcı nota ekle.
+- [ ] 50 sorunun tip, bağlayıcılık (tebliğ = Tanımlı), referans risk ve yardımcı notlarını gözden geçir; "işveren" geçen yerleri "işletmeci" ile değiştir.
+- [ ] BEKRA Bildirim Sistemi'nin adı ve yürüten bakanlık (ön koşul açıklamasında geçiyor) doğrulanacak.
+- [ ] Acil Durum altında yinelenen "Büyük Endüstriyel Kazalar" alt kategorisi kalmadığını kontrol et (birleştirme SQL'inin sonucu bildirilmemişti).
+- [ ] Proses Güvenliği ön koşul açıklamasına "BEK kapsamındaysanız büyük olasılıkla bu soruya da Evet demelisiniz" cümlesi eklenecek mi, karar ver.
+
+---
+
 ## Diğer açık konular (11.11.2026 itibarıyla, kısa liste)
 
 Bunlar park edilmedi; hatırlatma için:
@@ -80,5 +119,5 @@ Bunlar park edilmedi; hatırlatma için:
 - **İş Ekipmanı Güvenliği'nin ekipman bazında ayrılması** — ortak sorular ön koşulsuz genel alt kategoride kalacak; ön koşul yalnızca birçok işyerinde olmayan ekipmanlara (forklift, vinç, kazan) yazılacak.
 - **Sivil Savunma** — tek soru, ön koşul yok; yardımcı nota kapsam cümlesi eklenecek, yönetmeliğin kapsam maddesi (özel sektörü kapsıyor mu) kontrol edilecek.
 - **Proses Güvenliği kapsam cümlesi** — sorulardaki "PSM kapsamında proses yoksa kapsam dışı" notu, ön koşul sorusuyla uyumlu olacak şekilde gözden geçirilecek.
-- **Ön koşul açıklamalarında doğrulanacaklar** — asansör (yük kaldırma platformu sınırı), maden (taş/kum ocakları, ruhsat sahibi–yüklenici), BEK (BEKRA bildirim sistemi adı ve bakanlığı), balıkçı gemileri (tekne boyu sınırı), sağlık kurumu (poliklinik ve tıp merkezinin basamağı).
+- **Ön koşul açıklamalarında doğrulanacaklar** — asansör (yük kaldırma platformu sınırı), maden (taş/kum ocakları, ruhsat sahibi–yüklenici), balıkçı gemileri (tekne boyu sınırı), sağlık kurumu (poliklinik ve tıp merkezinin basamağı).
 - **Supabase Pro ve yedekleme otomasyonu** — teklif edildi, karar bekliyor.
