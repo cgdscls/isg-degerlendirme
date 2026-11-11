@@ -51,6 +51,12 @@ export default async function AdminPage({
               Üyeler →
             </Link>
             <Link
+              href="/admin/davet"
+              className="text-sm font-medium text-brand-700 hover:underline"
+            >
+              Davet Kodları →
+            </Link>
+            <Link
               href="/admin/destek"
               className="text-sm font-medium text-brand-700 hover:underline"
             >
