@@ -26,6 +26,15 @@ function hataliYol(donus: string, hata: string) {
   return `${yol}${ayirac}hata=${encodeURIComponent(hata)}${capa ? `#${capa}` : ""}`;
 }
 
+// Next 14'te sunucu işleminden aynı adrese ve "#çapa" içeren bir adrese yönlendirme,
+// istemcide yalnızca çapaya kaydırma olarak işlenip sayfa verisi yenilenmeyebiliyor.
+// Benzersiz bir "t" parametresi adresi değiştirir ve sayfanın yeniden çizilmesini sağlar.
+function taze(yol: string) {
+  const [adres, capa] = yol.split("#");
+  const ayirac = adres.includes("?") ? "&" : "?";
+  return `${adres}${ayirac}t=${Date.now()}${capa ? `#${capa}` : ""}`;
+}
+
 function sayfalariYenile() {
   revalidatePath("/admin", "layout");
 }
@@ -117,7 +126,7 @@ export async function soruEkle(formData: FormData) {
   if (error) redirect(hataliYol(donus, error.message));
 
   sayfalariYenile();
-  redirect(donus);
+  redirect(taze(donus));
 }
 
 export async function soruGuncelle(formData: FormData) {
@@ -173,7 +182,7 @@ export async function soruGuncelle(formData: FormData) {
   if (error) redirect(hataliYol(donus, error.message));
 
   sayfalariYenile();
-  redirect(donus);
+  redirect(taze(donus));
 }
 
 // Onay pencereli silme düğmesiyle (OnayliSilForm) kullanılmak üzere bağlanır:
@@ -186,5 +195,5 @@ export async function soruSil(id: string, donusHam: string, _formData?: FormData
     if (error) redirect(hataliYol(donus, error.message));
   }
   sayfalariYenile();
-  redirect(donus);
+  redirect(taze(donus));
 }

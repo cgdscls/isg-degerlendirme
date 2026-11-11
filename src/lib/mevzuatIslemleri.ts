@@ -10,6 +10,15 @@ function oku(formData: FormData, ad: string) {
   return String(formData.get(ad) ?? "").trim();
 }
 
+// Next 14'te sunucu işleminden aynı adrese ve "#çapa" içeren bir adrese yönlendirme,
+// istemcide yalnızca çapaya kaydırma olarak işlenip sayfa verisi yenilenmeyebiliyor.
+// Benzersiz bir "t" parametresi adresi değiştirir ve sayfanın yeniden çizilmesini sağlar.
+function taze(yol: string) {
+  const [adres, capa] = yol.split("#");
+  const ayirac = adres.includes("?") ? "&" : "?";
+  return `${adres}${ayirac}t=${Date.now()}${capa ? `#${capa}` : ""}`;
+}
+
 function yenile() {
   revalidatePath("/admin", "layout");
 }
@@ -55,7 +64,7 @@ export async function mevzuatGuncelle(formData: FormData) {
     .eq("id", id);
   if (error) redirect(hataYolu(yol, error.message));
   yenile();
-  redirect(yol);
+  redirect(taze(yol));
 }
 
 // OnayliSilForm ile: mevzuatSil.bind(null, id)
@@ -82,7 +91,7 @@ export async function maddeEkle(formData: FormData) {
   if (error || !data) redirect(hataYolu(yol, error?.message ?? "Eklenemedi."));
   yenile();
   // Yeni madde açık gelir; hemen soru eklenebilir.
-  redirect(`${yol}?acik=${data.id}#madde-${data.id}`);
+  redirect(taze(`${yol}?acik=${data.id}#madde-${data.id}`));
 }
 
 export async function maddeGuncelle(formData: FormData) {
@@ -113,7 +122,7 @@ export async function maddeGuncelle(formData: FormData) {
       .eq("madde_id", id);
   }
   yenile();
-  redirect(`${yol}#madde-${id}`);
+  redirect(taze(`${yol}#madde-${id}`));
 }
 
 // OnayliSilForm ile: maddeSil.bind(null, maddeId, mevzuatId)
@@ -124,5 +133,5 @@ export async function maddeSil(id: string, mevzuatId: string, _formData?: FormDa
   const { error } = await supabase.from("maddeler").delete().eq("id", id);
   if (error) redirect(hataYolu(yol, error.message));
   yenile();
-  redirect(yol);
+  redirect(taze(yol));
 }
