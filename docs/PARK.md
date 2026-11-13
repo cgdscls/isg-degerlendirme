@@ -62,8 +62,14 @@ Sonra yeniden ele alınacak konular. Her konu: tarih, durum, senin notların, Cl
 - isgmevzuat.tr kapatılmaz; aynı yolu koruyarak kalıcı (308) yönlendirme ile yeni adrese bağlanır. Bugün gönderilen davet ve linkler çalışmaya devam eder.
 - isg360.com'un kimde olduğu ve nasıl kullanıldığı kontrol edilmeli; markayla karıştırılabilir. Tescilli sınıflarda (41/42/44/45) kullanılıyorsa marka hakkı açısından değerlendirilmeli (avukat).
 
+### DNS kararı (13.11.2026)
+- isg360.tr Natro'da kayıtlı; hosting yok, Natro DNS'inde kayıt düzenleme yalnızca ücretli "Profesyonel DNS" ile görünüyor.
+- Karar: **nameserver'ı Vercel'e çevir** (Natro → Alan Adı → DNS Değiştir → 1. ve 2. DNS = Vercel'in verdiği adresler, 3–5 boş). Hosting ve Pro DNS gerekmez.
+- Sıra: önce Vercel'e alan adını ekle, sonra Natro'da nameserver'ı değiştir (.tr/TRABIS kontrolü).
+- isg360.tr → tanıtım sayfası projesi; karne.isg360.tr → isg-degerlendirme projesi. Alt alan adı kayıtlarını Vercel kendisi açar; MX/TXT gibi elle kayıtlar Vercel → Domains → DNS Records.
+
 ### Taşıma günü yapılacaklar
-- [ ] Vercel'e karne.isg360.tr ekle; alan adı panelinde CNAME kaydını gir.
+- [ ] Vercel'e isg360.tr ve karne.isg360.tr ekle; Natro'da nameserver'ı Vercel'e çevir (yukarıdaki DNS kararı).
 - [ ] Supabase → Authentication → URL Configuration: Site URL ve Redirect URLs'i güncelle.
 - [ ] E-posta şablonlarını kontrol et ({{ .SiteURL }} kullandıkları için kendiliğinden düzelir).
 - [ ] isgmevzuat.tr → karne.isg360.tr kalıcı yönlendirme (yol korunarak).
